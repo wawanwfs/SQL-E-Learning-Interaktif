@@ -1,0 +1,864 @@
+{
+  "version": "4.0.0",
+  "totalLessons": 140,
+  "levels": {
+    "Dasar": [
+      {
+        "id": 1,
+        "title": "Orientasi E-Learning dan Cara Belajar SQL",
+        "difficulty": 1,
+        "minutes": 20
+      },
+      {
+        "id": 2,
+        "title": "Pengenalan Database, DBMS, dan SQL",
+        "difficulty": 1,
+        "minutes": 20
+      },
+      {
+        "id": 3,
+        "title": "Model Relasional: Tabel, Baris, Kolom, dan Relasi",
+        "difficulty": 1,
+        "minutes": 20
+      },
+      {
+        "id": 4,
+        "title": "Data Dictionary dan Pemetaan Tabel toko_pintar",
+        "difficulty": 1,
+        "minutes": 20
+      },
+      {
+        "id": 5,
+        "title": "Tipe Data SQL dan Pemilihan Tipe yang Tepat",
+        "difficulty": 1,
+        "minutes": 20
+      },
+      {
+        "id": 6,
+        "title": "Konvensi Penamaan dan Kerapian Skema",
+        "difficulty": 1,
+        "minutes": 20
+      },
+      {
+        "id": 7,
+        "title": "DDL Dasar: CREATE TABLE",
+        "difficulty": 1,
+        "minutes": 20
+      },
+      {
+        "id": 8,
+        "title": "DDL Lanjutan: ALTER, RENAME, dan DROP",
+        "difficulty": 1,
+        "minutes": 20
+      },
+      {
+        "id": 9,
+        "title": "INSERT Data Tunggal dan Multi-Baris",
+        "difficulty": 1,
+        "minutes": 20
+      },
+      {
+        "id": 10,
+        "title": "SELECT Dasar dan Pemilihan Kolom",
+        "difficulty": 1,
+        "minutes": 20
+      },
+      {
+        "id": 11,
+        "title": "Alias Kolom dan Alias Tabel",
+        "difficulty": 1,
+        "minutes": 20
+      },
+      {
+        "id": 12,
+        "title": "WHERE dan Operator Perbandingan",
+        "difficulty": 1,
+        "minutes": 20
+      },
+      {
+        "id": 13,
+        "title": "AND, OR, dan NOT",
+        "difficulty": 1,
+        "minutes": 20
+      },
+      {
+        "id": 14,
+        "title": "BETWEEN, IN, LIKE, dan NULL",
+        "difficulty": 1,
+        "minutes": 20
+      },
+      {
+        "id": 15,
+        "title": "ORDER BY, LIMIT, dan OFFSET",
+        "difficulty": 1,
+        "minutes": 20
+      },
+      {
+        "id": 16,
+        "title": "UPDATE Aman dengan WHERE",
+        "difficulty": 1,
+        "minutes": 20
+      },
+      {
+        "id": 17,
+        "title": "DELETE Aman dan Strategi Soft Delete",
+        "difficulty": 1,
+        "minutes": 20
+      }
+    ],
+    "Menengah": [
+      {
+        "id": 18,
+        "title": "Fungsi Agregasi COUNT, SUM, AVG, MIN, MAX",
+        "difficulty": 2,
+        "minutes": 25
+      },
+      {
+        "id": 19,
+        "title": "GROUP BY untuk Laporan Ringkasan",
+        "difficulty": 2,
+        "minutes": 25
+      },
+      {
+        "id": 20,
+        "title": "HAVING untuk Filter Hasil Agregasi",
+        "difficulty": 2,
+        "minutes": 25
+      },
+      {
+        "id": 21,
+        "title": "CASE WHEN untuk Kategori Bisnis",
+        "difficulty": 2,
+        "minutes": 25
+      },
+      {
+        "id": 22,
+        "title": "INNER JOIN antar Tabel",
+        "difficulty": 2,
+        "minutes": 25
+      },
+      {
+        "id": 23,
+        "title": "LEFT JOIN dan Data Tanpa Pasangan",
+        "difficulty": 2,
+        "minutes": 25
+      },
+      {
+        "id": 24,
+        "title": "RIGHT, FULL, CROSS, dan SELF JOIN",
+        "difficulty": 2,
+        "minutes": 25
+      },
+      {
+        "id": 25,
+        "title": "Multi-Table JOIN untuk Laporan Pesanan",
+        "difficulty": 2,
+        "minutes": 25
+      },
+      {
+        "id": 26,
+        "title": "Kesalahan Umum JOIN dan Duplikasi Baris",
+        "difficulty": 2,
+        "minutes": 25
+      },
+      {
+        "id": 27,
+        "title": "Subquery Scalar dan List",
+        "difficulty": 2,
+        "minutes": 25
+      },
+      {
+        "id": 28,
+        "title": "Correlated Subquery",
+        "difficulty": 2,
+        "minutes": 25
+      },
+      {
+        "id": 29,
+        "title": "EXISTS dan NOT EXISTS",
+        "difficulty": 2,
+        "minutes": 25
+      },
+      {
+        "id": 30,
+        "title": "Set Operation: UNION, UNION ALL, INTERSECT, EXCEPT",
+        "difficulty": 2,
+        "minutes": 25
+      }
+    ],
+    "Lanjutan": [
+      {
+        "id": 31,
+        "title": "Constraint NOT NULL, UNIQUE, CHECK, DEFAULT",
+        "difficulty": 3,
+        "minutes": 25
+      },
+      {
+        "id": 32,
+        "title": "Primary Key dan Foreign Key",
+        "difficulty": 3,
+        "minutes": 25
+      },
+      {
+        "id": 33,
+        "title": "Normalisasi 1NF, 2NF, 3NF",
+        "difficulty": 3,
+        "minutes": 25
+      },
+      {
+        "id": 34,
+        "title": "BCNF dan Denormalisasi Terkendali",
+        "difficulty": 3,
+        "minutes": 25
+      },
+      {
+        "id": 35,
+        "title": "Index Single dan Unique",
+        "difficulty": 3,
+        "minutes": 25
+      },
+      {
+        "id": 36,
+        "title": "Composite, Covering, Functional, dan Partial Index",
+        "difficulty": 3,
+        "minutes": 25
+      },
+      {
+        "id": 37,
+        "title": "EXPLAIN dan Query Plan",
+        "difficulty": 3,
+        "minutes": 25
+      },
+      {
+        "id": 38,
+        "title": "View untuk Abstraksi Query",
+        "difficulty": 3,
+        "minutes": 25
+      },
+      {
+        "id": 39,
+        "title": "Materialized View dan Refresh Data",
+        "difficulty": 3,
+        "minutes": 25
+      },
+      {
+        "id": 40,
+        "title": "Stored Procedure dan Function",
+        "difficulty": 3,
+        "minutes": 25
+      },
+      {
+        "id": 41,
+        "title": "Trigger dan Audit Log",
+        "difficulty": 3,
+        "minutes": 25
+      },
+      {
+        "id": 42,
+        "title": "Transaction, COMMIT, ROLLBACK, SAVEPOINT",
+        "difficulty": 3,
+        "minutes": 25
+      }
+    ],
+    "Advanced": [
+      {
+        "id": 43,
+        "title": "ACID dan Konsistensi Transaksi",
+        "difficulty": 4,
+        "minutes": 30
+      },
+      {
+        "id": 44,
+        "title": "Isolation Level dan Concurrency",
+        "difficulty": 4,
+        "minutes": 30
+      },
+      {
+        "id": 45,
+        "title": "Window Function: RANK, DENSE_RANK, ROW_NUMBER",
+        "difficulty": 4,
+        "minutes": 30
+      },
+      {
+        "id": 46,
+        "title": "Window Aggregate dan Running Total",
+        "difficulty": 4,
+        "minutes": 30
+      },
+      {
+        "id": 47,
+        "title": "CTE dengan WITH",
+        "difficulty": 4,
+        "minutes": 30
+      },
+      {
+        "id": 48,
+        "title": "Recursive CTE untuk Hierarki",
+        "difficulty": 4,
+        "minutes": 30
+      },
+      {
+        "id": 49,
+        "title": "Conditional Aggregation dan Pivot Manual",
+        "difficulty": 4,
+        "minutes": 30
+      },
+      {
+        "id": 50,
+        "title": "Analitik Dashboard: Omzet, AOV, Produk Laku",
+        "difficulty": 4,
+        "minutes": 30
+      },
+      {
+        "id": 51,
+        "title": "Validasi Data dan Data Quality Check",
+        "difficulty": 4,
+        "minutes": 30
+      },
+      {
+        "id": 52,
+        "title": "Security: User, Role, Privilege, dan Least Privilege",
+        "difficulty": 4,
+        "minutes": 30
+      },
+      {
+        "id": 53,
+        "title": "SQL Injection dan Prepared Statement",
+        "difficulty": 4,
+        "minutes": 30
+      },
+      {
+        "id": 54,
+        "title": "Backup, Restore, dan Point-in-Time Recovery",
+        "difficulty": 4,
+        "minutes": 30
+      },
+      {
+        "id": 69,
+        "title": "Recursive CTE untuk Struktur Hierarki",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 70,
+        "title": "Window Frame: ROWS dan RANGE",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 71,
+        "title": "Analisis Cohort Pelanggan",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 72,
+        "title": "RFM Analysis untuk Segmentasi",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 73,
+        "title": "Funnel Analysis Transaksi",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 74,
+        "title": "Pivot dan Conditional Aggregation",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 75,
+        "title": "Data Quality Checks",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 76,
+        "title": "Audit Trail dan Temporal Query",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 77,
+        "title": "Query Parameterization dan Keamanan Input",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 78,
+        "title": "Role-Based Access Control",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 79,
+        "title": "Row-Level Security",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 80,
+        "title": "Data Masking dan Privasi",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 101,
+        "title": "Audit Kualitas Data dan Data Profiling",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 102,
+        "title": "CASE WHEN untuk Segmentasi Bisnis",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 103,
+        "title": "Analisis RFM Pelanggan",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 104,
+        "title": "Analisis Kohort Retensi Pelanggan",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 105,
+        "title": "Analisis Funnel Pembelian",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 106,
+        "title": "Analisis Keranjang Belanja dan Cross-Sell",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 107,
+        "title": "SQL untuk KPI Manajerial",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 108,
+        "title": "Quality Gate Sebelum Laporan Dirilis",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 109,
+        "title": "Query Review dan Code Review SQL",
+        "difficulty": 4,
+        "minutes": 35
+      },
+      {
+        "id": 110,
+        "title": "SQL Style Guide Profesional",
+        "difficulty": 4,
+        "minutes": 35
+      }
+    ],
+    "Master": [
+      {
+        "id": 55,
+        "title": "Performance Tuning End-to-End",
+        "difficulty": 5,
+        "minutes": 30
+      },
+      {
+        "id": 56,
+        "title": "Desain Database Marketplace",
+        "difficulty": 5,
+        "minutes": 30
+      },
+      {
+        "id": 57,
+        "title": "Studi Kasus Inventory dan Mutasi Stok",
+        "difficulty": 5,
+        "minutes": 30
+      },
+      {
+        "id": 58,
+        "title": "Customer Segmentation dengan SQL",
+        "difficulty": 5,
+        "minutes": 30
+      },
+      {
+        "id": 59,
+        "title": "Cohort dan Retention Analysis",
+        "difficulty": 5,
+        "minutes": 30
+      },
+      {
+        "id": 60,
+        "title": "Rekonsiliasi Pesanan dan Pembayaran",
+        "difficulty": 5,
+        "minutes": 30
+      },
+      {
+        "id": 61,
+        "title": "Data Warehouse dan Star Schema",
+        "difficulty": 5,
+        "minutes": 30
+      },
+      {
+        "id": 62,
+        "title": "ETL dan ELT Berbasis SQL",
+        "difficulty": 5,
+        "minutes": 30
+      },
+      {
+        "id": 63,
+        "title": "Big Data SQL: BigQuery, Hive, Spark SQL, ClickHouse",
+        "difficulty": 5,
+        "minutes": 30
+      },
+      {
+        "id": 64,
+        "title": "Perbedaan Sintaks PostgreSQL, MySQL, SQLite, SQL Server, Oracle",
+        "difficulty": 5,
+        "minutes": 30
+      },
+      {
+        "id": 65,
+        "title": "Integrasi SQL dengan Aplikasi dan API",
+        "difficulty": 5,
+        "minutes": 30
+      },
+      {
+        "id": 66,
+        "title": "Testing Query dan Regression Test",
+        "difficulty": 5,
+        "minutes": 30
+      },
+      {
+        "id": 67,
+        "title": "Deploy E-Learning SQL ke GitHub Pages",
+        "difficulty": 5,
+        "minutes": 30
+      },
+      {
+        "id": 68,
+        "title": "Capstone Project: Dashboard Penjualan toko_pintar",
+        "difficulty": 5,
+        "minutes": 30
+      },
+      {
+        "id": 81,
+        "title": "Partitioning Strategy",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 82,
+        "title": "Sharding dan Distribusi Data",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 83,
+        "title": "Replication dan Read Scaling",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 84,
+        "title": "Database Reliability Engineering",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 85,
+        "title": "Migration dan Versioning Schema",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 86,
+        "title": "Zero-Downtime Deployment Database",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 87,
+        "title": "Query Observability",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 88,
+        "title": "Cost-Based Optimization",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 89,
+        "title": "Materialized Aggregate Table",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 90,
+        "title": "Warehouse Star Schema",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 91,
+        "title": "Slowly Changing Dimension",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 92,
+        "title": "Incremental ETL dengan SQL",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 93,
+        "title": "Data Mart Penjualan",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 94,
+        "title": "Testing Query SQL",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 95,
+        "title": "SQL Code Review",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 96,
+        "title": "Governance dan Metadata",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 97,
+        "title": "SQL untuk Dashboard KPI",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 98,
+        "title": "Incident Response Database",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 99,
+        "title": "Capstone 1: Audit Penjualan End-to-End",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 100,
+        "title": "Capstone 2: Optimasi Laporan Eksekutif",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 111,
+        "title": "Dimensi dan Fakta dalam Star Schema",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 112,
+        "title": "Slowly Changing Dimension Tipe 1 dan Tipe 2",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 113,
+        "title": "Incremental Load dan Watermark",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 114,
+        "title": "Data Lineage dan Dokumentasi Query",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 115,
+        "title": "Data Observability Sederhana",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 116,
+        "title": "Rekonsiliasi Data Transaksi",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 117,
+        "title": "Pengujian Query dengan Expected Output",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 118,
+        "title": "Strategi Backup untuk Pembelajaran dan Produksi",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 119,
+        "title": "Governance Akses Data",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 120,
+        "title": "SQL untuk Interview Data Analyst",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 121,
+        "title": "SQL untuk Backend Developer",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 122,
+        "title": "SQL untuk Business Intelligence",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 123,
+        "title": "SQL untuk Inventory Control",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 124,
+        "title": "SQL untuk Fraud Check Sederhana",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 125,
+        "title": "SQL untuk SLA Pengiriman",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 126,
+        "title": "SQL untuk Retur dan Komplain",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 127,
+        "title": "SQL untuk Margin dan Profitabilitas",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 128,
+        "title": "SQL untuk Forecasting Sederhana",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 129,
+        "title": "SQL untuk Dashboard Eksekutif",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 130,
+        "title": "Capstone: Laporan Penjualan Lengkap",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 131,
+        "title": "Capstone: Audit Stok dan Gudang",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 132,
+        "title": "Capstone: Segmentasi Pelanggan",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 133,
+        "title": "Capstone: Optimasi Query Laporan",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 134,
+        "title": "Capstone: Desain Database Mini Marketplace",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 135,
+        "title": "Simulasi Ujian Praktik SQL 1",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 136,
+        "title": "Simulasi Ujian Praktik SQL 2",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 137,
+        "title": "Simulasi Ujian Praktik SQL 3",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 138,
+        "title": "Portofolio SQL GitHub",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 139,
+        "title": "Final Review dan Sertifikasi Mandiri",
+        "difficulty": 5,
+        "minutes": 45
+      },
+      {
+        "id": 140,
+        "title": "Final Capstone SQL Portfolio Review",
+        "difficulty": 5,
+        "minutes": 50
+      }
+    ]
+  },
+  "capstoneEvidence": [
+    "query",
+    "output",
+    "interpretasi",
+    "validasi",
+    "rekomendasi",
+    "portofolio GitHub"
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "error": "Missing JOIN condition",
+    "risk": "Data meledak karena CROSS JOIN tidak sengaja",
+    "fix": "Periksa ON clause dan cardinality."
+  },
+  {
+    "error": "WHERE pada kolom tabel kanan setelah LEFT JOIN",
+    "risk": "LEFT JOIN berubah perilaku seperti INNER JOIN",
+    "fix": "Pindahkan filter ke ON atau izinkan NULL."
+  },
+  {
+    "error": "GROUP BY tidak sesuai SELECT",
+    "risk": "Output agregasi tidak deterministik",
+    "fix": "Kelompokkan semua kolom non-agregat."
+  }
+]

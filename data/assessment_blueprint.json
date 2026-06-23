@@ -1,0 +1,21 @@
+{
+  "version": "3.0",
+  "components": [
+    {
+      "name": "Quiz",
+      "weight": 20
+    },
+    {
+      "name": "Latihan",
+      "weight": 30
+    },
+    {
+      "name": "Mini Project",
+      "weight": 20
+    },
+    {
+      "name": "Capstone",
+      "weight": 30
+    }
+  ]
+}

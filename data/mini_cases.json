@@ -1,0 +1,26 @@
+[
+  {
+    "case": "Audit omzet per kota",
+    "tables": [
+      "pelanggan",
+      "pesanan"
+    ],
+    "task": "Hitung omzet per kota dan validasi status order."
+  },
+  {
+    "case": "Produk stok kritis",
+    "tables": [
+      "produk",
+      "gudang"
+    ],
+    "task": "Identifikasi produk dengan stok rendah."
+  },
+  {
+    "case": "Rekonsiliasi pembayaran",
+    "tables": [
+      "pesanan",
+      "pembayaran"
+    ],
+    "task": "Cari pesanan yang belum lunas atau pending."
+  }
+]

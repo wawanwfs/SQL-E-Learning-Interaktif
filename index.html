@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <title>SQL Dari Dasar Hingga Master — E-Learning Interaktif v4 FULL</title>
+  <meta name="description" content="E-learning SQL interaktif berbasis database toko_pintar, lengkap dengan materi, latihan, quiz, playground, proyek akhir, penyimpanan sesi lokal, dan sertifikat kelulusan." />
+  <meta name="keywords" content="SQL, e-learning SQL, database, toko_pintar, GitHub Pages, latihan SQL, query SQL, JOIN, CTE, window function" />
+  <meta name="theme-color" content="#07111f" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#f0f4fa" media="(prefers-color-scheme: light)" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="SQL Master" />
+  <meta property="og:title" content="SQL E-Learning Interaktif v4 FULL" />
+  <meta property="og:description" content="Materi SQL lengkap, latihan, quiz, playground, dataset pendukung, dan sertifikat untuk GitHub Pages." />
+  <link rel="manifest" href="assets/manifest.json" />
+  <link rel="apple-touch-icon" href="assets/img/icon-192.svg" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/icon-192.svg" />
+  <script>
+    try {
+      const readTheme = (key) => { const raw = localStorage.getItem(key); if (!raw) return ''; try { return JSON.parse(raw); } catch (e) { return raw; } };
+      const theme = readTheme('sql-master-v30:theme') || readTheme('sql-master-v21:theme') || readTheme('sql-master-v2:theme') || 'light';
+      document.documentElement.dataset.theme = theme;
+    } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div id="readingProgressBar" class="reading-progress-bar"></div>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-logo">SQL</div>
+        <div><strong>SQL Masterclass</strong><span>GitHub Pages Ready</span></div>
+      </div>
+
+      <div class="participant-card">
+        <span>Peserta:</span>
+        <strong id="participantPill">Belum diisi</strong>
+        <button class="ghost-btn compact" id="participantBtn">Ubah</button>
+      </div>
+
+      <div class="search-box"><input id="lessonSearch" type="search" placeholder="Cari materi: JOIN, CTE, index..." autocomplete="off" /></div>
+      <div class="filter-row" id="levelFilters"></div>
+      <nav class="nav" id="lessonNav" aria-label="Daftar modul"></nav>
+
+      <div class="sidebar-footer">
+        <div class="progress-mini"><span>Progress Kelulusan</span><strong id="miniProgress">0%</strong></div>
+        <div class="progress-track"><div id="miniProgressBar"></div></div>
+        <div class="storage-note" id="storageNote">Sesi tersimpan otomatis di perangkat ini.</div>
+        <button class="ghost-btn full" id="openProgressBtn">Lihat Rincian Progress</button>
+        <button class="ghost-btn full" id="resetProgressBtn">Reset Progress</button>
+      </div>
+    </aside>
+    <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="icon-btn mobile-only" id="menuBtn" aria-label="Buka menu" title="Menu">☰</button>
+        <div class="breadcrumbs" id="breadcrumbs">Dashboard / SQL Dari Dasar Hingga Master</div>
+        <div class="top-actions">
+          <button class="ghost-btn" id="themeBtn" title="Ganti tema">🌙 Mode</button>
+          <button class="ghost-btn" id="togglePlaygroundBtn" title="Toggle playground">⚡ Playground</button>
+          <button class="ghost-btn" id="dictionaryBtn" title="Data dictionary">📖 Dictionary</button>
+          <button class="ghost-btn" id="projectBtn" title="Bank proyek akhir">🎯 Proyek</button>
+          <button class="primary-btn" id="certificateBtn" title="Sertifikat kelulusan">🏆 Sertifikat</button>
+        </div>
+      </header>
+
+      <section class="hero" id="dashboardView">
+        <div class="hero-content">
+          <p class="eyebrow">E-Learning Interaktif v4.0 FULL</p>
+          <h1>SQL Dari Dasar Hingga Master</h1>
+          <p class="lead">Materi SQL berbasis database <strong>toko_pintar</strong>, dilengkapi konsep, studi kasus, query, output simulasi, latihan bertingkat, quiz, playground, penyimpanan sesi lokal, dan sertifikat kelulusan.</p>
+          <div class="hero-actions">
+            <button class="primary-btn big" id="startLearningBtn">🚀 Mulai Belajar</button>
+            <button class="secondary-btn big" id="openSqlBtn">⚡ Tampilkan Playground</button>
+            <button class="secondary-btn big" id="openNameBtn">✏️ Isi Nama Peserta</button>
+          </div>
+          <div class="hero-stats" id="heroStats"></div>
+          <div class="dashboard-progress" id="dashboardProgress"></div>
+        </div>
+        <div class="hero-panel">
+          <img src="assets/img/erd_toko_pintar.svg" alt="ERD toko_pintar" class="hero-img" />
+          <div class="code-card mini-code"><div class="code-card-top"><span></span><span></span><span></span><em>query.sql</em></div><pre>SELECT p.kota,
+       COUNT(ps.pesanan_id) AS order_count,
+       SUM(ps.total) AS omzet
+FROM pesanan ps
+JOIN pelanggan p ON p.pelanggan_id = ps.pelanggan_id
+GROUP BY p.kota
+ORDER BY omzet DESC;</pre></div>
+        </div>
+      </section>
+
+      <section class="workspace-grid" id="workspaceGrid">
+        <article class="lesson-card" id="lessonView">
+          <div class="lesson-head">
+            <div><span class="level-badge" id="lessonLevel">Dasar</span><h2 id="lessonTitle">Pilih modul</h2><p id="lessonSubtitle">Gunakan menu materi di sebelah kiri.</p></div>
+            <button class="success-btn" id="markDoneBtn">Tandai Sesi Selesai</button>
+          </div>
+          <div class="lesson-meta" id="lessonMeta"></div>
+          <div class="lesson-tabs" role="tablist">
+            <button class="tab active" data-tab="materi">Materi</button>
+            <button class="tab" data-tab="studi">Studi Kasus</button>
+            <button class="tab" data-tab="latihan">Latihan</button>
+            <button class="tab" data-tab="quiz">Quiz</button>
+            <button class="tab" data-tab="checklist">Checklist</button>
+          </div>
+          <div id="lessonBody" class="lesson-body"></div>
+        </article>
+
+        <aside class="right-rail" id="rightRail">
+          <div class="rail-inner">
+            <section class="playground-card" id="playgroundCard">
+              <div class="playground-head">
+                <div><h3>Playground SQL</h3><p>Database aktif: <strong>toko_pintar</strong></p></div>
+                <div class="playground-tools"><div class="status-pill" id="engineStatus">Browser Engine</div><button class="icon-btn small" id="collapsePlaygroundBtn" aria-label="Sembunyikan playground">–</button></div>
+              </div>
+              <textarea id="sqlEditor" spellcheck="false">SELECT * FROM produk ORDER BY harga DESC LIMIT 5;</textarea>
+              <div class="editor-actions"><button class="primary-btn" id="runSqlBtn">▶ Jalankan</button><button class="ghost-btn" id="formatSqlBtn">Rapikan</button><button class="ghost-btn" id="copySqlBtn">Copy</button><button class="danger-btn" id="resetDbBtn">Reset DB</button></div>
+              <div class="result-panel"><div class="result-head"><strong>Output Query</strong><span id="resultMeta">Belum dijalankan</span></div><div id="sqlResult" class="sql-result empty">Klik Jalankan untuk melihat hasil.</div></div>
+            </section>
+            <section class="quick-card"><h3>Shortcut Query</h3><div class="shortcut-list" id="shortcutList"></div></section>
+            <section class="quick-card"><h3>Cheat Sheet</h3><div id="cheatList"></div></section>
+          </div>
+        </aside>
+      </section>
+    </main>
+  </div>
+
+  <!-- Mobile Bottom Navigation Bar -->
+  <nav class="mobile-bottom-nav" id="mobileBottomNav">
+    <button class="mobile-tab-btn active" id="btnTabMateri">
+      <span class="tab-icon">📖</span>
+      <span class="tab-label">Materi</span>
+    </button>
+    <button class="mobile-tab-btn" id="btnTabPlayground">
+      <span class="tab-icon">⚡</span>
+      <span class="tab-label">Playground</span>
+    </button>
+    <button class="mobile-tab-btn" id="btnTabV4">
+      <span class="tab-icon">💎</span>
+      <span class="tab-label">Fitur v4</span>
+    </button>
+    <button class="mobile-tab-btn" id="btnTabTools">
+      <span class="tab-icon">🔧</span>
+      <span class="tab-label">Tools</span>
+    </button>
+    <button class="mobile-tab-btn" id="btnTabSearch">
+      <span class="tab-icon">🔍</span>
+      <span class="tab-label">Cari</span>
+    </button>
+  </nav>
+
+  <button class="floating-playground" id="floatingPlaygroundBtn">SQL</button>
+
+  <div class="modal" id="nameModal" aria-hidden="true"><div class="modal-panel compact-panel"><div class="modal-head"><h2>Nama Peserta</h2><button class="icon-btn" data-close="nameModal">×</button></div><p class="muted">Nama ini disimpan di storage internal browser dan digunakan pada sertifikat kelulusan.</p><label class="field-label" for="participantNameInput">Nama lengkap</label><input class="text-input" id="participantNameInput" type="text" placeholder="Contoh: Wahyu Fajar Setiawan" autocomplete="name" /><div class="modal-actions"><button class="primary-btn" id="saveNameBtn">Simpan Nama</button><button class="ghost-btn" id="skipNameBtn">Lewati Dulu</button></div></div></div>
+  <div class="modal" id="progressModal" aria-hidden="true"><div class="modal-panel large"><div class="modal-head"><h2>Rincian Progress</h2><button class="icon-btn" data-close="progressModal">×</button></div><div id="progressContent"></div></div></div>
+  <div class="modal" id="certificateModal" aria-hidden="true"><div class="modal-panel certificate-panel"><div class="modal-head"><h2>Sertifikat Kelulusan</h2><button class="icon-btn" data-close="certificateModal">×</button></div><div id="certificateContent"></div><div class="modal-actions certificate-actions"><button class="primary-btn" id="printCertificateBtn">Cetak / Simpan PDF</button><button class="ghost-btn" id="downloadCertificateBtn">Download HTML</button></div></div></div>
+  <div class="modal" id="dictionaryModal" aria-hidden="true"><div class="modal-panel large"><div class="modal-head"><h2>Data Dictionary: toko_pintar</h2><button class="icon-btn" data-close="dictionaryModal">×</button></div><div id="dictionaryContent"></div></div></div>
+  <div class="modal" id="projectModal" aria-hidden="true"><div class="modal-panel large"><div class="modal-head"><h2>Bank Proyek Akhir</h2><button class="icon-btn" data-close="projectModal">×</button></div><div id="projectContent"></div></div></div>
+  <div class="toast" id="toast"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/minisql.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/addons.js"></script>
+  <script src="assets/js/v4_enhancements.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').catch(() => {});
+      });
+    }
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+{
+  "name": "SQL E-Learning Interaktif v4 FULL",
+  "short_name": "SQL Master",
+  "description": "E-learning SQL interaktif lengkap: 140 modul, 1120 latihan, 560 quiz, playground SQL browser, sertifikat kelulusan. Berbasis database toko_pintar.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#07111f",
+  "theme_color": "#36d3ff",
+  "categories": ["education", "productivity"],
+  "lang": "id",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "./assets/img/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/img/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Mulai Belajar",
+      "url": "./index.html#modul-01",
+      "description": "Langsung ke modul pertama"
+    },
+    {
+      "name": "Playground SQL",
+      "url": "./index.html",
+      "description": "Buka SQL playground"
+    }
+  ]
+}

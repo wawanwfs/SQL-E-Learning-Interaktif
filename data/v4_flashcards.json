@@ -1,0 +1,1886 @@
+[
+  {
+    "lessonId": 1,
+    "level": "Dasar",
+    "front": "Apa fokus utama modul 1?",
+    "back": "Orientasi E-Learning dan Cara Belajar SQL"
+  },
+  {
+    "lessonId": 1,
+    "level": "Dasar",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 2,
+    "level": "Dasar",
+    "front": "Apa fokus utama modul 2?",
+    "back": "Pengenalan Database, DBMS, dan SQL"
+  },
+  {
+    "lessonId": 2,
+    "level": "Dasar",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 3,
+    "level": "Dasar",
+    "front": "Apa fokus utama modul 3?",
+    "back": "Model Relasional: Tabel, Baris, Kolom, dan Relasi"
+  },
+  {
+    "lessonId": 3,
+    "level": "Dasar",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 4,
+    "level": "Dasar",
+    "front": "Apa fokus utama modul 4?",
+    "back": "Data Dictionary dan Pemetaan Tabel toko_pintar"
+  },
+  {
+    "lessonId": 4,
+    "level": "Dasar",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 5,
+    "level": "Dasar",
+    "front": "Apa fokus utama modul 5?",
+    "back": "Tipe Data SQL dan Pemilihan Tipe yang Tepat"
+  },
+  {
+    "lessonId": 5,
+    "level": "Dasar",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 6,
+    "level": "Dasar",
+    "front": "Apa fokus utama modul 6?",
+    "back": "Konvensi Penamaan dan Kerapian Skema"
+  },
+  {
+    "lessonId": 6,
+    "level": "Dasar",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 7,
+    "level": "Dasar",
+    "front": "Apa fokus utama modul 7?",
+    "back": "DDL Dasar: CREATE TABLE"
+  },
+  {
+    "lessonId": 7,
+    "level": "Dasar",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 8,
+    "level": "Dasar",
+    "front": "Apa fokus utama modul 8?",
+    "back": "DDL Lanjutan: ALTER, RENAME, dan DROP"
+  },
+  {
+    "lessonId": 8,
+    "level": "Dasar",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 9,
+    "level": "Dasar",
+    "front": "Apa fokus utama modul 9?",
+    "back": "INSERT Data Tunggal dan Multi-Baris"
+  },
+  {
+    "lessonId": 9,
+    "level": "Dasar",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 10,
+    "level": "Dasar",
+    "front": "Apa fokus utama modul 10?",
+    "back": "SELECT Dasar dan Pemilihan Kolom"
+  },
+  {
+    "lessonId": 10,
+    "level": "Dasar",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 11,
+    "level": "Dasar",
+    "front": "Apa fokus utama modul 11?",
+    "back": "Alias Kolom dan Alias Tabel"
+  },
+  {
+    "lessonId": 11,
+    "level": "Dasar",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 12,
+    "level": "Dasar",
+    "front": "Apa fokus utama modul 12?",
+    "back": "WHERE dan Operator Perbandingan"
+  },
+  {
+    "lessonId": 12,
+    "level": "Dasar",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 13,
+    "level": "Dasar",
+    "front": "Apa fokus utama modul 13?",
+    "back": "AND, OR, dan NOT"
+  },
+  {
+    "lessonId": 13,
+    "level": "Dasar",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 14,
+    "level": "Dasar",
+    "front": "Apa fokus utama modul 14?",
+    "back": "BETWEEN, IN, LIKE, dan NULL"
+  },
+  {
+    "lessonId": 14,
+    "level": "Dasar",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 15,
+    "level": "Dasar",
+    "front": "Apa fokus utama modul 15?",
+    "back": "ORDER BY, LIMIT, dan OFFSET"
+  },
+  {
+    "lessonId": 15,
+    "level": "Dasar",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 16,
+    "level": "Dasar",
+    "front": "Apa fokus utama modul 16?",
+    "back": "UPDATE Aman dengan WHERE"
+  },
+  {
+    "lessonId": 16,
+    "level": "Dasar",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 17,
+    "level": "Dasar",
+    "front": "Apa fokus utama modul 17?",
+    "back": "DELETE Aman dan Strategi Soft Delete"
+  },
+  {
+    "lessonId": 17,
+    "level": "Dasar",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 18,
+    "level": "Menengah",
+    "front": "Apa fokus utama modul 18?",
+    "back": "Fungsi Agregasi COUNT, SUM, AVG, MIN, MAX"
+  },
+  {
+    "lessonId": 18,
+    "level": "Menengah",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 19,
+    "level": "Menengah",
+    "front": "Apa fokus utama modul 19?",
+    "back": "GROUP BY untuk Laporan Ringkasan"
+  },
+  {
+    "lessonId": 19,
+    "level": "Menengah",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 20,
+    "level": "Menengah",
+    "front": "Apa fokus utama modul 20?",
+    "back": "HAVING untuk Filter Hasil Agregasi"
+  },
+  {
+    "lessonId": 20,
+    "level": "Menengah",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 21,
+    "level": "Menengah",
+    "front": "Apa fokus utama modul 21?",
+    "back": "CASE WHEN untuk Kategori Bisnis"
+  },
+  {
+    "lessonId": 21,
+    "level": "Menengah",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 22,
+    "level": "Menengah",
+    "front": "Apa fokus utama modul 22?",
+    "back": "INNER JOIN antar Tabel"
+  },
+  {
+    "lessonId": 22,
+    "level": "Menengah",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 23,
+    "level": "Menengah",
+    "front": "Apa fokus utama modul 23?",
+    "back": "LEFT JOIN dan Data Tanpa Pasangan"
+  },
+  {
+    "lessonId": 23,
+    "level": "Menengah",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 24,
+    "level": "Menengah",
+    "front": "Apa fokus utama modul 24?",
+    "back": "RIGHT, FULL, CROSS, dan SELF JOIN"
+  },
+  {
+    "lessonId": 24,
+    "level": "Menengah",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 25,
+    "level": "Menengah",
+    "front": "Apa fokus utama modul 25?",
+    "back": "Multi-Table JOIN untuk Laporan Pesanan"
+  },
+  {
+    "lessonId": 25,
+    "level": "Menengah",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 26,
+    "level": "Menengah",
+    "front": "Apa fokus utama modul 26?",
+    "back": "Kesalahan Umum JOIN dan Duplikasi Baris"
+  },
+  {
+    "lessonId": 26,
+    "level": "Menengah",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 27,
+    "level": "Menengah",
+    "front": "Apa fokus utama modul 27?",
+    "back": "Subquery Scalar dan List"
+  },
+  {
+    "lessonId": 27,
+    "level": "Menengah",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 28,
+    "level": "Menengah",
+    "front": "Apa fokus utama modul 28?",
+    "back": "Correlated Subquery"
+  },
+  {
+    "lessonId": 28,
+    "level": "Menengah",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 29,
+    "level": "Menengah",
+    "front": "Apa fokus utama modul 29?",
+    "back": "EXISTS dan NOT EXISTS"
+  },
+  {
+    "lessonId": 29,
+    "level": "Menengah",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 30,
+    "level": "Menengah",
+    "front": "Apa fokus utama modul 30?",
+    "back": "Set Operation: UNION, UNION ALL, INTERSECT, EXCEPT"
+  },
+  {
+    "lessonId": 30,
+    "level": "Menengah",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 31,
+    "level": "Lanjutan",
+    "front": "Apa fokus utama modul 31?",
+    "back": "Constraint NOT NULL, UNIQUE, CHECK, DEFAULT"
+  },
+  {
+    "lessonId": 31,
+    "level": "Lanjutan",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 32,
+    "level": "Lanjutan",
+    "front": "Apa fokus utama modul 32?",
+    "back": "Primary Key dan Foreign Key"
+  },
+  {
+    "lessonId": 32,
+    "level": "Lanjutan",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 33,
+    "level": "Lanjutan",
+    "front": "Apa fokus utama modul 33?",
+    "back": "Normalisasi 1NF, 2NF, 3NF"
+  },
+  {
+    "lessonId": 33,
+    "level": "Lanjutan",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 34,
+    "level": "Lanjutan",
+    "front": "Apa fokus utama modul 34?",
+    "back": "BCNF dan Denormalisasi Terkendali"
+  },
+  {
+    "lessonId": 34,
+    "level": "Lanjutan",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 35,
+    "level": "Lanjutan",
+    "front": "Apa fokus utama modul 35?",
+    "back": "Index Single dan Unique"
+  },
+  {
+    "lessonId": 35,
+    "level": "Lanjutan",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 36,
+    "level": "Lanjutan",
+    "front": "Apa fokus utama modul 36?",
+    "back": "Composite, Covering, Functional, dan Partial Index"
+  },
+  {
+    "lessonId": 36,
+    "level": "Lanjutan",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 37,
+    "level": "Lanjutan",
+    "front": "Apa fokus utama modul 37?",
+    "back": "EXPLAIN dan Query Plan"
+  },
+  {
+    "lessonId": 37,
+    "level": "Lanjutan",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 38,
+    "level": "Lanjutan",
+    "front": "Apa fokus utama modul 38?",
+    "back": "View untuk Abstraksi Query"
+  },
+  {
+    "lessonId": 38,
+    "level": "Lanjutan",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 39,
+    "level": "Lanjutan",
+    "front": "Apa fokus utama modul 39?",
+    "back": "Materialized View dan Refresh Data"
+  },
+  {
+    "lessonId": 39,
+    "level": "Lanjutan",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 40,
+    "level": "Lanjutan",
+    "front": "Apa fokus utama modul 40?",
+    "back": "Stored Procedure dan Function"
+  },
+  {
+    "lessonId": 40,
+    "level": "Lanjutan",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 41,
+    "level": "Lanjutan",
+    "front": "Apa fokus utama modul 41?",
+    "back": "Trigger dan Audit Log"
+  },
+  {
+    "lessonId": 41,
+    "level": "Lanjutan",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 42,
+    "level": "Lanjutan",
+    "front": "Apa fokus utama modul 42?",
+    "back": "Transaction, COMMIT, ROLLBACK, SAVEPOINT"
+  },
+  {
+    "lessonId": 42,
+    "level": "Lanjutan",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 43,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 43?",
+    "back": "ACID dan Konsistensi Transaksi"
+  },
+  {
+    "lessonId": 43,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 44,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 44?",
+    "back": "Isolation Level dan Concurrency"
+  },
+  {
+    "lessonId": 44,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 45,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 45?",
+    "back": "Window Function: RANK, DENSE_RANK, ROW_NUMBER"
+  },
+  {
+    "lessonId": 45,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 46,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 46?",
+    "back": "Window Aggregate dan Running Total"
+  },
+  {
+    "lessonId": 46,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 47,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 47?",
+    "back": "CTE dengan WITH"
+  },
+  {
+    "lessonId": 47,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 48,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 48?",
+    "back": "Recursive CTE untuk Hierarki"
+  },
+  {
+    "lessonId": 48,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 49,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 49?",
+    "back": "Conditional Aggregation dan Pivot Manual"
+  },
+  {
+    "lessonId": 49,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 50,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 50?",
+    "back": "Analitik Dashboard: Omzet, AOV, Produk Laku"
+  },
+  {
+    "lessonId": 50,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 51,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 51?",
+    "back": "Validasi Data dan Data Quality Check"
+  },
+  {
+    "lessonId": 51,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 52,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 52?",
+    "back": "Security: User, Role, Privilege, dan Least Privilege"
+  },
+  {
+    "lessonId": 52,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 53,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 53?",
+    "back": "SQL Injection dan Prepared Statement"
+  },
+  {
+    "lessonId": 53,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 54,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 54?",
+    "back": "Backup, Restore, dan Point-in-Time Recovery"
+  },
+  {
+    "lessonId": 54,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 55,
+    "level": "Master",
+    "front": "Apa fokus utama modul 55?",
+    "back": "Performance Tuning End-to-End"
+  },
+  {
+    "lessonId": 55,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 56,
+    "level": "Master",
+    "front": "Apa fokus utama modul 56?",
+    "back": "Desain Database Marketplace"
+  },
+  {
+    "lessonId": 56,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 57,
+    "level": "Master",
+    "front": "Apa fokus utama modul 57?",
+    "back": "Studi Kasus Inventory dan Mutasi Stok"
+  },
+  {
+    "lessonId": 57,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 58,
+    "level": "Master",
+    "front": "Apa fokus utama modul 58?",
+    "back": "Customer Segmentation dengan SQL"
+  },
+  {
+    "lessonId": 58,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 59,
+    "level": "Master",
+    "front": "Apa fokus utama modul 59?",
+    "back": "Cohort dan Retention Analysis"
+  },
+  {
+    "lessonId": 59,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 60,
+    "level": "Master",
+    "front": "Apa fokus utama modul 60?",
+    "back": "Rekonsiliasi Pesanan dan Pembayaran"
+  },
+  {
+    "lessonId": 60,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 61,
+    "level": "Master",
+    "front": "Apa fokus utama modul 61?",
+    "back": "Data Warehouse dan Star Schema"
+  },
+  {
+    "lessonId": 61,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 62,
+    "level": "Master",
+    "front": "Apa fokus utama modul 62?",
+    "back": "ETL dan ELT Berbasis SQL"
+  },
+  {
+    "lessonId": 62,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 63,
+    "level": "Master",
+    "front": "Apa fokus utama modul 63?",
+    "back": "Big Data SQL: BigQuery, Hive, Spark SQL, ClickHouse"
+  },
+  {
+    "lessonId": 63,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 64,
+    "level": "Master",
+    "front": "Apa fokus utama modul 64?",
+    "back": "Perbedaan Sintaks PostgreSQL, MySQL, SQLite, SQL Server, Oracle"
+  },
+  {
+    "lessonId": 64,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 65,
+    "level": "Master",
+    "front": "Apa fokus utama modul 65?",
+    "back": "Integrasi SQL dengan Aplikasi dan API"
+  },
+  {
+    "lessonId": 65,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 66,
+    "level": "Master",
+    "front": "Apa fokus utama modul 66?",
+    "back": "Testing Query dan Regression Test"
+  },
+  {
+    "lessonId": 66,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 67,
+    "level": "Master",
+    "front": "Apa fokus utama modul 67?",
+    "back": "Deploy E-Learning SQL ke GitHub Pages"
+  },
+  {
+    "lessonId": 67,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 68,
+    "level": "Master",
+    "front": "Apa fokus utama modul 68?",
+    "back": "Capstone Project: Dashboard Penjualan toko_pintar"
+  },
+  {
+    "lessonId": 68,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 69,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 69?",
+    "back": "Recursive CTE untuk Struktur Hierarki"
+  },
+  {
+    "lessonId": 69,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 70,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 70?",
+    "back": "Window Frame: ROWS dan RANGE"
+  },
+  {
+    "lessonId": 70,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 71,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 71?",
+    "back": "Analisis Cohort Pelanggan"
+  },
+  {
+    "lessonId": 71,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 72,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 72?",
+    "back": "RFM Analysis untuk Segmentasi"
+  },
+  {
+    "lessonId": 72,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 73,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 73?",
+    "back": "Funnel Analysis Transaksi"
+  },
+  {
+    "lessonId": 73,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 74,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 74?",
+    "back": "Pivot dan Conditional Aggregation"
+  },
+  {
+    "lessonId": 74,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 75,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 75?",
+    "back": "Data Quality Checks"
+  },
+  {
+    "lessonId": 75,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 76,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 76?",
+    "back": "Audit Trail dan Temporal Query"
+  },
+  {
+    "lessonId": 76,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 77,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 77?",
+    "back": "Query Parameterization dan Keamanan Input"
+  },
+  {
+    "lessonId": 77,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 78,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 78?",
+    "back": "Role-Based Access Control"
+  },
+  {
+    "lessonId": 78,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 79,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 79?",
+    "back": "Row-Level Security"
+  },
+  {
+    "lessonId": 79,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 80,
+    "level": "Advanced",
+    "front": "Apa fokus utama modul 80?",
+    "back": "Data Masking dan Privasi"
+  },
+  {
+    "lessonId": 80,
+    "level": "Advanced",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 81,
+    "level": "Master",
+    "front": "Apa fokus utama modul 81?",
+    "back": "Partitioning Strategy"
+  },
+  {
+    "lessonId": 81,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 82,
+    "level": "Master",
+    "front": "Apa fokus utama modul 82?",
+    "back": "Sharding dan Distribusi Data"
+  },
+  {
+    "lessonId": 82,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 83,
+    "level": "Master",
+    "front": "Apa fokus utama modul 83?",
+    "back": "Replication dan Read Scaling"
+  },
+  {
+    "lessonId": 83,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 84,
+    "level": "Master",
+    "front": "Apa fokus utama modul 84?",
+    "back": "Database Reliability Engineering"
+  },
+  {
+    "lessonId": 84,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 85,
+    "level": "Master",
+    "front": "Apa fokus utama modul 85?",
+    "back": "Migration dan Versioning Schema"
+  },
+  {
+    "lessonId": 85,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 86,
+    "level": "Master",
+    "front": "Apa fokus utama modul 86?",
+    "back": "Zero-Downtime Deployment Database"
+  },
+  {
+    "lessonId": 86,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 87,
+    "level": "Master",
+    "front": "Apa fokus utama modul 87?",
+    "back": "Query Observability"
+  },
+  {
+    "lessonId": 87,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 88,
+    "level": "Master",
+    "front": "Apa fokus utama modul 88?",
+    "back": "Cost-Based Optimization"
+  },
+  {
+    "lessonId": 88,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 89,
+    "level": "Master",
+    "front": "Apa fokus utama modul 89?",
+    "back": "Materialized Aggregate Table"
+  },
+  {
+    "lessonId": 89,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 90,
+    "level": "Master",
+    "front": "Apa fokus utama modul 90?",
+    "back": "Warehouse Star Schema"
+  },
+  {
+    "lessonId": 90,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 91,
+    "level": "Master",
+    "front": "Apa fokus utama modul 91?",
+    "back": "Slowly Changing Dimension"
+  },
+  {
+    "lessonId": 91,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 92,
+    "level": "Master",
+    "front": "Apa fokus utama modul 92?",
+    "back": "Incremental ETL dengan SQL"
+  },
+  {
+    "lessonId": 92,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 93,
+    "level": "Master",
+    "front": "Apa fokus utama modul 93?",
+    "back": "Data Mart Penjualan"
+  },
+  {
+    "lessonId": 93,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 94,
+    "level": "Master",
+    "front": "Apa fokus utama modul 94?",
+    "back": "Testing Query SQL"
+  },
+  {
+    "lessonId": 94,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 95,
+    "level": "Master",
+    "front": "Apa fokus utama modul 95?",
+    "back": "SQL Code Review"
+  },
+  {
+    "lessonId": 95,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 96,
+    "level": "Master",
+    "front": "Apa fokus utama modul 96?",
+    "back": "Governance dan Metadata"
+  },
+  {
+    "lessonId": 96,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 97,
+    "level": "Master",
+    "front": "Apa fokus utama modul 97?",
+    "back": "SQL untuk Dashboard KPI"
+  },
+  {
+    "lessonId": 97,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 98,
+    "level": "Master",
+    "front": "Apa fokus utama modul 98?",
+    "back": "Incident Response Database"
+  },
+  {
+    "lessonId": 98,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 99,
+    "level": "Master",
+    "front": "Apa fokus utama modul 99?",
+    "back": "Capstone 1: Audit Penjualan End-to-End"
+  },
+  {
+    "lessonId": 99,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 100,
+    "level": "Master",
+    "front": "Apa fokus utama modul 100?",
+    "back": "Capstone 2: Optimasi Laporan Eksekutif"
+  },
+  {
+    "lessonId": 100,
+    "level": "Master",
+    "front": "Apa pola validasi output query?",
+    "back": "Periksa kolom, jumlah baris, nilai NULL, agregasi, urutan, dan kesesuaian dengan pertanyaan bisnis."
+  },
+  {
+    "lessonId": 101,
+    "level": "Advanced",
+    "front": "Fokus modul 101",
+    "back": "Audit Kualitas Data dan Data Profiling"
+  },
+  {
+    "lessonId": 101,
+    "level": "Advanced",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 102,
+    "level": "Advanced",
+    "front": "Fokus modul 102",
+    "back": "CASE WHEN untuk Segmentasi Bisnis"
+  },
+  {
+    "lessonId": 102,
+    "level": "Advanced",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 103,
+    "level": "Advanced",
+    "front": "Fokus modul 103",
+    "back": "Analisis RFM Pelanggan"
+  },
+  {
+    "lessonId": 103,
+    "level": "Advanced",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 104,
+    "level": "Advanced",
+    "front": "Fokus modul 104",
+    "back": "Analisis Kohort Retensi Pelanggan"
+  },
+  {
+    "lessonId": 104,
+    "level": "Advanced",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 105,
+    "level": "Advanced",
+    "front": "Fokus modul 105",
+    "back": "Analisis Funnel Pembelian"
+  },
+  {
+    "lessonId": 105,
+    "level": "Advanced",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 106,
+    "level": "Advanced",
+    "front": "Fokus modul 106",
+    "back": "Analisis Keranjang Belanja dan Cross-Sell"
+  },
+  {
+    "lessonId": 106,
+    "level": "Advanced",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 107,
+    "level": "Advanced",
+    "front": "Fokus modul 107",
+    "back": "SQL untuk KPI Manajerial"
+  },
+  {
+    "lessonId": 107,
+    "level": "Advanced",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 108,
+    "level": "Advanced",
+    "front": "Fokus modul 108",
+    "back": "Quality Gate Sebelum Laporan Dirilis"
+  },
+  {
+    "lessonId": 108,
+    "level": "Advanced",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 109,
+    "level": "Advanced",
+    "front": "Fokus modul 109",
+    "back": "Query Review dan Code Review SQL"
+  },
+  {
+    "lessonId": 109,
+    "level": "Advanced",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 110,
+    "level": "Advanced",
+    "front": "Fokus modul 110",
+    "back": "SQL Style Guide Profesional"
+  },
+  {
+    "lessonId": 110,
+    "level": "Advanced",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 111,
+    "level": "Master",
+    "front": "Fokus modul 111",
+    "back": "Dimensi dan Fakta dalam Star Schema"
+  },
+  {
+    "lessonId": 111,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 112,
+    "level": "Master",
+    "front": "Fokus modul 112",
+    "back": "Slowly Changing Dimension Tipe 1 dan Tipe 2"
+  },
+  {
+    "lessonId": 112,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 113,
+    "level": "Master",
+    "front": "Fokus modul 113",
+    "back": "Incremental Load dan Watermark"
+  },
+  {
+    "lessonId": 113,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 114,
+    "level": "Master",
+    "front": "Fokus modul 114",
+    "back": "Data Lineage dan Dokumentasi Query"
+  },
+  {
+    "lessonId": 114,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 115,
+    "level": "Master",
+    "front": "Fokus modul 115",
+    "back": "Data Observability Sederhana"
+  },
+  {
+    "lessonId": 115,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 116,
+    "level": "Master",
+    "front": "Fokus modul 116",
+    "back": "Rekonsiliasi Data Transaksi"
+  },
+  {
+    "lessonId": 116,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 117,
+    "level": "Master",
+    "front": "Fokus modul 117",
+    "back": "Pengujian Query dengan Expected Output"
+  },
+  {
+    "lessonId": 117,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 118,
+    "level": "Master",
+    "front": "Fokus modul 118",
+    "back": "Strategi Backup untuk Pembelajaran dan Produksi"
+  },
+  {
+    "lessonId": 118,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 119,
+    "level": "Master",
+    "front": "Fokus modul 119",
+    "back": "Governance Akses Data"
+  },
+  {
+    "lessonId": 119,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 120,
+    "level": "Master",
+    "front": "Fokus modul 120",
+    "back": "SQL untuk Interview Data Analyst"
+  },
+  {
+    "lessonId": 120,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 121,
+    "level": "Master",
+    "front": "Fokus modul 121",
+    "back": "SQL untuk Backend Developer"
+  },
+  {
+    "lessonId": 121,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 122,
+    "level": "Master",
+    "front": "Fokus modul 122",
+    "back": "SQL untuk Business Intelligence"
+  },
+  {
+    "lessonId": 122,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 123,
+    "level": "Master",
+    "front": "Fokus modul 123",
+    "back": "SQL untuk Inventory Control"
+  },
+  {
+    "lessonId": 123,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 124,
+    "level": "Master",
+    "front": "Fokus modul 124",
+    "back": "SQL untuk Fraud Check Sederhana"
+  },
+  {
+    "lessonId": 124,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 125,
+    "level": "Master",
+    "front": "Fokus modul 125",
+    "back": "SQL untuk SLA Pengiriman"
+  },
+  {
+    "lessonId": 125,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 126,
+    "level": "Master",
+    "front": "Fokus modul 126",
+    "back": "SQL untuk Retur dan Komplain"
+  },
+  {
+    "lessonId": 126,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 127,
+    "level": "Master",
+    "front": "Fokus modul 127",
+    "back": "SQL untuk Margin dan Profitabilitas"
+  },
+  {
+    "lessonId": 127,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 128,
+    "level": "Master",
+    "front": "Fokus modul 128",
+    "back": "SQL untuk Forecasting Sederhana"
+  },
+  {
+    "lessonId": 128,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 129,
+    "level": "Master",
+    "front": "Fokus modul 129",
+    "back": "SQL untuk Dashboard Eksekutif"
+  },
+  {
+    "lessonId": 129,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 130,
+    "level": "Master",
+    "front": "Fokus modul 130",
+    "back": "Capstone: Laporan Penjualan Lengkap"
+  },
+  {
+    "lessonId": 130,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 131,
+    "level": "Master",
+    "front": "Fokus modul 131",
+    "back": "Capstone: Audit Stok dan Gudang"
+  },
+  {
+    "lessonId": 131,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 132,
+    "level": "Master",
+    "front": "Fokus modul 132",
+    "back": "Capstone: Segmentasi Pelanggan"
+  },
+  {
+    "lessonId": 132,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 133,
+    "level": "Master",
+    "front": "Fokus modul 133",
+    "back": "Capstone: Optimasi Query Laporan"
+  },
+  {
+    "lessonId": 133,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 134,
+    "level": "Master",
+    "front": "Fokus modul 134",
+    "back": "Capstone: Desain Database Mini Marketplace"
+  },
+  {
+    "lessonId": 134,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 135,
+    "level": "Master",
+    "front": "Fokus modul 135",
+    "back": "Simulasi Ujian Praktik SQL 1"
+  },
+  {
+    "lessonId": 135,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 136,
+    "level": "Master",
+    "front": "Fokus modul 136",
+    "back": "Simulasi Ujian Praktik SQL 2"
+  },
+  {
+    "lessonId": 136,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 137,
+    "level": "Master",
+    "front": "Fokus modul 137",
+    "back": "Simulasi Ujian Praktik SQL 3"
+  },
+  {
+    "lessonId": 137,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 138,
+    "level": "Master",
+    "front": "Fokus modul 138",
+    "back": "Portofolio SQL GitHub"
+  },
+  {
+    "lessonId": 138,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 139,
+    "level": "Master",
+    "front": "Fokus modul 139",
+    "back": "Final Review dan Sertifikasi Mandiri"
+  },
+  {
+    "lessonId": 139,
+    "level": "Master",
+    "front": "Apa bukti portofolio minimal?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 140,
+    "level": "Master",
+    "front": "Apa isi minimal portofolio SQL?",
+    "back": "Pertanyaan bisnis, query, output, interpretasi, validasi, dan rekomendasi."
+  },
+  {
+    "lessonId": 140,
+    "level": "Master",
+    "front": "Mengapa README penting?",
+    "back": "README menjelaskan konteks, cara menjalankan, dan nilai pembelajaran dari portofolio."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "ACID",
+    "back": "Prinsip transaksi: atomicity, consistency, isolation, durability."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Aggregation",
+    "back": "Perhitungan ringkas seperti COUNT, SUM, AVG, MIN, dan MAX."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "CTE",
+    "back": "Common Table Expression, query sementara bernama yang ditulis dengan WITH."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Foreign Key",
+    "back": "Kolom yang menghubungkan data ke primary key tabel lain."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Index",
+    "back": "Struktur bantu untuk mempercepat pencarian, filter, join, dan pengurutan."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Join",
+    "back": "Operasi menggabungkan baris dari dua atau lebih tabel."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Normalization",
+    "back": "Proses merapikan struktur tabel untuk mengurangi duplikasi dan anomali."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Primary Key",
+    "back": "Identitas unik setiap baris dalam sebuah tabel."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Query Plan",
+    "back": "Rencana eksekusi query yang dibuat DBMS."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Window Function",
+    "back": "Fungsi analitik yang bekerja pada jendela baris tanpa mereduksi seluruh baris seperti GROUP BY."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "View",
+    "back": "Query tersimpan yang dapat diperlakukan seperti tabel logis."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Materialized View",
+    "back": "Hasil query yang disimpan secara fisik dan perlu di-refresh sesuai kebutuhan."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "SQL Injection",
+    "back": "Serangan ketika input pengguna dimasukkan ke query secara tidak aman."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Prepared Statement",
+    "back": "Teknik query berparameter untuk memisahkan sintaks SQL dari input pengguna."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Star Schema",
+    "back": "Model data warehouse dengan fact table di tengah dan dimension table di sekelilingnya."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Grain",
+    "back": "Unit makna satu baris pada output query atau tabel fact, misalnya satu baris per pesanan atau per produk per hari."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Cardinality",
+    "back": "Hubungan jumlah baris antara dua tabel yang menentukan risiko duplikasi ketika JOIN."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "RPO",
+    "back": "Recovery Point Objective, yaitu batas kehilangan data yang masih dapat diterima ketika pemulihan dilakukan."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "RTO",
+    "back": "Recovery Time Objective, yaitu batas waktu pemulihan layanan yang masih dapat diterima."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Data Lineage",
+    "back": "Jejak asal, transformasi, dan penggunaan data dari sumber sampai laporan."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Data Mart",
+    "back": "Subset data warehouse untuk kebutuhan analitik bidang tertentu, misalnya penjualan atau stok."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "SCD",
+    "back": "Slowly Changing Dimension, teknik menyimpan perubahan atribut dimensi dalam warehouse."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Selectivity",
+    "back": "Tingkat kemampuan filter atau index dalam memperkecil jumlah baris yang dibaca."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Masking",
+    "back": "Teknik menyamarkan sebagian data sensitif pada tampilan atau laporan."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Data profiling",
+    "back": "Proses memeriksa pola, kelengkapan, duplikasi, dan anomali data sebelum analisis."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Data lineage",
+    "back": "Jejak asal, transformasi, dan penggunaan data dari sumber sampai laporan."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Query review",
+    "back": "Pemeriksaan query untuk memastikan sintaks, logika, efisiensi, dan keterbacaan."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Star schema",
+    "back": "Model data warehouse dengan tabel fakta di tengah dan tabel dimensi di sekelilingnya."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Watermark",
+    "back": "Penanda waktu atau ID terakhir yang dipakai untuk incremental load."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "SLA",
+    "back": "Service level agreement, ukuran layanan seperti waktu kirim atau waktu respons."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "RFM",
+    "back": "Recency, Frequency, Monetary; metode segmentasi pelanggan berdasarkan perilaku transaksi."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Cohort",
+    "back": "Kelompok pengguna yang memiliki karakteristik atau periode awal aktivitas yang sama."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Observability data",
+    "back": "Kemampuan memantau kesehatan data melalui metrik kualitas, volume, freshness, dan anomali."
+  },
+  {
+    "lessonId": 0,
+    "level": "Glosarium",
+    "front": "Expected output",
+    "back": "Hasil yang diharapkan dari query untuk membandingkan apakah logika query sudah benar."
+  }
+]

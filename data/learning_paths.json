@@ -1,0 +1,18 @@
+{
+  "pemula": [
+    "Modul 1-20",
+    "Fokus SELECT, DDL, CRUD, filter, sorting, dan agregasi dasar."
+  ],
+  "data_analyst": [
+    "Modul 21-60",
+    "Fokus JOIN, subquery, agregasi, CTE, window function, dashboard KPI, dan validasi output."
+  ],
+  "backend_developer": [
+    "Modul 1-45, 61-80",
+    "Fokus schema, constraint, transaksi, procedure, trigger, security, dan migration."
+  ],
+  "dba_data_engineer": [
+    "Modul 41-100",
+    "Fokus indexing, tuning, warehouse, backup, observability, governance, dan incident response."
+  ]
+}

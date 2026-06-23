@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Template 1",
+    "sql": "SELECT k.nama_kategori, COUNT(pr.produk_id) AS jumlah_produk, AVG(pr.harga) AS rata_harga\nFROM kategori k\nLEFT JOIN produk pr ON pr.kategori_id = k.kategori_id\nGROUP BY k.nama_kategori\nORDER BY jumlah_produk DESC;"
+  },
+  {
+    "title": "Template 2",
+    "sql": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_nilai\nFROM pesanan ps\nGROUP BY ps.status\nORDER BY total_nilai DESC;"
+  },
+  {
+    "title": "Template 3",
+    "sql": "SELECT p.nama, COUNT(ps.pesanan_id) AS frekuensi_order, SUM(ps.total) AS total_belanja\nFROM pelanggan p\nLEFT JOIN pesanan ps ON ps.pelanggan_id = p.pelanggan_id\nGROUP BY p.nama\nORDER BY total_belanja DESC;"
+  },
+  {
+    "title": "Template 4",
+    "sql": "SELECT pr.nama_produk, pr.stok, g.nama_gudang\nFROM produk pr\nLEFT JOIN gudang g ON g.gudang_id = pr.gudang_id\nWHERE pr.stok < 20\nORDER BY pr.stok ASC;"
+  },
+  {
+    "title": "Template 5",
+    "sql": "SELECT pb.metode, pb.status_bayar, COUNT(*) AS jumlah_transaksi, SUM(ps.total) AS nilai_pesanan\nFROM pembayaran pb\nJOIN pesanan ps ON ps.pesanan_id = pb.pesanan_id\nGROUP BY pb.metode, pb.status_bayar\nORDER BY nilai_pesanan DESC;"
+  },
+  {
+    "title": "Template 6",
+    "sql": "SELECT p.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet\nFROM pesanan ps\nJOIN pelanggan p ON p.pelanggan_id = ps.pelanggan_id\nGROUP BY p.kota\nORDER BY omzet DESC;"
+  },
+  {
+    "title": "Template 7",
+    "sql": "SELECT k.nama_kategori, COUNT(pr.produk_id) AS jumlah_produk, AVG(pr.harga) AS rata_harga\nFROM kategori k\nLEFT JOIN produk pr ON pr.kategori_id = k.kategori_id\nGROUP BY k.nama_kategori\nORDER BY jumlah_produk DESC;"
+  },
+  {
+    "title": "Template 8",
+    "sql": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_nilai\nFROM pesanan ps\nGROUP BY ps.status\nORDER BY total_nilai DESC;"
+  },
+  {
+    "title": "Template 9",
+    "sql": "SELECT p.nama, COUNT(ps.pesanan_id) AS frekuensi_order, SUM(ps.total) AS total_belanja\nFROM pelanggan p\nLEFT JOIN pesanan ps ON ps.pelanggan_id = p.pelanggan_id\nGROUP BY p.nama\nORDER BY total_belanja DESC;"
+  },
+  {
+    "title": "Template 10",
+    "sql": "SELECT pr.nama_produk, pr.stok, g.nama_gudang\nFROM produk pr\nLEFT JOIN gudang g ON g.gudang_id = pr.gudang_id\nWHERE pr.stok < 20\nORDER BY pr.stok ASC;"
+  },
+  {
+    "title": "Template 11",
+    "sql": "SELECT pb.metode, pb.status_bayar, COUNT(*) AS jumlah_transaksi, SUM(ps.total) AS nilai_pesanan\nFROM pembayaran pb\nJOIN pesanan ps ON ps.pesanan_id = pb.pesanan_id\nGROUP BY pb.metode, pb.status_bayar\nORDER BY nilai_pesanan DESC;"
+  },
+  {
+    "title": "Template 12",
+    "sql": "SELECT p.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet\nFROM pesanan ps\nJOIN pelanggan p ON p.pelanggan_id = ps.pelanggan_id\nGROUP BY p.kota\nORDER BY omzet DESC;"
+  },
+  {
+    "title": "Template 13",
+    "sql": "SELECT k.nama_kategori, COUNT(pr.produk_id) AS jumlah_produk, AVG(pr.harga) AS rata_harga\nFROM kategori k\nLEFT JOIN produk pr ON pr.kategori_id = k.kategori_id\nGROUP BY k.nama_kategori\nORDER BY jumlah_produk DESC;"
+  },
+  {
+    "title": "Template 14",
+    "sql": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_nilai\nFROM pesanan ps\nGROUP BY ps.status\nORDER BY total_nilai DESC;"
+  },
+  {
+    "title": "Template 15",
+    "sql": "SELECT p.nama, COUNT(ps.pesanan_id) AS frekuensi_order, SUM(ps.total) AS total_belanja\nFROM pelanggan p\nLEFT JOIN pesanan ps ON ps.pelanggan_id = p.pelanggan_id\nGROUP BY p.nama\nORDER BY total_belanja DESC;"
+  },
+  {
+    "title": "Template 16",
+    "sql": "SELECT pr.nama_produk, pr.stok, g.nama_gudang\nFROM produk pr\nLEFT JOIN gudang g ON g.gudang_id = pr.gudang_id\nWHERE pr.stok < 20\nORDER BY pr.stok ASC;"
+  },
+  {
+    "title": "Template 17",
+    "sql": "SELECT pb.metode, pb.status_bayar, COUNT(*) AS jumlah_transaksi, SUM(ps.total) AS nilai_pesanan\nFROM pembayaran pb\nJOIN pesanan ps ON ps.pesanan_id = pb.pesanan_id\nGROUP BY pb.metode, pb.status_bayar\nORDER BY nilai_pesanan DESC;"
+  },
+  {
+    "title": "Template 18",
+    "sql": "SELECT p.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet\nFROM pesanan ps\nJOIN pelanggan p ON p.pelanggan_id = ps.pelanggan_id\nGROUP BY p.kota\nORDER BY omzet DESC;"
+  },
+  {
+    "title": "Template 19",
+    "sql": "SELECT k.nama_kategori, COUNT(pr.produk_id) AS jumlah_produk, AVG(pr.harga) AS rata_harga\nFROM kategori k\nLEFT JOIN produk pr ON pr.kategori_id = k.kategori_id\nGROUP BY k.nama_kategori\nORDER BY jumlah_produk DESC;"
+  },
+  {
+    "title": "Template 20",
+    "sql": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_nilai\nFROM pesanan ps\nGROUP BY ps.status\nORDER BY total_nilai DESC;"
+  },
+  {
+    "title": "Template 21",
+    "sql": "SELECT p.nama, COUNT(ps.pesanan_id) AS frekuensi_order, SUM(ps.total) AS total_belanja\nFROM pelanggan p\nLEFT JOIN pesanan ps ON ps.pelanggan_id = p.pelanggan_id\nGROUP BY p.nama\nORDER BY total_belanja DESC;"
+  },
+  {
+    "title": "Template 22",
+    "sql": "SELECT pr.nama_produk, pr.stok, g.nama_gudang\nFROM produk pr\nLEFT JOIN gudang g ON g.gudang_id = pr.gudang_id\nWHERE pr.stok < 20\nORDER BY pr.stok ASC;"
+  },
+  {
+    "title": "Template 23",
+    "sql": "SELECT pb.metode, pb.status_bayar, COUNT(*) AS jumlah_transaksi, SUM(ps.total) AS nilai_pesanan\nFROM pembayaran pb\nJOIN pesanan ps ON ps.pesanan_id = pb.pesanan_id\nGROUP BY pb.metode, pb.status_bayar\nORDER BY nilai_pesanan DESC;"
+  },
+  {
+    "title": "Template 24",
+    "sql": "SELECT p.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet\nFROM pesanan ps\nJOIN pelanggan p ON p.pelanggan_id = ps.pelanggan_id\nGROUP BY p.kota\nORDER BY omzet DESC;"
+  },
+  {
+    "title": "Template 25",
+    "sql": "SELECT k.nama_kategori, COUNT(pr.produk_id) AS jumlah_produk, AVG(pr.harga) AS rata_harga\nFROM kategori k\nLEFT JOIN produk pr ON pr.kategori_id = k.kategori_id\nGROUP BY k.nama_kategori\nORDER BY jumlah_produk DESC;"
+  },
+  {
+    "title": "Template 26",
+    "sql": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_nilai\nFROM pesanan ps\nGROUP BY ps.status\nORDER BY total_nilai DESC;"
+  },
+  {
+    "title": "Template 27",
+    "sql": "SELECT p.nama, COUNT(ps.pesanan_id) AS frekuensi_order, SUM(ps.total) AS total_belanja\nFROM pelanggan p\nLEFT JOIN pesanan ps ON ps.pelanggan_id = p.pelanggan_id\nGROUP BY p.nama\nORDER BY total_belanja DESC;"
+  },
+  {
+    "title": "Template 28",
+    "sql": "SELECT pr.nama_produk, pr.stok, g.nama_gudang\nFROM produk pr\nLEFT JOIN gudang g ON g.gudang_id = pr.gudang_id\nWHERE pr.stok < 20\nORDER BY pr.stok ASC;"
+  },
+  {
+    "title": "Template 29",
+    "sql": "SELECT pb.metode, pb.status_bayar, COUNT(*) AS jumlah_transaksi, SUM(ps.total) AS nilai_pesanan\nFROM pembayaran pb\nJOIN pesanan ps ON ps.pesanan_id = pb.pesanan_id\nGROUP BY pb.metode, pb.status_bayar\nORDER BY nilai_pesanan DESC;"
+  },
+  {
+    "title": "Template 30",
+    "sql": "SELECT p.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet\nFROM pesanan ps\nJOIN pelanggan p ON p.pelanggan_id = ps.pelanggan_id\nGROUP BY p.kota\nORDER BY omzet DESC;"
+  },
+  {
+    "title": "Template 31",
+    "sql": "SELECT k.nama_kategori, COUNT(pr.produk_id) AS jumlah_produk, AVG(pr.harga) AS rata_harga\nFROM kategori k\nLEFT JOIN produk pr ON pr.kategori_id = k.kategori_id\nGROUP BY k.nama_kategori\nORDER BY jumlah_produk DESC;"
+  },
+  {
+    "title": "Template 32",
+    "sql": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_nilai\nFROM pesanan ps\nGROUP BY ps.status\nORDER BY total_nilai DESC;"
+  },
+  {
+    "title": "Template 33",
+    "sql": "SELECT p.nama, COUNT(ps.pesanan_id) AS frekuensi_order, SUM(ps.total) AS total_belanja\nFROM pelanggan p\nLEFT JOIN pesanan ps ON ps.pelanggan_id = p.pelanggan_id\nGROUP BY p.nama\nORDER BY total_belanja DESC;"
+  },
+  {
+    "title": "Template 34",
+    "sql": "SELECT pr.nama_produk, pr.stok, g.nama_gudang\nFROM produk pr\nLEFT JOIN gudang g ON g.gudang_id = pr.gudang_id\nWHERE pr.stok < 20\nORDER BY pr.stok ASC;"
+  },
+  {
+    "title": "Template 35",
+    "sql": "SELECT pb.metode, pb.status_bayar, COUNT(*) AS jumlah_transaksi, SUM(ps.total) AS nilai_pesanan\nFROM pembayaran pb\nJOIN pesanan ps ON ps.pesanan_id = pb.pesanan_id\nGROUP BY pb.metode, pb.status_bayar\nORDER BY nilai_pesanan DESC;"
+  },
+  {
+    "title": "Template 36",
+    "sql": "SELECT p.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet\nFROM pesanan ps\nJOIN pelanggan p ON p.pelanggan_id = ps.pelanggan_id\nGROUP BY p.kota\nORDER BY omzet DESC;"
+  },
+  {
+    "title": "Template 37",
+    "sql": "SELECT k.nama_kategori, COUNT(pr.produk_id) AS jumlah_produk, AVG(pr.harga) AS rata_harga\nFROM kategori k\nLEFT JOIN produk pr ON pr.kategori_id = k.kategori_id\nGROUP BY k.nama_kategori\nORDER BY jumlah_produk DESC;"
+  },
+  {
+    "title": "Template 38",
+    "sql": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_nilai\nFROM pesanan ps\nGROUP BY ps.status\nORDER BY total_nilai DESC;"
+  },
+  {
+    "title": "Template 39",
+    "sql": "SELECT p.nama, COUNT(ps.pesanan_id) AS frekuensi_order, SUM(ps.total) AS total_belanja\nFROM pelanggan p\nLEFT JOIN pesanan ps ON ps.pelanggan_id = p.pelanggan_id\nGROUP BY p.nama\nORDER BY total_belanja DESC;"
+  },
+  {
+    "title": "Template 40",
+    "sql": "SELECT pr.nama_produk, pr.stok, g.nama_gudang\nFROM produk pr\nLEFT JOIN gudang g ON g.gudang_id = pr.gudang_id\nWHERE pr.stok < 20\nORDER BY pr.stok ASC;"
+  },
+  {
+    "title": "Template 41",
+    "sql": "SELECT pb.metode, pb.status_bayar, COUNT(*) AS jumlah_transaksi, SUM(ps.total) AS nilai_pesanan\nFROM pembayaran pb\nJOIN pesanan ps ON ps.pesanan_id = pb.pesanan_id\nGROUP BY pb.metode, pb.status_bayar\nORDER BY nilai_pesanan DESC;"
+  },
+  {
+    "title": "Template 42",
+    "sql": "SELECT p.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet\nFROM pesanan ps\nJOIN pelanggan p ON p.pelanggan_id = ps.pelanggan_id\nGROUP BY p.kota\nORDER BY omzet DESC;"
+  },
+  {
+    "title": "Template 43",
+    "sql": "SELECT k.nama_kategori, COUNT(pr.produk_id) AS jumlah_produk, AVG(pr.harga) AS rata_harga\nFROM kategori k\nLEFT JOIN produk pr ON pr.kategori_id = k.kategori_id\nGROUP BY k.nama_kategori\nORDER BY jumlah_produk DESC;"
+  },
+  {
+    "title": "Template 44",
+    "sql": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_nilai\nFROM pesanan ps\nGROUP BY ps.status\nORDER BY total_nilai DESC;"
+  },
+  {
+    "title": "Template 45",
+    "sql": "SELECT p.nama, COUNT(ps.pesanan_id) AS frekuensi_order, SUM(ps.total) AS total_belanja\nFROM pelanggan p\nLEFT JOIN pesanan ps ON ps.pelanggan_id = p.pelanggan_id\nGROUP BY p.nama\nORDER BY total_belanja DESC;"
+  },
+  {
+    "title": "Template 46",
+    "sql": "SELECT pr.nama_produk, pr.stok, g.nama_gudang\nFROM produk pr\nLEFT JOIN gudang g ON g.gudang_id = pr.gudang_id\nWHERE pr.stok < 20\nORDER BY pr.stok ASC;"
+  },
+  {
+    "title": "Template 47",
+    "sql": "SELECT pb.metode, pb.status_bayar, COUNT(*) AS jumlah_transaksi, SUM(ps.total) AS nilai_pesanan\nFROM pembayaran pb\nJOIN pesanan ps ON ps.pesanan_id = pb.pesanan_id\nGROUP BY pb.metode, pb.status_bayar\nORDER BY nilai_pesanan DESC;"
+  },
+  {
+    "title": "Template 48",
+    "sql": "SELECT p.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet\nFROM pesanan ps\nJOIN pelanggan p ON p.pelanggan_id = ps.pelanggan_id\nGROUP BY p.kota\nORDER BY omzet DESC;"
+  },
+  {
+    "title": "Template 49",
+    "sql": "SELECT k.nama_kategori, COUNT(pr.produk_id) AS jumlah_produk, AVG(pr.harga) AS rata_harga\nFROM kategori k\nLEFT JOIN produk pr ON pr.kategori_id = k.kategori_id\nGROUP BY k.nama_kategori\nORDER BY jumlah_produk DESC;"
+  },
+  {
+    "title": "Template 50",
+    "sql": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_nilai\nFROM pesanan ps\nGROUP BY ps.status\nORDER BY total_nilai DESC;"
+  }
+]

@@ -1,0 +1,10 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Local server/cache
+.cache/
+node_modules/
+
+# Optional generated archives
+*.tmp

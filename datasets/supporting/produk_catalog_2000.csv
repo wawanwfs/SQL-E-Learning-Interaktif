@@ -1,0 +1,2001 @@
+produk_id,sku,nama_produk,kategori,harga,stok,supplier,aktif
+1,SKU00001,Produk Simulasi 1,Rumah Tangga,5137,17,Cipta Grosir,Y
+2,SKU00002,Produk Simulasi 2,Fashion,5274,34,Sinar Distribusi,Y
+3,SKU00003,Produk Simulasi 3,ATK,5411,51,Mitra Dagang,Y
+4,SKU00004,Produk Simulasi 4,Makanan,5548,68,Global Retail,Y
+5,SKU00005,Produk Simulasi 5,Minuman,5685,85,Nusantara Supply,Y
+6,SKU00006,Produk Simulasi 6,Kesehatan,5822,102,Cipta Grosir,Y
+7,SKU00007,Produk Simulasi 7,Hobi,5959,119,Sinar Distribusi,Y
+8,SKU00008,Produk Simulasi 8,Elektronik,6096,136,Mitra Dagang,Y
+9,SKU00009,Produk Simulasi 9,Rumah Tangga,6233,153,Global Retail,Y
+10,SKU00010,Produk Simulasi 10,Fashion,6370,170,Nusantara Supply,Y
+11,SKU00011,Produk Simulasi 11,ATK,6507,187,Cipta Grosir,Y
+12,SKU00012,Produk Simulasi 12,Makanan,6644,204,Sinar Distribusi,Y
+13,SKU00013,Produk Simulasi 13,Minuman,6781,221,Mitra Dagang,N
+14,SKU00014,Produk Simulasi 14,Kesehatan,6918,238,Global Retail,Y
+15,SKU00015,Produk Simulasi 15,Hobi,7055,255,Nusantara Supply,Y
+16,SKU00016,Produk Simulasi 16,Elektronik,7192,272,Cipta Grosir,Y
+17,SKU00017,Produk Simulasi 17,Rumah Tangga,7329,289,Sinar Distribusi,Y
+18,SKU00018,Produk Simulasi 18,Fashion,7466,306,Mitra Dagang,Y
+19,SKU00019,Produk Simulasi 19,ATK,7603,323,Global Retail,Y
+20,SKU00020,Produk Simulasi 20,Makanan,7740,340,Nusantara Supply,Y
+21,SKU00021,Produk Simulasi 21,Minuman,7877,357,Cipta Grosir,Y
+22,SKU00022,Produk Simulasi 22,Kesehatan,8014,374,Sinar Distribusi,Y
+23,SKU00023,Produk Simulasi 23,Hobi,8151,391,Mitra Dagang,Y
+24,SKU00024,Produk Simulasi 24,Elektronik,8288,408,Global Retail,Y
+25,SKU00025,Produk Simulasi 25,Rumah Tangga,8425,425,Nusantara Supply,Y
+26,SKU00026,Produk Simulasi 26,Fashion,8562,442,Cipta Grosir,N
+27,SKU00027,Produk Simulasi 27,ATK,8699,459,Sinar Distribusi,Y
+28,SKU00028,Produk Simulasi 28,Makanan,8836,476,Mitra Dagang,Y
+29,SKU00029,Produk Simulasi 29,Minuman,8973,493,Global Retail,Y
+30,SKU00030,Produk Simulasi 30,Kesehatan,9110,10,Nusantara Supply,Y
+31,SKU00031,Produk Simulasi 31,Hobi,9247,27,Cipta Grosir,Y
+32,SKU00032,Produk Simulasi 32,Elektronik,9384,44,Sinar Distribusi,Y
+33,SKU00033,Produk Simulasi 33,Rumah Tangga,9521,61,Mitra Dagang,Y
+34,SKU00034,Produk Simulasi 34,Fashion,9658,78,Global Retail,Y
+35,SKU00035,Produk Simulasi 35,ATK,9795,95,Nusantara Supply,Y
+36,SKU00036,Produk Simulasi 36,Makanan,9932,112,Cipta Grosir,Y
+37,SKU00037,Produk Simulasi 37,Minuman,10069,129,Sinar Distribusi,Y
+38,SKU00038,Produk Simulasi 38,Kesehatan,10206,146,Mitra Dagang,Y
+39,SKU00039,Produk Simulasi 39,Hobi,10343,163,Global Retail,N
+40,SKU00040,Produk Simulasi 40,Elektronik,10480,180,Nusantara Supply,Y
+41,SKU00041,Produk Simulasi 41,Rumah Tangga,10617,197,Cipta Grosir,Y
+42,SKU00042,Produk Simulasi 42,Fashion,10754,214,Sinar Distribusi,Y
+43,SKU00043,Produk Simulasi 43,ATK,10891,231,Mitra Dagang,Y
+44,SKU00044,Produk Simulasi 44,Makanan,11028,248,Global Retail,Y
+45,SKU00045,Produk Simulasi 45,Minuman,11165,265,Nusantara Supply,Y
+46,SKU00046,Produk Simulasi 46,Kesehatan,11302,282,Cipta Grosir,Y
+47,SKU00047,Produk Simulasi 47,Hobi,11439,299,Sinar Distribusi,Y
+48,SKU00048,Produk Simulasi 48,Elektronik,11576,316,Mitra Dagang,Y
+49,SKU00049,Produk Simulasi 49,Rumah Tangga,11713,333,Global Retail,Y
+50,SKU00050,Produk Simulasi 50,Fashion,11850,350,Nusantara Supply,Y
+51,SKU00051,Produk Simulasi 51,ATK,11987,367,Cipta Grosir,Y
+52,SKU00052,Produk Simulasi 52,Makanan,12124,384,Sinar Distribusi,N
+53,SKU00053,Produk Simulasi 53,Minuman,12261,401,Mitra Dagang,Y
+54,SKU00054,Produk Simulasi 54,Kesehatan,12398,418,Global Retail,Y
+55,SKU00055,Produk Simulasi 55,Hobi,12535,435,Nusantara Supply,Y
+56,SKU00056,Produk Simulasi 56,Elektronik,12672,452,Cipta Grosir,Y
+57,SKU00057,Produk Simulasi 57,Rumah Tangga,12809,469,Sinar Distribusi,Y
+58,SKU00058,Produk Simulasi 58,Fashion,12946,486,Mitra Dagang,Y
+59,SKU00059,Produk Simulasi 59,ATK,13083,3,Global Retail,Y
+60,SKU00060,Produk Simulasi 60,Makanan,13220,20,Nusantara Supply,Y
+61,SKU00061,Produk Simulasi 61,Minuman,13357,37,Cipta Grosir,Y
+62,SKU00062,Produk Simulasi 62,Kesehatan,13494,54,Sinar Distribusi,Y
+63,SKU00063,Produk Simulasi 63,Hobi,13631,71,Mitra Dagang,Y
+64,SKU00064,Produk Simulasi 64,Elektronik,13768,88,Global Retail,Y
+65,SKU00065,Produk Simulasi 65,Rumah Tangga,13905,105,Nusantara Supply,N
+66,SKU00066,Produk Simulasi 66,Fashion,14042,122,Cipta Grosir,Y
+67,SKU00067,Produk Simulasi 67,ATK,14179,139,Sinar Distribusi,Y
+68,SKU00068,Produk Simulasi 68,Makanan,14316,156,Mitra Dagang,Y
+69,SKU00069,Produk Simulasi 69,Minuman,14453,173,Global Retail,Y
+70,SKU00070,Produk Simulasi 70,Kesehatan,14590,190,Nusantara Supply,Y
+71,SKU00071,Produk Simulasi 71,Hobi,14727,207,Cipta Grosir,Y
+72,SKU00072,Produk Simulasi 72,Elektronik,14864,224,Sinar Distribusi,Y
+73,SKU00073,Produk Simulasi 73,Rumah Tangga,15001,241,Mitra Dagang,Y
+74,SKU00074,Produk Simulasi 74,Fashion,15138,258,Global Retail,Y
+75,SKU00075,Produk Simulasi 75,ATK,15275,275,Nusantara Supply,Y
+76,SKU00076,Produk Simulasi 76,Makanan,15412,292,Cipta Grosir,Y
+77,SKU00077,Produk Simulasi 77,Minuman,15549,309,Sinar Distribusi,Y
+78,SKU00078,Produk Simulasi 78,Kesehatan,15686,326,Mitra Dagang,N
+79,SKU00079,Produk Simulasi 79,Hobi,15823,343,Global Retail,Y
+80,SKU00080,Produk Simulasi 80,Elektronik,15960,360,Nusantara Supply,Y
+81,SKU00081,Produk Simulasi 81,Rumah Tangga,16097,377,Cipta Grosir,Y
+82,SKU00082,Produk Simulasi 82,Fashion,16234,394,Sinar Distribusi,Y
+83,SKU00083,Produk Simulasi 83,ATK,16371,411,Mitra Dagang,Y
+84,SKU00084,Produk Simulasi 84,Makanan,16508,428,Global Retail,Y
+85,SKU00085,Produk Simulasi 85,Minuman,16645,445,Nusantara Supply,Y
+86,SKU00086,Produk Simulasi 86,Kesehatan,16782,462,Cipta Grosir,Y
+87,SKU00087,Produk Simulasi 87,Hobi,16919,479,Sinar Distribusi,Y
+88,SKU00088,Produk Simulasi 88,Elektronik,17056,496,Mitra Dagang,Y
+89,SKU00089,Produk Simulasi 89,Rumah Tangga,17193,13,Global Retail,Y
+90,SKU00090,Produk Simulasi 90,Fashion,17330,30,Nusantara Supply,Y
+91,SKU00091,Produk Simulasi 91,ATK,17467,47,Cipta Grosir,N
+92,SKU00092,Produk Simulasi 92,Makanan,17604,64,Sinar Distribusi,Y
+93,SKU00093,Produk Simulasi 93,Minuman,17741,81,Mitra Dagang,Y
+94,SKU00094,Produk Simulasi 94,Kesehatan,17878,98,Global Retail,Y
+95,SKU00095,Produk Simulasi 95,Hobi,18015,115,Nusantara Supply,Y
+96,SKU00096,Produk Simulasi 96,Elektronik,18152,132,Cipta Grosir,Y
+97,SKU00097,Produk Simulasi 97,Rumah Tangga,18289,149,Sinar Distribusi,Y
+98,SKU00098,Produk Simulasi 98,Fashion,18426,166,Mitra Dagang,Y
+99,SKU00099,Produk Simulasi 99,ATK,18563,183,Global Retail,Y
+100,SKU00100,Produk Simulasi 100,Makanan,18700,200,Nusantara Supply,Y
+101,SKU00101,Produk Simulasi 101,Minuman,18837,217,Cipta Grosir,Y
+102,SKU00102,Produk Simulasi 102,Kesehatan,18974,234,Sinar Distribusi,Y
+103,SKU00103,Produk Simulasi 103,Hobi,19111,251,Mitra Dagang,Y
+104,SKU00104,Produk Simulasi 104,Elektronik,19248,268,Global Retail,N
+105,SKU00105,Produk Simulasi 105,Rumah Tangga,19385,285,Nusantara Supply,Y
+106,SKU00106,Produk Simulasi 106,Fashion,19522,302,Cipta Grosir,Y
+107,SKU00107,Produk Simulasi 107,ATK,19659,319,Sinar Distribusi,Y
+108,SKU00108,Produk Simulasi 108,Makanan,19796,336,Mitra Dagang,Y
+109,SKU00109,Produk Simulasi 109,Minuman,19933,353,Global Retail,Y
+110,SKU00110,Produk Simulasi 110,Kesehatan,20070,370,Nusantara Supply,Y
+111,SKU00111,Produk Simulasi 111,Hobi,20207,387,Cipta Grosir,Y
+112,SKU00112,Produk Simulasi 112,Elektronik,20344,404,Sinar Distribusi,Y
+113,SKU00113,Produk Simulasi 113,Rumah Tangga,20481,421,Mitra Dagang,Y
+114,SKU00114,Produk Simulasi 114,Fashion,20618,438,Global Retail,Y
+115,SKU00115,Produk Simulasi 115,ATK,20755,455,Nusantara Supply,Y
+116,SKU00116,Produk Simulasi 116,Makanan,20892,472,Cipta Grosir,Y
+117,SKU00117,Produk Simulasi 117,Minuman,21029,489,Sinar Distribusi,N
+118,SKU00118,Produk Simulasi 118,Kesehatan,21166,6,Mitra Dagang,Y
+119,SKU00119,Produk Simulasi 119,Hobi,21303,23,Global Retail,Y
+120,SKU00120,Produk Simulasi 120,Elektronik,21440,40,Nusantara Supply,Y
+121,SKU00121,Produk Simulasi 121,Rumah Tangga,21577,57,Cipta Grosir,Y
+122,SKU00122,Produk Simulasi 122,Fashion,21714,74,Sinar Distribusi,Y
+123,SKU00123,Produk Simulasi 123,ATK,21851,91,Mitra Dagang,Y
+124,SKU00124,Produk Simulasi 124,Makanan,21988,108,Global Retail,Y
+125,SKU00125,Produk Simulasi 125,Minuman,22125,125,Nusantara Supply,Y
+126,SKU00126,Produk Simulasi 126,Kesehatan,22262,142,Cipta Grosir,Y
+127,SKU00127,Produk Simulasi 127,Hobi,22399,159,Sinar Distribusi,Y
+128,SKU00128,Produk Simulasi 128,Elektronik,22536,176,Mitra Dagang,Y
+129,SKU00129,Produk Simulasi 129,Rumah Tangga,22673,193,Global Retail,Y
+130,SKU00130,Produk Simulasi 130,Fashion,22810,210,Nusantara Supply,N
+131,SKU00131,Produk Simulasi 131,ATK,22947,227,Cipta Grosir,Y
+132,SKU00132,Produk Simulasi 132,Makanan,23084,244,Sinar Distribusi,Y
+133,SKU00133,Produk Simulasi 133,Minuman,23221,261,Mitra Dagang,Y
+134,SKU00134,Produk Simulasi 134,Kesehatan,23358,278,Global Retail,Y
+135,SKU00135,Produk Simulasi 135,Hobi,23495,295,Nusantara Supply,Y
+136,SKU00136,Produk Simulasi 136,Elektronik,23632,312,Cipta Grosir,Y
+137,SKU00137,Produk Simulasi 137,Rumah Tangga,23769,329,Sinar Distribusi,Y
+138,SKU00138,Produk Simulasi 138,Fashion,23906,346,Mitra Dagang,Y
+139,SKU00139,Produk Simulasi 139,ATK,24043,363,Global Retail,Y
+140,SKU00140,Produk Simulasi 140,Makanan,24180,380,Nusantara Supply,Y
+141,SKU00141,Produk Simulasi 141,Minuman,24317,397,Cipta Grosir,Y
+142,SKU00142,Produk Simulasi 142,Kesehatan,24454,414,Sinar Distribusi,Y
+143,SKU00143,Produk Simulasi 143,Hobi,24591,431,Mitra Dagang,N
+144,SKU00144,Produk Simulasi 144,Elektronik,24728,448,Global Retail,Y
+145,SKU00145,Produk Simulasi 145,Rumah Tangga,24865,465,Nusantara Supply,Y
+146,SKU00146,Produk Simulasi 146,Fashion,25002,482,Cipta Grosir,Y
+147,SKU00147,Produk Simulasi 147,ATK,25139,499,Sinar Distribusi,Y
+148,SKU00148,Produk Simulasi 148,Makanan,25276,16,Mitra Dagang,Y
+149,SKU00149,Produk Simulasi 149,Minuman,25413,33,Global Retail,Y
+150,SKU00150,Produk Simulasi 150,Kesehatan,25550,50,Nusantara Supply,Y
+151,SKU00151,Produk Simulasi 151,Hobi,25687,67,Cipta Grosir,Y
+152,SKU00152,Produk Simulasi 152,Elektronik,25824,84,Sinar Distribusi,Y
+153,SKU00153,Produk Simulasi 153,Rumah Tangga,25961,101,Mitra Dagang,Y
+154,SKU00154,Produk Simulasi 154,Fashion,26098,118,Global Retail,Y
+155,SKU00155,Produk Simulasi 155,ATK,26235,135,Nusantara Supply,Y
+156,SKU00156,Produk Simulasi 156,Makanan,26372,152,Cipta Grosir,N
+157,SKU00157,Produk Simulasi 157,Minuman,26509,169,Sinar Distribusi,Y
+158,SKU00158,Produk Simulasi 158,Kesehatan,26646,186,Mitra Dagang,Y
+159,SKU00159,Produk Simulasi 159,Hobi,26783,203,Global Retail,Y
+160,SKU00160,Produk Simulasi 160,Elektronik,26920,220,Nusantara Supply,Y
+161,SKU00161,Produk Simulasi 161,Rumah Tangga,27057,237,Cipta Grosir,Y
+162,SKU00162,Produk Simulasi 162,Fashion,27194,254,Sinar Distribusi,Y
+163,SKU00163,Produk Simulasi 163,ATK,27331,271,Mitra Dagang,Y
+164,SKU00164,Produk Simulasi 164,Makanan,27468,288,Global Retail,Y
+165,SKU00165,Produk Simulasi 165,Minuman,27605,305,Nusantara Supply,Y
+166,SKU00166,Produk Simulasi 166,Kesehatan,27742,322,Cipta Grosir,Y
+167,SKU00167,Produk Simulasi 167,Hobi,27879,339,Sinar Distribusi,Y
+168,SKU00168,Produk Simulasi 168,Elektronik,28016,356,Mitra Dagang,Y
+169,SKU00169,Produk Simulasi 169,Rumah Tangga,28153,373,Global Retail,N
+170,SKU00170,Produk Simulasi 170,Fashion,28290,390,Nusantara Supply,Y
+171,SKU00171,Produk Simulasi 171,ATK,28427,407,Cipta Grosir,Y
+172,SKU00172,Produk Simulasi 172,Makanan,28564,424,Sinar Distribusi,Y
+173,SKU00173,Produk Simulasi 173,Minuman,28701,441,Mitra Dagang,Y
+174,SKU00174,Produk Simulasi 174,Kesehatan,28838,458,Global Retail,Y
+175,SKU00175,Produk Simulasi 175,Hobi,28975,475,Nusantara Supply,Y
+176,SKU00176,Produk Simulasi 176,Elektronik,29112,492,Cipta Grosir,Y
+177,SKU00177,Produk Simulasi 177,Rumah Tangga,29249,9,Sinar Distribusi,Y
+178,SKU00178,Produk Simulasi 178,Fashion,29386,26,Mitra Dagang,Y
+179,SKU00179,Produk Simulasi 179,ATK,29523,43,Global Retail,Y
+180,SKU00180,Produk Simulasi 180,Makanan,29660,60,Nusantara Supply,Y
+181,SKU00181,Produk Simulasi 181,Minuman,29797,77,Cipta Grosir,Y
+182,SKU00182,Produk Simulasi 182,Kesehatan,29934,94,Sinar Distribusi,N
+183,SKU00183,Produk Simulasi 183,Hobi,30071,111,Mitra Dagang,Y
+184,SKU00184,Produk Simulasi 184,Elektronik,30208,128,Global Retail,Y
+185,SKU00185,Produk Simulasi 185,Rumah Tangga,30345,145,Nusantara Supply,Y
+186,SKU00186,Produk Simulasi 186,Fashion,30482,162,Cipta Grosir,Y
+187,SKU00187,Produk Simulasi 187,ATK,30619,179,Sinar Distribusi,Y
+188,SKU00188,Produk Simulasi 188,Makanan,30756,196,Mitra Dagang,Y
+189,SKU00189,Produk Simulasi 189,Minuman,30893,213,Global Retail,Y
+190,SKU00190,Produk Simulasi 190,Kesehatan,31030,230,Nusantara Supply,Y
+191,SKU00191,Produk Simulasi 191,Hobi,31167,247,Cipta Grosir,Y
+192,SKU00192,Produk Simulasi 192,Elektronik,31304,264,Sinar Distribusi,Y
+193,SKU00193,Produk Simulasi 193,Rumah Tangga,31441,281,Mitra Dagang,Y
+194,SKU00194,Produk Simulasi 194,Fashion,31578,298,Global Retail,Y
+195,SKU00195,Produk Simulasi 195,ATK,31715,315,Nusantara Supply,N
+196,SKU00196,Produk Simulasi 196,Makanan,31852,332,Cipta Grosir,Y
+197,SKU00197,Produk Simulasi 197,Minuman,31989,349,Sinar Distribusi,Y
+198,SKU00198,Produk Simulasi 198,Kesehatan,32126,366,Mitra Dagang,Y
+199,SKU00199,Produk Simulasi 199,Hobi,32263,383,Global Retail,Y
+200,SKU00200,Produk Simulasi 200,Elektronik,32400,400,Nusantara Supply,Y
+201,SKU00201,Produk Simulasi 201,Rumah Tangga,32537,417,Cipta Grosir,Y
+202,SKU00202,Produk Simulasi 202,Fashion,32674,434,Sinar Distribusi,Y
+203,SKU00203,Produk Simulasi 203,ATK,32811,451,Mitra Dagang,Y
+204,SKU00204,Produk Simulasi 204,Makanan,32948,468,Global Retail,Y
+205,SKU00205,Produk Simulasi 205,Minuman,33085,485,Nusantara Supply,Y
+206,SKU00206,Produk Simulasi 206,Kesehatan,33222,2,Cipta Grosir,Y
+207,SKU00207,Produk Simulasi 207,Hobi,33359,19,Sinar Distribusi,Y
+208,SKU00208,Produk Simulasi 208,Elektronik,33496,36,Mitra Dagang,N
+209,SKU00209,Produk Simulasi 209,Rumah Tangga,33633,53,Global Retail,Y
+210,SKU00210,Produk Simulasi 210,Fashion,33770,70,Nusantara Supply,Y
+211,SKU00211,Produk Simulasi 211,ATK,33907,87,Cipta Grosir,Y
+212,SKU00212,Produk Simulasi 212,Makanan,34044,104,Sinar Distribusi,Y
+213,SKU00213,Produk Simulasi 213,Minuman,34181,121,Mitra Dagang,Y
+214,SKU00214,Produk Simulasi 214,Kesehatan,34318,138,Global Retail,Y
+215,SKU00215,Produk Simulasi 215,Hobi,34455,155,Nusantara Supply,Y
+216,SKU00216,Produk Simulasi 216,Elektronik,34592,172,Cipta Grosir,Y
+217,SKU00217,Produk Simulasi 217,Rumah Tangga,34729,189,Sinar Distribusi,Y
+218,SKU00218,Produk Simulasi 218,Fashion,34866,206,Mitra Dagang,Y
+219,SKU00219,Produk Simulasi 219,ATK,35003,223,Global Retail,Y
+220,SKU00220,Produk Simulasi 220,Makanan,35140,240,Nusantara Supply,Y
+221,SKU00221,Produk Simulasi 221,Minuman,35277,257,Cipta Grosir,N
+222,SKU00222,Produk Simulasi 222,Kesehatan,35414,274,Sinar Distribusi,Y
+223,SKU00223,Produk Simulasi 223,Hobi,35551,291,Mitra Dagang,Y
+224,SKU00224,Produk Simulasi 224,Elektronik,35688,308,Global Retail,Y
+225,SKU00225,Produk Simulasi 225,Rumah Tangga,35825,325,Nusantara Supply,Y
+226,SKU00226,Produk Simulasi 226,Fashion,35962,342,Cipta Grosir,Y
+227,SKU00227,Produk Simulasi 227,ATK,36099,359,Sinar Distribusi,Y
+228,SKU00228,Produk Simulasi 228,Makanan,36236,376,Mitra Dagang,Y
+229,SKU00229,Produk Simulasi 229,Minuman,36373,393,Global Retail,Y
+230,SKU00230,Produk Simulasi 230,Kesehatan,36510,410,Nusantara Supply,Y
+231,SKU00231,Produk Simulasi 231,Hobi,36647,427,Cipta Grosir,Y
+232,SKU00232,Produk Simulasi 232,Elektronik,36784,444,Sinar Distribusi,Y
+233,SKU00233,Produk Simulasi 233,Rumah Tangga,36921,461,Mitra Dagang,Y
+234,SKU00234,Produk Simulasi 234,Fashion,37058,478,Global Retail,N
+235,SKU00235,Produk Simulasi 235,ATK,37195,495,Nusantara Supply,Y
+236,SKU00236,Produk Simulasi 236,Makanan,37332,12,Cipta Grosir,Y
+237,SKU00237,Produk Simulasi 237,Minuman,37469,29,Sinar Distribusi,Y
+238,SKU00238,Produk Simulasi 238,Kesehatan,37606,46,Mitra Dagang,Y
+239,SKU00239,Produk Simulasi 239,Hobi,37743,63,Global Retail,Y
+240,SKU00240,Produk Simulasi 240,Elektronik,37880,80,Nusantara Supply,Y
+241,SKU00241,Produk Simulasi 241,Rumah Tangga,38017,97,Cipta Grosir,Y
+242,SKU00242,Produk Simulasi 242,Fashion,38154,114,Sinar Distribusi,Y
+243,SKU00243,Produk Simulasi 243,ATK,38291,131,Mitra Dagang,Y
+244,SKU00244,Produk Simulasi 244,Makanan,38428,148,Global Retail,Y
+245,SKU00245,Produk Simulasi 245,Minuman,38565,165,Nusantara Supply,Y
+246,SKU00246,Produk Simulasi 246,Kesehatan,38702,182,Cipta Grosir,Y
+247,SKU00247,Produk Simulasi 247,Hobi,38839,199,Sinar Distribusi,N
+248,SKU00248,Produk Simulasi 248,Elektronik,38976,216,Mitra Dagang,Y
+249,SKU00249,Produk Simulasi 249,Rumah Tangga,39113,233,Global Retail,Y
+250,SKU00250,Produk Simulasi 250,Fashion,39250,250,Nusantara Supply,Y
+251,SKU00251,Produk Simulasi 251,ATK,39387,267,Cipta Grosir,Y
+252,SKU00252,Produk Simulasi 252,Makanan,39524,284,Sinar Distribusi,Y
+253,SKU00253,Produk Simulasi 253,Minuman,39661,301,Mitra Dagang,Y
+254,SKU00254,Produk Simulasi 254,Kesehatan,39798,318,Global Retail,Y
+255,SKU00255,Produk Simulasi 255,Hobi,39935,335,Nusantara Supply,Y
+256,SKU00256,Produk Simulasi 256,Elektronik,40072,352,Cipta Grosir,Y
+257,SKU00257,Produk Simulasi 257,Rumah Tangga,40209,369,Sinar Distribusi,Y
+258,SKU00258,Produk Simulasi 258,Fashion,40346,386,Mitra Dagang,Y
+259,SKU00259,Produk Simulasi 259,ATK,40483,403,Global Retail,Y
+260,SKU00260,Produk Simulasi 260,Makanan,40620,420,Nusantara Supply,N
+261,SKU00261,Produk Simulasi 261,Minuman,40757,437,Cipta Grosir,Y
+262,SKU00262,Produk Simulasi 262,Kesehatan,40894,454,Sinar Distribusi,Y
+263,SKU00263,Produk Simulasi 263,Hobi,41031,471,Mitra Dagang,Y
+264,SKU00264,Produk Simulasi 264,Elektronik,41168,488,Global Retail,Y
+265,SKU00265,Produk Simulasi 265,Rumah Tangga,41305,5,Nusantara Supply,Y
+266,SKU00266,Produk Simulasi 266,Fashion,41442,22,Cipta Grosir,Y
+267,SKU00267,Produk Simulasi 267,ATK,41579,39,Sinar Distribusi,Y
+268,SKU00268,Produk Simulasi 268,Makanan,41716,56,Mitra Dagang,Y
+269,SKU00269,Produk Simulasi 269,Minuman,41853,73,Global Retail,Y
+270,SKU00270,Produk Simulasi 270,Kesehatan,41990,90,Nusantara Supply,Y
+271,SKU00271,Produk Simulasi 271,Hobi,42127,107,Cipta Grosir,Y
+272,SKU00272,Produk Simulasi 272,Elektronik,42264,124,Sinar Distribusi,Y
+273,SKU00273,Produk Simulasi 273,Rumah Tangga,42401,141,Mitra Dagang,N
+274,SKU00274,Produk Simulasi 274,Fashion,42538,158,Global Retail,Y
+275,SKU00275,Produk Simulasi 275,ATK,42675,175,Nusantara Supply,Y
+276,SKU00276,Produk Simulasi 276,Makanan,42812,192,Cipta Grosir,Y
+277,SKU00277,Produk Simulasi 277,Minuman,42949,209,Sinar Distribusi,Y
+278,SKU00278,Produk Simulasi 278,Kesehatan,43086,226,Mitra Dagang,Y
+279,SKU00279,Produk Simulasi 279,Hobi,43223,243,Global Retail,Y
+280,SKU00280,Produk Simulasi 280,Elektronik,43360,260,Nusantara Supply,Y
+281,SKU00281,Produk Simulasi 281,Rumah Tangga,43497,277,Cipta Grosir,Y
+282,SKU00282,Produk Simulasi 282,Fashion,43634,294,Sinar Distribusi,Y
+283,SKU00283,Produk Simulasi 283,ATK,43771,311,Mitra Dagang,Y
+284,SKU00284,Produk Simulasi 284,Makanan,43908,328,Global Retail,Y
+285,SKU00285,Produk Simulasi 285,Minuman,44045,345,Nusantara Supply,Y
+286,SKU00286,Produk Simulasi 286,Kesehatan,44182,362,Cipta Grosir,N
+287,SKU00287,Produk Simulasi 287,Hobi,44319,379,Sinar Distribusi,Y
+288,SKU00288,Produk Simulasi 288,Elektronik,44456,396,Mitra Dagang,Y
+289,SKU00289,Produk Simulasi 289,Rumah Tangga,44593,413,Global Retail,Y
+290,SKU00290,Produk Simulasi 290,Fashion,44730,430,Nusantara Supply,Y
+291,SKU00291,Produk Simulasi 291,ATK,44867,447,Cipta Grosir,Y
+292,SKU00292,Produk Simulasi 292,Makanan,45004,464,Sinar Distribusi,Y
+293,SKU00293,Produk Simulasi 293,Minuman,45141,481,Mitra Dagang,Y
+294,SKU00294,Produk Simulasi 294,Kesehatan,45278,498,Global Retail,Y
+295,SKU00295,Produk Simulasi 295,Hobi,45415,15,Nusantara Supply,Y
+296,SKU00296,Produk Simulasi 296,Elektronik,45552,32,Cipta Grosir,Y
+297,SKU00297,Produk Simulasi 297,Rumah Tangga,45689,49,Sinar Distribusi,Y
+298,SKU00298,Produk Simulasi 298,Fashion,45826,66,Mitra Dagang,Y
+299,SKU00299,Produk Simulasi 299,ATK,45963,83,Global Retail,N
+300,SKU00300,Produk Simulasi 300,Makanan,46100,100,Nusantara Supply,Y
+301,SKU00301,Produk Simulasi 301,Minuman,46237,117,Cipta Grosir,Y
+302,SKU00302,Produk Simulasi 302,Kesehatan,46374,134,Sinar Distribusi,Y
+303,SKU00303,Produk Simulasi 303,Hobi,46511,151,Mitra Dagang,Y
+304,SKU00304,Produk Simulasi 304,Elektronik,46648,168,Global Retail,Y
+305,SKU00305,Produk Simulasi 305,Rumah Tangga,46785,185,Nusantara Supply,Y
+306,SKU00306,Produk Simulasi 306,Fashion,46922,202,Cipta Grosir,Y
+307,SKU00307,Produk Simulasi 307,ATK,47059,219,Sinar Distribusi,Y
+308,SKU00308,Produk Simulasi 308,Makanan,47196,236,Mitra Dagang,Y
+309,SKU00309,Produk Simulasi 309,Minuman,47333,253,Global Retail,Y
+310,SKU00310,Produk Simulasi 310,Kesehatan,47470,270,Nusantara Supply,Y
+311,SKU00311,Produk Simulasi 311,Hobi,47607,287,Cipta Grosir,Y
+312,SKU00312,Produk Simulasi 312,Elektronik,47744,304,Sinar Distribusi,N
+313,SKU00313,Produk Simulasi 313,Rumah Tangga,47881,321,Mitra Dagang,Y
+314,SKU00314,Produk Simulasi 314,Fashion,48018,338,Global Retail,Y
+315,SKU00315,Produk Simulasi 315,ATK,48155,355,Nusantara Supply,Y
+316,SKU00316,Produk Simulasi 316,Makanan,48292,372,Cipta Grosir,Y
+317,SKU00317,Produk Simulasi 317,Minuman,48429,389,Sinar Distribusi,Y
+318,SKU00318,Produk Simulasi 318,Kesehatan,48566,406,Mitra Dagang,Y
+319,SKU00319,Produk Simulasi 319,Hobi,48703,423,Global Retail,Y
+320,SKU00320,Produk Simulasi 320,Elektronik,48840,440,Nusantara Supply,Y
+321,SKU00321,Produk Simulasi 321,Rumah Tangga,48977,457,Cipta Grosir,Y
+322,SKU00322,Produk Simulasi 322,Fashion,49114,474,Sinar Distribusi,Y
+323,SKU00323,Produk Simulasi 323,ATK,49251,491,Mitra Dagang,Y
+324,SKU00324,Produk Simulasi 324,Makanan,49388,8,Global Retail,Y
+325,SKU00325,Produk Simulasi 325,Minuman,49525,25,Nusantara Supply,N
+326,SKU00326,Produk Simulasi 326,Kesehatan,49662,42,Cipta Grosir,Y
+327,SKU00327,Produk Simulasi 327,Hobi,49799,59,Sinar Distribusi,Y
+328,SKU00328,Produk Simulasi 328,Elektronik,49936,76,Mitra Dagang,Y
+329,SKU00329,Produk Simulasi 329,Rumah Tangga,50073,93,Global Retail,Y
+330,SKU00330,Produk Simulasi 330,Fashion,50210,110,Nusantara Supply,Y
+331,SKU00331,Produk Simulasi 331,ATK,50347,127,Cipta Grosir,Y
+332,SKU00332,Produk Simulasi 332,Makanan,50484,144,Sinar Distribusi,Y
+333,SKU00333,Produk Simulasi 333,Minuman,50621,161,Mitra Dagang,Y
+334,SKU00334,Produk Simulasi 334,Kesehatan,50758,178,Global Retail,Y
+335,SKU00335,Produk Simulasi 335,Hobi,50895,195,Nusantara Supply,Y
+336,SKU00336,Produk Simulasi 336,Elektronik,51032,212,Cipta Grosir,Y
+337,SKU00337,Produk Simulasi 337,Rumah Tangga,51169,229,Sinar Distribusi,Y
+338,SKU00338,Produk Simulasi 338,Fashion,51306,246,Mitra Dagang,N
+339,SKU00339,Produk Simulasi 339,ATK,51443,263,Global Retail,Y
+340,SKU00340,Produk Simulasi 340,Makanan,51580,280,Nusantara Supply,Y
+341,SKU00341,Produk Simulasi 341,Minuman,51717,297,Cipta Grosir,Y
+342,SKU00342,Produk Simulasi 342,Kesehatan,51854,314,Sinar Distribusi,Y
+343,SKU00343,Produk Simulasi 343,Hobi,51991,331,Mitra Dagang,Y
+344,SKU00344,Produk Simulasi 344,Elektronik,52128,348,Global Retail,Y
+345,SKU00345,Produk Simulasi 345,Rumah Tangga,52265,365,Nusantara Supply,Y
+346,SKU00346,Produk Simulasi 346,Fashion,52402,382,Cipta Grosir,Y
+347,SKU00347,Produk Simulasi 347,ATK,52539,399,Sinar Distribusi,Y
+348,SKU00348,Produk Simulasi 348,Makanan,52676,416,Mitra Dagang,Y
+349,SKU00349,Produk Simulasi 349,Minuman,52813,433,Global Retail,Y
+350,SKU00350,Produk Simulasi 350,Kesehatan,52950,450,Nusantara Supply,Y
+351,SKU00351,Produk Simulasi 351,Hobi,53087,467,Cipta Grosir,N
+352,SKU00352,Produk Simulasi 352,Elektronik,53224,484,Sinar Distribusi,Y
+353,SKU00353,Produk Simulasi 353,Rumah Tangga,53361,1,Mitra Dagang,Y
+354,SKU00354,Produk Simulasi 354,Fashion,53498,18,Global Retail,Y
+355,SKU00355,Produk Simulasi 355,ATK,53635,35,Nusantara Supply,Y
+356,SKU00356,Produk Simulasi 356,Makanan,53772,52,Cipta Grosir,Y
+357,SKU00357,Produk Simulasi 357,Minuman,53909,69,Sinar Distribusi,Y
+358,SKU00358,Produk Simulasi 358,Kesehatan,54046,86,Mitra Dagang,Y
+359,SKU00359,Produk Simulasi 359,Hobi,54183,103,Global Retail,Y
+360,SKU00360,Produk Simulasi 360,Elektronik,54320,120,Nusantara Supply,Y
+361,SKU00361,Produk Simulasi 361,Rumah Tangga,54457,137,Cipta Grosir,Y
+362,SKU00362,Produk Simulasi 362,Fashion,54594,154,Sinar Distribusi,Y
+363,SKU00363,Produk Simulasi 363,ATK,54731,171,Mitra Dagang,Y
+364,SKU00364,Produk Simulasi 364,Makanan,54868,188,Global Retail,N
+365,SKU00365,Produk Simulasi 365,Minuman,55005,205,Nusantara Supply,Y
+366,SKU00366,Produk Simulasi 366,Kesehatan,55142,222,Cipta Grosir,Y
+367,SKU00367,Produk Simulasi 367,Hobi,55279,239,Sinar Distribusi,Y
+368,SKU00368,Produk Simulasi 368,Elektronik,55416,256,Mitra Dagang,Y
+369,SKU00369,Produk Simulasi 369,Rumah Tangga,55553,273,Global Retail,Y
+370,SKU00370,Produk Simulasi 370,Fashion,55690,290,Nusantara Supply,Y
+371,SKU00371,Produk Simulasi 371,ATK,55827,307,Cipta Grosir,Y
+372,SKU00372,Produk Simulasi 372,Makanan,55964,324,Sinar Distribusi,Y
+373,SKU00373,Produk Simulasi 373,Minuman,56101,341,Mitra Dagang,Y
+374,SKU00374,Produk Simulasi 374,Kesehatan,56238,358,Global Retail,Y
+375,SKU00375,Produk Simulasi 375,Hobi,56375,375,Nusantara Supply,Y
+376,SKU00376,Produk Simulasi 376,Elektronik,56512,392,Cipta Grosir,Y
+377,SKU00377,Produk Simulasi 377,Rumah Tangga,56649,409,Sinar Distribusi,N
+378,SKU00378,Produk Simulasi 378,Fashion,56786,426,Mitra Dagang,Y
+379,SKU00379,Produk Simulasi 379,ATK,56923,443,Global Retail,Y
+380,SKU00380,Produk Simulasi 380,Makanan,57060,460,Nusantara Supply,Y
+381,SKU00381,Produk Simulasi 381,Minuman,57197,477,Cipta Grosir,Y
+382,SKU00382,Produk Simulasi 382,Kesehatan,57334,494,Sinar Distribusi,Y
+383,SKU00383,Produk Simulasi 383,Hobi,57471,11,Mitra Dagang,Y
+384,SKU00384,Produk Simulasi 384,Elektronik,57608,28,Global Retail,Y
+385,SKU00385,Produk Simulasi 385,Rumah Tangga,57745,45,Nusantara Supply,Y
+386,SKU00386,Produk Simulasi 386,Fashion,57882,62,Cipta Grosir,Y
+387,SKU00387,Produk Simulasi 387,ATK,58019,79,Sinar Distribusi,Y
+388,SKU00388,Produk Simulasi 388,Makanan,58156,96,Mitra Dagang,Y
+389,SKU00389,Produk Simulasi 389,Minuman,58293,113,Global Retail,Y
+390,SKU00390,Produk Simulasi 390,Kesehatan,58430,130,Nusantara Supply,N
+391,SKU00391,Produk Simulasi 391,Hobi,58567,147,Cipta Grosir,Y
+392,SKU00392,Produk Simulasi 392,Elektronik,58704,164,Sinar Distribusi,Y
+393,SKU00393,Produk Simulasi 393,Rumah Tangga,58841,181,Mitra Dagang,Y
+394,SKU00394,Produk Simulasi 394,Fashion,58978,198,Global Retail,Y
+395,SKU00395,Produk Simulasi 395,ATK,59115,215,Nusantara Supply,Y
+396,SKU00396,Produk Simulasi 396,Makanan,59252,232,Cipta Grosir,Y
+397,SKU00397,Produk Simulasi 397,Minuman,59389,249,Sinar Distribusi,Y
+398,SKU00398,Produk Simulasi 398,Kesehatan,59526,266,Mitra Dagang,Y
+399,SKU00399,Produk Simulasi 399,Hobi,59663,283,Global Retail,Y
+400,SKU00400,Produk Simulasi 400,Elektronik,59800,300,Nusantara Supply,Y
+401,SKU00401,Produk Simulasi 401,Rumah Tangga,59937,317,Cipta Grosir,Y
+402,SKU00402,Produk Simulasi 402,Fashion,60074,334,Sinar Distribusi,Y
+403,SKU00403,Produk Simulasi 403,ATK,60211,351,Mitra Dagang,N
+404,SKU00404,Produk Simulasi 404,Makanan,60348,368,Global Retail,Y
+405,SKU00405,Produk Simulasi 405,Minuman,60485,385,Nusantara Supply,Y
+406,SKU00406,Produk Simulasi 406,Kesehatan,60622,402,Cipta Grosir,Y
+407,SKU00407,Produk Simulasi 407,Hobi,60759,419,Sinar Distribusi,Y
+408,SKU00408,Produk Simulasi 408,Elektronik,60896,436,Mitra Dagang,Y
+409,SKU00409,Produk Simulasi 409,Rumah Tangga,61033,453,Global Retail,Y
+410,SKU00410,Produk Simulasi 410,Fashion,61170,470,Nusantara Supply,Y
+411,SKU00411,Produk Simulasi 411,ATK,61307,487,Cipta Grosir,Y
+412,SKU00412,Produk Simulasi 412,Makanan,61444,4,Sinar Distribusi,Y
+413,SKU00413,Produk Simulasi 413,Minuman,61581,21,Mitra Dagang,Y
+414,SKU00414,Produk Simulasi 414,Kesehatan,61718,38,Global Retail,Y
+415,SKU00415,Produk Simulasi 415,Hobi,61855,55,Nusantara Supply,Y
+416,SKU00416,Produk Simulasi 416,Elektronik,61992,72,Cipta Grosir,N
+417,SKU00417,Produk Simulasi 417,Rumah Tangga,62129,89,Sinar Distribusi,Y
+418,SKU00418,Produk Simulasi 418,Fashion,62266,106,Mitra Dagang,Y
+419,SKU00419,Produk Simulasi 419,ATK,62403,123,Global Retail,Y
+420,SKU00420,Produk Simulasi 420,Makanan,62540,140,Nusantara Supply,Y
+421,SKU00421,Produk Simulasi 421,Minuman,62677,157,Cipta Grosir,Y
+422,SKU00422,Produk Simulasi 422,Kesehatan,62814,174,Sinar Distribusi,Y
+423,SKU00423,Produk Simulasi 423,Hobi,62951,191,Mitra Dagang,Y
+424,SKU00424,Produk Simulasi 424,Elektronik,63088,208,Global Retail,Y
+425,SKU00425,Produk Simulasi 425,Rumah Tangga,63225,225,Nusantara Supply,Y
+426,SKU00426,Produk Simulasi 426,Fashion,63362,242,Cipta Grosir,Y
+427,SKU00427,Produk Simulasi 427,ATK,63499,259,Sinar Distribusi,Y
+428,SKU00428,Produk Simulasi 428,Makanan,63636,276,Mitra Dagang,Y
+429,SKU00429,Produk Simulasi 429,Minuman,63773,293,Global Retail,N
+430,SKU00430,Produk Simulasi 430,Kesehatan,63910,310,Nusantara Supply,Y
+431,SKU00431,Produk Simulasi 431,Hobi,64047,327,Cipta Grosir,Y
+432,SKU00432,Produk Simulasi 432,Elektronik,64184,344,Sinar Distribusi,Y
+433,SKU00433,Produk Simulasi 433,Rumah Tangga,64321,361,Mitra Dagang,Y
+434,SKU00434,Produk Simulasi 434,Fashion,64458,378,Global Retail,Y
+435,SKU00435,Produk Simulasi 435,ATK,64595,395,Nusantara Supply,Y
+436,SKU00436,Produk Simulasi 436,Makanan,64732,412,Cipta Grosir,Y
+437,SKU00437,Produk Simulasi 437,Minuman,64869,429,Sinar Distribusi,Y
+438,SKU00438,Produk Simulasi 438,Kesehatan,65006,446,Mitra Dagang,Y
+439,SKU00439,Produk Simulasi 439,Hobi,65143,463,Global Retail,Y
+440,SKU00440,Produk Simulasi 440,Elektronik,65280,480,Nusantara Supply,Y
+441,SKU00441,Produk Simulasi 441,Rumah Tangga,65417,497,Cipta Grosir,Y
+442,SKU00442,Produk Simulasi 442,Fashion,65554,14,Sinar Distribusi,N
+443,SKU00443,Produk Simulasi 443,ATK,65691,31,Mitra Dagang,Y
+444,SKU00444,Produk Simulasi 444,Makanan,65828,48,Global Retail,Y
+445,SKU00445,Produk Simulasi 445,Minuman,65965,65,Nusantara Supply,Y
+446,SKU00446,Produk Simulasi 446,Kesehatan,66102,82,Cipta Grosir,Y
+447,SKU00447,Produk Simulasi 447,Hobi,66239,99,Sinar Distribusi,Y
+448,SKU00448,Produk Simulasi 448,Elektronik,66376,116,Mitra Dagang,Y
+449,SKU00449,Produk Simulasi 449,Rumah Tangga,66513,133,Global Retail,Y
+450,SKU00450,Produk Simulasi 450,Fashion,66650,150,Nusantara Supply,Y
+451,SKU00451,Produk Simulasi 451,ATK,66787,167,Cipta Grosir,Y
+452,SKU00452,Produk Simulasi 452,Makanan,66924,184,Sinar Distribusi,Y
+453,SKU00453,Produk Simulasi 453,Minuman,67061,201,Mitra Dagang,Y
+454,SKU00454,Produk Simulasi 454,Kesehatan,67198,218,Global Retail,Y
+455,SKU00455,Produk Simulasi 455,Hobi,67335,235,Nusantara Supply,N
+456,SKU00456,Produk Simulasi 456,Elektronik,67472,252,Cipta Grosir,Y
+457,SKU00457,Produk Simulasi 457,Rumah Tangga,67609,269,Sinar Distribusi,Y
+458,SKU00458,Produk Simulasi 458,Fashion,67746,286,Mitra Dagang,Y
+459,SKU00459,Produk Simulasi 459,ATK,67883,303,Global Retail,Y
+460,SKU00460,Produk Simulasi 460,Makanan,68020,320,Nusantara Supply,Y
+461,SKU00461,Produk Simulasi 461,Minuman,68157,337,Cipta Grosir,Y
+462,SKU00462,Produk Simulasi 462,Kesehatan,68294,354,Sinar Distribusi,Y
+463,SKU00463,Produk Simulasi 463,Hobi,68431,371,Mitra Dagang,Y
+464,SKU00464,Produk Simulasi 464,Elektronik,68568,388,Global Retail,Y
+465,SKU00465,Produk Simulasi 465,Rumah Tangga,68705,405,Nusantara Supply,Y
+466,SKU00466,Produk Simulasi 466,Fashion,68842,422,Cipta Grosir,Y
+467,SKU00467,Produk Simulasi 467,ATK,68979,439,Sinar Distribusi,Y
+468,SKU00468,Produk Simulasi 468,Makanan,69116,456,Mitra Dagang,N
+469,SKU00469,Produk Simulasi 469,Minuman,69253,473,Global Retail,Y
+470,SKU00470,Produk Simulasi 470,Kesehatan,69390,490,Nusantara Supply,Y
+471,SKU00471,Produk Simulasi 471,Hobi,69527,7,Cipta Grosir,Y
+472,SKU00472,Produk Simulasi 472,Elektronik,69664,24,Sinar Distribusi,Y
+473,SKU00473,Produk Simulasi 473,Rumah Tangga,69801,41,Mitra Dagang,Y
+474,SKU00474,Produk Simulasi 474,Fashion,69938,58,Global Retail,Y
+475,SKU00475,Produk Simulasi 475,ATK,70075,75,Nusantara Supply,Y
+476,SKU00476,Produk Simulasi 476,Makanan,70212,92,Cipta Grosir,Y
+477,SKU00477,Produk Simulasi 477,Minuman,70349,109,Sinar Distribusi,Y
+478,SKU00478,Produk Simulasi 478,Kesehatan,70486,126,Mitra Dagang,Y
+479,SKU00479,Produk Simulasi 479,Hobi,70623,143,Global Retail,Y
+480,SKU00480,Produk Simulasi 480,Elektronik,70760,160,Nusantara Supply,Y
+481,SKU00481,Produk Simulasi 481,Rumah Tangga,70897,177,Cipta Grosir,N
+482,SKU00482,Produk Simulasi 482,Fashion,71034,194,Sinar Distribusi,Y
+483,SKU00483,Produk Simulasi 483,ATK,71171,211,Mitra Dagang,Y
+484,SKU00484,Produk Simulasi 484,Makanan,71308,228,Global Retail,Y
+485,SKU00485,Produk Simulasi 485,Minuman,71445,245,Nusantara Supply,Y
+486,SKU00486,Produk Simulasi 486,Kesehatan,71582,262,Cipta Grosir,Y
+487,SKU00487,Produk Simulasi 487,Hobi,71719,279,Sinar Distribusi,Y
+488,SKU00488,Produk Simulasi 488,Elektronik,71856,296,Mitra Dagang,Y
+489,SKU00489,Produk Simulasi 489,Rumah Tangga,71993,313,Global Retail,Y
+490,SKU00490,Produk Simulasi 490,Fashion,72130,330,Nusantara Supply,Y
+491,SKU00491,Produk Simulasi 491,ATK,72267,347,Cipta Grosir,Y
+492,SKU00492,Produk Simulasi 492,Makanan,72404,364,Sinar Distribusi,Y
+493,SKU00493,Produk Simulasi 493,Minuman,72541,381,Mitra Dagang,Y
+494,SKU00494,Produk Simulasi 494,Kesehatan,72678,398,Global Retail,N
+495,SKU00495,Produk Simulasi 495,Hobi,72815,415,Nusantara Supply,Y
+496,SKU00496,Produk Simulasi 496,Elektronik,72952,432,Cipta Grosir,Y
+497,SKU00497,Produk Simulasi 497,Rumah Tangga,73089,449,Sinar Distribusi,Y
+498,SKU00498,Produk Simulasi 498,Fashion,73226,466,Mitra Dagang,Y
+499,SKU00499,Produk Simulasi 499,ATK,73363,483,Global Retail,Y
+500,SKU00500,Produk Simulasi 500,Makanan,73500,0,Nusantara Supply,Y
+501,SKU00501,Produk Simulasi 501,Minuman,73637,17,Cipta Grosir,Y
+502,SKU00502,Produk Simulasi 502,Kesehatan,73774,34,Sinar Distribusi,Y
+503,SKU00503,Produk Simulasi 503,Hobi,73911,51,Mitra Dagang,Y
+504,SKU00504,Produk Simulasi 504,Elektronik,74048,68,Global Retail,Y
+505,SKU00505,Produk Simulasi 505,Rumah Tangga,74185,85,Nusantara Supply,Y
+506,SKU00506,Produk Simulasi 506,Fashion,74322,102,Cipta Grosir,Y
+507,SKU00507,Produk Simulasi 507,ATK,74459,119,Sinar Distribusi,N
+508,SKU00508,Produk Simulasi 508,Makanan,74596,136,Mitra Dagang,Y
+509,SKU00509,Produk Simulasi 509,Minuman,74733,153,Global Retail,Y
+510,SKU00510,Produk Simulasi 510,Kesehatan,74870,170,Nusantara Supply,Y
+511,SKU00511,Produk Simulasi 511,Hobi,75007,187,Cipta Grosir,Y
+512,SKU00512,Produk Simulasi 512,Elektronik,75144,204,Sinar Distribusi,Y
+513,SKU00513,Produk Simulasi 513,Rumah Tangga,75281,221,Mitra Dagang,Y
+514,SKU00514,Produk Simulasi 514,Fashion,75418,238,Global Retail,Y
+515,SKU00515,Produk Simulasi 515,ATK,75555,255,Nusantara Supply,Y
+516,SKU00516,Produk Simulasi 516,Makanan,75692,272,Cipta Grosir,Y
+517,SKU00517,Produk Simulasi 517,Minuman,75829,289,Sinar Distribusi,Y
+518,SKU00518,Produk Simulasi 518,Kesehatan,75966,306,Mitra Dagang,Y
+519,SKU00519,Produk Simulasi 519,Hobi,76103,323,Global Retail,Y
+520,SKU00520,Produk Simulasi 520,Elektronik,76240,340,Nusantara Supply,N
+521,SKU00521,Produk Simulasi 521,Rumah Tangga,76377,357,Cipta Grosir,Y
+522,SKU00522,Produk Simulasi 522,Fashion,76514,374,Sinar Distribusi,Y
+523,SKU00523,Produk Simulasi 523,ATK,76651,391,Mitra Dagang,Y
+524,SKU00524,Produk Simulasi 524,Makanan,76788,408,Global Retail,Y
+525,SKU00525,Produk Simulasi 525,Minuman,76925,425,Nusantara Supply,Y
+526,SKU00526,Produk Simulasi 526,Kesehatan,77062,442,Cipta Grosir,Y
+527,SKU00527,Produk Simulasi 527,Hobi,77199,459,Sinar Distribusi,Y
+528,SKU00528,Produk Simulasi 528,Elektronik,77336,476,Mitra Dagang,Y
+529,SKU00529,Produk Simulasi 529,Rumah Tangga,77473,493,Global Retail,Y
+530,SKU00530,Produk Simulasi 530,Fashion,77610,10,Nusantara Supply,Y
+531,SKU00531,Produk Simulasi 531,ATK,77747,27,Cipta Grosir,Y
+532,SKU00532,Produk Simulasi 532,Makanan,77884,44,Sinar Distribusi,Y
+533,SKU00533,Produk Simulasi 533,Minuman,78021,61,Mitra Dagang,N
+534,SKU00534,Produk Simulasi 534,Kesehatan,78158,78,Global Retail,Y
+535,SKU00535,Produk Simulasi 535,Hobi,78295,95,Nusantara Supply,Y
+536,SKU00536,Produk Simulasi 536,Elektronik,78432,112,Cipta Grosir,Y
+537,SKU00537,Produk Simulasi 537,Rumah Tangga,78569,129,Sinar Distribusi,Y
+538,SKU00538,Produk Simulasi 538,Fashion,78706,146,Mitra Dagang,Y
+539,SKU00539,Produk Simulasi 539,ATK,78843,163,Global Retail,Y
+540,SKU00540,Produk Simulasi 540,Makanan,78980,180,Nusantara Supply,Y
+541,SKU00541,Produk Simulasi 541,Minuman,79117,197,Cipta Grosir,Y
+542,SKU00542,Produk Simulasi 542,Kesehatan,79254,214,Sinar Distribusi,Y
+543,SKU00543,Produk Simulasi 543,Hobi,79391,231,Mitra Dagang,Y
+544,SKU00544,Produk Simulasi 544,Elektronik,79528,248,Global Retail,Y
+545,SKU00545,Produk Simulasi 545,Rumah Tangga,79665,265,Nusantara Supply,Y
+546,SKU00546,Produk Simulasi 546,Fashion,79802,282,Cipta Grosir,N
+547,SKU00547,Produk Simulasi 547,ATK,79939,299,Sinar Distribusi,Y
+548,SKU00548,Produk Simulasi 548,Makanan,80076,316,Mitra Dagang,Y
+549,SKU00549,Produk Simulasi 549,Minuman,80213,333,Global Retail,Y
+550,SKU00550,Produk Simulasi 550,Kesehatan,80350,350,Nusantara Supply,Y
+551,SKU00551,Produk Simulasi 551,Hobi,80487,367,Cipta Grosir,Y
+552,SKU00552,Produk Simulasi 552,Elektronik,80624,384,Sinar Distribusi,Y
+553,SKU00553,Produk Simulasi 553,Rumah Tangga,80761,401,Mitra Dagang,Y
+554,SKU00554,Produk Simulasi 554,Fashion,80898,418,Global Retail,Y
+555,SKU00555,Produk Simulasi 555,ATK,81035,435,Nusantara Supply,Y
+556,SKU00556,Produk Simulasi 556,Makanan,81172,452,Cipta Grosir,Y
+557,SKU00557,Produk Simulasi 557,Minuman,81309,469,Sinar Distribusi,Y
+558,SKU00558,Produk Simulasi 558,Kesehatan,81446,486,Mitra Dagang,Y
+559,SKU00559,Produk Simulasi 559,Hobi,81583,3,Global Retail,N
+560,SKU00560,Produk Simulasi 560,Elektronik,81720,20,Nusantara Supply,Y
+561,SKU00561,Produk Simulasi 561,Rumah Tangga,81857,37,Cipta Grosir,Y
+562,SKU00562,Produk Simulasi 562,Fashion,81994,54,Sinar Distribusi,Y
+563,SKU00563,Produk Simulasi 563,ATK,82131,71,Mitra Dagang,Y
+564,SKU00564,Produk Simulasi 564,Makanan,82268,88,Global Retail,Y
+565,SKU00565,Produk Simulasi 565,Minuman,82405,105,Nusantara Supply,Y
+566,SKU00566,Produk Simulasi 566,Kesehatan,82542,122,Cipta Grosir,Y
+567,SKU00567,Produk Simulasi 567,Hobi,82679,139,Sinar Distribusi,Y
+568,SKU00568,Produk Simulasi 568,Elektronik,82816,156,Mitra Dagang,Y
+569,SKU00569,Produk Simulasi 569,Rumah Tangga,82953,173,Global Retail,Y
+570,SKU00570,Produk Simulasi 570,Fashion,83090,190,Nusantara Supply,Y
+571,SKU00571,Produk Simulasi 571,ATK,83227,207,Cipta Grosir,Y
+572,SKU00572,Produk Simulasi 572,Makanan,83364,224,Sinar Distribusi,N
+573,SKU00573,Produk Simulasi 573,Minuman,83501,241,Mitra Dagang,Y
+574,SKU00574,Produk Simulasi 574,Kesehatan,83638,258,Global Retail,Y
+575,SKU00575,Produk Simulasi 575,Hobi,83775,275,Nusantara Supply,Y
+576,SKU00576,Produk Simulasi 576,Elektronik,83912,292,Cipta Grosir,Y
+577,SKU00577,Produk Simulasi 577,Rumah Tangga,84049,309,Sinar Distribusi,Y
+578,SKU00578,Produk Simulasi 578,Fashion,84186,326,Mitra Dagang,Y
+579,SKU00579,Produk Simulasi 579,ATK,84323,343,Global Retail,Y
+580,SKU00580,Produk Simulasi 580,Makanan,84460,360,Nusantara Supply,Y
+581,SKU00581,Produk Simulasi 581,Minuman,84597,377,Cipta Grosir,Y
+582,SKU00582,Produk Simulasi 582,Kesehatan,84734,394,Sinar Distribusi,Y
+583,SKU00583,Produk Simulasi 583,Hobi,84871,411,Mitra Dagang,Y
+584,SKU00584,Produk Simulasi 584,Elektronik,85008,428,Global Retail,Y
+585,SKU00585,Produk Simulasi 585,Rumah Tangga,85145,445,Nusantara Supply,N
+586,SKU00586,Produk Simulasi 586,Fashion,85282,462,Cipta Grosir,Y
+587,SKU00587,Produk Simulasi 587,ATK,85419,479,Sinar Distribusi,Y
+588,SKU00588,Produk Simulasi 588,Makanan,85556,496,Mitra Dagang,Y
+589,SKU00589,Produk Simulasi 589,Minuman,85693,13,Global Retail,Y
+590,SKU00590,Produk Simulasi 590,Kesehatan,85830,30,Nusantara Supply,Y
+591,SKU00591,Produk Simulasi 591,Hobi,85967,47,Cipta Grosir,Y
+592,SKU00592,Produk Simulasi 592,Elektronik,86104,64,Sinar Distribusi,Y
+593,SKU00593,Produk Simulasi 593,Rumah Tangga,86241,81,Mitra Dagang,Y
+594,SKU00594,Produk Simulasi 594,Fashion,86378,98,Global Retail,Y
+595,SKU00595,Produk Simulasi 595,ATK,86515,115,Nusantara Supply,Y
+596,SKU00596,Produk Simulasi 596,Makanan,86652,132,Cipta Grosir,Y
+597,SKU00597,Produk Simulasi 597,Minuman,86789,149,Sinar Distribusi,Y
+598,SKU00598,Produk Simulasi 598,Kesehatan,86926,166,Mitra Dagang,N
+599,SKU00599,Produk Simulasi 599,Hobi,87063,183,Global Retail,Y
+600,SKU00600,Produk Simulasi 600,Elektronik,87200,200,Nusantara Supply,Y
+601,SKU00601,Produk Simulasi 601,Rumah Tangga,87337,217,Cipta Grosir,Y
+602,SKU00602,Produk Simulasi 602,Fashion,87474,234,Sinar Distribusi,Y
+603,SKU00603,Produk Simulasi 603,ATK,87611,251,Mitra Dagang,Y
+604,SKU00604,Produk Simulasi 604,Makanan,87748,268,Global Retail,Y
+605,SKU00605,Produk Simulasi 605,Minuman,87885,285,Nusantara Supply,Y
+606,SKU00606,Produk Simulasi 606,Kesehatan,88022,302,Cipta Grosir,Y
+607,SKU00607,Produk Simulasi 607,Hobi,88159,319,Sinar Distribusi,Y
+608,SKU00608,Produk Simulasi 608,Elektronik,88296,336,Mitra Dagang,Y
+609,SKU00609,Produk Simulasi 609,Rumah Tangga,88433,353,Global Retail,Y
+610,SKU00610,Produk Simulasi 610,Fashion,88570,370,Nusantara Supply,Y
+611,SKU00611,Produk Simulasi 611,ATK,88707,387,Cipta Grosir,N
+612,SKU00612,Produk Simulasi 612,Makanan,88844,404,Sinar Distribusi,Y
+613,SKU00613,Produk Simulasi 613,Minuman,88981,421,Mitra Dagang,Y
+614,SKU00614,Produk Simulasi 614,Kesehatan,89118,438,Global Retail,Y
+615,SKU00615,Produk Simulasi 615,Hobi,89255,455,Nusantara Supply,Y
+616,SKU00616,Produk Simulasi 616,Elektronik,89392,472,Cipta Grosir,Y
+617,SKU00617,Produk Simulasi 617,Rumah Tangga,89529,489,Sinar Distribusi,Y
+618,SKU00618,Produk Simulasi 618,Fashion,89666,6,Mitra Dagang,Y
+619,SKU00619,Produk Simulasi 619,ATK,89803,23,Global Retail,Y
+620,SKU00620,Produk Simulasi 620,Makanan,89940,40,Nusantara Supply,Y
+621,SKU00621,Produk Simulasi 621,Minuman,90077,57,Cipta Grosir,Y
+622,SKU00622,Produk Simulasi 622,Kesehatan,90214,74,Sinar Distribusi,Y
+623,SKU00623,Produk Simulasi 623,Hobi,90351,91,Mitra Dagang,Y
+624,SKU00624,Produk Simulasi 624,Elektronik,90488,108,Global Retail,N
+625,SKU00625,Produk Simulasi 625,Rumah Tangga,90625,125,Nusantara Supply,Y
+626,SKU00626,Produk Simulasi 626,Fashion,90762,142,Cipta Grosir,Y
+627,SKU00627,Produk Simulasi 627,ATK,90899,159,Sinar Distribusi,Y
+628,SKU00628,Produk Simulasi 628,Makanan,91036,176,Mitra Dagang,Y
+629,SKU00629,Produk Simulasi 629,Minuman,91173,193,Global Retail,Y
+630,SKU00630,Produk Simulasi 630,Kesehatan,91310,210,Nusantara Supply,Y
+631,SKU00631,Produk Simulasi 631,Hobi,91447,227,Cipta Grosir,Y
+632,SKU00632,Produk Simulasi 632,Elektronik,91584,244,Sinar Distribusi,Y
+633,SKU00633,Produk Simulasi 633,Rumah Tangga,91721,261,Mitra Dagang,Y
+634,SKU00634,Produk Simulasi 634,Fashion,91858,278,Global Retail,Y
+635,SKU00635,Produk Simulasi 635,ATK,91995,295,Nusantara Supply,Y
+636,SKU00636,Produk Simulasi 636,Makanan,92132,312,Cipta Grosir,Y
+637,SKU00637,Produk Simulasi 637,Minuman,92269,329,Sinar Distribusi,N
+638,SKU00638,Produk Simulasi 638,Kesehatan,92406,346,Mitra Dagang,Y
+639,SKU00639,Produk Simulasi 639,Hobi,92543,363,Global Retail,Y
+640,SKU00640,Produk Simulasi 640,Elektronik,92680,380,Nusantara Supply,Y
+641,SKU00641,Produk Simulasi 641,Rumah Tangga,92817,397,Cipta Grosir,Y
+642,SKU00642,Produk Simulasi 642,Fashion,92954,414,Sinar Distribusi,Y
+643,SKU00643,Produk Simulasi 643,ATK,93091,431,Mitra Dagang,Y
+644,SKU00644,Produk Simulasi 644,Makanan,93228,448,Global Retail,Y
+645,SKU00645,Produk Simulasi 645,Minuman,93365,465,Nusantara Supply,Y
+646,SKU00646,Produk Simulasi 646,Kesehatan,93502,482,Cipta Grosir,Y
+647,SKU00647,Produk Simulasi 647,Hobi,93639,499,Sinar Distribusi,Y
+648,SKU00648,Produk Simulasi 648,Elektronik,93776,16,Mitra Dagang,Y
+649,SKU00649,Produk Simulasi 649,Rumah Tangga,93913,33,Global Retail,Y
+650,SKU00650,Produk Simulasi 650,Fashion,94050,50,Nusantara Supply,N
+651,SKU00651,Produk Simulasi 651,ATK,94187,67,Cipta Grosir,Y
+652,SKU00652,Produk Simulasi 652,Makanan,94324,84,Sinar Distribusi,Y
+653,SKU00653,Produk Simulasi 653,Minuman,94461,101,Mitra Dagang,Y
+654,SKU00654,Produk Simulasi 654,Kesehatan,94598,118,Global Retail,Y
+655,SKU00655,Produk Simulasi 655,Hobi,94735,135,Nusantara Supply,Y
+656,SKU00656,Produk Simulasi 656,Elektronik,94872,152,Cipta Grosir,Y
+657,SKU00657,Produk Simulasi 657,Rumah Tangga,95009,169,Sinar Distribusi,Y
+658,SKU00658,Produk Simulasi 658,Fashion,95146,186,Mitra Dagang,Y
+659,SKU00659,Produk Simulasi 659,ATK,95283,203,Global Retail,Y
+660,SKU00660,Produk Simulasi 660,Makanan,95420,220,Nusantara Supply,Y
+661,SKU00661,Produk Simulasi 661,Minuman,95557,237,Cipta Grosir,Y
+662,SKU00662,Produk Simulasi 662,Kesehatan,95694,254,Sinar Distribusi,Y
+663,SKU00663,Produk Simulasi 663,Hobi,95831,271,Mitra Dagang,N
+664,SKU00664,Produk Simulasi 664,Elektronik,95968,288,Global Retail,Y
+665,SKU00665,Produk Simulasi 665,Rumah Tangga,96105,305,Nusantara Supply,Y
+666,SKU00666,Produk Simulasi 666,Fashion,96242,322,Cipta Grosir,Y
+667,SKU00667,Produk Simulasi 667,ATK,96379,339,Sinar Distribusi,Y
+668,SKU00668,Produk Simulasi 668,Makanan,96516,356,Mitra Dagang,Y
+669,SKU00669,Produk Simulasi 669,Minuman,96653,373,Global Retail,Y
+670,SKU00670,Produk Simulasi 670,Kesehatan,96790,390,Nusantara Supply,Y
+671,SKU00671,Produk Simulasi 671,Hobi,96927,407,Cipta Grosir,Y
+672,SKU00672,Produk Simulasi 672,Elektronik,97064,424,Sinar Distribusi,Y
+673,SKU00673,Produk Simulasi 673,Rumah Tangga,97201,441,Mitra Dagang,Y
+674,SKU00674,Produk Simulasi 674,Fashion,97338,458,Global Retail,Y
+675,SKU00675,Produk Simulasi 675,ATK,97475,475,Nusantara Supply,Y
+676,SKU00676,Produk Simulasi 676,Makanan,97612,492,Cipta Grosir,N
+677,SKU00677,Produk Simulasi 677,Minuman,97749,9,Sinar Distribusi,Y
+678,SKU00678,Produk Simulasi 678,Kesehatan,97886,26,Mitra Dagang,Y
+679,SKU00679,Produk Simulasi 679,Hobi,98023,43,Global Retail,Y
+680,SKU00680,Produk Simulasi 680,Elektronik,98160,60,Nusantara Supply,Y
+681,SKU00681,Produk Simulasi 681,Rumah Tangga,98297,77,Cipta Grosir,Y
+682,SKU00682,Produk Simulasi 682,Fashion,98434,94,Sinar Distribusi,Y
+683,SKU00683,Produk Simulasi 683,ATK,98571,111,Mitra Dagang,Y
+684,SKU00684,Produk Simulasi 684,Makanan,98708,128,Global Retail,Y
+685,SKU00685,Produk Simulasi 685,Minuman,98845,145,Nusantara Supply,Y
+686,SKU00686,Produk Simulasi 686,Kesehatan,98982,162,Cipta Grosir,Y
+687,SKU00687,Produk Simulasi 687,Hobi,99119,179,Sinar Distribusi,Y
+688,SKU00688,Produk Simulasi 688,Elektronik,99256,196,Mitra Dagang,Y
+689,SKU00689,Produk Simulasi 689,Rumah Tangga,99393,213,Global Retail,N
+690,SKU00690,Produk Simulasi 690,Fashion,99530,230,Nusantara Supply,Y
+691,SKU00691,Produk Simulasi 691,ATK,99667,247,Cipta Grosir,Y
+692,SKU00692,Produk Simulasi 692,Makanan,99804,264,Sinar Distribusi,Y
+693,SKU00693,Produk Simulasi 693,Minuman,99941,281,Mitra Dagang,Y
+694,SKU00694,Produk Simulasi 694,Kesehatan,100078,298,Global Retail,Y
+695,SKU00695,Produk Simulasi 695,Hobi,100215,315,Nusantara Supply,Y
+696,SKU00696,Produk Simulasi 696,Elektronik,100352,332,Cipta Grosir,Y
+697,SKU00697,Produk Simulasi 697,Rumah Tangga,100489,349,Sinar Distribusi,Y
+698,SKU00698,Produk Simulasi 698,Fashion,100626,366,Mitra Dagang,Y
+699,SKU00699,Produk Simulasi 699,ATK,100763,383,Global Retail,Y
+700,SKU00700,Produk Simulasi 700,Makanan,100900,400,Nusantara Supply,Y
+701,SKU00701,Produk Simulasi 701,Minuman,101037,417,Cipta Grosir,Y
+702,SKU00702,Produk Simulasi 702,Kesehatan,101174,434,Sinar Distribusi,N
+703,SKU00703,Produk Simulasi 703,Hobi,101311,451,Mitra Dagang,Y
+704,SKU00704,Produk Simulasi 704,Elektronik,101448,468,Global Retail,Y
+705,SKU00705,Produk Simulasi 705,Rumah Tangga,101585,485,Nusantara Supply,Y
+706,SKU00706,Produk Simulasi 706,Fashion,101722,2,Cipta Grosir,Y
+707,SKU00707,Produk Simulasi 707,ATK,101859,19,Sinar Distribusi,Y
+708,SKU00708,Produk Simulasi 708,Makanan,101996,36,Mitra Dagang,Y
+709,SKU00709,Produk Simulasi 709,Minuman,102133,53,Global Retail,Y
+710,SKU00710,Produk Simulasi 710,Kesehatan,102270,70,Nusantara Supply,Y
+711,SKU00711,Produk Simulasi 711,Hobi,102407,87,Cipta Grosir,Y
+712,SKU00712,Produk Simulasi 712,Elektronik,102544,104,Sinar Distribusi,Y
+713,SKU00713,Produk Simulasi 713,Rumah Tangga,102681,121,Mitra Dagang,Y
+714,SKU00714,Produk Simulasi 714,Fashion,102818,138,Global Retail,Y
+715,SKU00715,Produk Simulasi 715,ATK,102955,155,Nusantara Supply,N
+716,SKU00716,Produk Simulasi 716,Makanan,103092,172,Cipta Grosir,Y
+717,SKU00717,Produk Simulasi 717,Minuman,103229,189,Sinar Distribusi,Y
+718,SKU00718,Produk Simulasi 718,Kesehatan,103366,206,Mitra Dagang,Y
+719,SKU00719,Produk Simulasi 719,Hobi,103503,223,Global Retail,Y
+720,SKU00720,Produk Simulasi 720,Elektronik,103640,240,Nusantara Supply,Y
+721,SKU00721,Produk Simulasi 721,Rumah Tangga,103777,257,Cipta Grosir,Y
+722,SKU00722,Produk Simulasi 722,Fashion,103914,274,Sinar Distribusi,Y
+723,SKU00723,Produk Simulasi 723,ATK,104051,291,Mitra Dagang,Y
+724,SKU00724,Produk Simulasi 724,Makanan,104188,308,Global Retail,Y
+725,SKU00725,Produk Simulasi 725,Minuman,104325,325,Nusantara Supply,Y
+726,SKU00726,Produk Simulasi 726,Kesehatan,104462,342,Cipta Grosir,Y
+727,SKU00727,Produk Simulasi 727,Hobi,104599,359,Sinar Distribusi,Y
+728,SKU00728,Produk Simulasi 728,Elektronik,104736,376,Mitra Dagang,N
+729,SKU00729,Produk Simulasi 729,Rumah Tangga,104873,393,Global Retail,Y
+730,SKU00730,Produk Simulasi 730,Fashion,105010,410,Nusantara Supply,Y
+731,SKU00731,Produk Simulasi 731,ATK,105147,427,Cipta Grosir,Y
+732,SKU00732,Produk Simulasi 732,Makanan,105284,444,Sinar Distribusi,Y
+733,SKU00733,Produk Simulasi 733,Minuman,105421,461,Mitra Dagang,Y
+734,SKU00734,Produk Simulasi 734,Kesehatan,105558,478,Global Retail,Y
+735,SKU00735,Produk Simulasi 735,Hobi,105695,495,Nusantara Supply,Y
+736,SKU00736,Produk Simulasi 736,Elektronik,105832,12,Cipta Grosir,Y
+737,SKU00737,Produk Simulasi 737,Rumah Tangga,105969,29,Sinar Distribusi,Y
+738,SKU00738,Produk Simulasi 738,Fashion,106106,46,Mitra Dagang,Y
+739,SKU00739,Produk Simulasi 739,ATK,106243,63,Global Retail,Y
+740,SKU00740,Produk Simulasi 740,Makanan,106380,80,Nusantara Supply,Y
+741,SKU00741,Produk Simulasi 741,Minuman,106517,97,Cipta Grosir,N
+742,SKU00742,Produk Simulasi 742,Kesehatan,106654,114,Sinar Distribusi,Y
+743,SKU00743,Produk Simulasi 743,Hobi,106791,131,Mitra Dagang,Y
+744,SKU00744,Produk Simulasi 744,Elektronik,106928,148,Global Retail,Y
+745,SKU00745,Produk Simulasi 745,Rumah Tangga,107065,165,Nusantara Supply,Y
+746,SKU00746,Produk Simulasi 746,Fashion,107202,182,Cipta Grosir,Y
+747,SKU00747,Produk Simulasi 747,ATK,107339,199,Sinar Distribusi,Y
+748,SKU00748,Produk Simulasi 748,Makanan,107476,216,Mitra Dagang,Y
+749,SKU00749,Produk Simulasi 749,Minuman,107613,233,Global Retail,Y
+750,SKU00750,Produk Simulasi 750,Kesehatan,107750,250,Nusantara Supply,Y
+751,SKU00751,Produk Simulasi 751,Hobi,107887,267,Cipta Grosir,Y
+752,SKU00752,Produk Simulasi 752,Elektronik,108024,284,Sinar Distribusi,Y
+753,SKU00753,Produk Simulasi 753,Rumah Tangga,108161,301,Mitra Dagang,Y
+754,SKU00754,Produk Simulasi 754,Fashion,108298,318,Global Retail,N
+755,SKU00755,Produk Simulasi 755,ATK,108435,335,Nusantara Supply,Y
+756,SKU00756,Produk Simulasi 756,Makanan,108572,352,Cipta Grosir,Y
+757,SKU00757,Produk Simulasi 757,Minuman,108709,369,Sinar Distribusi,Y
+758,SKU00758,Produk Simulasi 758,Kesehatan,108846,386,Mitra Dagang,Y
+759,SKU00759,Produk Simulasi 759,Hobi,108983,403,Global Retail,Y
+760,SKU00760,Produk Simulasi 760,Elektronik,109120,420,Nusantara Supply,Y
+761,SKU00761,Produk Simulasi 761,Rumah Tangga,109257,437,Cipta Grosir,Y
+762,SKU00762,Produk Simulasi 762,Fashion,109394,454,Sinar Distribusi,Y
+763,SKU00763,Produk Simulasi 763,ATK,109531,471,Mitra Dagang,Y
+764,SKU00764,Produk Simulasi 764,Makanan,109668,488,Global Retail,Y
+765,SKU00765,Produk Simulasi 765,Minuman,109805,5,Nusantara Supply,Y
+766,SKU00766,Produk Simulasi 766,Kesehatan,109942,22,Cipta Grosir,Y
+767,SKU00767,Produk Simulasi 767,Hobi,110079,39,Sinar Distribusi,N
+768,SKU00768,Produk Simulasi 768,Elektronik,110216,56,Mitra Dagang,Y
+769,SKU00769,Produk Simulasi 769,Rumah Tangga,110353,73,Global Retail,Y
+770,SKU00770,Produk Simulasi 770,Fashion,110490,90,Nusantara Supply,Y
+771,SKU00771,Produk Simulasi 771,ATK,110627,107,Cipta Grosir,Y
+772,SKU00772,Produk Simulasi 772,Makanan,110764,124,Sinar Distribusi,Y
+773,SKU00773,Produk Simulasi 773,Minuman,110901,141,Mitra Dagang,Y
+774,SKU00774,Produk Simulasi 774,Kesehatan,111038,158,Global Retail,Y
+775,SKU00775,Produk Simulasi 775,Hobi,111175,175,Nusantara Supply,Y
+776,SKU00776,Produk Simulasi 776,Elektronik,111312,192,Cipta Grosir,Y
+777,SKU00777,Produk Simulasi 777,Rumah Tangga,111449,209,Sinar Distribusi,Y
+778,SKU00778,Produk Simulasi 778,Fashion,111586,226,Mitra Dagang,Y
+779,SKU00779,Produk Simulasi 779,ATK,111723,243,Global Retail,Y
+780,SKU00780,Produk Simulasi 780,Makanan,111860,260,Nusantara Supply,N
+781,SKU00781,Produk Simulasi 781,Minuman,111997,277,Cipta Grosir,Y
+782,SKU00782,Produk Simulasi 782,Kesehatan,112134,294,Sinar Distribusi,Y
+783,SKU00783,Produk Simulasi 783,Hobi,112271,311,Mitra Dagang,Y
+784,SKU00784,Produk Simulasi 784,Elektronik,112408,328,Global Retail,Y
+785,SKU00785,Produk Simulasi 785,Rumah Tangga,112545,345,Nusantara Supply,Y
+786,SKU00786,Produk Simulasi 786,Fashion,112682,362,Cipta Grosir,Y
+787,SKU00787,Produk Simulasi 787,ATK,112819,379,Sinar Distribusi,Y
+788,SKU00788,Produk Simulasi 788,Makanan,112956,396,Mitra Dagang,Y
+789,SKU00789,Produk Simulasi 789,Minuman,113093,413,Global Retail,Y
+790,SKU00790,Produk Simulasi 790,Kesehatan,113230,430,Nusantara Supply,Y
+791,SKU00791,Produk Simulasi 791,Hobi,113367,447,Cipta Grosir,Y
+792,SKU00792,Produk Simulasi 792,Elektronik,113504,464,Sinar Distribusi,Y
+793,SKU00793,Produk Simulasi 793,Rumah Tangga,113641,481,Mitra Dagang,N
+794,SKU00794,Produk Simulasi 794,Fashion,113778,498,Global Retail,Y
+795,SKU00795,Produk Simulasi 795,ATK,113915,15,Nusantara Supply,Y
+796,SKU00796,Produk Simulasi 796,Makanan,114052,32,Cipta Grosir,Y
+797,SKU00797,Produk Simulasi 797,Minuman,114189,49,Sinar Distribusi,Y
+798,SKU00798,Produk Simulasi 798,Kesehatan,114326,66,Mitra Dagang,Y
+799,SKU00799,Produk Simulasi 799,Hobi,114463,83,Global Retail,Y
+800,SKU00800,Produk Simulasi 800,Elektronik,114600,100,Nusantara Supply,Y
+801,SKU00801,Produk Simulasi 801,Rumah Tangga,114737,117,Cipta Grosir,Y
+802,SKU00802,Produk Simulasi 802,Fashion,114874,134,Sinar Distribusi,Y
+803,SKU00803,Produk Simulasi 803,ATK,115011,151,Mitra Dagang,Y
+804,SKU00804,Produk Simulasi 804,Makanan,115148,168,Global Retail,Y
+805,SKU00805,Produk Simulasi 805,Minuman,115285,185,Nusantara Supply,Y
+806,SKU00806,Produk Simulasi 806,Kesehatan,115422,202,Cipta Grosir,N
+807,SKU00807,Produk Simulasi 807,Hobi,115559,219,Sinar Distribusi,Y
+808,SKU00808,Produk Simulasi 808,Elektronik,115696,236,Mitra Dagang,Y
+809,SKU00809,Produk Simulasi 809,Rumah Tangga,115833,253,Global Retail,Y
+810,SKU00810,Produk Simulasi 810,Fashion,115970,270,Nusantara Supply,Y
+811,SKU00811,Produk Simulasi 811,ATK,116107,287,Cipta Grosir,Y
+812,SKU00812,Produk Simulasi 812,Makanan,116244,304,Sinar Distribusi,Y
+813,SKU00813,Produk Simulasi 813,Minuman,116381,321,Mitra Dagang,Y
+814,SKU00814,Produk Simulasi 814,Kesehatan,116518,338,Global Retail,Y
+815,SKU00815,Produk Simulasi 815,Hobi,116655,355,Nusantara Supply,Y
+816,SKU00816,Produk Simulasi 816,Elektronik,116792,372,Cipta Grosir,Y
+817,SKU00817,Produk Simulasi 817,Rumah Tangga,116929,389,Sinar Distribusi,Y
+818,SKU00818,Produk Simulasi 818,Fashion,117066,406,Mitra Dagang,Y
+819,SKU00819,Produk Simulasi 819,ATK,117203,423,Global Retail,N
+820,SKU00820,Produk Simulasi 820,Makanan,117340,440,Nusantara Supply,Y
+821,SKU00821,Produk Simulasi 821,Minuman,117477,457,Cipta Grosir,Y
+822,SKU00822,Produk Simulasi 822,Kesehatan,117614,474,Sinar Distribusi,Y
+823,SKU00823,Produk Simulasi 823,Hobi,117751,491,Mitra Dagang,Y
+824,SKU00824,Produk Simulasi 824,Elektronik,117888,8,Global Retail,Y
+825,SKU00825,Produk Simulasi 825,Rumah Tangga,118025,25,Nusantara Supply,Y
+826,SKU00826,Produk Simulasi 826,Fashion,118162,42,Cipta Grosir,Y
+827,SKU00827,Produk Simulasi 827,ATK,118299,59,Sinar Distribusi,Y
+828,SKU00828,Produk Simulasi 828,Makanan,118436,76,Mitra Dagang,Y
+829,SKU00829,Produk Simulasi 829,Minuman,118573,93,Global Retail,Y
+830,SKU00830,Produk Simulasi 830,Kesehatan,118710,110,Nusantara Supply,Y
+831,SKU00831,Produk Simulasi 831,Hobi,118847,127,Cipta Grosir,Y
+832,SKU00832,Produk Simulasi 832,Elektronik,118984,144,Sinar Distribusi,N
+833,SKU00833,Produk Simulasi 833,Rumah Tangga,119121,161,Mitra Dagang,Y
+834,SKU00834,Produk Simulasi 834,Fashion,119258,178,Global Retail,Y
+835,SKU00835,Produk Simulasi 835,ATK,119395,195,Nusantara Supply,Y
+836,SKU00836,Produk Simulasi 836,Makanan,119532,212,Cipta Grosir,Y
+837,SKU00837,Produk Simulasi 837,Minuman,119669,229,Sinar Distribusi,Y
+838,SKU00838,Produk Simulasi 838,Kesehatan,119806,246,Mitra Dagang,Y
+839,SKU00839,Produk Simulasi 839,Hobi,119943,263,Global Retail,Y
+840,SKU00840,Produk Simulasi 840,Elektronik,120080,280,Nusantara Supply,Y
+841,SKU00841,Produk Simulasi 841,Rumah Tangga,120217,297,Cipta Grosir,Y
+842,SKU00842,Produk Simulasi 842,Fashion,120354,314,Sinar Distribusi,Y
+843,SKU00843,Produk Simulasi 843,ATK,120491,331,Mitra Dagang,Y
+844,SKU00844,Produk Simulasi 844,Makanan,120628,348,Global Retail,Y
+845,SKU00845,Produk Simulasi 845,Minuman,120765,365,Nusantara Supply,N
+846,SKU00846,Produk Simulasi 846,Kesehatan,120902,382,Cipta Grosir,Y
+847,SKU00847,Produk Simulasi 847,Hobi,121039,399,Sinar Distribusi,Y
+848,SKU00848,Produk Simulasi 848,Elektronik,121176,416,Mitra Dagang,Y
+849,SKU00849,Produk Simulasi 849,Rumah Tangga,121313,433,Global Retail,Y
+850,SKU00850,Produk Simulasi 850,Fashion,121450,450,Nusantara Supply,Y
+851,SKU00851,Produk Simulasi 851,ATK,121587,467,Cipta Grosir,Y
+852,SKU00852,Produk Simulasi 852,Makanan,121724,484,Sinar Distribusi,Y
+853,SKU00853,Produk Simulasi 853,Minuman,121861,1,Mitra Dagang,Y
+854,SKU00854,Produk Simulasi 854,Kesehatan,121998,18,Global Retail,Y
+855,SKU00855,Produk Simulasi 855,Hobi,122135,35,Nusantara Supply,Y
+856,SKU00856,Produk Simulasi 856,Elektronik,122272,52,Cipta Grosir,Y
+857,SKU00857,Produk Simulasi 857,Rumah Tangga,122409,69,Sinar Distribusi,Y
+858,SKU00858,Produk Simulasi 858,Fashion,122546,86,Mitra Dagang,N
+859,SKU00859,Produk Simulasi 859,ATK,122683,103,Global Retail,Y
+860,SKU00860,Produk Simulasi 860,Makanan,122820,120,Nusantara Supply,Y
+861,SKU00861,Produk Simulasi 861,Minuman,122957,137,Cipta Grosir,Y
+862,SKU00862,Produk Simulasi 862,Kesehatan,123094,154,Sinar Distribusi,Y
+863,SKU00863,Produk Simulasi 863,Hobi,123231,171,Mitra Dagang,Y
+864,SKU00864,Produk Simulasi 864,Elektronik,123368,188,Global Retail,Y
+865,SKU00865,Produk Simulasi 865,Rumah Tangga,123505,205,Nusantara Supply,Y
+866,SKU00866,Produk Simulasi 866,Fashion,123642,222,Cipta Grosir,Y
+867,SKU00867,Produk Simulasi 867,ATK,123779,239,Sinar Distribusi,Y
+868,SKU00868,Produk Simulasi 868,Makanan,123916,256,Mitra Dagang,Y
+869,SKU00869,Produk Simulasi 869,Minuman,124053,273,Global Retail,Y
+870,SKU00870,Produk Simulasi 870,Kesehatan,124190,290,Nusantara Supply,Y
+871,SKU00871,Produk Simulasi 871,Hobi,124327,307,Cipta Grosir,N
+872,SKU00872,Produk Simulasi 872,Elektronik,124464,324,Sinar Distribusi,Y
+873,SKU00873,Produk Simulasi 873,Rumah Tangga,124601,341,Mitra Dagang,Y
+874,SKU00874,Produk Simulasi 874,Fashion,124738,358,Global Retail,Y
+875,SKU00875,Produk Simulasi 875,ATK,124875,375,Nusantara Supply,Y
+876,SKU00876,Produk Simulasi 876,Makanan,125012,392,Cipta Grosir,Y
+877,SKU00877,Produk Simulasi 877,Minuman,125149,409,Sinar Distribusi,Y
+878,SKU00878,Produk Simulasi 878,Kesehatan,125286,426,Mitra Dagang,Y
+879,SKU00879,Produk Simulasi 879,Hobi,125423,443,Global Retail,Y
+880,SKU00880,Produk Simulasi 880,Elektronik,125560,460,Nusantara Supply,Y
+881,SKU00881,Produk Simulasi 881,Rumah Tangga,125697,477,Cipta Grosir,Y
+882,SKU00882,Produk Simulasi 882,Fashion,125834,494,Sinar Distribusi,Y
+883,SKU00883,Produk Simulasi 883,ATK,125971,11,Mitra Dagang,Y
+884,SKU00884,Produk Simulasi 884,Makanan,126108,28,Global Retail,N
+885,SKU00885,Produk Simulasi 885,Minuman,126245,45,Nusantara Supply,Y
+886,SKU00886,Produk Simulasi 886,Kesehatan,126382,62,Cipta Grosir,Y
+887,SKU00887,Produk Simulasi 887,Hobi,126519,79,Sinar Distribusi,Y
+888,SKU00888,Produk Simulasi 888,Elektronik,126656,96,Mitra Dagang,Y
+889,SKU00889,Produk Simulasi 889,Rumah Tangga,126793,113,Global Retail,Y
+890,SKU00890,Produk Simulasi 890,Fashion,126930,130,Nusantara Supply,Y
+891,SKU00891,Produk Simulasi 891,ATK,127067,147,Cipta Grosir,Y
+892,SKU00892,Produk Simulasi 892,Makanan,127204,164,Sinar Distribusi,Y
+893,SKU00893,Produk Simulasi 893,Minuman,127341,181,Mitra Dagang,Y
+894,SKU00894,Produk Simulasi 894,Kesehatan,127478,198,Global Retail,Y
+895,SKU00895,Produk Simulasi 895,Hobi,127615,215,Nusantara Supply,Y
+896,SKU00896,Produk Simulasi 896,Elektronik,127752,232,Cipta Grosir,Y
+897,SKU00897,Produk Simulasi 897,Rumah Tangga,127889,249,Sinar Distribusi,N
+898,SKU00898,Produk Simulasi 898,Fashion,128026,266,Mitra Dagang,Y
+899,SKU00899,Produk Simulasi 899,ATK,128163,283,Global Retail,Y
+900,SKU00900,Produk Simulasi 900,Makanan,128300,300,Nusantara Supply,Y
+901,SKU00901,Produk Simulasi 901,Minuman,128437,317,Cipta Grosir,Y
+902,SKU00902,Produk Simulasi 902,Kesehatan,128574,334,Sinar Distribusi,Y
+903,SKU00903,Produk Simulasi 903,Hobi,128711,351,Mitra Dagang,Y
+904,SKU00904,Produk Simulasi 904,Elektronik,128848,368,Global Retail,Y
+905,SKU00905,Produk Simulasi 905,Rumah Tangga,128985,385,Nusantara Supply,Y
+906,SKU00906,Produk Simulasi 906,Fashion,129122,402,Cipta Grosir,Y
+907,SKU00907,Produk Simulasi 907,ATK,129259,419,Sinar Distribusi,Y
+908,SKU00908,Produk Simulasi 908,Makanan,129396,436,Mitra Dagang,Y
+909,SKU00909,Produk Simulasi 909,Minuman,129533,453,Global Retail,Y
+910,SKU00910,Produk Simulasi 910,Kesehatan,129670,470,Nusantara Supply,N
+911,SKU00911,Produk Simulasi 911,Hobi,129807,487,Cipta Grosir,Y
+912,SKU00912,Produk Simulasi 912,Elektronik,129944,4,Sinar Distribusi,Y
+913,SKU00913,Produk Simulasi 913,Rumah Tangga,130081,21,Mitra Dagang,Y
+914,SKU00914,Produk Simulasi 914,Fashion,130218,38,Global Retail,Y
+915,SKU00915,Produk Simulasi 915,ATK,130355,55,Nusantara Supply,Y
+916,SKU00916,Produk Simulasi 916,Makanan,130492,72,Cipta Grosir,Y
+917,SKU00917,Produk Simulasi 917,Minuman,130629,89,Sinar Distribusi,Y
+918,SKU00918,Produk Simulasi 918,Kesehatan,130766,106,Mitra Dagang,Y
+919,SKU00919,Produk Simulasi 919,Hobi,130903,123,Global Retail,Y
+920,SKU00920,Produk Simulasi 920,Elektronik,131040,140,Nusantara Supply,Y
+921,SKU00921,Produk Simulasi 921,Rumah Tangga,131177,157,Cipta Grosir,Y
+922,SKU00922,Produk Simulasi 922,Fashion,131314,174,Sinar Distribusi,Y
+923,SKU00923,Produk Simulasi 923,ATK,131451,191,Mitra Dagang,N
+924,SKU00924,Produk Simulasi 924,Makanan,131588,208,Global Retail,Y
+925,SKU00925,Produk Simulasi 925,Minuman,131725,225,Nusantara Supply,Y
+926,SKU00926,Produk Simulasi 926,Kesehatan,131862,242,Cipta Grosir,Y
+927,SKU00927,Produk Simulasi 927,Hobi,131999,259,Sinar Distribusi,Y
+928,SKU00928,Produk Simulasi 928,Elektronik,132136,276,Mitra Dagang,Y
+929,SKU00929,Produk Simulasi 929,Rumah Tangga,132273,293,Global Retail,Y
+930,SKU00930,Produk Simulasi 930,Fashion,132410,310,Nusantara Supply,Y
+931,SKU00931,Produk Simulasi 931,ATK,132547,327,Cipta Grosir,Y
+932,SKU00932,Produk Simulasi 932,Makanan,132684,344,Sinar Distribusi,Y
+933,SKU00933,Produk Simulasi 933,Minuman,132821,361,Mitra Dagang,Y
+934,SKU00934,Produk Simulasi 934,Kesehatan,132958,378,Global Retail,Y
+935,SKU00935,Produk Simulasi 935,Hobi,133095,395,Nusantara Supply,Y
+936,SKU00936,Produk Simulasi 936,Elektronik,133232,412,Cipta Grosir,N
+937,SKU00937,Produk Simulasi 937,Rumah Tangga,133369,429,Sinar Distribusi,Y
+938,SKU00938,Produk Simulasi 938,Fashion,133506,446,Mitra Dagang,Y
+939,SKU00939,Produk Simulasi 939,ATK,133643,463,Global Retail,Y
+940,SKU00940,Produk Simulasi 940,Makanan,133780,480,Nusantara Supply,Y
+941,SKU00941,Produk Simulasi 941,Minuman,133917,497,Cipta Grosir,Y
+942,SKU00942,Produk Simulasi 942,Kesehatan,134054,14,Sinar Distribusi,Y
+943,SKU00943,Produk Simulasi 943,Hobi,134191,31,Mitra Dagang,Y
+944,SKU00944,Produk Simulasi 944,Elektronik,134328,48,Global Retail,Y
+945,SKU00945,Produk Simulasi 945,Rumah Tangga,134465,65,Nusantara Supply,Y
+946,SKU00946,Produk Simulasi 946,Fashion,134602,82,Cipta Grosir,Y
+947,SKU00947,Produk Simulasi 947,ATK,134739,99,Sinar Distribusi,Y
+948,SKU00948,Produk Simulasi 948,Makanan,134876,116,Mitra Dagang,Y
+949,SKU00949,Produk Simulasi 949,Minuman,135013,133,Global Retail,N
+950,SKU00950,Produk Simulasi 950,Kesehatan,135150,150,Nusantara Supply,Y
+951,SKU00951,Produk Simulasi 951,Hobi,135287,167,Cipta Grosir,Y
+952,SKU00952,Produk Simulasi 952,Elektronik,135424,184,Sinar Distribusi,Y
+953,SKU00953,Produk Simulasi 953,Rumah Tangga,135561,201,Mitra Dagang,Y
+954,SKU00954,Produk Simulasi 954,Fashion,135698,218,Global Retail,Y
+955,SKU00955,Produk Simulasi 955,ATK,135835,235,Nusantara Supply,Y
+956,SKU00956,Produk Simulasi 956,Makanan,135972,252,Cipta Grosir,Y
+957,SKU00957,Produk Simulasi 957,Minuman,136109,269,Sinar Distribusi,Y
+958,SKU00958,Produk Simulasi 958,Kesehatan,136246,286,Mitra Dagang,Y
+959,SKU00959,Produk Simulasi 959,Hobi,136383,303,Global Retail,Y
+960,SKU00960,Produk Simulasi 960,Elektronik,136520,320,Nusantara Supply,Y
+961,SKU00961,Produk Simulasi 961,Rumah Tangga,136657,337,Cipta Grosir,Y
+962,SKU00962,Produk Simulasi 962,Fashion,136794,354,Sinar Distribusi,N
+963,SKU00963,Produk Simulasi 963,ATK,136931,371,Mitra Dagang,Y
+964,SKU00964,Produk Simulasi 964,Makanan,137068,388,Global Retail,Y
+965,SKU00965,Produk Simulasi 965,Minuman,137205,405,Nusantara Supply,Y
+966,SKU00966,Produk Simulasi 966,Kesehatan,137342,422,Cipta Grosir,Y
+967,SKU00967,Produk Simulasi 967,Hobi,137479,439,Sinar Distribusi,Y
+968,SKU00968,Produk Simulasi 968,Elektronik,137616,456,Mitra Dagang,Y
+969,SKU00969,Produk Simulasi 969,Rumah Tangga,137753,473,Global Retail,Y
+970,SKU00970,Produk Simulasi 970,Fashion,137890,490,Nusantara Supply,Y
+971,SKU00971,Produk Simulasi 971,ATK,138027,7,Cipta Grosir,Y
+972,SKU00972,Produk Simulasi 972,Makanan,138164,24,Sinar Distribusi,Y
+973,SKU00973,Produk Simulasi 973,Minuman,138301,41,Mitra Dagang,Y
+974,SKU00974,Produk Simulasi 974,Kesehatan,138438,58,Global Retail,Y
+975,SKU00975,Produk Simulasi 975,Hobi,138575,75,Nusantara Supply,N
+976,SKU00976,Produk Simulasi 976,Elektronik,138712,92,Cipta Grosir,Y
+977,SKU00977,Produk Simulasi 977,Rumah Tangga,138849,109,Sinar Distribusi,Y
+978,SKU00978,Produk Simulasi 978,Fashion,138986,126,Mitra Dagang,Y
+979,SKU00979,Produk Simulasi 979,ATK,139123,143,Global Retail,Y
+980,SKU00980,Produk Simulasi 980,Makanan,139260,160,Nusantara Supply,Y
+981,SKU00981,Produk Simulasi 981,Minuman,139397,177,Cipta Grosir,Y
+982,SKU00982,Produk Simulasi 982,Kesehatan,139534,194,Sinar Distribusi,Y
+983,SKU00983,Produk Simulasi 983,Hobi,139671,211,Mitra Dagang,Y
+984,SKU00984,Produk Simulasi 984,Elektronik,139808,228,Global Retail,Y
+985,SKU00985,Produk Simulasi 985,Rumah Tangga,139945,245,Nusantara Supply,Y
+986,SKU00986,Produk Simulasi 986,Fashion,140082,262,Cipta Grosir,Y
+987,SKU00987,Produk Simulasi 987,ATK,140219,279,Sinar Distribusi,Y
+988,SKU00988,Produk Simulasi 988,Makanan,140356,296,Mitra Dagang,N
+989,SKU00989,Produk Simulasi 989,Minuman,140493,313,Global Retail,Y
+990,SKU00990,Produk Simulasi 990,Kesehatan,140630,330,Nusantara Supply,Y
+991,SKU00991,Produk Simulasi 991,Hobi,140767,347,Cipta Grosir,Y
+992,SKU00992,Produk Simulasi 992,Elektronik,140904,364,Sinar Distribusi,Y
+993,SKU00993,Produk Simulasi 993,Rumah Tangga,141041,381,Mitra Dagang,Y
+994,SKU00994,Produk Simulasi 994,Fashion,141178,398,Global Retail,Y
+995,SKU00995,Produk Simulasi 995,ATK,141315,415,Nusantara Supply,Y
+996,SKU00996,Produk Simulasi 996,Makanan,141452,432,Cipta Grosir,Y
+997,SKU00997,Produk Simulasi 997,Minuman,141589,449,Sinar Distribusi,Y
+998,SKU00998,Produk Simulasi 998,Kesehatan,141726,466,Mitra Dagang,Y
+999,SKU00999,Produk Simulasi 999,Hobi,141863,483,Global Retail,Y
+1000,SKU01000,Produk Simulasi 1000,Elektronik,142000,0,Nusantara Supply,Y
+1001,SKU01001,Produk Simulasi 1001,Rumah Tangga,142137,17,Cipta Grosir,N
+1002,SKU01002,Produk Simulasi 1002,Fashion,142274,34,Sinar Distribusi,Y
+1003,SKU01003,Produk Simulasi 1003,ATK,142411,51,Mitra Dagang,Y
+1004,SKU01004,Produk Simulasi 1004,Makanan,142548,68,Global Retail,Y
+1005,SKU01005,Produk Simulasi 1005,Minuman,142685,85,Nusantara Supply,Y
+1006,SKU01006,Produk Simulasi 1006,Kesehatan,142822,102,Cipta Grosir,Y
+1007,SKU01007,Produk Simulasi 1007,Hobi,142959,119,Sinar Distribusi,Y
+1008,SKU01008,Produk Simulasi 1008,Elektronik,143096,136,Mitra Dagang,Y
+1009,SKU01009,Produk Simulasi 1009,Rumah Tangga,143233,153,Global Retail,Y
+1010,SKU01010,Produk Simulasi 1010,Fashion,143370,170,Nusantara Supply,Y
+1011,SKU01011,Produk Simulasi 1011,ATK,143507,187,Cipta Grosir,Y
+1012,SKU01012,Produk Simulasi 1012,Makanan,143644,204,Sinar Distribusi,Y
+1013,SKU01013,Produk Simulasi 1013,Minuman,143781,221,Mitra Dagang,Y
+1014,SKU01014,Produk Simulasi 1014,Kesehatan,143918,238,Global Retail,N
+1015,SKU01015,Produk Simulasi 1015,Hobi,144055,255,Nusantara Supply,Y
+1016,SKU01016,Produk Simulasi 1016,Elektronik,144192,272,Cipta Grosir,Y
+1017,SKU01017,Produk Simulasi 1017,Rumah Tangga,144329,289,Sinar Distribusi,Y
+1018,SKU01018,Produk Simulasi 1018,Fashion,144466,306,Mitra Dagang,Y
+1019,SKU01019,Produk Simulasi 1019,ATK,144603,323,Global Retail,Y
+1020,SKU01020,Produk Simulasi 1020,Makanan,144740,340,Nusantara Supply,Y
+1021,SKU01021,Produk Simulasi 1021,Minuman,144877,357,Cipta Grosir,Y
+1022,SKU01022,Produk Simulasi 1022,Kesehatan,145014,374,Sinar Distribusi,Y
+1023,SKU01023,Produk Simulasi 1023,Hobi,145151,391,Mitra Dagang,Y
+1024,SKU01024,Produk Simulasi 1024,Elektronik,145288,408,Global Retail,Y
+1025,SKU01025,Produk Simulasi 1025,Rumah Tangga,145425,425,Nusantara Supply,Y
+1026,SKU01026,Produk Simulasi 1026,Fashion,145562,442,Cipta Grosir,Y
+1027,SKU01027,Produk Simulasi 1027,ATK,145699,459,Sinar Distribusi,N
+1028,SKU01028,Produk Simulasi 1028,Makanan,145836,476,Mitra Dagang,Y
+1029,SKU01029,Produk Simulasi 1029,Minuman,145973,493,Global Retail,Y
+1030,SKU01030,Produk Simulasi 1030,Kesehatan,146110,10,Nusantara Supply,Y
+1031,SKU01031,Produk Simulasi 1031,Hobi,146247,27,Cipta Grosir,Y
+1032,SKU01032,Produk Simulasi 1032,Elektronik,146384,44,Sinar Distribusi,Y
+1033,SKU01033,Produk Simulasi 1033,Rumah Tangga,146521,61,Mitra Dagang,Y
+1034,SKU01034,Produk Simulasi 1034,Fashion,146658,78,Global Retail,Y
+1035,SKU01035,Produk Simulasi 1035,ATK,146795,95,Nusantara Supply,Y
+1036,SKU01036,Produk Simulasi 1036,Makanan,146932,112,Cipta Grosir,Y
+1037,SKU01037,Produk Simulasi 1037,Minuman,147069,129,Sinar Distribusi,Y
+1038,SKU01038,Produk Simulasi 1038,Kesehatan,147206,146,Mitra Dagang,Y
+1039,SKU01039,Produk Simulasi 1039,Hobi,147343,163,Global Retail,Y
+1040,SKU01040,Produk Simulasi 1040,Elektronik,147480,180,Nusantara Supply,N
+1041,SKU01041,Produk Simulasi 1041,Rumah Tangga,147617,197,Cipta Grosir,Y
+1042,SKU01042,Produk Simulasi 1042,Fashion,147754,214,Sinar Distribusi,Y
+1043,SKU01043,Produk Simulasi 1043,ATK,147891,231,Mitra Dagang,Y
+1044,SKU01044,Produk Simulasi 1044,Makanan,148028,248,Global Retail,Y
+1045,SKU01045,Produk Simulasi 1045,Minuman,148165,265,Nusantara Supply,Y
+1046,SKU01046,Produk Simulasi 1046,Kesehatan,148302,282,Cipta Grosir,Y
+1047,SKU01047,Produk Simulasi 1047,Hobi,148439,299,Sinar Distribusi,Y
+1048,SKU01048,Produk Simulasi 1048,Elektronik,148576,316,Mitra Dagang,Y
+1049,SKU01049,Produk Simulasi 1049,Rumah Tangga,148713,333,Global Retail,Y
+1050,SKU01050,Produk Simulasi 1050,Fashion,148850,350,Nusantara Supply,Y
+1051,SKU01051,Produk Simulasi 1051,ATK,148987,367,Cipta Grosir,Y
+1052,SKU01052,Produk Simulasi 1052,Makanan,149124,384,Sinar Distribusi,Y
+1053,SKU01053,Produk Simulasi 1053,Minuman,149261,401,Mitra Dagang,N
+1054,SKU01054,Produk Simulasi 1054,Kesehatan,149398,418,Global Retail,Y
+1055,SKU01055,Produk Simulasi 1055,Hobi,149535,435,Nusantara Supply,Y
+1056,SKU01056,Produk Simulasi 1056,Elektronik,149672,452,Cipta Grosir,Y
+1057,SKU01057,Produk Simulasi 1057,Rumah Tangga,149809,469,Sinar Distribusi,Y
+1058,SKU01058,Produk Simulasi 1058,Fashion,149946,486,Mitra Dagang,Y
+1059,SKU01059,Produk Simulasi 1059,ATK,150083,3,Global Retail,Y
+1060,SKU01060,Produk Simulasi 1060,Makanan,150220,20,Nusantara Supply,Y
+1061,SKU01061,Produk Simulasi 1061,Minuman,150357,37,Cipta Grosir,Y
+1062,SKU01062,Produk Simulasi 1062,Kesehatan,150494,54,Sinar Distribusi,Y
+1063,SKU01063,Produk Simulasi 1063,Hobi,150631,71,Mitra Dagang,Y
+1064,SKU01064,Produk Simulasi 1064,Elektronik,150768,88,Global Retail,Y
+1065,SKU01065,Produk Simulasi 1065,Rumah Tangga,150905,105,Nusantara Supply,Y
+1066,SKU01066,Produk Simulasi 1066,Fashion,151042,122,Cipta Grosir,N
+1067,SKU01067,Produk Simulasi 1067,ATK,151179,139,Sinar Distribusi,Y
+1068,SKU01068,Produk Simulasi 1068,Makanan,151316,156,Mitra Dagang,Y
+1069,SKU01069,Produk Simulasi 1069,Minuman,151453,173,Global Retail,Y
+1070,SKU01070,Produk Simulasi 1070,Kesehatan,151590,190,Nusantara Supply,Y
+1071,SKU01071,Produk Simulasi 1071,Hobi,151727,207,Cipta Grosir,Y
+1072,SKU01072,Produk Simulasi 1072,Elektronik,151864,224,Sinar Distribusi,Y
+1073,SKU01073,Produk Simulasi 1073,Rumah Tangga,152001,241,Mitra Dagang,Y
+1074,SKU01074,Produk Simulasi 1074,Fashion,152138,258,Global Retail,Y
+1075,SKU01075,Produk Simulasi 1075,ATK,152275,275,Nusantara Supply,Y
+1076,SKU01076,Produk Simulasi 1076,Makanan,152412,292,Cipta Grosir,Y
+1077,SKU01077,Produk Simulasi 1077,Minuman,152549,309,Sinar Distribusi,Y
+1078,SKU01078,Produk Simulasi 1078,Kesehatan,152686,326,Mitra Dagang,Y
+1079,SKU01079,Produk Simulasi 1079,Hobi,152823,343,Global Retail,N
+1080,SKU01080,Produk Simulasi 1080,Elektronik,152960,360,Nusantara Supply,Y
+1081,SKU01081,Produk Simulasi 1081,Rumah Tangga,153097,377,Cipta Grosir,Y
+1082,SKU01082,Produk Simulasi 1082,Fashion,153234,394,Sinar Distribusi,Y
+1083,SKU01083,Produk Simulasi 1083,ATK,153371,411,Mitra Dagang,Y
+1084,SKU01084,Produk Simulasi 1084,Makanan,153508,428,Global Retail,Y
+1085,SKU01085,Produk Simulasi 1085,Minuman,153645,445,Nusantara Supply,Y
+1086,SKU01086,Produk Simulasi 1086,Kesehatan,153782,462,Cipta Grosir,Y
+1087,SKU01087,Produk Simulasi 1087,Hobi,153919,479,Sinar Distribusi,Y
+1088,SKU01088,Produk Simulasi 1088,Elektronik,154056,496,Mitra Dagang,Y
+1089,SKU01089,Produk Simulasi 1089,Rumah Tangga,154193,13,Global Retail,Y
+1090,SKU01090,Produk Simulasi 1090,Fashion,154330,30,Nusantara Supply,Y
+1091,SKU01091,Produk Simulasi 1091,ATK,154467,47,Cipta Grosir,Y
+1092,SKU01092,Produk Simulasi 1092,Makanan,154604,64,Sinar Distribusi,N
+1093,SKU01093,Produk Simulasi 1093,Minuman,154741,81,Mitra Dagang,Y
+1094,SKU01094,Produk Simulasi 1094,Kesehatan,154878,98,Global Retail,Y
+1095,SKU01095,Produk Simulasi 1095,Hobi,155015,115,Nusantara Supply,Y
+1096,SKU01096,Produk Simulasi 1096,Elektronik,155152,132,Cipta Grosir,Y
+1097,SKU01097,Produk Simulasi 1097,Rumah Tangga,155289,149,Sinar Distribusi,Y
+1098,SKU01098,Produk Simulasi 1098,Fashion,155426,166,Mitra Dagang,Y
+1099,SKU01099,Produk Simulasi 1099,ATK,155563,183,Global Retail,Y
+1100,SKU01100,Produk Simulasi 1100,Makanan,155700,200,Nusantara Supply,Y
+1101,SKU01101,Produk Simulasi 1101,Minuman,155837,217,Cipta Grosir,Y
+1102,SKU01102,Produk Simulasi 1102,Kesehatan,155974,234,Sinar Distribusi,Y
+1103,SKU01103,Produk Simulasi 1103,Hobi,156111,251,Mitra Dagang,Y
+1104,SKU01104,Produk Simulasi 1104,Elektronik,156248,268,Global Retail,Y
+1105,SKU01105,Produk Simulasi 1105,Rumah Tangga,156385,285,Nusantara Supply,N
+1106,SKU01106,Produk Simulasi 1106,Fashion,156522,302,Cipta Grosir,Y
+1107,SKU01107,Produk Simulasi 1107,ATK,156659,319,Sinar Distribusi,Y
+1108,SKU01108,Produk Simulasi 1108,Makanan,156796,336,Mitra Dagang,Y
+1109,SKU01109,Produk Simulasi 1109,Minuman,156933,353,Global Retail,Y
+1110,SKU01110,Produk Simulasi 1110,Kesehatan,157070,370,Nusantara Supply,Y
+1111,SKU01111,Produk Simulasi 1111,Hobi,157207,387,Cipta Grosir,Y
+1112,SKU01112,Produk Simulasi 1112,Elektronik,157344,404,Sinar Distribusi,Y
+1113,SKU01113,Produk Simulasi 1113,Rumah Tangga,157481,421,Mitra Dagang,Y
+1114,SKU01114,Produk Simulasi 1114,Fashion,157618,438,Global Retail,Y
+1115,SKU01115,Produk Simulasi 1115,ATK,157755,455,Nusantara Supply,Y
+1116,SKU01116,Produk Simulasi 1116,Makanan,157892,472,Cipta Grosir,Y
+1117,SKU01117,Produk Simulasi 1117,Minuman,158029,489,Sinar Distribusi,Y
+1118,SKU01118,Produk Simulasi 1118,Kesehatan,158166,6,Mitra Dagang,N
+1119,SKU01119,Produk Simulasi 1119,Hobi,158303,23,Global Retail,Y
+1120,SKU01120,Produk Simulasi 1120,Elektronik,158440,40,Nusantara Supply,Y
+1121,SKU01121,Produk Simulasi 1121,Rumah Tangga,158577,57,Cipta Grosir,Y
+1122,SKU01122,Produk Simulasi 1122,Fashion,158714,74,Sinar Distribusi,Y
+1123,SKU01123,Produk Simulasi 1123,ATK,158851,91,Mitra Dagang,Y
+1124,SKU01124,Produk Simulasi 1124,Makanan,158988,108,Global Retail,Y
+1125,SKU01125,Produk Simulasi 1125,Minuman,159125,125,Nusantara Supply,Y
+1126,SKU01126,Produk Simulasi 1126,Kesehatan,159262,142,Cipta Grosir,Y
+1127,SKU01127,Produk Simulasi 1127,Hobi,159399,159,Sinar Distribusi,Y
+1128,SKU01128,Produk Simulasi 1128,Elektronik,159536,176,Mitra Dagang,Y
+1129,SKU01129,Produk Simulasi 1129,Rumah Tangga,159673,193,Global Retail,Y
+1130,SKU01130,Produk Simulasi 1130,Fashion,159810,210,Nusantara Supply,Y
+1131,SKU01131,Produk Simulasi 1131,ATK,159947,227,Cipta Grosir,N
+1132,SKU01132,Produk Simulasi 1132,Makanan,160084,244,Sinar Distribusi,Y
+1133,SKU01133,Produk Simulasi 1133,Minuman,160221,261,Mitra Dagang,Y
+1134,SKU01134,Produk Simulasi 1134,Kesehatan,160358,278,Global Retail,Y
+1135,SKU01135,Produk Simulasi 1135,Hobi,160495,295,Nusantara Supply,Y
+1136,SKU01136,Produk Simulasi 1136,Elektronik,160632,312,Cipta Grosir,Y
+1137,SKU01137,Produk Simulasi 1137,Rumah Tangga,160769,329,Sinar Distribusi,Y
+1138,SKU01138,Produk Simulasi 1138,Fashion,160906,346,Mitra Dagang,Y
+1139,SKU01139,Produk Simulasi 1139,ATK,161043,363,Global Retail,Y
+1140,SKU01140,Produk Simulasi 1140,Makanan,161180,380,Nusantara Supply,Y
+1141,SKU01141,Produk Simulasi 1141,Minuman,161317,397,Cipta Grosir,Y
+1142,SKU01142,Produk Simulasi 1142,Kesehatan,161454,414,Sinar Distribusi,Y
+1143,SKU01143,Produk Simulasi 1143,Hobi,161591,431,Mitra Dagang,Y
+1144,SKU01144,Produk Simulasi 1144,Elektronik,161728,448,Global Retail,N
+1145,SKU01145,Produk Simulasi 1145,Rumah Tangga,161865,465,Nusantara Supply,Y
+1146,SKU01146,Produk Simulasi 1146,Fashion,162002,482,Cipta Grosir,Y
+1147,SKU01147,Produk Simulasi 1147,ATK,162139,499,Sinar Distribusi,Y
+1148,SKU01148,Produk Simulasi 1148,Makanan,162276,16,Mitra Dagang,Y
+1149,SKU01149,Produk Simulasi 1149,Minuman,162413,33,Global Retail,Y
+1150,SKU01150,Produk Simulasi 1150,Kesehatan,162550,50,Nusantara Supply,Y
+1151,SKU01151,Produk Simulasi 1151,Hobi,162687,67,Cipta Grosir,Y
+1152,SKU01152,Produk Simulasi 1152,Elektronik,162824,84,Sinar Distribusi,Y
+1153,SKU01153,Produk Simulasi 1153,Rumah Tangga,162961,101,Mitra Dagang,Y
+1154,SKU01154,Produk Simulasi 1154,Fashion,163098,118,Global Retail,Y
+1155,SKU01155,Produk Simulasi 1155,ATK,163235,135,Nusantara Supply,Y
+1156,SKU01156,Produk Simulasi 1156,Makanan,163372,152,Cipta Grosir,Y
+1157,SKU01157,Produk Simulasi 1157,Minuman,163509,169,Sinar Distribusi,N
+1158,SKU01158,Produk Simulasi 1158,Kesehatan,163646,186,Mitra Dagang,Y
+1159,SKU01159,Produk Simulasi 1159,Hobi,163783,203,Global Retail,Y
+1160,SKU01160,Produk Simulasi 1160,Elektronik,163920,220,Nusantara Supply,Y
+1161,SKU01161,Produk Simulasi 1161,Rumah Tangga,164057,237,Cipta Grosir,Y
+1162,SKU01162,Produk Simulasi 1162,Fashion,164194,254,Sinar Distribusi,Y
+1163,SKU01163,Produk Simulasi 1163,ATK,164331,271,Mitra Dagang,Y
+1164,SKU01164,Produk Simulasi 1164,Makanan,164468,288,Global Retail,Y
+1165,SKU01165,Produk Simulasi 1165,Minuman,164605,305,Nusantara Supply,Y
+1166,SKU01166,Produk Simulasi 1166,Kesehatan,164742,322,Cipta Grosir,Y
+1167,SKU01167,Produk Simulasi 1167,Hobi,164879,339,Sinar Distribusi,Y
+1168,SKU01168,Produk Simulasi 1168,Elektronik,165016,356,Mitra Dagang,Y
+1169,SKU01169,Produk Simulasi 1169,Rumah Tangga,165153,373,Global Retail,Y
+1170,SKU01170,Produk Simulasi 1170,Fashion,165290,390,Nusantara Supply,N
+1171,SKU01171,Produk Simulasi 1171,ATK,165427,407,Cipta Grosir,Y
+1172,SKU01172,Produk Simulasi 1172,Makanan,165564,424,Sinar Distribusi,Y
+1173,SKU01173,Produk Simulasi 1173,Minuman,165701,441,Mitra Dagang,Y
+1174,SKU01174,Produk Simulasi 1174,Kesehatan,165838,458,Global Retail,Y
+1175,SKU01175,Produk Simulasi 1175,Hobi,165975,475,Nusantara Supply,Y
+1176,SKU01176,Produk Simulasi 1176,Elektronik,166112,492,Cipta Grosir,Y
+1177,SKU01177,Produk Simulasi 1177,Rumah Tangga,166249,9,Sinar Distribusi,Y
+1178,SKU01178,Produk Simulasi 1178,Fashion,166386,26,Mitra Dagang,Y
+1179,SKU01179,Produk Simulasi 1179,ATK,166523,43,Global Retail,Y
+1180,SKU01180,Produk Simulasi 1180,Makanan,166660,60,Nusantara Supply,Y
+1181,SKU01181,Produk Simulasi 1181,Minuman,166797,77,Cipta Grosir,Y
+1182,SKU01182,Produk Simulasi 1182,Kesehatan,166934,94,Sinar Distribusi,Y
+1183,SKU01183,Produk Simulasi 1183,Hobi,167071,111,Mitra Dagang,N
+1184,SKU01184,Produk Simulasi 1184,Elektronik,167208,128,Global Retail,Y
+1185,SKU01185,Produk Simulasi 1185,Rumah Tangga,167345,145,Nusantara Supply,Y
+1186,SKU01186,Produk Simulasi 1186,Fashion,167482,162,Cipta Grosir,Y
+1187,SKU01187,Produk Simulasi 1187,ATK,167619,179,Sinar Distribusi,Y
+1188,SKU01188,Produk Simulasi 1188,Makanan,167756,196,Mitra Dagang,Y
+1189,SKU01189,Produk Simulasi 1189,Minuman,167893,213,Global Retail,Y
+1190,SKU01190,Produk Simulasi 1190,Kesehatan,168030,230,Nusantara Supply,Y
+1191,SKU01191,Produk Simulasi 1191,Hobi,168167,247,Cipta Grosir,Y
+1192,SKU01192,Produk Simulasi 1192,Elektronik,168304,264,Sinar Distribusi,Y
+1193,SKU01193,Produk Simulasi 1193,Rumah Tangga,168441,281,Mitra Dagang,Y
+1194,SKU01194,Produk Simulasi 1194,Fashion,168578,298,Global Retail,Y
+1195,SKU01195,Produk Simulasi 1195,ATK,168715,315,Nusantara Supply,Y
+1196,SKU01196,Produk Simulasi 1196,Makanan,168852,332,Cipta Grosir,N
+1197,SKU01197,Produk Simulasi 1197,Minuman,168989,349,Sinar Distribusi,Y
+1198,SKU01198,Produk Simulasi 1198,Kesehatan,169126,366,Mitra Dagang,Y
+1199,SKU01199,Produk Simulasi 1199,Hobi,169263,383,Global Retail,Y
+1200,SKU01200,Produk Simulasi 1200,Elektronik,169400,400,Nusantara Supply,Y
+1201,SKU01201,Produk Simulasi 1201,Rumah Tangga,169537,417,Cipta Grosir,Y
+1202,SKU01202,Produk Simulasi 1202,Fashion,169674,434,Sinar Distribusi,Y
+1203,SKU01203,Produk Simulasi 1203,ATK,169811,451,Mitra Dagang,Y
+1204,SKU01204,Produk Simulasi 1204,Makanan,169948,468,Global Retail,Y
+1205,SKU01205,Produk Simulasi 1205,Minuman,170085,485,Nusantara Supply,Y
+1206,SKU01206,Produk Simulasi 1206,Kesehatan,170222,2,Cipta Grosir,Y
+1207,SKU01207,Produk Simulasi 1207,Hobi,170359,19,Sinar Distribusi,Y
+1208,SKU01208,Produk Simulasi 1208,Elektronik,170496,36,Mitra Dagang,Y
+1209,SKU01209,Produk Simulasi 1209,Rumah Tangga,170633,53,Global Retail,N
+1210,SKU01210,Produk Simulasi 1210,Fashion,170770,70,Nusantara Supply,Y
+1211,SKU01211,Produk Simulasi 1211,ATK,170907,87,Cipta Grosir,Y
+1212,SKU01212,Produk Simulasi 1212,Makanan,171044,104,Sinar Distribusi,Y
+1213,SKU01213,Produk Simulasi 1213,Minuman,171181,121,Mitra Dagang,Y
+1214,SKU01214,Produk Simulasi 1214,Kesehatan,171318,138,Global Retail,Y
+1215,SKU01215,Produk Simulasi 1215,Hobi,171455,155,Nusantara Supply,Y
+1216,SKU01216,Produk Simulasi 1216,Elektronik,171592,172,Cipta Grosir,Y
+1217,SKU01217,Produk Simulasi 1217,Rumah Tangga,171729,189,Sinar Distribusi,Y
+1218,SKU01218,Produk Simulasi 1218,Fashion,171866,206,Mitra Dagang,Y
+1219,SKU01219,Produk Simulasi 1219,ATK,172003,223,Global Retail,Y
+1220,SKU01220,Produk Simulasi 1220,Makanan,172140,240,Nusantara Supply,Y
+1221,SKU01221,Produk Simulasi 1221,Minuman,172277,257,Cipta Grosir,Y
+1222,SKU01222,Produk Simulasi 1222,Kesehatan,172414,274,Sinar Distribusi,N
+1223,SKU01223,Produk Simulasi 1223,Hobi,172551,291,Mitra Dagang,Y
+1224,SKU01224,Produk Simulasi 1224,Elektronik,172688,308,Global Retail,Y
+1225,SKU01225,Produk Simulasi 1225,Rumah Tangga,172825,325,Nusantara Supply,Y
+1226,SKU01226,Produk Simulasi 1226,Fashion,172962,342,Cipta Grosir,Y
+1227,SKU01227,Produk Simulasi 1227,ATK,173099,359,Sinar Distribusi,Y
+1228,SKU01228,Produk Simulasi 1228,Makanan,173236,376,Mitra Dagang,Y
+1229,SKU01229,Produk Simulasi 1229,Minuman,173373,393,Global Retail,Y
+1230,SKU01230,Produk Simulasi 1230,Kesehatan,173510,410,Nusantara Supply,Y
+1231,SKU01231,Produk Simulasi 1231,Hobi,173647,427,Cipta Grosir,Y
+1232,SKU01232,Produk Simulasi 1232,Elektronik,173784,444,Sinar Distribusi,Y
+1233,SKU01233,Produk Simulasi 1233,Rumah Tangga,173921,461,Mitra Dagang,Y
+1234,SKU01234,Produk Simulasi 1234,Fashion,174058,478,Global Retail,Y
+1235,SKU01235,Produk Simulasi 1235,ATK,174195,495,Nusantara Supply,N
+1236,SKU01236,Produk Simulasi 1236,Makanan,174332,12,Cipta Grosir,Y
+1237,SKU01237,Produk Simulasi 1237,Minuman,174469,29,Sinar Distribusi,Y
+1238,SKU01238,Produk Simulasi 1238,Kesehatan,174606,46,Mitra Dagang,Y
+1239,SKU01239,Produk Simulasi 1239,Hobi,174743,63,Global Retail,Y
+1240,SKU01240,Produk Simulasi 1240,Elektronik,174880,80,Nusantara Supply,Y
+1241,SKU01241,Produk Simulasi 1241,Rumah Tangga,175017,97,Cipta Grosir,Y
+1242,SKU01242,Produk Simulasi 1242,Fashion,175154,114,Sinar Distribusi,Y
+1243,SKU01243,Produk Simulasi 1243,ATK,175291,131,Mitra Dagang,Y
+1244,SKU01244,Produk Simulasi 1244,Makanan,175428,148,Global Retail,Y
+1245,SKU01245,Produk Simulasi 1245,Minuman,175565,165,Nusantara Supply,Y
+1246,SKU01246,Produk Simulasi 1246,Kesehatan,175702,182,Cipta Grosir,Y
+1247,SKU01247,Produk Simulasi 1247,Hobi,175839,199,Sinar Distribusi,Y
+1248,SKU01248,Produk Simulasi 1248,Elektronik,175976,216,Mitra Dagang,N
+1249,SKU01249,Produk Simulasi 1249,Rumah Tangga,176113,233,Global Retail,Y
+1250,SKU01250,Produk Simulasi 1250,Fashion,176250,250,Nusantara Supply,Y
+1251,SKU01251,Produk Simulasi 1251,ATK,176387,267,Cipta Grosir,Y
+1252,SKU01252,Produk Simulasi 1252,Makanan,176524,284,Sinar Distribusi,Y
+1253,SKU01253,Produk Simulasi 1253,Minuman,176661,301,Mitra Dagang,Y
+1254,SKU01254,Produk Simulasi 1254,Kesehatan,176798,318,Global Retail,Y
+1255,SKU01255,Produk Simulasi 1255,Hobi,176935,335,Nusantara Supply,Y
+1256,SKU01256,Produk Simulasi 1256,Elektronik,177072,352,Cipta Grosir,Y
+1257,SKU01257,Produk Simulasi 1257,Rumah Tangga,177209,369,Sinar Distribusi,Y
+1258,SKU01258,Produk Simulasi 1258,Fashion,177346,386,Mitra Dagang,Y
+1259,SKU01259,Produk Simulasi 1259,ATK,177483,403,Global Retail,Y
+1260,SKU01260,Produk Simulasi 1260,Makanan,177620,420,Nusantara Supply,Y
+1261,SKU01261,Produk Simulasi 1261,Minuman,177757,437,Cipta Grosir,N
+1262,SKU01262,Produk Simulasi 1262,Kesehatan,177894,454,Sinar Distribusi,Y
+1263,SKU01263,Produk Simulasi 1263,Hobi,178031,471,Mitra Dagang,Y
+1264,SKU01264,Produk Simulasi 1264,Elektronik,178168,488,Global Retail,Y
+1265,SKU01265,Produk Simulasi 1265,Rumah Tangga,178305,5,Nusantara Supply,Y
+1266,SKU01266,Produk Simulasi 1266,Fashion,178442,22,Cipta Grosir,Y
+1267,SKU01267,Produk Simulasi 1267,ATK,178579,39,Sinar Distribusi,Y
+1268,SKU01268,Produk Simulasi 1268,Makanan,178716,56,Mitra Dagang,Y
+1269,SKU01269,Produk Simulasi 1269,Minuman,178853,73,Global Retail,Y
+1270,SKU01270,Produk Simulasi 1270,Kesehatan,178990,90,Nusantara Supply,Y
+1271,SKU01271,Produk Simulasi 1271,Hobi,179127,107,Cipta Grosir,Y
+1272,SKU01272,Produk Simulasi 1272,Elektronik,179264,124,Sinar Distribusi,Y
+1273,SKU01273,Produk Simulasi 1273,Rumah Tangga,179401,141,Mitra Dagang,Y
+1274,SKU01274,Produk Simulasi 1274,Fashion,179538,158,Global Retail,N
+1275,SKU01275,Produk Simulasi 1275,ATK,179675,175,Nusantara Supply,Y
+1276,SKU01276,Produk Simulasi 1276,Makanan,179812,192,Cipta Grosir,Y
+1277,SKU01277,Produk Simulasi 1277,Minuman,179949,209,Sinar Distribusi,Y
+1278,SKU01278,Produk Simulasi 1278,Kesehatan,180086,226,Mitra Dagang,Y
+1279,SKU01279,Produk Simulasi 1279,Hobi,180223,243,Global Retail,Y
+1280,SKU01280,Produk Simulasi 1280,Elektronik,180360,260,Nusantara Supply,Y
+1281,SKU01281,Produk Simulasi 1281,Rumah Tangga,180497,277,Cipta Grosir,Y
+1282,SKU01282,Produk Simulasi 1282,Fashion,180634,294,Sinar Distribusi,Y
+1283,SKU01283,Produk Simulasi 1283,ATK,180771,311,Mitra Dagang,Y
+1284,SKU01284,Produk Simulasi 1284,Makanan,180908,328,Global Retail,Y
+1285,SKU01285,Produk Simulasi 1285,Minuman,181045,345,Nusantara Supply,Y
+1286,SKU01286,Produk Simulasi 1286,Kesehatan,181182,362,Cipta Grosir,Y
+1287,SKU01287,Produk Simulasi 1287,Hobi,181319,379,Sinar Distribusi,N
+1288,SKU01288,Produk Simulasi 1288,Elektronik,181456,396,Mitra Dagang,Y
+1289,SKU01289,Produk Simulasi 1289,Rumah Tangga,181593,413,Global Retail,Y
+1290,SKU01290,Produk Simulasi 1290,Fashion,181730,430,Nusantara Supply,Y
+1291,SKU01291,Produk Simulasi 1291,ATK,181867,447,Cipta Grosir,Y
+1292,SKU01292,Produk Simulasi 1292,Makanan,182004,464,Sinar Distribusi,Y
+1293,SKU01293,Produk Simulasi 1293,Minuman,182141,481,Mitra Dagang,Y
+1294,SKU01294,Produk Simulasi 1294,Kesehatan,182278,498,Global Retail,Y
+1295,SKU01295,Produk Simulasi 1295,Hobi,182415,15,Nusantara Supply,Y
+1296,SKU01296,Produk Simulasi 1296,Elektronik,182552,32,Cipta Grosir,Y
+1297,SKU01297,Produk Simulasi 1297,Rumah Tangga,182689,49,Sinar Distribusi,Y
+1298,SKU01298,Produk Simulasi 1298,Fashion,182826,66,Mitra Dagang,Y
+1299,SKU01299,Produk Simulasi 1299,ATK,182963,83,Global Retail,Y
+1300,SKU01300,Produk Simulasi 1300,Makanan,183100,100,Nusantara Supply,N
+1301,SKU01301,Produk Simulasi 1301,Minuman,183237,117,Cipta Grosir,Y
+1302,SKU01302,Produk Simulasi 1302,Kesehatan,183374,134,Sinar Distribusi,Y
+1303,SKU01303,Produk Simulasi 1303,Hobi,183511,151,Mitra Dagang,Y
+1304,SKU01304,Produk Simulasi 1304,Elektronik,183648,168,Global Retail,Y
+1305,SKU01305,Produk Simulasi 1305,Rumah Tangga,183785,185,Nusantara Supply,Y
+1306,SKU01306,Produk Simulasi 1306,Fashion,183922,202,Cipta Grosir,Y
+1307,SKU01307,Produk Simulasi 1307,ATK,184059,219,Sinar Distribusi,Y
+1308,SKU01308,Produk Simulasi 1308,Makanan,184196,236,Mitra Dagang,Y
+1309,SKU01309,Produk Simulasi 1309,Minuman,184333,253,Global Retail,Y
+1310,SKU01310,Produk Simulasi 1310,Kesehatan,184470,270,Nusantara Supply,Y
+1311,SKU01311,Produk Simulasi 1311,Hobi,184607,287,Cipta Grosir,Y
+1312,SKU01312,Produk Simulasi 1312,Elektronik,184744,304,Sinar Distribusi,Y
+1313,SKU01313,Produk Simulasi 1313,Rumah Tangga,184881,321,Mitra Dagang,N
+1314,SKU01314,Produk Simulasi 1314,Fashion,185018,338,Global Retail,Y
+1315,SKU01315,Produk Simulasi 1315,ATK,185155,355,Nusantara Supply,Y
+1316,SKU01316,Produk Simulasi 1316,Makanan,185292,372,Cipta Grosir,Y
+1317,SKU01317,Produk Simulasi 1317,Minuman,185429,389,Sinar Distribusi,Y
+1318,SKU01318,Produk Simulasi 1318,Kesehatan,185566,406,Mitra Dagang,Y
+1319,SKU01319,Produk Simulasi 1319,Hobi,185703,423,Global Retail,Y
+1320,SKU01320,Produk Simulasi 1320,Elektronik,185840,440,Nusantara Supply,Y
+1321,SKU01321,Produk Simulasi 1321,Rumah Tangga,185977,457,Cipta Grosir,Y
+1322,SKU01322,Produk Simulasi 1322,Fashion,186114,474,Sinar Distribusi,Y
+1323,SKU01323,Produk Simulasi 1323,ATK,186251,491,Mitra Dagang,Y
+1324,SKU01324,Produk Simulasi 1324,Makanan,186388,8,Global Retail,Y
+1325,SKU01325,Produk Simulasi 1325,Minuman,186525,25,Nusantara Supply,Y
+1326,SKU01326,Produk Simulasi 1326,Kesehatan,186662,42,Cipta Grosir,N
+1327,SKU01327,Produk Simulasi 1327,Hobi,186799,59,Sinar Distribusi,Y
+1328,SKU01328,Produk Simulasi 1328,Elektronik,186936,76,Mitra Dagang,Y
+1329,SKU01329,Produk Simulasi 1329,Rumah Tangga,187073,93,Global Retail,Y
+1330,SKU01330,Produk Simulasi 1330,Fashion,187210,110,Nusantara Supply,Y
+1331,SKU01331,Produk Simulasi 1331,ATK,187347,127,Cipta Grosir,Y
+1332,SKU01332,Produk Simulasi 1332,Makanan,187484,144,Sinar Distribusi,Y
+1333,SKU01333,Produk Simulasi 1333,Minuman,187621,161,Mitra Dagang,Y
+1334,SKU01334,Produk Simulasi 1334,Kesehatan,187758,178,Global Retail,Y
+1335,SKU01335,Produk Simulasi 1335,Hobi,187895,195,Nusantara Supply,Y
+1336,SKU01336,Produk Simulasi 1336,Elektronik,188032,212,Cipta Grosir,Y
+1337,SKU01337,Produk Simulasi 1337,Rumah Tangga,188169,229,Sinar Distribusi,Y
+1338,SKU01338,Produk Simulasi 1338,Fashion,188306,246,Mitra Dagang,Y
+1339,SKU01339,Produk Simulasi 1339,ATK,188443,263,Global Retail,N
+1340,SKU01340,Produk Simulasi 1340,Makanan,188580,280,Nusantara Supply,Y
+1341,SKU01341,Produk Simulasi 1341,Minuman,188717,297,Cipta Grosir,Y
+1342,SKU01342,Produk Simulasi 1342,Kesehatan,188854,314,Sinar Distribusi,Y
+1343,SKU01343,Produk Simulasi 1343,Hobi,188991,331,Mitra Dagang,Y
+1344,SKU01344,Produk Simulasi 1344,Elektronik,189128,348,Global Retail,Y
+1345,SKU01345,Produk Simulasi 1345,Rumah Tangga,189265,365,Nusantara Supply,Y
+1346,SKU01346,Produk Simulasi 1346,Fashion,189402,382,Cipta Grosir,Y
+1347,SKU01347,Produk Simulasi 1347,ATK,189539,399,Sinar Distribusi,Y
+1348,SKU01348,Produk Simulasi 1348,Makanan,189676,416,Mitra Dagang,Y
+1349,SKU01349,Produk Simulasi 1349,Minuman,189813,433,Global Retail,Y
+1350,SKU01350,Produk Simulasi 1350,Kesehatan,189950,450,Nusantara Supply,Y
+1351,SKU01351,Produk Simulasi 1351,Hobi,190087,467,Cipta Grosir,Y
+1352,SKU01352,Produk Simulasi 1352,Elektronik,190224,484,Sinar Distribusi,N
+1353,SKU01353,Produk Simulasi 1353,Rumah Tangga,190361,1,Mitra Dagang,Y
+1354,SKU01354,Produk Simulasi 1354,Fashion,190498,18,Global Retail,Y
+1355,SKU01355,Produk Simulasi 1355,ATK,190635,35,Nusantara Supply,Y
+1356,SKU01356,Produk Simulasi 1356,Makanan,190772,52,Cipta Grosir,Y
+1357,SKU01357,Produk Simulasi 1357,Minuman,190909,69,Sinar Distribusi,Y
+1358,SKU01358,Produk Simulasi 1358,Kesehatan,191046,86,Mitra Dagang,Y
+1359,SKU01359,Produk Simulasi 1359,Hobi,191183,103,Global Retail,Y
+1360,SKU01360,Produk Simulasi 1360,Elektronik,191320,120,Nusantara Supply,Y
+1361,SKU01361,Produk Simulasi 1361,Rumah Tangga,191457,137,Cipta Grosir,Y
+1362,SKU01362,Produk Simulasi 1362,Fashion,191594,154,Sinar Distribusi,Y
+1363,SKU01363,Produk Simulasi 1363,ATK,191731,171,Mitra Dagang,Y
+1364,SKU01364,Produk Simulasi 1364,Makanan,191868,188,Global Retail,Y
+1365,SKU01365,Produk Simulasi 1365,Minuman,192005,205,Nusantara Supply,N
+1366,SKU01366,Produk Simulasi 1366,Kesehatan,192142,222,Cipta Grosir,Y
+1367,SKU01367,Produk Simulasi 1367,Hobi,192279,239,Sinar Distribusi,Y
+1368,SKU01368,Produk Simulasi 1368,Elektronik,192416,256,Mitra Dagang,Y
+1369,SKU01369,Produk Simulasi 1369,Rumah Tangga,192553,273,Global Retail,Y
+1370,SKU01370,Produk Simulasi 1370,Fashion,192690,290,Nusantara Supply,Y
+1371,SKU01371,Produk Simulasi 1371,ATK,192827,307,Cipta Grosir,Y
+1372,SKU01372,Produk Simulasi 1372,Makanan,192964,324,Sinar Distribusi,Y
+1373,SKU01373,Produk Simulasi 1373,Minuman,193101,341,Mitra Dagang,Y
+1374,SKU01374,Produk Simulasi 1374,Kesehatan,193238,358,Global Retail,Y
+1375,SKU01375,Produk Simulasi 1375,Hobi,193375,375,Nusantara Supply,Y
+1376,SKU01376,Produk Simulasi 1376,Elektronik,193512,392,Cipta Grosir,Y
+1377,SKU01377,Produk Simulasi 1377,Rumah Tangga,193649,409,Sinar Distribusi,Y
+1378,SKU01378,Produk Simulasi 1378,Fashion,193786,426,Mitra Dagang,N
+1379,SKU01379,Produk Simulasi 1379,ATK,193923,443,Global Retail,Y
+1380,SKU01380,Produk Simulasi 1380,Makanan,194060,460,Nusantara Supply,Y
+1381,SKU01381,Produk Simulasi 1381,Minuman,194197,477,Cipta Grosir,Y
+1382,SKU01382,Produk Simulasi 1382,Kesehatan,194334,494,Sinar Distribusi,Y
+1383,SKU01383,Produk Simulasi 1383,Hobi,194471,11,Mitra Dagang,Y
+1384,SKU01384,Produk Simulasi 1384,Elektronik,194608,28,Global Retail,Y
+1385,SKU01385,Produk Simulasi 1385,Rumah Tangga,194745,45,Nusantara Supply,Y
+1386,SKU01386,Produk Simulasi 1386,Fashion,194882,62,Cipta Grosir,Y
+1387,SKU01387,Produk Simulasi 1387,ATK,195019,79,Sinar Distribusi,Y
+1388,SKU01388,Produk Simulasi 1388,Makanan,195156,96,Mitra Dagang,Y
+1389,SKU01389,Produk Simulasi 1389,Minuman,195293,113,Global Retail,Y
+1390,SKU01390,Produk Simulasi 1390,Kesehatan,195430,130,Nusantara Supply,Y
+1391,SKU01391,Produk Simulasi 1391,Hobi,195567,147,Cipta Grosir,N
+1392,SKU01392,Produk Simulasi 1392,Elektronik,195704,164,Sinar Distribusi,Y
+1393,SKU01393,Produk Simulasi 1393,Rumah Tangga,195841,181,Mitra Dagang,Y
+1394,SKU01394,Produk Simulasi 1394,Fashion,195978,198,Global Retail,Y
+1395,SKU01395,Produk Simulasi 1395,ATK,196115,215,Nusantara Supply,Y
+1396,SKU01396,Produk Simulasi 1396,Makanan,196252,232,Cipta Grosir,Y
+1397,SKU01397,Produk Simulasi 1397,Minuman,196389,249,Sinar Distribusi,Y
+1398,SKU01398,Produk Simulasi 1398,Kesehatan,196526,266,Mitra Dagang,Y
+1399,SKU01399,Produk Simulasi 1399,Hobi,196663,283,Global Retail,Y
+1400,SKU01400,Produk Simulasi 1400,Elektronik,196800,300,Nusantara Supply,Y
+1401,SKU01401,Produk Simulasi 1401,Rumah Tangga,196937,317,Cipta Grosir,Y
+1402,SKU01402,Produk Simulasi 1402,Fashion,197074,334,Sinar Distribusi,Y
+1403,SKU01403,Produk Simulasi 1403,ATK,197211,351,Mitra Dagang,Y
+1404,SKU01404,Produk Simulasi 1404,Makanan,197348,368,Global Retail,N
+1405,SKU01405,Produk Simulasi 1405,Minuman,197485,385,Nusantara Supply,Y
+1406,SKU01406,Produk Simulasi 1406,Kesehatan,197622,402,Cipta Grosir,Y
+1407,SKU01407,Produk Simulasi 1407,Hobi,197759,419,Sinar Distribusi,Y
+1408,SKU01408,Produk Simulasi 1408,Elektronik,197896,436,Mitra Dagang,Y
+1409,SKU01409,Produk Simulasi 1409,Rumah Tangga,198033,453,Global Retail,Y
+1410,SKU01410,Produk Simulasi 1410,Fashion,198170,470,Nusantara Supply,Y
+1411,SKU01411,Produk Simulasi 1411,ATK,198307,487,Cipta Grosir,Y
+1412,SKU01412,Produk Simulasi 1412,Makanan,198444,4,Sinar Distribusi,Y
+1413,SKU01413,Produk Simulasi 1413,Minuman,198581,21,Mitra Dagang,Y
+1414,SKU01414,Produk Simulasi 1414,Kesehatan,198718,38,Global Retail,Y
+1415,SKU01415,Produk Simulasi 1415,Hobi,198855,55,Nusantara Supply,Y
+1416,SKU01416,Produk Simulasi 1416,Elektronik,198992,72,Cipta Grosir,Y
+1417,SKU01417,Produk Simulasi 1417,Rumah Tangga,199129,89,Sinar Distribusi,N
+1418,SKU01418,Produk Simulasi 1418,Fashion,199266,106,Mitra Dagang,Y
+1419,SKU01419,Produk Simulasi 1419,ATK,199403,123,Global Retail,Y
+1420,SKU01420,Produk Simulasi 1420,Makanan,199540,140,Nusantara Supply,Y
+1421,SKU01421,Produk Simulasi 1421,Minuman,199677,157,Cipta Grosir,Y
+1422,SKU01422,Produk Simulasi 1422,Kesehatan,199814,174,Sinar Distribusi,Y
+1423,SKU01423,Produk Simulasi 1423,Hobi,199951,191,Mitra Dagang,Y
+1424,SKU01424,Produk Simulasi 1424,Elektronik,200088,208,Global Retail,Y
+1425,SKU01425,Produk Simulasi 1425,Rumah Tangga,200225,225,Nusantara Supply,Y
+1426,SKU01426,Produk Simulasi 1426,Fashion,200362,242,Cipta Grosir,Y
+1427,SKU01427,Produk Simulasi 1427,ATK,200499,259,Sinar Distribusi,Y
+1428,SKU01428,Produk Simulasi 1428,Makanan,200636,276,Mitra Dagang,Y
+1429,SKU01429,Produk Simulasi 1429,Minuman,200773,293,Global Retail,Y
+1430,SKU01430,Produk Simulasi 1430,Kesehatan,200910,310,Nusantara Supply,N
+1431,SKU01431,Produk Simulasi 1431,Hobi,201047,327,Cipta Grosir,Y
+1432,SKU01432,Produk Simulasi 1432,Elektronik,201184,344,Sinar Distribusi,Y
+1433,SKU01433,Produk Simulasi 1433,Rumah Tangga,201321,361,Mitra Dagang,Y
+1434,SKU01434,Produk Simulasi 1434,Fashion,201458,378,Global Retail,Y
+1435,SKU01435,Produk Simulasi 1435,ATK,201595,395,Nusantara Supply,Y
+1436,SKU01436,Produk Simulasi 1436,Makanan,201732,412,Cipta Grosir,Y
+1437,SKU01437,Produk Simulasi 1437,Minuman,201869,429,Sinar Distribusi,Y
+1438,SKU01438,Produk Simulasi 1438,Kesehatan,202006,446,Mitra Dagang,Y
+1439,SKU01439,Produk Simulasi 1439,Hobi,202143,463,Global Retail,Y
+1440,SKU01440,Produk Simulasi 1440,Elektronik,202280,480,Nusantara Supply,Y
+1441,SKU01441,Produk Simulasi 1441,Rumah Tangga,202417,497,Cipta Grosir,Y
+1442,SKU01442,Produk Simulasi 1442,Fashion,202554,14,Sinar Distribusi,Y
+1443,SKU01443,Produk Simulasi 1443,ATK,202691,31,Mitra Dagang,N
+1444,SKU01444,Produk Simulasi 1444,Makanan,202828,48,Global Retail,Y
+1445,SKU01445,Produk Simulasi 1445,Minuman,202965,65,Nusantara Supply,Y
+1446,SKU01446,Produk Simulasi 1446,Kesehatan,203102,82,Cipta Grosir,Y
+1447,SKU01447,Produk Simulasi 1447,Hobi,203239,99,Sinar Distribusi,Y
+1448,SKU01448,Produk Simulasi 1448,Elektronik,203376,116,Mitra Dagang,Y
+1449,SKU01449,Produk Simulasi 1449,Rumah Tangga,203513,133,Global Retail,Y
+1450,SKU01450,Produk Simulasi 1450,Fashion,203650,150,Nusantara Supply,Y
+1451,SKU01451,Produk Simulasi 1451,ATK,203787,167,Cipta Grosir,Y
+1452,SKU01452,Produk Simulasi 1452,Makanan,203924,184,Sinar Distribusi,Y
+1453,SKU01453,Produk Simulasi 1453,Minuman,204061,201,Mitra Dagang,Y
+1454,SKU01454,Produk Simulasi 1454,Kesehatan,204198,218,Global Retail,Y
+1455,SKU01455,Produk Simulasi 1455,Hobi,204335,235,Nusantara Supply,Y
+1456,SKU01456,Produk Simulasi 1456,Elektronik,204472,252,Cipta Grosir,N
+1457,SKU01457,Produk Simulasi 1457,Rumah Tangga,204609,269,Sinar Distribusi,Y
+1458,SKU01458,Produk Simulasi 1458,Fashion,204746,286,Mitra Dagang,Y
+1459,SKU01459,Produk Simulasi 1459,ATK,204883,303,Global Retail,Y
+1460,SKU01460,Produk Simulasi 1460,Makanan,205020,320,Nusantara Supply,Y
+1461,SKU01461,Produk Simulasi 1461,Minuman,205157,337,Cipta Grosir,Y
+1462,SKU01462,Produk Simulasi 1462,Kesehatan,205294,354,Sinar Distribusi,Y
+1463,SKU01463,Produk Simulasi 1463,Hobi,205431,371,Mitra Dagang,Y
+1464,SKU01464,Produk Simulasi 1464,Elektronik,205568,388,Global Retail,Y
+1465,SKU01465,Produk Simulasi 1465,Rumah Tangga,205705,405,Nusantara Supply,Y
+1466,SKU01466,Produk Simulasi 1466,Fashion,205842,422,Cipta Grosir,Y
+1467,SKU01467,Produk Simulasi 1467,ATK,205979,439,Sinar Distribusi,Y
+1468,SKU01468,Produk Simulasi 1468,Makanan,206116,456,Mitra Dagang,Y
+1469,SKU01469,Produk Simulasi 1469,Minuman,206253,473,Global Retail,N
+1470,SKU01470,Produk Simulasi 1470,Kesehatan,206390,490,Nusantara Supply,Y
+1471,SKU01471,Produk Simulasi 1471,Hobi,206527,7,Cipta Grosir,Y
+1472,SKU01472,Produk Simulasi 1472,Elektronik,206664,24,Sinar Distribusi,Y
+1473,SKU01473,Produk Simulasi 1473,Rumah Tangga,206801,41,Mitra Dagang,Y
+1474,SKU01474,Produk Simulasi 1474,Fashion,206938,58,Global Retail,Y
+1475,SKU01475,Produk Simulasi 1475,ATK,207075,75,Nusantara Supply,Y
+1476,SKU01476,Produk Simulasi 1476,Makanan,207212,92,Cipta Grosir,Y
+1477,SKU01477,Produk Simulasi 1477,Minuman,207349,109,Sinar Distribusi,Y
+1478,SKU01478,Produk Simulasi 1478,Kesehatan,207486,126,Mitra Dagang,Y
+1479,SKU01479,Produk Simulasi 1479,Hobi,207623,143,Global Retail,Y
+1480,SKU01480,Produk Simulasi 1480,Elektronik,207760,160,Nusantara Supply,Y
+1481,SKU01481,Produk Simulasi 1481,Rumah Tangga,207897,177,Cipta Grosir,Y
+1482,SKU01482,Produk Simulasi 1482,Fashion,208034,194,Sinar Distribusi,N
+1483,SKU01483,Produk Simulasi 1483,ATK,208171,211,Mitra Dagang,Y
+1484,SKU01484,Produk Simulasi 1484,Makanan,208308,228,Global Retail,Y
+1485,SKU01485,Produk Simulasi 1485,Minuman,208445,245,Nusantara Supply,Y
+1486,SKU01486,Produk Simulasi 1486,Kesehatan,208582,262,Cipta Grosir,Y
+1487,SKU01487,Produk Simulasi 1487,Hobi,208719,279,Sinar Distribusi,Y
+1488,SKU01488,Produk Simulasi 1488,Elektronik,208856,296,Mitra Dagang,Y
+1489,SKU01489,Produk Simulasi 1489,Rumah Tangga,208993,313,Global Retail,Y
+1490,SKU01490,Produk Simulasi 1490,Fashion,209130,330,Nusantara Supply,Y
+1491,SKU01491,Produk Simulasi 1491,ATK,209267,347,Cipta Grosir,Y
+1492,SKU01492,Produk Simulasi 1492,Makanan,209404,364,Sinar Distribusi,Y
+1493,SKU01493,Produk Simulasi 1493,Minuman,209541,381,Mitra Dagang,Y
+1494,SKU01494,Produk Simulasi 1494,Kesehatan,209678,398,Global Retail,Y
+1495,SKU01495,Produk Simulasi 1495,Hobi,209815,415,Nusantara Supply,N
+1496,SKU01496,Produk Simulasi 1496,Elektronik,209952,432,Cipta Grosir,Y
+1497,SKU01497,Produk Simulasi 1497,Rumah Tangga,210089,449,Sinar Distribusi,Y
+1498,SKU01498,Produk Simulasi 1498,Fashion,210226,466,Mitra Dagang,Y
+1499,SKU01499,Produk Simulasi 1499,ATK,210363,483,Global Retail,Y
+1500,SKU01500,Produk Simulasi 1500,Makanan,210500,0,Nusantara Supply,Y
+1501,SKU01501,Produk Simulasi 1501,Minuman,210637,17,Cipta Grosir,Y
+1502,SKU01502,Produk Simulasi 1502,Kesehatan,210774,34,Sinar Distribusi,Y
+1503,SKU01503,Produk Simulasi 1503,Hobi,210911,51,Mitra Dagang,Y
+1504,SKU01504,Produk Simulasi 1504,Elektronik,211048,68,Global Retail,Y
+1505,SKU01505,Produk Simulasi 1505,Rumah Tangga,211185,85,Nusantara Supply,Y
+1506,SKU01506,Produk Simulasi 1506,Fashion,211322,102,Cipta Grosir,Y
+1507,SKU01507,Produk Simulasi 1507,ATK,211459,119,Sinar Distribusi,Y
+1508,SKU01508,Produk Simulasi 1508,Makanan,211596,136,Mitra Dagang,N
+1509,SKU01509,Produk Simulasi 1509,Minuman,211733,153,Global Retail,Y
+1510,SKU01510,Produk Simulasi 1510,Kesehatan,211870,170,Nusantara Supply,Y
+1511,SKU01511,Produk Simulasi 1511,Hobi,212007,187,Cipta Grosir,Y
+1512,SKU01512,Produk Simulasi 1512,Elektronik,212144,204,Sinar Distribusi,Y
+1513,SKU01513,Produk Simulasi 1513,Rumah Tangga,212281,221,Mitra Dagang,Y
+1514,SKU01514,Produk Simulasi 1514,Fashion,212418,238,Global Retail,Y
+1515,SKU01515,Produk Simulasi 1515,ATK,212555,255,Nusantara Supply,Y
+1516,SKU01516,Produk Simulasi 1516,Makanan,212692,272,Cipta Grosir,Y
+1517,SKU01517,Produk Simulasi 1517,Minuman,212829,289,Sinar Distribusi,Y
+1518,SKU01518,Produk Simulasi 1518,Kesehatan,212966,306,Mitra Dagang,Y
+1519,SKU01519,Produk Simulasi 1519,Hobi,213103,323,Global Retail,Y
+1520,SKU01520,Produk Simulasi 1520,Elektronik,213240,340,Nusantara Supply,Y
+1521,SKU01521,Produk Simulasi 1521,Rumah Tangga,213377,357,Cipta Grosir,N
+1522,SKU01522,Produk Simulasi 1522,Fashion,213514,374,Sinar Distribusi,Y
+1523,SKU01523,Produk Simulasi 1523,ATK,213651,391,Mitra Dagang,Y
+1524,SKU01524,Produk Simulasi 1524,Makanan,213788,408,Global Retail,Y
+1525,SKU01525,Produk Simulasi 1525,Minuman,213925,425,Nusantara Supply,Y
+1526,SKU01526,Produk Simulasi 1526,Kesehatan,214062,442,Cipta Grosir,Y
+1527,SKU01527,Produk Simulasi 1527,Hobi,214199,459,Sinar Distribusi,Y
+1528,SKU01528,Produk Simulasi 1528,Elektronik,214336,476,Mitra Dagang,Y
+1529,SKU01529,Produk Simulasi 1529,Rumah Tangga,214473,493,Global Retail,Y
+1530,SKU01530,Produk Simulasi 1530,Fashion,214610,10,Nusantara Supply,Y
+1531,SKU01531,Produk Simulasi 1531,ATK,214747,27,Cipta Grosir,Y
+1532,SKU01532,Produk Simulasi 1532,Makanan,214884,44,Sinar Distribusi,Y
+1533,SKU01533,Produk Simulasi 1533,Minuman,215021,61,Mitra Dagang,Y
+1534,SKU01534,Produk Simulasi 1534,Kesehatan,215158,78,Global Retail,N
+1535,SKU01535,Produk Simulasi 1535,Hobi,215295,95,Nusantara Supply,Y
+1536,SKU01536,Produk Simulasi 1536,Elektronik,215432,112,Cipta Grosir,Y
+1537,SKU01537,Produk Simulasi 1537,Rumah Tangga,215569,129,Sinar Distribusi,Y
+1538,SKU01538,Produk Simulasi 1538,Fashion,215706,146,Mitra Dagang,Y
+1539,SKU01539,Produk Simulasi 1539,ATK,215843,163,Global Retail,Y
+1540,SKU01540,Produk Simulasi 1540,Makanan,215980,180,Nusantara Supply,Y
+1541,SKU01541,Produk Simulasi 1541,Minuman,216117,197,Cipta Grosir,Y
+1542,SKU01542,Produk Simulasi 1542,Kesehatan,216254,214,Sinar Distribusi,Y
+1543,SKU01543,Produk Simulasi 1543,Hobi,216391,231,Mitra Dagang,Y
+1544,SKU01544,Produk Simulasi 1544,Elektronik,216528,248,Global Retail,Y
+1545,SKU01545,Produk Simulasi 1545,Rumah Tangga,216665,265,Nusantara Supply,Y
+1546,SKU01546,Produk Simulasi 1546,Fashion,216802,282,Cipta Grosir,Y
+1547,SKU01547,Produk Simulasi 1547,ATK,216939,299,Sinar Distribusi,N
+1548,SKU01548,Produk Simulasi 1548,Makanan,217076,316,Mitra Dagang,Y
+1549,SKU01549,Produk Simulasi 1549,Minuman,217213,333,Global Retail,Y
+1550,SKU01550,Produk Simulasi 1550,Kesehatan,217350,350,Nusantara Supply,Y
+1551,SKU01551,Produk Simulasi 1551,Hobi,217487,367,Cipta Grosir,Y
+1552,SKU01552,Produk Simulasi 1552,Elektronik,217624,384,Sinar Distribusi,Y
+1553,SKU01553,Produk Simulasi 1553,Rumah Tangga,217761,401,Mitra Dagang,Y
+1554,SKU01554,Produk Simulasi 1554,Fashion,217898,418,Global Retail,Y
+1555,SKU01555,Produk Simulasi 1555,ATK,218035,435,Nusantara Supply,Y
+1556,SKU01556,Produk Simulasi 1556,Makanan,218172,452,Cipta Grosir,Y
+1557,SKU01557,Produk Simulasi 1557,Minuman,218309,469,Sinar Distribusi,Y
+1558,SKU01558,Produk Simulasi 1558,Kesehatan,218446,486,Mitra Dagang,Y
+1559,SKU01559,Produk Simulasi 1559,Hobi,218583,3,Global Retail,Y
+1560,SKU01560,Produk Simulasi 1560,Elektronik,218720,20,Nusantara Supply,N
+1561,SKU01561,Produk Simulasi 1561,Rumah Tangga,218857,37,Cipta Grosir,Y
+1562,SKU01562,Produk Simulasi 1562,Fashion,218994,54,Sinar Distribusi,Y
+1563,SKU01563,Produk Simulasi 1563,ATK,219131,71,Mitra Dagang,Y
+1564,SKU01564,Produk Simulasi 1564,Makanan,219268,88,Global Retail,Y
+1565,SKU01565,Produk Simulasi 1565,Minuman,219405,105,Nusantara Supply,Y
+1566,SKU01566,Produk Simulasi 1566,Kesehatan,219542,122,Cipta Grosir,Y
+1567,SKU01567,Produk Simulasi 1567,Hobi,219679,139,Sinar Distribusi,Y
+1568,SKU01568,Produk Simulasi 1568,Elektronik,219816,156,Mitra Dagang,Y
+1569,SKU01569,Produk Simulasi 1569,Rumah Tangga,219953,173,Global Retail,Y
+1570,SKU01570,Produk Simulasi 1570,Fashion,220090,190,Nusantara Supply,Y
+1571,SKU01571,Produk Simulasi 1571,ATK,220227,207,Cipta Grosir,Y
+1572,SKU01572,Produk Simulasi 1572,Makanan,220364,224,Sinar Distribusi,Y
+1573,SKU01573,Produk Simulasi 1573,Minuman,220501,241,Mitra Dagang,N
+1574,SKU01574,Produk Simulasi 1574,Kesehatan,220638,258,Global Retail,Y
+1575,SKU01575,Produk Simulasi 1575,Hobi,220775,275,Nusantara Supply,Y
+1576,SKU01576,Produk Simulasi 1576,Elektronik,220912,292,Cipta Grosir,Y
+1577,SKU01577,Produk Simulasi 1577,Rumah Tangga,221049,309,Sinar Distribusi,Y
+1578,SKU01578,Produk Simulasi 1578,Fashion,221186,326,Mitra Dagang,Y
+1579,SKU01579,Produk Simulasi 1579,ATK,221323,343,Global Retail,Y
+1580,SKU01580,Produk Simulasi 1580,Makanan,221460,360,Nusantara Supply,Y
+1581,SKU01581,Produk Simulasi 1581,Minuman,221597,377,Cipta Grosir,Y
+1582,SKU01582,Produk Simulasi 1582,Kesehatan,221734,394,Sinar Distribusi,Y
+1583,SKU01583,Produk Simulasi 1583,Hobi,221871,411,Mitra Dagang,Y
+1584,SKU01584,Produk Simulasi 1584,Elektronik,222008,428,Global Retail,Y
+1585,SKU01585,Produk Simulasi 1585,Rumah Tangga,222145,445,Nusantara Supply,Y
+1586,SKU01586,Produk Simulasi 1586,Fashion,222282,462,Cipta Grosir,N
+1587,SKU01587,Produk Simulasi 1587,ATK,222419,479,Sinar Distribusi,Y
+1588,SKU01588,Produk Simulasi 1588,Makanan,222556,496,Mitra Dagang,Y
+1589,SKU01589,Produk Simulasi 1589,Minuman,222693,13,Global Retail,Y
+1590,SKU01590,Produk Simulasi 1590,Kesehatan,222830,30,Nusantara Supply,Y
+1591,SKU01591,Produk Simulasi 1591,Hobi,222967,47,Cipta Grosir,Y
+1592,SKU01592,Produk Simulasi 1592,Elektronik,223104,64,Sinar Distribusi,Y
+1593,SKU01593,Produk Simulasi 1593,Rumah Tangga,223241,81,Mitra Dagang,Y
+1594,SKU01594,Produk Simulasi 1594,Fashion,223378,98,Global Retail,Y
+1595,SKU01595,Produk Simulasi 1595,ATK,223515,115,Nusantara Supply,Y
+1596,SKU01596,Produk Simulasi 1596,Makanan,223652,132,Cipta Grosir,Y
+1597,SKU01597,Produk Simulasi 1597,Minuman,223789,149,Sinar Distribusi,Y
+1598,SKU01598,Produk Simulasi 1598,Kesehatan,223926,166,Mitra Dagang,Y
+1599,SKU01599,Produk Simulasi 1599,Hobi,224063,183,Global Retail,N
+1600,SKU01600,Produk Simulasi 1600,Elektronik,224200,200,Nusantara Supply,Y
+1601,SKU01601,Produk Simulasi 1601,Rumah Tangga,224337,217,Cipta Grosir,Y
+1602,SKU01602,Produk Simulasi 1602,Fashion,224474,234,Sinar Distribusi,Y
+1603,SKU01603,Produk Simulasi 1603,ATK,224611,251,Mitra Dagang,Y
+1604,SKU01604,Produk Simulasi 1604,Makanan,224748,268,Global Retail,Y
+1605,SKU01605,Produk Simulasi 1605,Minuman,224885,285,Nusantara Supply,Y
+1606,SKU01606,Produk Simulasi 1606,Kesehatan,225022,302,Cipta Grosir,Y
+1607,SKU01607,Produk Simulasi 1607,Hobi,225159,319,Sinar Distribusi,Y
+1608,SKU01608,Produk Simulasi 1608,Elektronik,225296,336,Mitra Dagang,Y
+1609,SKU01609,Produk Simulasi 1609,Rumah Tangga,225433,353,Global Retail,Y
+1610,SKU01610,Produk Simulasi 1610,Fashion,225570,370,Nusantara Supply,Y
+1611,SKU01611,Produk Simulasi 1611,ATK,225707,387,Cipta Grosir,Y
+1612,SKU01612,Produk Simulasi 1612,Makanan,225844,404,Sinar Distribusi,N
+1613,SKU01613,Produk Simulasi 1613,Minuman,225981,421,Mitra Dagang,Y
+1614,SKU01614,Produk Simulasi 1614,Kesehatan,226118,438,Global Retail,Y
+1615,SKU01615,Produk Simulasi 1615,Hobi,226255,455,Nusantara Supply,Y
+1616,SKU01616,Produk Simulasi 1616,Elektronik,226392,472,Cipta Grosir,Y
+1617,SKU01617,Produk Simulasi 1617,Rumah Tangga,226529,489,Sinar Distribusi,Y
+1618,SKU01618,Produk Simulasi 1618,Fashion,226666,6,Mitra Dagang,Y
+1619,SKU01619,Produk Simulasi 1619,ATK,226803,23,Global Retail,Y
+1620,SKU01620,Produk Simulasi 1620,Makanan,226940,40,Nusantara Supply,Y
+1621,SKU01621,Produk Simulasi 1621,Minuman,227077,57,Cipta Grosir,Y
+1622,SKU01622,Produk Simulasi 1622,Kesehatan,227214,74,Sinar Distribusi,Y
+1623,SKU01623,Produk Simulasi 1623,Hobi,227351,91,Mitra Dagang,Y
+1624,SKU01624,Produk Simulasi 1624,Elektronik,227488,108,Global Retail,Y
+1625,SKU01625,Produk Simulasi 1625,Rumah Tangga,227625,125,Nusantara Supply,N
+1626,SKU01626,Produk Simulasi 1626,Fashion,227762,142,Cipta Grosir,Y
+1627,SKU01627,Produk Simulasi 1627,ATK,227899,159,Sinar Distribusi,Y
+1628,SKU01628,Produk Simulasi 1628,Makanan,228036,176,Mitra Dagang,Y
+1629,SKU01629,Produk Simulasi 1629,Minuman,228173,193,Global Retail,Y
+1630,SKU01630,Produk Simulasi 1630,Kesehatan,228310,210,Nusantara Supply,Y
+1631,SKU01631,Produk Simulasi 1631,Hobi,228447,227,Cipta Grosir,Y
+1632,SKU01632,Produk Simulasi 1632,Elektronik,228584,244,Sinar Distribusi,Y
+1633,SKU01633,Produk Simulasi 1633,Rumah Tangga,228721,261,Mitra Dagang,Y
+1634,SKU01634,Produk Simulasi 1634,Fashion,228858,278,Global Retail,Y
+1635,SKU01635,Produk Simulasi 1635,ATK,228995,295,Nusantara Supply,Y
+1636,SKU01636,Produk Simulasi 1636,Makanan,229132,312,Cipta Grosir,Y
+1637,SKU01637,Produk Simulasi 1637,Minuman,229269,329,Sinar Distribusi,Y
+1638,SKU01638,Produk Simulasi 1638,Kesehatan,229406,346,Mitra Dagang,N
+1639,SKU01639,Produk Simulasi 1639,Hobi,229543,363,Global Retail,Y
+1640,SKU01640,Produk Simulasi 1640,Elektronik,229680,380,Nusantara Supply,Y
+1641,SKU01641,Produk Simulasi 1641,Rumah Tangga,229817,397,Cipta Grosir,Y
+1642,SKU01642,Produk Simulasi 1642,Fashion,229954,414,Sinar Distribusi,Y
+1643,SKU01643,Produk Simulasi 1643,ATK,230091,431,Mitra Dagang,Y
+1644,SKU01644,Produk Simulasi 1644,Makanan,230228,448,Global Retail,Y
+1645,SKU01645,Produk Simulasi 1645,Minuman,230365,465,Nusantara Supply,Y
+1646,SKU01646,Produk Simulasi 1646,Kesehatan,230502,482,Cipta Grosir,Y
+1647,SKU01647,Produk Simulasi 1647,Hobi,230639,499,Sinar Distribusi,Y
+1648,SKU01648,Produk Simulasi 1648,Elektronik,230776,16,Mitra Dagang,Y
+1649,SKU01649,Produk Simulasi 1649,Rumah Tangga,230913,33,Global Retail,Y
+1650,SKU01650,Produk Simulasi 1650,Fashion,231050,50,Nusantara Supply,Y
+1651,SKU01651,Produk Simulasi 1651,ATK,231187,67,Cipta Grosir,N
+1652,SKU01652,Produk Simulasi 1652,Makanan,231324,84,Sinar Distribusi,Y
+1653,SKU01653,Produk Simulasi 1653,Minuman,231461,101,Mitra Dagang,Y
+1654,SKU01654,Produk Simulasi 1654,Kesehatan,231598,118,Global Retail,Y
+1655,SKU01655,Produk Simulasi 1655,Hobi,231735,135,Nusantara Supply,Y
+1656,SKU01656,Produk Simulasi 1656,Elektronik,231872,152,Cipta Grosir,Y
+1657,SKU01657,Produk Simulasi 1657,Rumah Tangga,232009,169,Sinar Distribusi,Y
+1658,SKU01658,Produk Simulasi 1658,Fashion,232146,186,Mitra Dagang,Y
+1659,SKU01659,Produk Simulasi 1659,ATK,232283,203,Global Retail,Y
+1660,SKU01660,Produk Simulasi 1660,Makanan,232420,220,Nusantara Supply,Y
+1661,SKU01661,Produk Simulasi 1661,Minuman,232557,237,Cipta Grosir,Y
+1662,SKU01662,Produk Simulasi 1662,Kesehatan,232694,254,Sinar Distribusi,Y
+1663,SKU01663,Produk Simulasi 1663,Hobi,232831,271,Mitra Dagang,Y
+1664,SKU01664,Produk Simulasi 1664,Elektronik,232968,288,Global Retail,N
+1665,SKU01665,Produk Simulasi 1665,Rumah Tangga,233105,305,Nusantara Supply,Y
+1666,SKU01666,Produk Simulasi 1666,Fashion,233242,322,Cipta Grosir,Y
+1667,SKU01667,Produk Simulasi 1667,ATK,233379,339,Sinar Distribusi,Y
+1668,SKU01668,Produk Simulasi 1668,Makanan,233516,356,Mitra Dagang,Y
+1669,SKU01669,Produk Simulasi 1669,Minuman,233653,373,Global Retail,Y
+1670,SKU01670,Produk Simulasi 1670,Kesehatan,233790,390,Nusantara Supply,Y
+1671,SKU01671,Produk Simulasi 1671,Hobi,233927,407,Cipta Grosir,Y
+1672,SKU01672,Produk Simulasi 1672,Elektronik,234064,424,Sinar Distribusi,Y
+1673,SKU01673,Produk Simulasi 1673,Rumah Tangga,234201,441,Mitra Dagang,Y
+1674,SKU01674,Produk Simulasi 1674,Fashion,234338,458,Global Retail,Y
+1675,SKU01675,Produk Simulasi 1675,ATK,234475,475,Nusantara Supply,Y
+1676,SKU01676,Produk Simulasi 1676,Makanan,234612,492,Cipta Grosir,Y
+1677,SKU01677,Produk Simulasi 1677,Minuman,234749,9,Sinar Distribusi,N
+1678,SKU01678,Produk Simulasi 1678,Kesehatan,234886,26,Mitra Dagang,Y
+1679,SKU01679,Produk Simulasi 1679,Hobi,235023,43,Global Retail,Y
+1680,SKU01680,Produk Simulasi 1680,Elektronik,235160,60,Nusantara Supply,Y
+1681,SKU01681,Produk Simulasi 1681,Rumah Tangga,235297,77,Cipta Grosir,Y
+1682,SKU01682,Produk Simulasi 1682,Fashion,235434,94,Sinar Distribusi,Y
+1683,SKU01683,Produk Simulasi 1683,ATK,235571,111,Mitra Dagang,Y
+1684,SKU01684,Produk Simulasi 1684,Makanan,235708,128,Global Retail,Y
+1685,SKU01685,Produk Simulasi 1685,Minuman,235845,145,Nusantara Supply,Y
+1686,SKU01686,Produk Simulasi 1686,Kesehatan,235982,162,Cipta Grosir,Y
+1687,SKU01687,Produk Simulasi 1687,Hobi,236119,179,Sinar Distribusi,Y
+1688,SKU01688,Produk Simulasi 1688,Elektronik,236256,196,Mitra Dagang,Y
+1689,SKU01689,Produk Simulasi 1689,Rumah Tangga,236393,213,Global Retail,Y
+1690,SKU01690,Produk Simulasi 1690,Fashion,236530,230,Nusantara Supply,N
+1691,SKU01691,Produk Simulasi 1691,ATK,236667,247,Cipta Grosir,Y
+1692,SKU01692,Produk Simulasi 1692,Makanan,236804,264,Sinar Distribusi,Y
+1693,SKU01693,Produk Simulasi 1693,Minuman,236941,281,Mitra Dagang,Y
+1694,SKU01694,Produk Simulasi 1694,Kesehatan,237078,298,Global Retail,Y
+1695,SKU01695,Produk Simulasi 1695,Hobi,237215,315,Nusantara Supply,Y
+1696,SKU01696,Produk Simulasi 1696,Elektronik,237352,332,Cipta Grosir,Y
+1697,SKU01697,Produk Simulasi 1697,Rumah Tangga,237489,349,Sinar Distribusi,Y
+1698,SKU01698,Produk Simulasi 1698,Fashion,237626,366,Mitra Dagang,Y
+1699,SKU01699,Produk Simulasi 1699,ATK,237763,383,Global Retail,Y
+1700,SKU01700,Produk Simulasi 1700,Makanan,237900,400,Nusantara Supply,Y
+1701,SKU01701,Produk Simulasi 1701,Minuman,238037,417,Cipta Grosir,Y
+1702,SKU01702,Produk Simulasi 1702,Kesehatan,238174,434,Sinar Distribusi,Y
+1703,SKU01703,Produk Simulasi 1703,Hobi,238311,451,Mitra Dagang,N
+1704,SKU01704,Produk Simulasi 1704,Elektronik,238448,468,Global Retail,Y
+1705,SKU01705,Produk Simulasi 1705,Rumah Tangga,238585,485,Nusantara Supply,Y
+1706,SKU01706,Produk Simulasi 1706,Fashion,238722,2,Cipta Grosir,Y
+1707,SKU01707,Produk Simulasi 1707,ATK,238859,19,Sinar Distribusi,Y
+1708,SKU01708,Produk Simulasi 1708,Makanan,238996,36,Mitra Dagang,Y
+1709,SKU01709,Produk Simulasi 1709,Minuman,239133,53,Global Retail,Y
+1710,SKU01710,Produk Simulasi 1710,Kesehatan,239270,70,Nusantara Supply,Y
+1711,SKU01711,Produk Simulasi 1711,Hobi,239407,87,Cipta Grosir,Y
+1712,SKU01712,Produk Simulasi 1712,Elektronik,239544,104,Sinar Distribusi,Y
+1713,SKU01713,Produk Simulasi 1713,Rumah Tangga,239681,121,Mitra Dagang,Y
+1714,SKU01714,Produk Simulasi 1714,Fashion,239818,138,Global Retail,Y
+1715,SKU01715,Produk Simulasi 1715,ATK,239955,155,Nusantara Supply,Y
+1716,SKU01716,Produk Simulasi 1716,Makanan,240092,172,Cipta Grosir,N
+1717,SKU01717,Produk Simulasi 1717,Minuman,240229,189,Sinar Distribusi,Y
+1718,SKU01718,Produk Simulasi 1718,Kesehatan,240366,206,Mitra Dagang,Y
+1719,SKU01719,Produk Simulasi 1719,Hobi,240503,223,Global Retail,Y
+1720,SKU01720,Produk Simulasi 1720,Elektronik,240640,240,Nusantara Supply,Y
+1721,SKU01721,Produk Simulasi 1721,Rumah Tangga,240777,257,Cipta Grosir,Y
+1722,SKU01722,Produk Simulasi 1722,Fashion,240914,274,Sinar Distribusi,Y
+1723,SKU01723,Produk Simulasi 1723,ATK,241051,291,Mitra Dagang,Y
+1724,SKU01724,Produk Simulasi 1724,Makanan,241188,308,Global Retail,Y
+1725,SKU01725,Produk Simulasi 1725,Minuman,241325,325,Nusantara Supply,Y
+1726,SKU01726,Produk Simulasi 1726,Kesehatan,241462,342,Cipta Grosir,Y
+1727,SKU01727,Produk Simulasi 1727,Hobi,241599,359,Sinar Distribusi,Y
+1728,SKU01728,Produk Simulasi 1728,Elektronik,241736,376,Mitra Dagang,Y
+1729,SKU01729,Produk Simulasi 1729,Rumah Tangga,241873,393,Global Retail,N
+1730,SKU01730,Produk Simulasi 1730,Fashion,242010,410,Nusantara Supply,Y
+1731,SKU01731,Produk Simulasi 1731,ATK,242147,427,Cipta Grosir,Y
+1732,SKU01732,Produk Simulasi 1732,Makanan,242284,444,Sinar Distribusi,Y
+1733,SKU01733,Produk Simulasi 1733,Minuman,242421,461,Mitra Dagang,Y
+1734,SKU01734,Produk Simulasi 1734,Kesehatan,242558,478,Global Retail,Y
+1735,SKU01735,Produk Simulasi 1735,Hobi,242695,495,Nusantara Supply,Y
+1736,SKU01736,Produk Simulasi 1736,Elektronik,242832,12,Cipta Grosir,Y
+1737,SKU01737,Produk Simulasi 1737,Rumah Tangga,242969,29,Sinar Distribusi,Y
+1738,SKU01738,Produk Simulasi 1738,Fashion,243106,46,Mitra Dagang,Y
+1739,SKU01739,Produk Simulasi 1739,ATK,243243,63,Global Retail,Y
+1740,SKU01740,Produk Simulasi 1740,Makanan,243380,80,Nusantara Supply,Y
+1741,SKU01741,Produk Simulasi 1741,Minuman,243517,97,Cipta Grosir,Y
+1742,SKU01742,Produk Simulasi 1742,Kesehatan,243654,114,Sinar Distribusi,N
+1743,SKU01743,Produk Simulasi 1743,Hobi,243791,131,Mitra Dagang,Y
+1744,SKU01744,Produk Simulasi 1744,Elektronik,243928,148,Global Retail,Y
+1745,SKU01745,Produk Simulasi 1745,Rumah Tangga,244065,165,Nusantara Supply,Y
+1746,SKU01746,Produk Simulasi 1746,Fashion,244202,182,Cipta Grosir,Y
+1747,SKU01747,Produk Simulasi 1747,ATK,244339,199,Sinar Distribusi,Y
+1748,SKU01748,Produk Simulasi 1748,Makanan,244476,216,Mitra Dagang,Y
+1749,SKU01749,Produk Simulasi 1749,Minuman,244613,233,Global Retail,Y
+1750,SKU01750,Produk Simulasi 1750,Kesehatan,244750,250,Nusantara Supply,Y
+1751,SKU01751,Produk Simulasi 1751,Hobi,244887,267,Cipta Grosir,Y
+1752,SKU01752,Produk Simulasi 1752,Elektronik,245024,284,Sinar Distribusi,Y
+1753,SKU01753,Produk Simulasi 1753,Rumah Tangga,245161,301,Mitra Dagang,Y
+1754,SKU01754,Produk Simulasi 1754,Fashion,245298,318,Global Retail,Y
+1755,SKU01755,Produk Simulasi 1755,ATK,245435,335,Nusantara Supply,N
+1756,SKU01756,Produk Simulasi 1756,Makanan,245572,352,Cipta Grosir,Y
+1757,SKU01757,Produk Simulasi 1757,Minuman,245709,369,Sinar Distribusi,Y
+1758,SKU01758,Produk Simulasi 1758,Kesehatan,245846,386,Mitra Dagang,Y
+1759,SKU01759,Produk Simulasi 1759,Hobi,245983,403,Global Retail,Y
+1760,SKU01760,Produk Simulasi 1760,Elektronik,246120,420,Nusantara Supply,Y
+1761,SKU01761,Produk Simulasi 1761,Rumah Tangga,246257,437,Cipta Grosir,Y
+1762,SKU01762,Produk Simulasi 1762,Fashion,246394,454,Sinar Distribusi,Y
+1763,SKU01763,Produk Simulasi 1763,ATK,246531,471,Mitra Dagang,Y
+1764,SKU01764,Produk Simulasi 1764,Makanan,246668,488,Global Retail,Y
+1765,SKU01765,Produk Simulasi 1765,Minuman,246805,5,Nusantara Supply,Y
+1766,SKU01766,Produk Simulasi 1766,Kesehatan,246942,22,Cipta Grosir,Y
+1767,SKU01767,Produk Simulasi 1767,Hobi,247079,39,Sinar Distribusi,Y
+1768,SKU01768,Produk Simulasi 1768,Elektronik,247216,56,Mitra Dagang,N
+1769,SKU01769,Produk Simulasi 1769,Rumah Tangga,247353,73,Global Retail,Y
+1770,SKU01770,Produk Simulasi 1770,Fashion,247490,90,Nusantara Supply,Y
+1771,SKU01771,Produk Simulasi 1771,ATK,247627,107,Cipta Grosir,Y
+1772,SKU01772,Produk Simulasi 1772,Makanan,247764,124,Sinar Distribusi,Y
+1773,SKU01773,Produk Simulasi 1773,Minuman,247901,141,Mitra Dagang,Y
+1774,SKU01774,Produk Simulasi 1774,Kesehatan,248038,158,Global Retail,Y
+1775,SKU01775,Produk Simulasi 1775,Hobi,248175,175,Nusantara Supply,Y
+1776,SKU01776,Produk Simulasi 1776,Elektronik,248312,192,Cipta Grosir,Y
+1777,SKU01777,Produk Simulasi 1777,Rumah Tangga,248449,209,Sinar Distribusi,Y
+1778,SKU01778,Produk Simulasi 1778,Fashion,248586,226,Mitra Dagang,Y
+1779,SKU01779,Produk Simulasi 1779,ATK,248723,243,Global Retail,Y
+1780,SKU01780,Produk Simulasi 1780,Makanan,248860,260,Nusantara Supply,Y
+1781,SKU01781,Produk Simulasi 1781,Minuman,248997,277,Cipta Grosir,N
+1782,SKU01782,Produk Simulasi 1782,Kesehatan,249134,294,Sinar Distribusi,Y
+1783,SKU01783,Produk Simulasi 1783,Hobi,249271,311,Mitra Dagang,Y
+1784,SKU01784,Produk Simulasi 1784,Elektronik,249408,328,Global Retail,Y
+1785,SKU01785,Produk Simulasi 1785,Rumah Tangga,249545,345,Nusantara Supply,Y
+1786,SKU01786,Produk Simulasi 1786,Fashion,249682,362,Cipta Grosir,Y
+1787,SKU01787,Produk Simulasi 1787,ATK,249819,379,Sinar Distribusi,Y
+1788,SKU01788,Produk Simulasi 1788,Makanan,249956,396,Mitra Dagang,Y
+1789,SKU01789,Produk Simulasi 1789,Minuman,250093,413,Global Retail,Y
+1790,SKU01790,Produk Simulasi 1790,Kesehatan,250230,430,Nusantara Supply,Y
+1791,SKU01791,Produk Simulasi 1791,Hobi,250367,447,Cipta Grosir,Y
+1792,SKU01792,Produk Simulasi 1792,Elektronik,250504,464,Sinar Distribusi,Y
+1793,SKU01793,Produk Simulasi 1793,Rumah Tangga,250641,481,Mitra Dagang,Y
+1794,SKU01794,Produk Simulasi 1794,Fashion,250778,498,Global Retail,N
+1795,SKU01795,Produk Simulasi 1795,ATK,250915,15,Nusantara Supply,Y
+1796,SKU01796,Produk Simulasi 1796,Makanan,251052,32,Cipta Grosir,Y
+1797,SKU01797,Produk Simulasi 1797,Minuman,251189,49,Sinar Distribusi,Y
+1798,SKU01798,Produk Simulasi 1798,Kesehatan,251326,66,Mitra Dagang,Y
+1799,SKU01799,Produk Simulasi 1799,Hobi,251463,83,Global Retail,Y
+1800,SKU01800,Produk Simulasi 1800,Elektronik,251600,100,Nusantara Supply,Y
+1801,SKU01801,Produk Simulasi 1801,Rumah Tangga,251737,117,Cipta Grosir,Y
+1802,SKU01802,Produk Simulasi 1802,Fashion,251874,134,Sinar Distribusi,Y
+1803,SKU01803,Produk Simulasi 1803,ATK,252011,151,Mitra Dagang,Y
+1804,SKU01804,Produk Simulasi 1804,Makanan,252148,168,Global Retail,Y
+1805,SKU01805,Produk Simulasi 1805,Minuman,252285,185,Nusantara Supply,Y
+1806,SKU01806,Produk Simulasi 1806,Kesehatan,252422,202,Cipta Grosir,Y
+1807,SKU01807,Produk Simulasi 1807,Hobi,252559,219,Sinar Distribusi,N
+1808,SKU01808,Produk Simulasi 1808,Elektronik,252696,236,Mitra Dagang,Y
+1809,SKU01809,Produk Simulasi 1809,Rumah Tangga,252833,253,Global Retail,Y
+1810,SKU01810,Produk Simulasi 1810,Fashion,252970,270,Nusantara Supply,Y
+1811,SKU01811,Produk Simulasi 1811,ATK,253107,287,Cipta Grosir,Y
+1812,SKU01812,Produk Simulasi 1812,Makanan,253244,304,Sinar Distribusi,Y
+1813,SKU01813,Produk Simulasi 1813,Minuman,253381,321,Mitra Dagang,Y
+1814,SKU01814,Produk Simulasi 1814,Kesehatan,253518,338,Global Retail,Y
+1815,SKU01815,Produk Simulasi 1815,Hobi,253655,355,Nusantara Supply,Y
+1816,SKU01816,Produk Simulasi 1816,Elektronik,253792,372,Cipta Grosir,Y
+1817,SKU01817,Produk Simulasi 1817,Rumah Tangga,253929,389,Sinar Distribusi,Y
+1818,SKU01818,Produk Simulasi 1818,Fashion,254066,406,Mitra Dagang,Y
+1819,SKU01819,Produk Simulasi 1819,ATK,254203,423,Global Retail,Y
+1820,SKU01820,Produk Simulasi 1820,Makanan,254340,440,Nusantara Supply,N
+1821,SKU01821,Produk Simulasi 1821,Minuman,254477,457,Cipta Grosir,Y
+1822,SKU01822,Produk Simulasi 1822,Kesehatan,254614,474,Sinar Distribusi,Y
+1823,SKU01823,Produk Simulasi 1823,Hobi,254751,491,Mitra Dagang,Y
+1824,SKU01824,Produk Simulasi 1824,Elektronik,254888,8,Global Retail,Y
+1825,SKU01825,Produk Simulasi 1825,Rumah Tangga,255025,25,Nusantara Supply,Y
+1826,SKU01826,Produk Simulasi 1826,Fashion,255162,42,Cipta Grosir,Y
+1827,SKU01827,Produk Simulasi 1827,ATK,255299,59,Sinar Distribusi,Y
+1828,SKU01828,Produk Simulasi 1828,Makanan,255436,76,Mitra Dagang,Y
+1829,SKU01829,Produk Simulasi 1829,Minuman,255573,93,Global Retail,Y
+1830,SKU01830,Produk Simulasi 1830,Kesehatan,255710,110,Nusantara Supply,Y
+1831,SKU01831,Produk Simulasi 1831,Hobi,255847,127,Cipta Grosir,Y
+1832,SKU01832,Produk Simulasi 1832,Elektronik,255984,144,Sinar Distribusi,Y
+1833,SKU01833,Produk Simulasi 1833,Rumah Tangga,256121,161,Mitra Dagang,N
+1834,SKU01834,Produk Simulasi 1834,Fashion,256258,178,Global Retail,Y
+1835,SKU01835,Produk Simulasi 1835,ATK,256395,195,Nusantara Supply,Y
+1836,SKU01836,Produk Simulasi 1836,Makanan,256532,212,Cipta Grosir,Y
+1837,SKU01837,Produk Simulasi 1837,Minuman,256669,229,Sinar Distribusi,Y
+1838,SKU01838,Produk Simulasi 1838,Kesehatan,256806,246,Mitra Dagang,Y
+1839,SKU01839,Produk Simulasi 1839,Hobi,256943,263,Global Retail,Y
+1840,SKU01840,Produk Simulasi 1840,Elektronik,257080,280,Nusantara Supply,Y
+1841,SKU01841,Produk Simulasi 1841,Rumah Tangga,257217,297,Cipta Grosir,Y
+1842,SKU01842,Produk Simulasi 1842,Fashion,257354,314,Sinar Distribusi,Y
+1843,SKU01843,Produk Simulasi 1843,ATK,257491,331,Mitra Dagang,Y
+1844,SKU01844,Produk Simulasi 1844,Makanan,257628,348,Global Retail,Y
+1845,SKU01845,Produk Simulasi 1845,Minuman,257765,365,Nusantara Supply,Y
+1846,SKU01846,Produk Simulasi 1846,Kesehatan,257902,382,Cipta Grosir,N
+1847,SKU01847,Produk Simulasi 1847,Hobi,258039,399,Sinar Distribusi,Y
+1848,SKU01848,Produk Simulasi 1848,Elektronik,258176,416,Mitra Dagang,Y
+1849,SKU01849,Produk Simulasi 1849,Rumah Tangga,258313,433,Global Retail,Y
+1850,SKU01850,Produk Simulasi 1850,Fashion,258450,450,Nusantara Supply,Y
+1851,SKU01851,Produk Simulasi 1851,ATK,258587,467,Cipta Grosir,Y
+1852,SKU01852,Produk Simulasi 1852,Makanan,258724,484,Sinar Distribusi,Y
+1853,SKU01853,Produk Simulasi 1853,Minuman,258861,1,Mitra Dagang,Y
+1854,SKU01854,Produk Simulasi 1854,Kesehatan,258998,18,Global Retail,Y
+1855,SKU01855,Produk Simulasi 1855,Hobi,259135,35,Nusantara Supply,Y
+1856,SKU01856,Produk Simulasi 1856,Elektronik,259272,52,Cipta Grosir,Y
+1857,SKU01857,Produk Simulasi 1857,Rumah Tangga,259409,69,Sinar Distribusi,Y
+1858,SKU01858,Produk Simulasi 1858,Fashion,259546,86,Mitra Dagang,Y
+1859,SKU01859,Produk Simulasi 1859,ATK,259683,103,Global Retail,N
+1860,SKU01860,Produk Simulasi 1860,Makanan,259820,120,Nusantara Supply,Y
+1861,SKU01861,Produk Simulasi 1861,Minuman,259957,137,Cipta Grosir,Y
+1862,SKU01862,Produk Simulasi 1862,Kesehatan,260094,154,Sinar Distribusi,Y
+1863,SKU01863,Produk Simulasi 1863,Hobi,260231,171,Mitra Dagang,Y
+1864,SKU01864,Produk Simulasi 1864,Elektronik,260368,188,Global Retail,Y
+1865,SKU01865,Produk Simulasi 1865,Rumah Tangga,260505,205,Nusantara Supply,Y
+1866,SKU01866,Produk Simulasi 1866,Fashion,260642,222,Cipta Grosir,Y
+1867,SKU01867,Produk Simulasi 1867,ATK,260779,239,Sinar Distribusi,Y
+1868,SKU01868,Produk Simulasi 1868,Makanan,260916,256,Mitra Dagang,Y
+1869,SKU01869,Produk Simulasi 1869,Minuman,261053,273,Global Retail,Y
+1870,SKU01870,Produk Simulasi 1870,Kesehatan,261190,290,Nusantara Supply,Y
+1871,SKU01871,Produk Simulasi 1871,Hobi,261327,307,Cipta Grosir,Y
+1872,SKU01872,Produk Simulasi 1872,Elektronik,261464,324,Sinar Distribusi,N
+1873,SKU01873,Produk Simulasi 1873,Rumah Tangga,261601,341,Mitra Dagang,Y
+1874,SKU01874,Produk Simulasi 1874,Fashion,261738,358,Global Retail,Y
+1875,SKU01875,Produk Simulasi 1875,ATK,261875,375,Nusantara Supply,Y
+1876,SKU01876,Produk Simulasi 1876,Makanan,262012,392,Cipta Grosir,Y
+1877,SKU01877,Produk Simulasi 1877,Minuman,262149,409,Sinar Distribusi,Y
+1878,SKU01878,Produk Simulasi 1878,Kesehatan,262286,426,Mitra Dagang,Y
+1879,SKU01879,Produk Simulasi 1879,Hobi,262423,443,Global Retail,Y
+1880,SKU01880,Produk Simulasi 1880,Elektronik,262560,460,Nusantara Supply,Y
+1881,SKU01881,Produk Simulasi 1881,Rumah Tangga,262697,477,Cipta Grosir,Y
+1882,SKU01882,Produk Simulasi 1882,Fashion,262834,494,Sinar Distribusi,Y
+1883,SKU01883,Produk Simulasi 1883,ATK,262971,11,Mitra Dagang,Y
+1884,SKU01884,Produk Simulasi 1884,Makanan,263108,28,Global Retail,Y
+1885,SKU01885,Produk Simulasi 1885,Minuman,263245,45,Nusantara Supply,N
+1886,SKU01886,Produk Simulasi 1886,Kesehatan,263382,62,Cipta Grosir,Y
+1887,SKU01887,Produk Simulasi 1887,Hobi,263519,79,Sinar Distribusi,Y
+1888,SKU01888,Produk Simulasi 1888,Elektronik,263656,96,Mitra Dagang,Y
+1889,SKU01889,Produk Simulasi 1889,Rumah Tangga,263793,113,Global Retail,Y
+1890,SKU01890,Produk Simulasi 1890,Fashion,263930,130,Nusantara Supply,Y
+1891,SKU01891,Produk Simulasi 1891,ATK,264067,147,Cipta Grosir,Y
+1892,SKU01892,Produk Simulasi 1892,Makanan,264204,164,Sinar Distribusi,Y
+1893,SKU01893,Produk Simulasi 1893,Minuman,264341,181,Mitra Dagang,Y
+1894,SKU01894,Produk Simulasi 1894,Kesehatan,264478,198,Global Retail,Y
+1895,SKU01895,Produk Simulasi 1895,Hobi,264615,215,Nusantara Supply,Y
+1896,SKU01896,Produk Simulasi 1896,Elektronik,264752,232,Cipta Grosir,Y
+1897,SKU01897,Produk Simulasi 1897,Rumah Tangga,264889,249,Sinar Distribusi,Y
+1898,SKU01898,Produk Simulasi 1898,Fashion,265026,266,Mitra Dagang,N
+1899,SKU01899,Produk Simulasi 1899,ATK,265163,283,Global Retail,Y
+1900,SKU01900,Produk Simulasi 1900,Makanan,265300,300,Nusantara Supply,Y
+1901,SKU01901,Produk Simulasi 1901,Minuman,265437,317,Cipta Grosir,Y
+1902,SKU01902,Produk Simulasi 1902,Kesehatan,265574,334,Sinar Distribusi,Y
+1903,SKU01903,Produk Simulasi 1903,Hobi,265711,351,Mitra Dagang,Y
+1904,SKU01904,Produk Simulasi 1904,Elektronik,265848,368,Global Retail,Y
+1905,SKU01905,Produk Simulasi 1905,Rumah Tangga,265985,385,Nusantara Supply,Y
+1906,SKU01906,Produk Simulasi 1906,Fashion,266122,402,Cipta Grosir,Y
+1907,SKU01907,Produk Simulasi 1907,ATK,266259,419,Sinar Distribusi,Y
+1908,SKU01908,Produk Simulasi 1908,Makanan,266396,436,Mitra Dagang,Y
+1909,SKU01909,Produk Simulasi 1909,Minuman,266533,453,Global Retail,Y
+1910,SKU01910,Produk Simulasi 1910,Kesehatan,266670,470,Nusantara Supply,Y
+1911,SKU01911,Produk Simulasi 1911,Hobi,266807,487,Cipta Grosir,N
+1912,SKU01912,Produk Simulasi 1912,Elektronik,266944,4,Sinar Distribusi,Y
+1913,SKU01913,Produk Simulasi 1913,Rumah Tangga,267081,21,Mitra Dagang,Y
+1914,SKU01914,Produk Simulasi 1914,Fashion,267218,38,Global Retail,Y
+1915,SKU01915,Produk Simulasi 1915,ATK,267355,55,Nusantara Supply,Y
+1916,SKU01916,Produk Simulasi 1916,Makanan,267492,72,Cipta Grosir,Y
+1917,SKU01917,Produk Simulasi 1917,Minuman,267629,89,Sinar Distribusi,Y
+1918,SKU01918,Produk Simulasi 1918,Kesehatan,267766,106,Mitra Dagang,Y
+1919,SKU01919,Produk Simulasi 1919,Hobi,267903,123,Global Retail,Y
+1920,SKU01920,Produk Simulasi 1920,Elektronik,268040,140,Nusantara Supply,Y
+1921,SKU01921,Produk Simulasi 1921,Rumah Tangga,268177,157,Cipta Grosir,Y
+1922,SKU01922,Produk Simulasi 1922,Fashion,268314,174,Sinar Distribusi,Y
+1923,SKU01923,Produk Simulasi 1923,ATK,268451,191,Mitra Dagang,Y
+1924,SKU01924,Produk Simulasi 1924,Makanan,268588,208,Global Retail,N
+1925,SKU01925,Produk Simulasi 1925,Minuman,268725,225,Nusantara Supply,Y
+1926,SKU01926,Produk Simulasi 1926,Kesehatan,268862,242,Cipta Grosir,Y
+1927,SKU01927,Produk Simulasi 1927,Hobi,268999,259,Sinar Distribusi,Y
+1928,SKU01928,Produk Simulasi 1928,Elektronik,269136,276,Mitra Dagang,Y
+1929,SKU01929,Produk Simulasi 1929,Rumah Tangga,269273,293,Global Retail,Y
+1930,SKU01930,Produk Simulasi 1930,Fashion,269410,310,Nusantara Supply,Y
+1931,SKU01931,Produk Simulasi 1931,ATK,269547,327,Cipta Grosir,Y
+1932,SKU01932,Produk Simulasi 1932,Makanan,269684,344,Sinar Distribusi,Y
+1933,SKU01933,Produk Simulasi 1933,Minuman,269821,361,Mitra Dagang,Y
+1934,SKU01934,Produk Simulasi 1934,Kesehatan,269958,378,Global Retail,Y
+1935,SKU01935,Produk Simulasi 1935,Hobi,270095,395,Nusantara Supply,Y
+1936,SKU01936,Produk Simulasi 1936,Elektronik,270232,412,Cipta Grosir,Y
+1937,SKU01937,Produk Simulasi 1937,Rumah Tangga,270369,429,Sinar Distribusi,N
+1938,SKU01938,Produk Simulasi 1938,Fashion,270506,446,Mitra Dagang,Y
+1939,SKU01939,Produk Simulasi 1939,ATK,270643,463,Global Retail,Y
+1940,SKU01940,Produk Simulasi 1940,Makanan,270780,480,Nusantara Supply,Y
+1941,SKU01941,Produk Simulasi 1941,Minuman,270917,497,Cipta Grosir,Y
+1942,SKU01942,Produk Simulasi 1942,Kesehatan,271054,14,Sinar Distribusi,Y
+1943,SKU01943,Produk Simulasi 1943,Hobi,271191,31,Mitra Dagang,Y
+1944,SKU01944,Produk Simulasi 1944,Elektronik,271328,48,Global Retail,Y
+1945,SKU01945,Produk Simulasi 1945,Rumah Tangga,271465,65,Nusantara Supply,Y
+1946,SKU01946,Produk Simulasi 1946,Fashion,271602,82,Cipta Grosir,Y
+1947,SKU01947,Produk Simulasi 1947,ATK,271739,99,Sinar Distribusi,Y
+1948,SKU01948,Produk Simulasi 1948,Makanan,271876,116,Mitra Dagang,Y
+1949,SKU01949,Produk Simulasi 1949,Minuman,272013,133,Global Retail,Y
+1950,SKU01950,Produk Simulasi 1950,Kesehatan,272150,150,Nusantara Supply,N
+1951,SKU01951,Produk Simulasi 1951,Hobi,272287,167,Cipta Grosir,Y
+1952,SKU01952,Produk Simulasi 1952,Elektronik,272424,184,Sinar Distribusi,Y
+1953,SKU01953,Produk Simulasi 1953,Rumah Tangga,272561,201,Mitra Dagang,Y
+1954,SKU01954,Produk Simulasi 1954,Fashion,272698,218,Global Retail,Y
+1955,SKU01955,Produk Simulasi 1955,ATK,272835,235,Nusantara Supply,Y
+1956,SKU01956,Produk Simulasi 1956,Makanan,272972,252,Cipta Grosir,Y
+1957,SKU01957,Produk Simulasi 1957,Minuman,273109,269,Sinar Distribusi,Y
+1958,SKU01958,Produk Simulasi 1958,Kesehatan,273246,286,Mitra Dagang,Y
+1959,SKU01959,Produk Simulasi 1959,Hobi,273383,303,Global Retail,Y
+1960,SKU01960,Produk Simulasi 1960,Elektronik,273520,320,Nusantara Supply,Y
+1961,SKU01961,Produk Simulasi 1961,Rumah Tangga,273657,337,Cipta Grosir,Y
+1962,SKU01962,Produk Simulasi 1962,Fashion,273794,354,Sinar Distribusi,Y
+1963,SKU01963,Produk Simulasi 1963,ATK,273931,371,Mitra Dagang,N
+1964,SKU01964,Produk Simulasi 1964,Makanan,274068,388,Global Retail,Y
+1965,SKU01965,Produk Simulasi 1965,Minuman,274205,405,Nusantara Supply,Y
+1966,SKU01966,Produk Simulasi 1966,Kesehatan,274342,422,Cipta Grosir,Y
+1967,SKU01967,Produk Simulasi 1967,Hobi,274479,439,Sinar Distribusi,Y
+1968,SKU01968,Produk Simulasi 1968,Elektronik,274616,456,Mitra Dagang,Y
+1969,SKU01969,Produk Simulasi 1969,Rumah Tangga,274753,473,Global Retail,Y
+1970,SKU01970,Produk Simulasi 1970,Fashion,274890,490,Nusantara Supply,Y
+1971,SKU01971,Produk Simulasi 1971,ATK,275027,7,Cipta Grosir,Y
+1972,SKU01972,Produk Simulasi 1972,Makanan,275164,24,Sinar Distribusi,Y
+1973,SKU01973,Produk Simulasi 1973,Minuman,275301,41,Mitra Dagang,Y
+1974,SKU01974,Produk Simulasi 1974,Kesehatan,275438,58,Global Retail,Y
+1975,SKU01975,Produk Simulasi 1975,Hobi,275575,75,Nusantara Supply,Y
+1976,SKU01976,Produk Simulasi 1976,Elektronik,275712,92,Cipta Grosir,N
+1977,SKU01977,Produk Simulasi 1977,Rumah Tangga,275849,109,Sinar Distribusi,Y
+1978,SKU01978,Produk Simulasi 1978,Fashion,275986,126,Mitra Dagang,Y
+1979,SKU01979,Produk Simulasi 1979,ATK,276123,143,Global Retail,Y
+1980,SKU01980,Produk Simulasi 1980,Makanan,276260,160,Nusantara Supply,Y
+1981,SKU01981,Produk Simulasi 1981,Minuman,276397,177,Cipta Grosir,Y
+1982,SKU01982,Produk Simulasi 1982,Kesehatan,276534,194,Sinar Distribusi,Y
+1983,SKU01983,Produk Simulasi 1983,Hobi,276671,211,Mitra Dagang,Y
+1984,SKU01984,Produk Simulasi 1984,Elektronik,276808,228,Global Retail,Y
+1985,SKU01985,Produk Simulasi 1985,Rumah Tangga,276945,245,Nusantara Supply,Y
+1986,SKU01986,Produk Simulasi 1986,Fashion,277082,262,Cipta Grosir,Y
+1987,SKU01987,Produk Simulasi 1987,ATK,277219,279,Sinar Distribusi,Y
+1988,SKU01988,Produk Simulasi 1988,Makanan,277356,296,Mitra Dagang,Y
+1989,SKU01989,Produk Simulasi 1989,Minuman,277493,313,Global Retail,N
+1990,SKU01990,Produk Simulasi 1990,Kesehatan,277630,330,Nusantara Supply,Y
+1991,SKU01991,Produk Simulasi 1991,Hobi,277767,347,Cipta Grosir,Y
+1992,SKU01992,Produk Simulasi 1992,Elektronik,277904,364,Sinar Distribusi,Y
+1993,SKU01993,Produk Simulasi 1993,Rumah Tangga,278041,381,Mitra Dagang,Y
+1994,SKU01994,Produk Simulasi 1994,Fashion,278178,398,Global Retail,Y
+1995,SKU01995,Produk Simulasi 1995,ATK,278315,415,Nusantara Supply,Y
+1996,SKU01996,Produk Simulasi 1996,Makanan,278452,432,Cipta Grosir,Y
+1997,SKU01997,Produk Simulasi 1997,Minuman,278589,449,Sinar Distribusi,Y
+1998,SKU01998,Produk Simulasi 1998,Kesehatan,278726,466,Mitra Dagang,Y
+1999,SKU01999,Produk Simulasi 1999,Hobi,278863,483,Global Retail,Y
+2000,SKU02000,Produk Simulasi 2000,Elektronik,279000,0,Nusantara Supply,Y

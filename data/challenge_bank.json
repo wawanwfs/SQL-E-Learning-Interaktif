@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "level": "Dasar",
+    "title": "Challenge SQL 001",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 001 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 2,
+    "level": "Dasar",
+    "title": "Challenge SQL 002",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 002 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 3,
+    "level": "Dasar",
+    "title": "Challenge SQL 003",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 003 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 4,
+    "level": "Dasar",
+    "title": "Challenge SQL 004",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 004 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 5,
+    "level": "Dasar",
+    "title": "Challenge SQL 005",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 005 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 6,
+    "level": "Dasar",
+    "title": "Challenge SQL 006",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 006 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 7,
+    "level": "Dasar",
+    "title": "Challenge SQL 007",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 007 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 8,
+    "level": "Dasar",
+    "title": "Challenge SQL 008",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 008 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 9,
+    "level": "Dasar",
+    "title": "Challenge SQL 009",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 009 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 10,
+    "level": "Dasar",
+    "title": "Challenge SQL 010",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 010 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 11,
+    "level": "Dasar",
+    "title": "Challenge SQL 011",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 011 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 12,
+    "level": "Dasar",
+    "title": "Challenge SQL 012",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 012 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 13,
+    "level": "Dasar",
+    "title": "Challenge SQL 013",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 013 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 14,
+    "level": "Dasar",
+    "title": "Challenge SQL 014",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 014 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 15,
+    "level": "Dasar",
+    "title": "Challenge SQL 015",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 015 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 16,
+    "level": "Dasar",
+    "title": "Challenge SQL 016",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 016 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 17,
+    "level": "Dasar",
+    "title": "Challenge SQL 017",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 017 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 18,
+    "level": "Dasar",
+    "title": "Challenge SQL 018",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 018 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 19,
+    "level": "Dasar",
+    "title": "Challenge SQL 019",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 019 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 20,
+    "level": "Dasar",
+    "title": "Challenge SQL 020",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 020 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 21,
+    "level": "Menengah",
+    "title": "Challenge SQL 021",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 021 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 22,
+    "level": "Menengah",
+    "title": "Challenge SQL 022",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 022 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 23,
+    "level": "Menengah",
+    "title": "Challenge SQL 023",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 023 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 24,
+    "level": "Menengah",
+    "title": "Challenge SQL 024",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 024 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 25,
+    "level": "Menengah",
+    "title": "Challenge SQL 025",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 025 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 26,
+    "level": "Menengah",
+    "title": "Challenge SQL 026",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 026 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 27,
+    "level": "Menengah",
+    "title": "Challenge SQL 027",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 027 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 28,
+    "level": "Menengah",
+    "title": "Challenge SQL 028",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 028 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 29,
+    "level": "Menengah",
+    "title": "Challenge SQL 029",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 029 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 30,
+    "level": "Menengah",
+    "title": "Challenge SQL 030",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 030 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 31,
+    "level": "Menengah",
+    "title": "Challenge SQL 031",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 031 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 32,
+    "level": "Menengah",
+    "title": "Challenge SQL 032",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 032 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 33,
+    "level": "Menengah",
+    "title": "Challenge SQL 033",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 033 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 34,
+    "level": "Menengah",
+    "title": "Challenge SQL 034",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 034 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 35,
+    "level": "Menengah",
+    "title": "Challenge SQL 035",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 035 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 36,
+    "level": "Menengah",
+    "title": "Challenge SQL 036",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 036 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 37,
+    "level": "Menengah",
+    "title": "Challenge SQL 037",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 037 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 38,
+    "level": "Menengah",
+    "title": "Challenge SQL 038",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 038 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 39,
+    "level": "Menengah",
+    "title": "Challenge SQL 039",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 039 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 40,
+    "level": "Menengah",
+    "title": "Challenge SQL 040",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 040 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 41,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 041",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 041 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 42,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 042",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 042 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 43,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 043",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 043 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 44,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 044",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 044 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 45,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 045",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 045 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 46,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 046",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 046 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 47,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 047",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 047 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 48,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 048",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 048 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 49,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 049",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 049 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 50,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 050",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 050 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 51,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 051",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 051 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 52,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 052",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 052 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 53,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 053",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 053 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 54,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 054",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 054 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 55,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 055",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 055 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 56,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 056",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 056 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 57,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 057",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 057 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 58,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 058",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 058 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 59,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 059",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 059 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 60,
+    "level": "Lanjutan",
+    "title": "Challenge SQL 060",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 060 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 61,
+    "level": "Advanced",
+    "title": "Challenge SQL 061",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 061 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 62,
+    "level": "Advanced",
+    "title": "Challenge SQL 062",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 062 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 63,
+    "level": "Advanced",
+    "title": "Challenge SQL 063",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 063 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 64,
+    "level": "Advanced",
+    "title": "Challenge SQL 064",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 064 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 65,
+    "level": "Advanced",
+    "title": "Challenge SQL 065",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 065 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 66,
+    "level": "Advanced",
+    "title": "Challenge SQL 066",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 066 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 67,
+    "level": "Advanced",
+    "title": "Challenge SQL 067",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 067 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 68,
+    "level": "Advanced",
+    "title": "Challenge SQL 068",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 068 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 69,
+    "level": "Advanced",
+    "title": "Challenge SQL 069",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 069 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 70,
+    "level": "Advanced",
+    "title": "Challenge SQL 070",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 070 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 71,
+    "level": "Advanced",
+    "title": "Challenge SQL 071",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 071 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 72,
+    "level": "Advanced",
+    "title": "Challenge SQL 072",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 072 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 73,
+    "level": "Advanced",
+    "title": "Challenge SQL 073",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 073 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 74,
+    "level": "Advanced",
+    "title": "Challenge SQL 074",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 074 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 75,
+    "level": "Advanced",
+    "title": "Challenge SQL 075",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 075 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 76,
+    "level": "Advanced",
+    "title": "Challenge SQL 076",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 076 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 77,
+    "level": "Advanced",
+    "title": "Challenge SQL 077",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 077 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 78,
+    "level": "Advanced",
+    "title": "Challenge SQL 078",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 078 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 79,
+    "level": "Advanced",
+    "title": "Challenge SQL 079",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 079 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 80,
+    "level": "Advanced",
+    "title": "Challenge SQL 080",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 080 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 81,
+    "level": "Master",
+    "title": "Challenge SQL 081",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 081 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 82,
+    "level": "Master",
+    "title": "Challenge SQL 082",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 082 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 83,
+    "level": "Master",
+    "title": "Challenge SQL 083",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 083 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 84,
+    "level": "Master",
+    "title": "Challenge SQL 084",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 084 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 85,
+    "level": "Master",
+    "title": "Challenge SQL 085",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 085 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 86,
+    "level": "Master",
+    "title": "Challenge SQL 086",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 086 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 87,
+    "level": "Master",
+    "title": "Challenge SQL 087",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 087 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 88,
+    "level": "Master",
+    "title": "Challenge SQL 088",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 088 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 89,
+    "level": "Master",
+    "title": "Challenge SQL 089",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 089 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 90,
+    "level": "Master",
+    "title": "Challenge SQL 090",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 090 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 91,
+    "level": "Master",
+    "title": "Challenge SQL 091",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 091 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 92,
+    "level": "Master",
+    "title": "Challenge SQL 092",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 092 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 93,
+    "level": "Master",
+    "title": "Challenge SQL 093",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 093 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 94,
+    "level": "Master",
+    "title": "Challenge SQL 094",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 094 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 95,
+    "level": "Master",
+    "title": "Challenge SQL 095",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 095 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 96,
+    "level": "Master",
+    "title": "Challenge SQL 096",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 096 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 97,
+    "level": "Master",
+    "title": "Challenge SQL 097",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 097 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 98,
+    "level": "Master",
+    "title": "Challenge SQL 098",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 098 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 99,
+    "level": "Master",
+    "title": "Challenge SQL 099",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 099 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  },
+  {
+    "id": 100,
+    "level": "Master",
+    "title": "Challenge SQL 100",
+    "brief": "Selesaikan kasus analisis toko_pintar nomor 100 dengan query yang tervalidasi.",
+    "expectedOutput": "Query SQL, output, interpretasi, dan catatan asumsi."
+  }
+]

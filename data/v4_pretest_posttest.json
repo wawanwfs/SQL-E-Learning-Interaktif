@@ -1,0 +1,1207 @@
+{
+  "version": "4.0.0",
+  "pretest": [
+    {
+      "question": "Indikator bahwa query perlu diperbaiki adalah?",
+      "options": [
+        "Output tidak sesuai jumlah baris atau nilai yang diharapkan",
+        "Tombol terlihat kecil",
+        "Nama file terlalu panjang",
+        "Warna latar tidak sama"
+      ],
+      "answer": 0,
+      "explanation": "Validasi output adalah bagian inti pembelajaran SQL.",
+      "lessonId": 29,
+      "level": "Menengah",
+      "topic": "EXISTS dan NOT EXISTS",
+      "id": "L029Q3"
+    },
+    {
+      "question": "Langkah pertama sebelum menulis query kompleks adalah?",
+      "options": [
+        "Menentukan tujuan dan tabel yang relevan",
+        "Langsung menambah ORDER BY",
+        "Menghapus data lama",
+        "Mengubah tema aplikasi"
+      ],
+      "answer": 0,
+      "explanation": "Query perlu dimulai dari kebutuhan dan struktur data, bukan dari sintaks panjang.",
+      "lessonId": 7,
+      "level": "Dasar",
+      "topic": "DDL Dasar: CREATE TABLE",
+      "id": "L007Q2"
+    },
+    {
+      "question": "Mengapa grain output perlu ditentukan lebih awal?",
+      "options": [
+        "Agar warna tabel lebih menarik",
+        "Agar makna satu baris output jelas dan agregasi tidak keliru",
+        "Agar query selalu tanpa WHERE",
+        "Agar nama kolom lebih pendek"
+      ],
+      "answer": 1,
+      "explanation": "Grain menentukan unit analisis. Tanpa grain yang jelas, hasil agregasi dapat menyesatkan.",
+      "lessonId": 71,
+      "level": "Advanced",
+      "topic": "Analisis Cohort Pelanggan",
+      "id": "L071Q2"
+    },
+    {
+      "question": "Indikator bahwa query perlu diperbaiki adalah?",
+      "options": [
+        "Output tidak sesuai jumlah baris atau nilai yang diharapkan",
+        "Tombol terlihat kecil",
+        "Nama file terlalu panjang",
+        "Warna latar tidak sama"
+      ],
+      "answer": 0,
+      "explanation": "Validasi output adalah bagian inti pembelajaran SQL.",
+      "lessonId": 63,
+      "level": "Master",
+      "topic": "Big Data SQL: BigQuery, Hive, Spark SQL, ClickHouse",
+      "id": "L063Q3"
+    },
+    {
+      "question": "Segmentasi pelanggan dipakai untuk?",
+      "options": [
+        "Strategi layanan dan pemasaran",
+        "Menghapus pesanan",
+        "Membuat CSS",
+        "Menutup repo"
+      ],
+      "answer": 0,
+      "explanation": "Jawaban tersebut sesuai dengan fungsi utama konsep pada modul ini.",
+      "lessonId": 58,
+      "level": "Master",
+      "topic": "Customer Segmentation dengan SQL",
+      "id": "L058Q1"
+    },
+    {
+      "question": "Indikator bahwa query perlu diperbaiki adalah?",
+      "options": [
+        "Output tidak sesuai jumlah baris atau nilai yang diharapkan",
+        "Tombol terlihat kecil",
+        "Nama file terlalu panjang",
+        "Warna latar tidak sama"
+      ],
+      "answer": 0,
+      "explanation": "Validasi output adalah bagian inti pembelajaran SQL.",
+      "lessonId": 36,
+      "level": "Lanjutan",
+      "topic": "Composite, Covering, Functional, dan Partial Index",
+      "id": "L036Q3"
+    },
+    {
+      "question": "Subquery adalah?",
+      "options": [
+        "Query di dalam query",
+        "Tabel tanpa kolom",
+        "Index rusak",
+        "Backup database"
+      ],
+      "answer": 0,
+      "explanation": "Jawaban tersebut sesuai dengan fungsi utama konsep pada modul ini.",
+      "lessonId": 27,
+      "level": "Menengah",
+      "topic": "Subquery Scalar dan List",
+      "id": "L027Q1"
+    },
+    {
+      "question": "Langkah pertama sebelum menulis query kompleks adalah?",
+      "options": [
+        "Menentukan tujuan dan tabel yang relevan",
+        "Langsung menambah ORDER BY",
+        "Menghapus data lama",
+        "Mengubah tema aplikasi"
+      ],
+      "answer": 0,
+      "explanation": "Query perlu dimulai dari kebutuhan dan struktur data, bukan dari sintaks panjang.",
+      "lessonId": 23,
+      "level": "Menengah",
+      "topic": "LEFT JOIN dan Data Tanpa Pasangan",
+      "id": "L023Q2"
+    },
+    {
+      "question": "Langkah pertama sebelum menyusun query analitik adalah?",
+      "options": [
+        "Merumuskan pertanyaan bisnis",
+        "Menghapus data",
+        "Mengubah warna aplikasi",
+        "Menyalin query tanpa memahami"
+      ],
+      "answer": 0,
+      "explanation": "Pertanyaan bisnis menentukan tabel, kolom, filter, dan bentuk output.",
+      "lessonId": 109,
+      "level": "Advanced",
+      "topic": "Query Review dan Code Review SQL",
+      "id": "L109Q1"
+    },
+    {
+      "question": "INSERT digunakan untuk?",
+      "options": [
+        "Menambah data",
+        "Membaca query plan",
+        "Menghapus database",
+        "Membuat backup fisik"
+      ],
+      "answer": 0,
+      "explanation": "Jawaban tersebut sesuai dengan fungsi utama konsep pada modul ini.",
+      "lessonId": 9,
+      "level": "Dasar",
+      "topic": "INSERT Data Tunggal dan Multi-Baris",
+      "id": "L009Q1"
+    },
+    {
+      "question": "Indikator bahwa query perlu diperbaiki adalah?",
+      "options": [
+        "Output tidak sesuai jumlah baris atau nilai yang diharapkan",
+        "Tombol terlihat kecil",
+        "Nama file terlalu panjang",
+        "Warna latar tidak sama"
+      ],
+      "answer": 0,
+      "explanation": "Validasi output adalah bagian inti pembelajaran SQL.",
+      "lessonId": 8,
+      "level": "Dasar",
+      "topic": "DDL Lanjutan: ALTER, RENAME, dan DROP",
+      "id": "L008Q3"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik RIGHT, FULL, CROSS, dan SELF JOIN?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 24,
+      "level": "Menengah",
+      "topic": "RIGHT, FULL, CROSS, dan SELF JOIN",
+      "id": "L024Q4"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik Desain Database Marketplace?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 56,
+      "level": "Master",
+      "topic": "Desain Database Marketplace",
+      "id": "L056Q4"
+    },
+    {
+      "question": "Indikator bahwa query perlu diperbaiki adalah?",
+      "options": [
+        "Output tidak sesuai jumlah baris atau nilai yang diharapkan",
+        "Tombol terlihat kecil",
+        "Nama file terlalu panjang",
+        "Warna latar tidak sama"
+      ],
+      "answer": 0,
+      "explanation": "Validasi output adalah bagian inti pembelajaran SQL.",
+      "lessonId": 60,
+      "level": "Master",
+      "topic": "Rekonsiliasi Pesanan dan Pembayaran",
+      "id": "L060Q3"
+    },
+    {
+      "question": "Apa risiko utama agregasi setelah JOIN?",
+      "options": [
+        "Duplikasi baris yang membuat nilai membesar",
+        "Tombol tidak aktif",
+        "Nama database berubah",
+        "File CSS terlalu besar"
+      ],
+      "answer": 0,
+      "explanation": "JOIN yang tidak tepat dapat menggandakan baris dan menghasilkan agregasi salah.",
+      "lessonId": 130,
+      "level": "Master",
+      "topic": "Capstone: Laporan Penjualan Lengkap",
+      "id": "L130Q2"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik DDL Dasar: CREATE TABLE?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 7,
+      "level": "Dasar",
+      "topic": "DDL Dasar: CREATE TABLE",
+      "id": "L007Q4"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik Validasi Data dan Data Quality Check?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 51,
+      "level": "Advanced",
+      "topic": "Validasi Data dan Data Quality Check",
+      "id": "L051Q4"
+    },
+    {
+      "question": "Apa risiko utama agregasi setelah JOIN?",
+      "options": [
+        "Duplikasi baris yang membuat nilai membesar",
+        "Tombol tidak aktif",
+        "Nama database berubah",
+        "File CSS terlalu besar"
+      ],
+      "answer": 0,
+      "explanation": "JOIN yang tidak tepat dapat menggandakan baris dan menghasilkan agregasi salah.",
+      "lessonId": 108,
+      "level": "Advanced",
+      "topic": "Quality Gate Sebelum Laporan Dirilis",
+      "id": "L108Q2"
+    },
+    {
+      "question": "Langkah pertama sebelum menulis query kompleks adalah?",
+      "options": [
+        "Menentukan tujuan dan tabel yang relevan",
+        "Langsung menambah ORDER BY",
+        "Menghapus data lama",
+        "Mengubah tema aplikasi"
+      ],
+      "answer": 0,
+      "explanation": "Query perlu dimulai dari kebutuhan dan struktur data, bukan dari sintaks panjang.",
+      "lessonId": 57,
+      "level": "Master",
+      "topic": "Studi Kasus Inventory dan Mutasi Stok",
+      "id": "L057Q2"
+    },
+    {
+      "question": "Mengapa interpretasi output penting?",
+      "options": [
+        "Agar hasil SQL menjadi keputusan atau rekomendasi",
+        "Agar query lebih berwarna",
+        "Agar tabel kosong",
+        "Agar browser lebih cepat"
+      ],
+      "answer": 0,
+      "explanation": "SQL dalam konteks kerja harus menghasilkan informasi yang dapat digunakan.",
+      "lessonId": 115,
+      "level": "Master",
+      "topic": "Data Observability Sederhana",
+      "id": "L115Q4"
+    },
+    {
+      "question": "Apa fokus utama ketika menerapkan RFM Analysis untuk Segmentasi?",
+      "options": [
+        "Menulis query sepanjang mungkin",
+        "Menjaga akurasi output, konteks bisnis, dan risiko teknis",
+        "Menghindari semua JOIN",
+        "Menghapus data yang tidak diperlukan"
+      ],
+      "answer": 1,
+      "explanation": "Topik lanjutan menuntut keseimbangan antara sintaks, konteks data, validasi, performa, dan keamanan.",
+      "lessonId": 72,
+      "level": "Advanced",
+      "topic": "RFM Analysis untuk Segmentasi",
+      "id": "L072Q1"
+    },
+    {
+      "question": "Indikator bahwa query perlu diperbaiki adalah?",
+      "options": [
+        "Output tidak sesuai jumlah baris atau nilai yang diharapkan",
+        "Tombol terlihat kecil",
+        "Nama file terlalu panjang",
+        "Warna latar tidak sama"
+      ],
+      "answer": 0,
+      "explanation": "Validasi output adalah bagian inti pembelajaran SQL.",
+      "lessonId": 2,
+      "level": "Dasar",
+      "topic": "Pengenalan Database, DBMS, dan SQL",
+      "id": "L002Q3"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik Trigger dan Audit Log?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 41,
+      "level": "Lanjutan",
+      "topic": "Trigger dan Audit Log",
+      "id": "L041Q4"
+    },
+    {
+      "question": "Apa fokus utama ketika menerapkan Cost-Based Optimization?",
+      "options": [
+        "Menulis query sepanjang mungkin",
+        "Menjaga akurasi output, konteks bisnis, dan risiko teknis",
+        "Menghindari semua JOIN",
+        "Menghapus data yang tidak diperlukan"
+      ],
+      "answer": 1,
+      "explanation": "Topik lanjutan menuntut keseimbangan antara sintaks, konteks data, validasi, performa, dan keamanan.",
+      "lessonId": 88,
+      "level": "Master",
+      "topic": "Cost-Based Optimization",
+      "id": "L088Q1"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik Stored Procedure dan Function?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 40,
+      "level": "Lanjutan",
+      "topic": "Stored Procedure dan Function",
+      "id": "L040Q4"
+    },
+    {
+      "question": "Desain database harus dimulai dari?",
+      "options": [
+        "Proses bisnis dan relasi data",
+        "Warna halaman",
+        "Ukuran ZIP",
+        "Nama laptop"
+      ],
+      "answer": 0,
+      "explanation": "Jawaban tersebut sesuai dengan fungsi utama konsep pada modul ini.",
+      "lessonId": 56,
+      "level": "Master",
+      "topic": "Desain Database Marketplace",
+      "id": "L056Q1"
+    },
+    {
+      "question": "Apa fokus utama ketika menerapkan Query Observability?",
+      "options": [
+        "Menulis query sepanjang mungkin",
+        "Menjaga akurasi output, konteks bisnis, dan risiko teknis",
+        "Menghindari semua JOIN",
+        "Menghapus data yang tidak diperlukan"
+      ],
+      "answer": 1,
+      "explanation": "Topik lanjutan menuntut keseimbangan antara sintaks, konteks data, validasi, performa, dan keamanan.",
+      "lessonId": 87,
+      "level": "Master",
+      "topic": "Query Observability",
+      "id": "L087Q1"
+    },
+    {
+      "question": "Indikator bahwa query perlu diperbaiki adalah?",
+      "options": [
+        "Output tidak sesuai jumlah baris atau nilai yang diharapkan",
+        "Tombol terlihat kecil",
+        "Nama file terlalu panjang",
+        "Warna latar tidak sama"
+      ],
+      "answer": 0,
+      "explanation": "Validasi output adalah bagian inti pembelajaran SQL.",
+      "lessonId": 24,
+      "level": "Menengah",
+      "topic": "RIGHT, FULL, CROSS, dan SELF JOIN",
+      "id": "L024Q3"
+    },
+    {
+      "question": "Mengapa grain output perlu ditentukan lebih awal?",
+      "options": [
+        "Agar warna tabel lebih menarik",
+        "Agar makna satu baris output jelas dan agregasi tidak keliru",
+        "Agar query selalu tanpa WHERE",
+        "Agar nama kolom lebih pendek"
+      ],
+      "answer": 1,
+      "explanation": "Grain menentukan unit analisis. Tanpa grain yang jelas, hasil agregasi dapat menyesatkan.",
+      "lessonId": 98,
+      "level": "Master",
+      "topic": "Incident Response Database",
+      "id": "L098Q2"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik Multi-Table JOIN untuk Laporan Pesanan?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 25,
+      "level": "Menengah",
+      "topic": "Multi-Table JOIN untuk Laporan Pesanan",
+      "id": "L025Q4"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik Incremental ETL dengan SQL?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 92,
+      "level": "Master",
+      "topic": "Incremental ETL dengan SQL",
+      "id": "L092Q4"
+    },
+    {
+      "question": "Apa fokus utama ketika menerapkan Materialized Aggregate Table?",
+      "options": [
+        "Menulis query sepanjang mungkin",
+        "Menjaga akurasi output, konteks bisnis, dan risiko teknis",
+        "Menghindari semua JOIN",
+        "Menghapus data yang tidak diperlukan"
+      ],
+      "answer": 1,
+      "explanation": "Topik lanjutan menuntut keseimbangan antara sintaks, konteks data, validasi, performa, dan keamanan.",
+      "lessonId": 89,
+      "level": "Master",
+      "topic": "Materialized Aggregate Table",
+      "id": "L089Q1"
+    },
+    {
+      "question": "Indikator bahwa query perlu diperbaiki adalah?",
+      "options": [
+        "Output tidak sesuai jumlah baris atau nilai yang diharapkan",
+        "Tombol terlihat kecil",
+        "Nama file terlalu panjang",
+        "Warna latar tidak sama"
+      ],
+      "answer": 0,
+      "explanation": "Validasi output adalah bagian inti pembelajaran SQL.",
+      "lessonId": 68,
+      "level": "Master",
+      "topic": "Capstone Project: Dashboard Penjualan toko_pintar",
+      "id": "L068Q3"
+    },
+    {
+      "question": "WHERE berfungsi untuk?",
+      "options": [
+        "Menyaring baris",
+        "Membuat tabel",
+        "Mengubah password",
+        "Mencetak sertifikat"
+      ],
+      "answer": 0,
+      "explanation": "Jawaban tersebut sesuai dengan fungsi utama konsep pada modul ini.",
+      "lessonId": 12,
+      "level": "Dasar",
+      "topic": "WHERE dan Operator Perbandingan",
+      "id": "L012Q1"
+    },
+    {
+      "question": "Apa bukti bahwa query sudah layak digunakan?",
+      "options": [
+        "Output divalidasi dan sesuai kebutuhan",
+        "Query terlihat panjang",
+        "Tidak ada komentar",
+        "Menggunakan SELECT *"
+      ],
+      "answer": 0,
+      "explanation": "Kelayakan query ditentukan oleh validasi output dan kesesuaian dengan kebutuhan.",
+      "lessonId": 118,
+      "level": "Master",
+      "topic": "Strategi Backup untuk Pembelajaran dan Produksi",
+      "id": "L118Q3"
+    },
+    {
+      "question": "Apa risiko utama agregasi setelah JOIN?",
+      "options": [
+        "Duplikasi baris yang membuat nilai membesar",
+        "Tombol tidak aktif",
+        "Nama database berubah",
+        "File CSS terlalu besar"
+      ],
+      "answer": 0,
+      "explanation": "JOIN yang tidak tepat dapat menggandakan baris dan menghasilkan agregasi salah.",
+      "lessonId": 138,
+      "level": "Master",
+      "topic": "Portofolio SQL GitHub",
+      "id": "L138Q2"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik Primary Key dan Foreign Key?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 32,
+      "level": "Lanjutan",
+      "topic": "Primary Key dan Foreign Key",
+      "id": "L032Q4"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik SQL untuk Dashboard KPI?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 97,
+      "level": "Master",
+      "topic": "SQL untuk Dashboard KPI",
+      "id": "L097Q4"
+    },
+    {
+      "question": "CASE WHEN digunakan untuk?",
+      "options": [
+        "Membuat klasifikasi bersyarat",
+        "Membuat backup",
+        "Menghapus index",
+        "Membuka browser"
+      ],
+      "answer": 0,
+      "explanation": "Jawaban tersebut sesuai dengan fungsi utama konsep pada modul ini.",
+      "lessonId": 21,
+      "level": "Menengah",
+      "topic": "CASE WHEN untuk Kategori Bisnis",
+      "id": "L021Q1"
+    },
+    {
+      "question": "Apa fokus utama ketika menerapkan Audit Trail dan Temporal Query?",
+      "options": [
+        "Menulis query sepanjang mungkin",
+        "Menjaga akurasi output, konteks bisnis, dan risiko teknis",
+        "Menghindari semua JOIN",
+        "Menghapus data yang tidak diperlukan"
+      ],
+      "answer": 1,
+      "explanation": "Topik lanjutan menuntut keseimbangan antara sintaks, konteks data, validasi, performa, dan keamanan.",
+      "lessonId": 76,
+      "level": "Advanced",
+      "topic": "Audit Trail dan Temporal Query",
+      "id": "L076Q1"
+    }
+  ],
+  "posttest": [
+    {
+      "question": "Langkah validasi yang paling tepat setelah query berjalan adalah...",
+      "options": [
+        "Langsung menyimpulkan hasil",
+        "Memeriksa jumlah baris, NULL, nilai agregasi, dan kesesuaian filter",
+        "Menghapus alias",
+        "Mengubah semua LEFT JOIN menjadi CROSS JOIN"
+      ],
+      "answer": 1,
+      "explanation": "Query yang berjalan tetap perlu divalidasi agar output benar secara logika dan relevan dengan kebutuhan.",
+      "lessonId": 93,
+      "level": "Master",
+      "topic": "Data Mart Penjualan",
+      "id": "L093Q3"
+    },
+    {
+      "question": "AOV adalah?",
+      "options": [
+        "Average Order Value",
+        "Automatic Object Version",
+        "Active Output View",
+        "Access Over Validator"
+      ],
+      "answer": 0,
+      "explanation": "Jawaban tersebut sesuai dengan fungsi utama konsep pada modul ini.",
+      "lessonId": 50,
+      "level": "Advanced",
+      "topic": "Analitik Dashboard: Omzet, AOV, Produk Laku",
+      "id": "L050Q1"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik Fungsi Agregasi COUNT, SUM, AVG, MIN, MAX?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 18,
+      "level": "Menengah",
+      "topic": "Fungsi Agregasi COUNT, SUM, AVG, MIN, MAX",
+      "id": "L018Q4"
+    },
+    {
+      "question": "Indikator bahwa query perlu diperbaiki adalah?",
+      "options": [
+        "Output tidak sesuai jumlah baris atau nilai yang diharapkan",
+        "Tombol terlihat kecil",
+        "Nama file terlalu panjang",
+        "Warna latar tidak sama"
+      ],
+      "answer": 0,
+      "explanation": "Validasi output adalah bagian inti pembelajaran SQL.",
+      "lessonId": 12,
+      "level": "Dasar",
+      "topic": "WHERE dan Operator Perbandingan",
+      "id": "L012Q3"
+    },
+    {
+      "question": "Langkah pertama sebelum menulis query kompleks adalah?",
+      "options": [
+        "Menentukan tujuan dan tabel yang relevan",
+        "Langsung menambah ORDER BY",
+        "Menghapus data lama",
+        "Mengubah tema aplikasi"
+      ],
+      "answer": 0,
+      "explanation": "Query perlu dimulai dari kebutuhan dan struktur data, bukan dari sintaks panjang.",
+      "lessonId": 59,
+      "level": "Master",
+      "topic": "Cohort dan Retention Analysis",
+      "id": "L059Q2"
+    },
+    {
+      "question": "Apa fokus utama ketika menerapkan Data Quality Checks?",
+      "options": [
+        "Menulis query sepanjang mungkin",
+        "Menjaga akurasi output, konteks bisnis, dan risiko teknis",
+        "Menghindari semua JOIN",
+        "Menghapus data yang tidak diperlukan"
+      ],
+      "answer": 1,
+      "explanation": "Topik lanjutan menuntut keseimbangan antara sintaks, konteks data, validasi, performa, dan keamanan.",
+      "lessonId": 75,
+      "level": "Advanced",
+      "topic": "Data Quality Checks",
+      "id": "L075Q1"
+    },
+    {
+      "question": "Langkah pertama sebelum menulis query kompleks adalah?",
+      "options": [
+        "Menentukan tujuan dan tabel yang relevan",
+        "Langsung menambah ORDER BY",
+        "Menghapus data lama",
+        "Mengubah tema aplikasi"
+      ],
+      "answer": 0,
+      "explanation": "Query perlu dimulai dari kebutuhan dan struktur data, bukan dari sintaks panjang.",
+      "lessonId": 21,
+      "level": "Menengah",
+      "topic": "CASE WHEN untuk Kategori Bisnis",
+      "id": "L021Q2"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik Kesalahan Umum JOIN dan Duplikasi Baris?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 26,
+      "level": "Menengah",
+      "topic": "Kesalahan Umum JOIN dan Duplikasi Baris",
+      "id": "L026Q4"
+    },
+    {
+      "question": "Langkah pertama sebelum menyusun query analitik adalah?",
+      "options": [
+        "Merumuskan pertanyaan bisnis",
+        "Menghapus data",
+        "Mengubah warna aplikasi",
+        "Menyalin query tanpa memahami"
+      ],
+      "answer": 0,
+      "explanation": "Pertanyaan bisnis menentukan tabel, kolom, filter, dan bentuk output.",
+      "lessonId": 117,
+      "level": "Master",
+      "topic": "Pengujian Query dengan Expected Output",
+      "id": "L117Q1"
+    },
+    {
+      "question": "Mengapa grain output perlu ditentukan lebih awal?",
+      "options": [
+        "Agar warna tabel lebih menarik",
+        "Agar makna satu baris output jelas dan agregasi tidak keliru",
+        "Agar query selalu tanpa WHERE",
+        "Agar nama kolom lebih pendek"
+      ],
+      "answer": 1,
+      "explanation": "Grain menentukan unit analisis. Tanpa grain yang jelas, hasil agregasi dapat menyesatkan.",
+      "lessonId": 94,
+      "level": "Master",
+      "topic": "Testing Query SQL",
+      "id": "L094Q2"
+    },
+    {
+      "question": "Indikator bahwa query perlu diperbaiki adalah?",
+      "options": [
+        "Output tidak sesuai jumlah baris atau nilai yang diharapkan",
+        "Tombol terlihat kecil",
+        "Nama file terlalu panjang",
+        "Warna latar tidak sama"
+      ],
+      "answer": 0,
+      "explanation": "Validasi output adalah bagian inti pembelajaran SQL.",
+      "lessonId": 42,
+      "level": "Lanjutan",
+      "topic": "Transaction, COMMIT, ROLLBACK, SAVEPOINT",
+      "id": "L042Q3"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik SQL Code Review?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 95,
+      "level": "Master",
+      "topic": "SQL Code Review",
+      "id": "L095Q4"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik Slowly Changing Dimension?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 91,
+      "level": "Master",
+      "topic": "Slowly Changing Dimension",
+      "id": "L091Q4"
+    },
+    {
+      "question": "Indikator bahwa query perlu diperbaiki adalah?",
+      "options": [
+        "Output tidak sesuai jumlah baris atau nilai yang diharapkan",
+        "Tombol terlihat kecil",
+        "Nama file terlalu panjang",
+        "Warna latar tidak sama"
+      ],
+      "answer": 0,
+      "explanation": "Validasi output adalah bagian inti pembelajaran SQL.",
+      "lessonId": 54,
+      "level": "Advanced",
+      "topic": "Backup, Restore, dan Point-in-Time Recovery",
+      "id": "L054Q3"
+    },
+    {
+      "question": "Mengapa grain output perlu ditentukan lebih awal?",
+      "options": [
+        "Agar warna tabel lebih menarik",
+        "Agar makna satu baris output jelas dan agregasi tidak keliru",
+        "Agar query selalu tanpa WHERE",
+        "Agar nama kolom lebih pendek"
+      ],
+      "answer": 1,
+      "explanation": "Grain menentukan unit analisis. Tanpa grain yang jelas, hasil agregasi dapat menyesatkan.",
+      "lessonId": 69,
+      "level": "Advanced",
+      "topic": "Recursive CTE untuk Struktur Hierarki",
+      "id": "L069Q2"
+    },
+    {
+      "question": "Langkah pertama sebelum menulis query kompleks adalah?",
+      "options": [
+        "Menentukan tujuan dan tabel yang relevan",
+        "Langsung menambah ORDER BY",
+        "Menghapus data lama",
+        "Mengubah tema aplikasi"
+      ],
+      "answer": 0,
+      "explanation": "Query perlu dimulai dari kebutuhan dan struktur data, bukan dari sintaks panjang.",
+      "lessonId": 19,
+      "level": "Menengah",
+      "topic": "GROUP BY untuk Laporan Ringkasan",
+      "id": "L019Q2"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik Isolation Level dan Concurrency?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 44,
+      "level": "Advanced",
+      "topic": "Isolation Level dan Concurrency",
+      "id": "L044Q4"
+    },
+    {
+      "question": "Apa bukti bahwa query sudah layak digunakan?",
+      "options": [
+        "Output divalidasi dan sesuai kebutuhan",
+        "Query terlihat panjang",
+        "Tidak ada komentar",
+        "Menggunakan SELECT *"
+      ],
+      "answer": 0,
+      "explanation": "Kelayakan query ditentukan oleh validasi output dan kesesuaian dengan kebutuhan.",
+      "lessonId": 137,
+      "level": "Master",
+      "topic": "Simulasi Ujian Praktik SQL 3",
+      "id": "L137Q3"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik Transaction, COMMIT, ROLLBACK, SAVEPOINT?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 42,
+      "level": "Lanjutan",
+      "topic": "Transaction, COMMIT, ROLLBACK, SAVEPOINT",
+      "id": "L042Q4"
+    },
+    {
+      "question": "Apa risiko utama agregasi setelah JOIN?",
+      "options": [
+        "Duplikasi baris yang membuat nilai membesar",
+        "Tombol tidak aktif",
+        "Nama database berubah",
+        "File CSS terlalu besar"
+      ],
+      "answer": 0,
+      "explanation": "JOIN yang tidak tepat dapat menggandakan baris dan menghasilkan agregasi salah.",
+      "lessonId": 119,
+      "level": "Master",
+      "topic": "Governance Akses Data",
+      "id": "L119Q2"
+    },
+    {
+      "question": "Apa fokus utama ketika menerapkan Incident Response Database?",
+      "options": [
+        "Menulis query sepanjang mungkin",
+        "Menjaga akurasi output, konteks bisnis, dan risiko teknis",
+        "Menghindari semua JOIN",
+        "Menghapus data yang tidak diperlukan"
+      ],
+      "answer": 1,
+      "explanation": "Topik lanjutan menuntut keseimbangan antara sintaks, konteks data, validasi, performa, dan keamanan.",
+      "lessonId": 98,
+      "level": "Master",
+      "topic": "Incident Response Database",
+      "id": "L098Q1"
+    },
+    {
+      "question": "Apa fokus utama ketika menerapkan Window Frame: ROWS dan RANGE?",
+      "options": [
+        "Menulis query sepanjang mungkin",
+        "Menjaga akurasi output, konteks bisnis, dan risiko teknis",
+        "Menghindari semua JOIN",
+        "Menghapus data yang tidak diperlukan"
+      ],
+      "answer": 1,
+      "explanation": "Topik lanjutan menuntut keseimbangan antara sintaks, konteks data, validasi, performa, dan keamanan.",
+      "lessonId": 70,
+      "level": "Advanced",
+      "topic": "Window Frame: ROWS dan RANGE",
+      "id": "L070Q1"
+    },
+    {
+      "question": "Mutasi stok membantu?",
+      "options": [
+        "Melacak perubahan persediaan",
+        "Mengubah domain",
+        "Membuat gambar",
+        "Membuka modal"
+      ],
+      "answer": 0,
+      "explanation": "Jawaban tersebut sesuai dengan fungsi utama konsep pada modul ini.",
+      "lessonId": 57,
+      "level": "Master",
+      "topic": "Studi Kasus Inventory dan Mutasi Stok",
+      "id": "L057Q1"
+    },
+    {
+      "question": "Apa fokus utama ketika menerapkan Capstone 2: Optimasi Laporan Eksekutif?",
+      "options": [
+        "Menulis query sepanjang mungkin",
+        "Menjaga akurasi output, konteks bisnis, dan risiko teknis",
+        "Menghindari semua JOIN",
+        "Menghapus data yang tidak diperlukan"
+      ],
+      "answer": 1,
+      "explanation": "Topik lanjutan menuntut keseimbangan antara sintaks, konteks data, validasi, performa, dan keamanan.",
+      "lessonId": 84,
+      "level": "Master",
+      "topic": "Database Reliability Engineering",
+      "id": "L084Q1"
+    },
+    {
+      "question": "Langkah pertama sebelum menulis query kompleks adalah?",
+      "options": [
+        "Menentukan tujuan dan tabel yang relevan",
+        "Langsung menambah ORDER BY",
+        "Menghapus data lama",
+        "Mengubah tema aplikasi"
+      ],
+      "answer": 0,
+      "explanation": "Query perlu dimulai dari kebutuhan dan struktur data, bukan dari sintaks panjang.",
+      "lessonId": 15,
+      "level": "Dasar",
+      "topic": "ORDER BY, LIMIT, dan OFFSET",
+      "id": "L015Q2"
+    },
+    {
+      "question": "Indikator bahwa query perlu diperbaiki adalah?",
+      "options": [
+        "Output tidak sesuai jumlah baris atau nilai yang diharapkan",
+        "Tombol terlihat kecil",
+        "Nama file terlalu panjang",
+        "Warna latar tidak sama"
+      ],
+      "answer": 0,
+      "explanation": "Validasi output adalah bagian inti pembelajaran SQL.",
+      "lessonId": 59,
+      "level": "Master",
+      "topic": "Cohort dan Retention Analysis",
+      "id": "L059Q3"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik Partitioning Strategy?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 81,
+      "level": "Master",
+      "topic": "Partitioning Strategy",
+      "id": "L081Q4"
+    },
+    {
+      "question": "Apa bukti bahwa query sudah layak digunakan?",
+      "options": [
+        "Output divalidasi dan sesuai kebutuhan",
+        "Query terlihat panjang",
+        "Tidak ada komentar",
+        "Menggunakan SELECT *"
+      ],
+      "answer": 0,
+      "explanation": "Kelayakan query ditentukan oleh validasi output dan kesesuaian dengan kebutuhan.",
+      "lessonId": 103,
+      "level": "Advanced",
+      "topic": "Analisis RFM Pelanggan",
+      "id": "L103Q3"
+    },
+    {
+      "question": "Langkah validasi yang paling tepat setelah query berjalan adalah...",
+      "options": [
+        "Langsung menyimpulkan hasil",
+        "Memeriksa jumlah baris, NULL, nilai agregasi, dan kesesuaian filter",
+        "Menghapus alias",
+        "Mengubah semua LEFT JOIN menjadi CROSS JOIN"
+      ],
+      "answer": 1,
+      "explanation": "Query yang berjalan tetap perlu divalidasi agar output benar secara logika dan relevan dengan kebutuhan.",
+      "lessonId": 69,
+      "level": "Advanced",
+      "topic": "Recursive CTE untuk Struktur Hierarki",
+      "id": "L069Q3"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik DELETE Aman dan Strategi Soft Delete?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 17,
+      "level": "Dasar",
+      "topic": "DELETE Aman dan Strategi Soft Delete",
+      "id": "L017Q4"
+    },
+    {
+      "question": "Tuning yang baik dimulai dari?",
+      "options": [
+        "Masalah dan query aktual",
+        "Menambah file acak",
+        "Mengganti logo",
+        "Menghapus semua index"
+      ],
+      "answer": 0,
+      "explanation": "Jawaban tersebut sesuai dengan fungsi utama konsep pada modul ini.",
+      "lessonId": 55,
+      "level": "Master",
+      "topic": "Performance Tuning End-to-End",
+      "id": "L055Q1"
+    },
+    {
+      "question": "Langkah validasi yang paling tepat setelah query berjalan adalah...",
+      "options": [
+        "Langsung menyimpulkan hasil",
+        "Memeriksa jumlah baris, NULL, nilai agregasi, dan kesesuaian filter",
+        "Menghapus alias",
+        "Mengubah semua LEFT JOIN menjadi CROSS JOIN"
+      ],
+      "answer": 1,
+      "explanation": "Query yang berjalan tetap perlu divalidasi agar output benar secara logika dan relevan dengan kebutuhan.",
+      "lessonId": 81,
+      "level": "Master",
+      "topic": "Partitioning Strategy",
+      "id": "L081Q3"
+    },
+    {
+      "question": "Langkah pertama sebelum menulis query kompleks adalah?",
+      "options": [
+        "Menentukan tujuan dan tabel yang relevan",
+        "Langsung menambah ORDER BY",
+        "Menghapus data lama",
+        "Mengubah tema aplikasi"
+      ],
+      "answer": 0,
+      "explanation": "Query perlu dimulai dari kebutuhan dan struktur data, bukan dari sintaks panjang.",
+      "lessonId": 55,
+      "level": "Master",
+      "topic": "Performance Tuning End-to-End",
+      "id": "L055Q2"
+    },
+    {
+      "question": "Mengapa interpretasi output penting?",
+      "options": [
+        "Agar hasil SQL menjadi keputusan atau rekomendasi",
+        "Agar query lebih berwarna",
+        "Agar tabel kosong",
+        "Agar browser lebih cepat"
+      ],
+      "answer": 0,
+      "explanation": "SQL dalam konteks kerja harus menghasilkan informasi yang dapat digunakan.",
+      "lessonId": 128,
+      "level": "Master",
+      "topic": "SQL untuk Forecasting Sederhana",
+      "id": "L128Q4"
+    },
+    {
+      "question": "Apa risiko utama agregasi setelah JOIN?",
+      "options": [
+        "Duplikasi baris yang membuat nilai membesar",
+        "Tombol tidak aktif",
+        "Nama database berubah",
+        "File CSS terlalu besar"
+      ],
+      "answer": 0,
+      "explanation": "JOIN yang tidak tepat dapat menggandakan baris dan menghasilkan agregasi salah.",
+      "lessonId": 102,
+      "level": "Advanced",
+      "topic": "CASE WHEN untuk Segmentasi Bisnis",
+      "id": "L102Q2"
+    },
+    {
+      "question": "Apa risiko utama agregasi setelah JOIN?",
+      "options": [
+        "Duplikasi baris yang membuat nilai membesar",
+        "Tombol tidak aktif",
+        "Nama database berubah",
+        "File CSS terlalu besar"
+      ],
+      "answer": 0,
+      "explanation": "JOIN yang tidak tepat dapat menggandakan baris dan menghasilkan agregasi salah.",
+      "lessonId": 118,
+      "level": "Master",
+      "topic": "Strategi Backup untuk Pembelajaran dan Produksi",
+      "id": "L118Q2"
+    },
+    {
+      "question": "Indikator bahwa query perlu diperbaiki adalah?",
+      "options": [
+        "Output tidak sesuai jumlah baris atau nilai yang diharapkan",
+        "Tombol terlihat kecil",
+        "Nama file terlalu panjang",
+        "Warna latar tidak sama"
+      ],
+      "answer": 0,
+      "explanation": "Validasi output adalah bagian inti pembelajaran SQL.",
+      "lessonId": 37,
+      "level": "Lanjutan",
+      "topic": "EXPLAIN dan Query Plan",
+      "id": "L037Q3"
+    },
+    {
+      "question": "Dalam praktik profesional, apa keluaran akhir yang harus dicapai pada topik Capstone Project: Dashboard Penjualan toko_pintar?",
+      "options": [
+        "Query dapat dijelaskan, dijalankan, dan divalidasi outputnya",
+        "Query harus selalu memakai SELECT *",
+        "Query harus selalu tanpa filter",
+        "Output tidak perlu dibaca kembali"
+      ],
+      "answer": 0,
+      "explanation": "Kompetensi SQL profesional diukur dari kemampuan menjelaskan kebutuhan data, menulis query, dan memvalidasi output.",
+      "lessonId": 68,
+      "level": "Master",
+      "topic": "Capstone Project: Dashboard Penjualan toko_pintar",
+      "id": "L068Q4"
+    },
+    {
+      "question": "LIMIT umum pada?",
+      "options": [
+        "MySQL/PostgreSQL/SQLite",
+        "Semua DBMS dengan sintaks sama persis",
+        "Hanya CSS",
+        "Hanya Docker"
+      ],
+      "answer": 0,
+      "explanation": "Jawaban tersebut sesuai dengan fungsi utama konsep pada modul ini.",
+      "lessonId": 64,
+      "level": "Master",
+      "topic": "Perbedaan Sintaks PostgreSQL, MySQL, SQLite, SQL Server, Oracle",
+      "id": "L064Q1"
+    },
+    {
+      "question": "Mengapa interpretasi output penting?",
+      "options": [
+        "Agar hasil SQL menjadi keputusan atau rekomendasi",
+        "Agar query lebih berwarna",
+        "Agar tabel kosong",
+        "Agar browser lebih cepat"
+      ],
+      "answer": 0,
+      "explanation": "SQL dalam konteks kerja harus menghasilkan informasi yang dapat digunakan.",
+      "lessonId": 138,
+      "level": "Master",
+      "topic": "Portofolio SQL GitHub",
+      "id": "L138Q4"
+    }
+  ]
+}

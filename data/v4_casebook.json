@@ -1,0 +1,1565 @@
+{
+  "version": "4.0.0",
+  "cases": [
+    {
+      "id": 1,
+      "title": "Kasus 001: Omzet kota",
+      "scenario": "Tim Toko Pintar membutuhkan analisis omzet kota untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT kategori_id, COUNT(*) AS jumlah_produk FROM produk GROUP BY kategori_id ORDER BY jumlah_produk DESC;"
+    },
+    {
+      "id": 2,
+      "title": "Kasus 002: Pelanggan prioritas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pelanggan prioritas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT p.nama_produk, k.nama_kategori, p.harga, p.stok FROM produk p JOIN kategori k ON k.kategori_id = p.kategori_id ORDER BY p.stok ASC LIMIT 10;"
+    },
+    {
+      "id": 3,
+      "title": "Kasus 003: Pembayaran belum lunas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pembayaran belum lunas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_transaksi FROM pesanan ps GROUP BY ps.status ORDER BY total_transaksi DESC;"
+    },
+    {
+      "id": 4,
+      "title": "Kasus 004: SLA pengiriman",
+      "scenario": "Tim Toko Pintar membutuhkan analisis sla pengiriman untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pel.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet FROM pelanggan pel JOIN pesanan ps ON ps.pelanggan_id = pel.pelanggan_id GROUP BY pel.kota ORDER BY omzet DESC;"
+    },
+    {
+      "id": 5,
+      "title": "Kasus 005: Produk rating rendah",
+      "scenario": "Tim Toko Pintar membutuhkan analisis produk rating rendah untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pr.nama_produk, AVG(u.rating) AS rata_rating, COUNT(u.ulasan_id) AS jumlah_ulasan FROM produk pr LEFT JOIN ulasan u ON u.produk_id = pr.produk_id GROUP BY pr.nama_produk ORDER BY rata_rating DESC;"
+    },
+    {
+      "id": 6,
+      "title": "Kasus 006: Segmentasi RFM",
+      "scenario": "Tim Toko Pintar membutuhkan analisis segmentasi rfm untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT g.nama_gudang, p.nama_produk, sm.jenis_mutasi, sm.jumlah FROM stok_mutasi sm JOIN gudang g ON g.gudang_id = sm.gudang_id JOIN produk p ON p.produk_id = sm.produk_id ORDER BY sm.tanggal_mutasi DESC LIMIT 10;"
+    },
+    {
+      "id": 7,
+      "title": "Kasus 007: Retensi cohort",
+      "scenario": "Tim Toko Pintar membutuhkan analisis retensi cohort untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.pesanan_id, pel.nama, ps.total, pb.status_bayar FROM pesanan ps JOIN pelanggan pel ON pel.pelanggan_id = ps.pelanggan_id JOIN pembayaran pb ON pb.pesanan_id = ps.pesanan_id ORDER BY ps.total DESC LIMIT 10;"
+    },
+    {
+      "id": 8,
+      "title": "Kasus 008: Margin kategori",
+      "scenario": "Tim Toko Pintar membutuhkan analisis margin kategori untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pelanggan_id, nama, kota, level FROM pelanggan ORDER BY kota, nama LIMIT 10;"
+    },
+    {
+      "id": 9,
+      "title": "Kasus 009: Audit duplikasi",
+      "scenario": "Tim Toko Pintar membutuhkan analisis audit duplikasi untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT kategori_id, COUNT(*) AS jumlah_produk FROM produk GROUP BY kategori_id ORDER BY jumlah_produk DESC;"
+    },
+    {
+      "id": 10,
+      "title": "Kasus 010: Stok kritis",
+      "scenario": "Tim Toko Pintar membutuhkan analisis stok kritis untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT p.nama_produk, k.nama_kategori, p.harga, p.stok FROM produk p JOIN kategori k ON k.kategori_id = p.kategori_id ORDER BY p.stok ASC LIMIT 10;"
+    },
+    {
+      "id": 11,
+      "title": "Kasus 011: Omzet kota",
+      "scenario": "Tim Toko Pintar membutuhkan analisis omzet kota untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_transaksi FROM pesanan ps GROUP BY ps.status ORDER BY total_transaksi DESC;"
+    },
+    {
+      "id": 12,
+      "title": "Kasus 012: Pelanggan prioritas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pelanggan prioritas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pel.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet FROM pelanggan pel JOIN pesanan ps ON ps.pelanggan_id = pel.pelanggan_id GROUP BY pel.kota ORDER BY omzet DESC;"
+    },
+    {
+      "id": 13,
+      "title": "Kasus 013: Pembayaran belum lunas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pembayaran belum lunas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pr.nama_produk, AVG(u.rating) AS rata_rating, COUNT(u.ulasan_id) AS jumlah_ulasan FROM produk pr LEFT JOIN ulasan u ON u.produk_id = pr.produk_id GROUP BY pr.nama_produk ORDER BY rata_rating DESC;"
+    },
+    {
+      "id": 14,
+      "title": "Kasus 014: SLA pengiriman",
+      "scenario": "Tim Toko Pintar membutuhkan analisis sla pengiriman untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT g.nama_gudang, p.nama_produk, sm.jenis_mutasi, sm.jumlah FROM stok_mutasi sm JOIN gudang g ON g.gudang_id = sm.gudang_id JOIN produk p ON p.produk_id = sm.produk_id ORDER BY sm.tanggal_mutasi DESC LIMIT 10;"
+    },
+    {
+      "id": 15,
+      "title": "Kasus 015: Produk rating rendah",
+      "scenario": "Tim Toko Pintar membutuhkan analisis produk rating rendah untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.pesanan_id, pel.nama, ps.total, pb.status_bayar FROM pesanan ps JOIN pelanggan pel ON pel.pelanggan_id = ps.pelanggan_id JOIN pembayaran pb ON pb.pesanan_id = ps.pesanan_id ORDER BY ps.total DESC LIMIT 10;"
+    },
+    {
+      "id": 16,
+      "title": "Kasus 016: Segmentasi RFM",
+      "scenario": "Tim Toko Pintar membutuhkan analisis segmentasi rfm untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pelanggan_id, nama, kota, level FROM pelanggan ORDER BY kota, nama LIMIT 10;"
+    },
+    {
+      "id": 17,
+      "title": "Kasus 017: Retensi cohort",
+      "scenario": "Tim Toko Pintar membutuhkan analisis retensi cohort untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT kategori_id, COUNT(*) AS jumlah_produk FROM produk GROUP BY kategori_id ORDER BY jumlah_produk DESC;"
+    },
+    {
+      "id": 18,
+      "title": "Kasus 018: Margin kategori",
+      "scenario": "Tim Toko Pintar membutuhkan analisis margin kategori untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT p.nama_produk, k.nama_kategori, p.harga, p.stok FROM produk p JOIN kategori k ON k.kategori_id = p.kategori_id ORDER BY p.stok ASC LIMIT 10;"
+    },
+    {
+      "id": 19,
+      "title": "Kasus 019: Audit duplikasi",
+      "scenario": "Tim Toko Pintar membutuhkan analisis audit duplikasi untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_transaksi FROM pesanan ps GROUP BY ps.status ORDER BY total_transaksi DESC;"
+    },
+    {
+      "id": 20,
+      "title": "Kasus 020: Stok kritis",
+      "scenario": "Tim Toko Pintar membutuhkan analisis stok kritis untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pel.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet FROM pelanggan pel JOIN pesanan ps ON ps.pelanggan_id = pel.pelanggan_id GROUP BY pel.kota ORDER BY omzet DESC;"
+    },
+    {
+      "id": 21,
+      "title": "Kasus 021: Omzet kota",
+      "scenario": "Tim Toko Pintar membutuhkan analisis omzet kota untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pr.nama_produk, AVG(u.rating) AS rata_rating, COUNT(u.ulasan_id) AS jumlah_ulasan FROM produk pr LEFT JOIN ulasan u ON u.produk_id = pr.produk_id GROUP BY pr.nama_produk ORDER BY rata_rating DESC;"
+    },
+    {
+      "id": 22,
+      "title": "Kasus 022: Pelanggan prioritas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pelanggan prioritas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT g.nama_gudang, p.nama_produk, sm.jenis_mutasi, sm.jumlah FROM stok_mutasi sm JOIN gudang g ON g.gudang_id = sm.gudang_id JOIN produk p ON p.produk_id = sm.produk_id ORDER BY sm.tanggal_mutasi DESC LIMIT 10;"
+    },
+    {
+      "id": 23,
+      "title": "Kasus 023: Pembayaran belum lunas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pembayaran belum lunas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.pesanan_id, pel.nama, ps.total, pb.status_bayar FROM pesanan ps JOIN pelanggan pel ON pel.pelanggan_id = ps.pelanggan_id JOIN pembayaran pb ON pb.pesanan_id = ps.pesanan_id ORDER BY ps.total DESC LIMIT 10;"
+    },
+    {
+      "id": 24,
+      "title": "Kasus 024: SLA pengiriman",
+      "scenario": "Tim Toko Pintar membutuhkan analisis sla pengiriman untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pelanggan_id, nama, kota, level FROM pelanggan ORDER BY kota, nama LIMIT 10;"
+    },
+    {
+      "id": 25,
+      "title": "Kasus 025: Produk rating rendah",
+      "scenario": "Tim Toko Pintar membutuhkan analisis produk rating rendah untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT kategori_id, COUNT(*) AS jumlah_produk FROM produk GROUP BY kategori_id ORDER BY jumlah_produk DESC;"
+    },
+    {
+      "id": 26,
+      "title": "Kasus 026: Segmentasi RFM",
+      "scenario": "Tim Toko Pintar membutuhkan analisis segmentasi rfm untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT p.nama_produk, k.nama_kategori, p.harga, p.stok FROM produk p JOIN kategori k ON k.kategori_id = p.kategori_id ORDER BY p.stok ASC LIMIT 10;"
+    },
+    {
+      "id": 27,
+      "title": "Kasus 027: Retensi cohort",
+      "scenario": "Tim Toko Pintar membutuhkan analisis retensi cohort untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_transaksi FROM pesanan ps GROUP BY ps.status ORDER BY total_transaksi DESC;"
+    },
+    {
+      "id": 28,
+      "title": "Kasus 028: Margin kategori",
+      "scenario": "Tim Toko Pintar membutuhkan analisis margin kategori untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pel.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet FROM pelanggan pel JOIN pesanan ps ON ps.pelanggan_id = pel.pelanggan_id GROUP BY pel.kota ORDER BY omzet DESC;"
+    },
+    {
+      "id": 29,
+      "title": "Kasus 029: Audit duplikasi",
+      "scenario": "Tim Toko Pintar membutuhkan analisis audit duplikasi untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pr.nama_produk, AVG(u.rating) AS rata_rating, COUNT(u.ulasan_id) AS jumlah_ulasan FROM produk pr LEFT JOIN ulasan u ON u.produk_id = pr.produk_id GROUP BY pr.nama_produk ORDER BY rata_rating DESC;"
+    },
+    {
+      "id": 30,
+      "title": "Kasus 030: Stok kritis",
+      "scenario": "Tim Toko Pintar membutuhkan analisis stok kritis untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT g.nama_gudang, p.nama_produk, sm.jenis_mutasi, sm.jumlah FROM stok_mutasi sm JOIN gudang g ON g.gudang_id = sm.gudang_id JOIN produk p ON p.produk_id = sm.produk_id ORDER BY sm.tanggal_mutasi DESC LIMIT 10;"
+    },
+    {
+      "id": 31,
+      "title": "Kasus 031: Omzet kota",
+      "scenario": "Tim Toko Pintar membutuhkan analisis omzet kota untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.pesanan_id, pel.nama, ps.total, pb.status_bayar FROM pesanan ps JOIN pelanggan pel ON pel.pelanggan_id = ps.pelanggan_id JOIN pembayaran pb ON pb.pesanan_id = ps.pesanan_id ORDER BY ps.total DESC LIMIT 10;"
+    },
+    {
+      "id": 32,
+      "title": "Kasus 032: Pelanggan prioritas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pelanggan prioritas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pelanggan_id, nama, kota, level FROM pelanggan ORDER BY kota, nama LIMIT 10;"
+    },
+    {
+      "id": 33,
+      "title": "Kasus 033: Pembayaran belum lunas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pembayaran belum lunas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT kategori_id, COUNT(*) AS jumlah_produk FROM produk GROUP BY kategori_id ORDER BY jumlah_produk DESC;"
+    },
+    {
+      "id": 34,
+      "title": "Kasus 034: SLA pengiriman",
+      "scenario": "Tim Toko Pintar membutuhkan analisis sla pengiriman untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT p.nama_produk, k.nama_kategori, p.harga, p.stok FROM produk p JOIN kategori k ON k.kategori_id = p.kategori_id ORDER BY p.stok ASC LIMIT 10;"
+    },
+    {
+      "id": 35,
+      "title": "Kasus 035: Produk rating rendah",
+      "scenario": "Tim Toko Pintar membutuhkan analisis produk rating rendah untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_transaksi FROM pesanan ps GROUP BY ps.status ORDER BY total_transaksi DESC;"
+    },
+    {
+      "id": 36,
+      "title": "Kasus 036: Segmentasi RFM",
+      "scenario": "Tim Toko Pintar membutuhkan analisis segmentasi rfm untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pel.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet FROM pelanggan pel JOIN pesanan ps ON ps.pelanggan_id = pel.pelanggan_id GROUP BY pel.kota ORDER BY omzet DESC;"
+    },
+    {
+      "id": 37,
+      "title": "Kasus 037: Retensi cohort",
+      "scenario": "Tim Toko Pintar membutuhkan analisis retensi cohort untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pr.nama_produk, AVG(u.rating) AS rata_rating, COUNT(u.ulasan_id) AS jumlah_ulasan FROM produk pr LEFT JOIN ulasan u ON u.produk_id = pr.produk_id GROUP BY pr.nama_produk ORDER BY rata_rating DESC;"
+    },
+    {
+      "id": 38,
+      "title": "Kasus 038: Margin kategori",
+      "scenario": "Tim Toko Pintar membutuhkan analisis margin kategori untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT g.nama_gudang, p.nama_produk, sm.jenis_mutasi, sm.jumlah FROM stok_mutasi sm JOIN gudang g ON g.gudang_id = sm.gudang_id JOIN produk p ON p.produk_id = sm.produk_id ORDER BY sm.tanggal_mutasi DESC LIMIT 10;"
+    },
+    {
+      "id": 39,
+      "title": "Kasus 039: Audit duplikasi",
+      "scenario": "Tim Toko Pintar membutuhkan analisis audit duplikasi untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.pesanan_id, pel.nama, ps.total, pb.status_bayar FROM pesanan ps JOIN pelanggan pel ON pel.pelanggan_id = ps.pelanggan_id JOIN pembayaran pb ON pb.pesanan_id = ps.pesanan_id ORDER BY ps.total DESC LIMIT 10;"
+    },
+    {
+      "id": 40,
+      "title": "Kasus 040: Stok kritis",
+      "scenario": "Tim Toko Pintar membutuhkan analisis stok kritis untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pelanggan_id, nama, kota, level FROM pelanggan ORDER BY kota, nama LIMIT 10;"
+    },
+    {
+      "id": 41,
+      "title": "Kasus 041: Omzet kota",
+      "scenario": "Tim Toko Pintar membutuhkan analisis omzet kota untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT kategori_id, COUNT(*) AS jumlah_produk FROM produk GROUP BY kategori_id ORDER BY jumlah_produk DESC;"
+    },
+    {
+      "id": 42,
+      "title": "Kasus 042: Pelanggan prioritas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pelanggan prioritas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT p.nama_produk, k.nama_kategori, p.harga, p.stok FROM produk p JOIN kategori k ON k.kategori_id = p.kategori_id ORDER BY p.stok ASC LIMIT 10;"
+    },
+    {
+      "id": 43,
+      "title": "Kasus 043: Pembayaran belum lunas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pembayaran belum lunas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_transaksi FROM pesanan ps GROUP BY ps.status ORDER BY total_transaksi DESC;"
+    },
+    {
+      "id": 44,
+      "title": "Kasus 044: SLA pengiriman",
+      "scenario": "Tim Toko Pintar membutuhkan analisis sla pengiriman untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pel.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet FROM pelanggan pel JOIN pesanan ps ON ps.pelanggan_id = pel.pelanggan_id GROUP BY pel.kota ORDER BY omzet DESC;"
+    },
+    {
+      "id": 45,
+      "title": "Kasus 045: Produk rating rendah",
+      "scenario": "Tim Toko Pintar membutuhkan analisis produk rating rendah untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pr.nama_produk, AVG(u.rating) AS rata_rating, COUNT(u.ulasan_id) AS jumlah_ulasan FROM produk pr LEFT JOIN ulasan u ON u.produk_id = pr.produk_id GROUP BY pr.nama_produk ORDER BY rata_rating DESC;"
+    },
+    {
+      "id": 46,
+      "title": "Kasus 046: Segmentasi RFM",
+      "scenario": "Tim Toko Pintar membutuhkan analisis segmentasi rfm untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT g.nama_gudang, p.nama_produk, sm.jenis_mutasi, sm.jumlah FROM stok_mutasi sm JOIN gudang g ON g.gudang_id = sm.gudang_id JOIN produk p ON p.produk_id = sm.produk_id ORDER BY sm.tanggal_mutasi DESC LIMIT 10;"
+    },
+    {
+      "id": 47,
+      "title": "Kasus 047: Retensi cohort",
+      "scenario": "Tim Toko Pintar membutuhkan analisis retensi cohort untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.pesanan_id, pel.nama, ps.total, pb.status_bayar FROM pesanan ps JOIN pelanggan pel ON pel.pelanggan_id = ps.pelanggan_id JOIN pembayaran pb ON pb.pesanan_id = ps.pesanan_id ORDER BY ps.total DESC LIMIT 10;"
+    },
+    {
+      "id": 48,
+      "title": "Kasus 048: Margin kategori",
+      "scenario": "Tim Toko Pintar membutuhkan analisis margin kategori untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pelanggan_id, nama, kota, level FROM pelanggan ORDER BY kota, nama LIMIT 10;"
+    },
+    {
+      "id": 49,
+      "title": "Kasus 049: Audit duplikasi",
+      "scenario": "Tim Toko Pintar membutuhkan analisis audit duplikasi untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT kategori_id, COUNT(*) AS jumlah_produk FROM produk GROUP BY kategori_id ORDER BY jumlah_produk DESC;"
+    },
+    {
+      "id": 50,
+      "title": "Kasus 050: Stok kritis",
+      "scenario": "Tim Toko Pintar membutuhkan analisis stok kritis untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT p.nama_produk, k.nama_kategori, p.harga, p.stok FROM produk p JOIN kategori k ON k.kategori_id = p.kategori_id ORDER BY p.stok ASC LIMIT 10;"
+    },
+    {
+      "id": 51,
+      "title": "Kasus 051: Omzet kota",
+      "scenario": "Tim Toko Pintar membutuhkan analisis omzet kota untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_transaksi FROM pesanan ps GROUP BY ps.status ORDER BY total_transaksi DESC;"
+    },
+    {
+      "id": 52,
+      "title": "Kasus 052: Pelanggan prioritas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pelanggan prioritas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pel.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet FROM pelanggan pel JOIN pesanan ps ON ps.pelanggan_id = pel.pelanggan_id GROUP BY pel.kota ORDER BY omzet DESC;"
+    },
+    {
+      "id": 53,
+      "title": "Kasus 053: Pembayaran belum lunas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pembayaran belum lunas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pr.nama_produk, AVG(u.rating) AS rata_rating, COUNT(u.ulasan_id) AS jumlah_ulasan FROM produk pr LEFT JOIN ulasan u ON u.produk_id = pr.produk_id GROUP BY pr.nama_produk ORDER BY rata_rating DESC;"
+    },
+    {
+      "id": 54,
+      "title": "Kasus 054: SLA pengiriman",
+      "scenario": "Tim Toko Pintar membutuhkan analisis sla pengiriman untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT g.nama_gudang, p.nama_produk, sm.jenis_mutasi, sm.jumlah FROM stok_mutasi sm JOIN gudang g ON g.gudang_id = sm.gudang_id JOIN produk p ON p.produk_id = sm.produk_id ORDER BY sm.tanggal_mutasi DESC LIMIT 10;"
+    },
+    {
+      "id": 55,
+      "title": "Kasus 055: Produk rating rendah",
+      "scenario": "Tim Toko Pintar membutuhkan analisis produk rating rendah untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.pesanan_id, pel.nama, ps.total, pb.status_bayar FROM pesanan ps JOIN pelanggan pel ON pel.pelanggan_id = ps.pelanggan_id JOIN pembayaran pb ON pb.pesanan_id = ps.pesanan_id ORDER BY ps.total DESC LIMIT 10;"
+    },
+    {
+      "id": 56,
+      "title": "Kasus 056: Segmentasi RFM",
+      "scenario": "Tim Toko Pintar membutuhkan analisis segmentasi rfm untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pelanggan_id, nama, kota, level FROM pelanggan ORDER BY kota, nama LIMIT 10;"
+    },
+    {
+      "id": 57,
+      "title": "Kasus 057: Retensi cohort",
+      "scenario": "Tim Toko Pintar membutuhkan analisis retensi cohort untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT kategori_id, COUNT(*) AS jumlah_produk FROM produk GROUP BY kategori_id ORDER BY jumlah_produk DESC;"
+    },
+    {
+      "id": 58,
+      "title": "Kasus 058: Margin kategori",
+      "scenario": "Tim Toko Pintar membutuhkan analisis margin kategori untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT p.nama_produk, k.nama_kategori, p.harga, p.stok FROM produk p JOIN kategori k ON k.kategori_id = p.kategori_id ORDER BY p.stok ASC LIMIT 10;"
+    },
+    {
+      "id": 59,
+      "title": "Kasus 059: Audit duplikasi",
+      "scenario": "Tim Toko Pintar membutuhkan analisis audit duplikasi untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_transaksi FROM pesanan ps GROUP BY ps.status ORDER BY total_transaksi DESC;"
+    },
+    {
+      "id": 60,
+      "title": "Kasus 060: Stok kritis",
+      "scenario": "Tim Toko Pintar membutuhkan analisis stok kritis untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pel.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet FROM pelanggan pel JOIN pesanan ps ON ps.pelanggan_id = pel.pelanggan_id GROUP BY pel.kota ORDER BY omzet DESC;"
+    },
+    {
+      "id": 61,
+      "title": "Kasus 061: Omzet kota",
+      "scenario": "Tim Toko Pintar membutuhkan analisis omzet kota untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pr.nama_produk, AVG(u.rating) AS rata_rating, COUNT(u.ulasan_id) AS jumlah_ulasan FROM produk pr LEFT JOIN ulasan u ON u.produk_id = pr.produk_id GROUP BY pr.nama_produk ORDER BY rata_rating DESC;"
+    },
+    {
+      "id": 62,
+      "title": "Kasus 062: Pelanggan prioritas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pelanggan prioritas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT g.nama_gudang, p.nama_produk, sm.jenis_mutasi, sm.jumlah FROM stok_mutasi sm JOIN gudang g ON g.gudang_id = sm.gudang_id JOIN produk p ON p.produk_id = sm.produk_id ORDER BY sm.tanggal_mutasi DESC LIMIT 10;"
+    },
+    {
+      "id": 63,
+      "title": "Kasus 063: Pembayaran belum lunas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pembayaran belum lunas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.pesanan_id, pel.nama, ps.total, pb.status_bayar FROM pesanan ps JOIN pelanggan pel ON pel.pelanggan_id = ps.pelanggan_id JOIN pembayaran pb ON pb.pesanan_id = ps.pesanan_id ORDER BY ps.total DESC LIMIT 10;"
+    },
+    {
+      "id": 64,
+      "title": "Kasus 064: SLA pengiriman",
+      "scenario": "Tim Toko Pintar membutuhkan analisis sla pengiriman untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pelanggan_id, nama, kota, level FROM pelanggan ORDER BY kota, nama LIMIT 10;"
+    },
+    {
+      "id": 65,
+      "title": "Kasus 065: Produk rating rendah",
+      "scenario": "Tim Toko Pintar membutuhkan analisis produk rating rendah untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT kategori_id, COUNT(*) AS jumlah_produk FROM produk GROUP BY kategori_id ORDER BY jumlah_produk DESC;"
+    },
+    {
+      "id": 66,
+      "title": "Kasus 066: Segmentasi RFM",
+      "scenario": "Tim Toko Pintar membutuhkan analisis segmentasi rfm untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT p.nama_produk, k.nama_kategori, p.harga, p.stok FROM produk p JOIN kategori k ON k.kategori_id = p.kategori_id ORDER BY p.stok ASC LIMIT 10;"
+    },
+    {
+      "id": 67,
+      "title": "Kasus 067: Retensi cohort",
+      "scenario": "Tim Toko Pintar membutuhkan analisis retensi cohort untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_transaksi FROM pesanan ps GROUP BY ps.status ORDER BY total_transaksi DESC;"
+    },
+    {
+      "id": 68,
+      "title": "Kasus 068: Margin kategori",
+      "scenario": "Tim Toko Pintar membutuhkan analisis margin kategori untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pel.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet FROM pelanggan pel JOIN pesanan ps ON ps.pelanggan_id = pel.pelanggan_id GROUP BY pel.kota ORDER BY omzet DESC;"
+    },
+    {
+      "id": 69,
+      "title": "Kasus 069: Audit duplikasi",
+      "scenario": "Tim Toko Pintar membutuhkan analisis audit duplikasi untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pr.nama_produk, AVG(u.rating) AS rata_rating, COUNT(u.ulasan_id) AS jumlah_ulasan FROM produk pr LEFT JOIN ulasan u ON u.produk_id = pr.produk_id GROUP BY pr.nama_produk ORDER BY rata_rating DESC;"
+    },
+    {
+      "id": 70,
+      "title": "Kasus 070: Stok kritis",
+      "scenario": "Tim Toko Pintar membutuhkan analisis stok kritis untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT g.nama_gudang, p.nama_produk, sm.jenis_mutasi, sm.jumlah FROM stok_mutasi sm JOIN gudang g ON g.gudang_id = sm.gudang_id JOIN produk p ON p.produk_id = sm.produk_id ORDER BY sm.tanggal_mutasi DESC LIMIT 10;"
+    },
+    {
+      "id": 71,
+      "title": "Kasus 071: Omzet kota",
+      "scenario": "Tim Toko Pintar membutuhkan analisis omzet kota untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.pesanan_id, pel.nama, ps.total, pb.status_bayar FROM pesanan ps JOIN pelanggan pel ON pel.pelanggan_id = ps.pelanggan_id JOIN pembayaran pb ON pb.pesanan_id = ps.pesanan_id ORDER BY ps.total DESC LIMIT 10;"
+    },
+    {
+      "id": 72,
+      "title": "Kasus 072: Pelanggan prioritas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pelanggan prioritas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pelanggan_id, nama, kota, level FROM pelanggan ORDER BY kota, nama LIMIT 10;"
+    },
+    {
+      "id": 73,
+      "title": "Kasus 073: Pembayaran belum lunas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pembayaran belum lunas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT kategori_id, COUNT(*) AS jumlah_produk FROM produk GROUP BY kategori_id ORDER BY jumlah_produk DESC;"
+    },
+    {
+      "id": 74,
+      "title": "Kasus 074: SLA pengiriman",
+      "scenario": "Tim Toko Pintar membutuhkan analisis sla pengiriman untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT p.nama_produk, k.nama_kategori, p.harga, p.stok FROM produk p JOIN kategori k ON k.kategori_id = p.kategori_id ORDER BY p.stok ASC LIMIT 10;"
+    },
+    {
+      "id": 75,
+      "title": "Kasus 075: Produk rating rendah",
+      "scenario": "Tim Toko Pintar membutuhkan analisis produk rating rendah untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_transaksi FROM pesanan ps GROUP BY ps.status ORDER BY total_transaksi DESC;"
+    },
+    {
+      "id": 76,
+      "title": "Kasus 076: Segmentasi RFM",
+      "scenario": "Tim Toko Pintar membutuhkan analisis segmentasi rfm untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pel.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet FROM pelanggan pel JOIN pesanan ps ON ps.pelanggan_id = pel.pelanggan_id GROUP BY pel.kota ORDER BY omzet DESC;"
+    },
+    {
+      "id": 77,
+      "title": "Kasus 077: Retensi cohort",
+      "scenario": "Tim Toko Pintar membutuhkan analisis retensi cohort untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pr.nama_produk, AVG(u.rating) AS rata_rating, COUNT(u.ulasan_id) AS jumlah_ulasan FROM produk pr LEFT JOIN ulasan u ON u.produk_id = pr.produk_id GROUP BY pr.nama_produk ORDER BY rata_rating DESC;"
+    },
+    {
+      "id": 78,
+      "title": "Kasus 078: Margin kategori",
+      "scenario": "Tim Toko Pintar membutuhkan analisis margin kategori untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT g.nama_gudang, p.nama_produk, sm.jenis_mutasi, sm.jumlah FROM stok_mutasi sm JOIN gudang g ON g.gudang_id = sm.gudang_id JOIN produk p ON p.produk_id = sm.produk_id ORDER BY sm.tanggal_mutasi DESC LIMIT 10;"
+    },
+    {
+      "id": 79,
+      "title": "Kasus 079: Audit duplikasi",
+      "scenario": "Tim Toko Pintar membutuhkan analisis audit duplikasi untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.pesanan_id, pel.nama, ps.total, pb.status_bayar FROM pesanan ps JOIN pelanggan pel ON pel.pelanggan_id = ps.pelanggan_id JOIN pembayaran pb ON pb.pesanan_id = ps.pesanan_id ORDER BY ps.total DESC LIMIT 10;"
+    },
+    {
+      "id": 80,
+      "title": "Kasus 080: Stok kritis",
+      "scenario": "Tim Toko Pintar membutuhkan analisis stok kritis untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pelanggan_id, nama, kota, level FROM pelanggan ORDER BY kota, nama LIMIT 10;"
+    },
+    {
+      "id": 81,
+      "title": "Kasus 081: Omzet kota",
+      "scenario": "Tim Toko Pintar membutuhkan analisis omzet kota untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT kategori_id, COUNT(*) AS jumlah_produk FROM produk GROUP BY kategori_id ORDER BY jumlah_produk DESC;"
+    },
+    {
+      "id": 82,
+      "title": "Kasus 082: Pelanggan prioritas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pelanggan prioritas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT p.nama_produk, k.nama_kategori, p.harga, p.stok FROM produk p JOIN kategori k ON k.kategori_id = p.kategori_id ORDER BY p.stok ASC LIMIT 10;"
+    },
+    {
+      "id": 83,
+      "title": "Kasus 083: Pembayaran belum lunas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pembayaran belum lunas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_transaksi FROM pesanan ps GROUP BY ps.status ORDER BY total_transaksi DESC;"
+    },
+    {
+      "id": 84,
+      "title": "Kasus 084: SLA pengiriman",
+      "scenario": "Tim Toko Pintar membutuhkan analisis sla pengiriman untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pel.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet FROM pelanggan pel JOIN pesanan ps ON ps.pelanggan_id = pel.pelanggan_id GROUP BY pel.kota ORDER BY omzet DESC;"
+    },
+    {
+      "id": 85,
+      "title": "Kasus 085: Produk rating rendah",
+      "scenario": "Tim Toko Pintar membutuhkan analisis produk rating rendah untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pr.nama_produk, AVG(u.rating) AS rata_rating, COUNT(u.ulasan_id) AS jumlah_ulasan FROM produk pr LEFT JOIN ulasan u ON u.produk_id = pr.produk_id GROUP BY pr.nama_produk ORDER BY rata_rating DESC;"
+    },
+    {
+      "id": 86,
+      "title": "Kasus 086: Segmentasi RFM",
+      "scenario": "Tim Toko Pintar membutuhkan analisis segmentasi rfm untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT g.nama_gudang, p.nama_produk, sm.jenis_mutasi, sm.jumlah FROM stok_mutasi sm JOIN gudang g ON g.gudang_id = sm.gudang_id JOIN produk p ON p.produk_id = sm.produk_id ORDER BY sm.tanggal_mutasi DESC LIMIT 10;"
+    },
+    {
+      "id": 87,
+      "title": "Kasus 087: Retensi cohort",
+      "scenario": "Tim Toko Pintar membutuhkan analisis retensi cohort untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.pesanan_id, pel.nama, ps.total, pb.status_bayar FROM pesanan ps JOIN pelanggan pel ON pel.pelanggan_id = ps.pelanggan_id JOIN pembayaran pb ON pb.pesanan_id = ps.pesanan_id ORDER BY ps.total DESC LIMIT 10;"
+    },
+    {
+      "id": 88,
+      "title": "Kasus 088: Margin kategori",
+      "scenario": "Tim Toko Pintar membutuhkan analisis margin kategori untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pelanggan_id, nama, kota, level FROM pelanggan ORDER BY kota, nama LIMIT 10;"
+    },
+    {
+      "id": 89,
+      "title": "Kasus 089: Audit duplikasi",
+      "scenario": "Tim Toko Pintar membutuhkan analisis audit duplikasi untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT kategori_id, COUNT(*) AS jumlah_produk FROM produk GROUP BY kategori_id ORDER BY jumlah_produk DESC;"
+    },
+    {
+      "id": 90,
+      "title": "Kasus 090: Stok kritis",
+      "scenario": "Tim Toko Pintar membutuhkan analisis stok kritis untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT p.nama_produk, k.nama_kategori, p.harga, p.stok FROM produk p JOIN kategori k ON k.kategori_id = p.kategori_id ORDER BY p.stok ASC LIMIT 10;"
+    },
+    {
+      "id": 91,
+      "title": "Kasus 091: Omzet kota",
+      "scenario": "Tim Toko Pintar membutuhkan analisis omzet kota untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_transaksi FROM pesanan ps GROUP BY ps.status ORDER BY total_transaksi DESC;"
+    },
+    {
+      "id": 92,
+      "title": "Kasus 092: Pelanggan prioritas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pelanggan prioritas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pel.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet FROM pelanggan pel JOIN pesanan ps ON ps.pelanggan_id = pel.pelanggan_id GROUP BY pel.kota ORDER BY omzet DESC;"
+    },
+    {
+      "id": 93,
+      "title": "Kasus 093: Pembayaran belum lunas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pembayaran belum lunas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pr.nama_produk, AVG(u.rating) AS rata_rating, COUNT(u.ulasan_id) AS jumlah_ulasan FROM produk pr LEFT JOIN ulasan u ON u.produk_id = pr.produk_id GROUP BY pr.nama_produk ORDER BY rata_rating DESC;"
+    },
+    {
+      "id": 94,
+      "title": "Kasus 094: SLA pengiriman",
+      "scenario": "Tim Toko Pintar membutuhkan analisis sla pengiriman untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT g.nama_gudang, p.nama_produk, sm.jenis_mutasi, sm.jumlah FROM stok_mutasi sm JOIN gudang g ON g.gudang_id = sm.gudang_id JOIN produk p ON p.produk_id = sm.produk_id ORDER BY sm.tanggal_mutasi DESC LIMIT 10;"
+    },
+    {
+      "id": 95,
+      "title": "Kasus 095: Produk rating rendah",
+      "scenario": "Tim Toko Pintar membutuhkan analisis produk rating rendah untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.pesanan_id, pel.nama, ps.total, pb.status_bayar FROM pesanan ps JOIN pelanggan pel ON pel.pelanggan_id = ps.pelanggan_id JOIN pembayaran pb ON pb.pesanan_id = ps.pesanan_id ORDER BY ps.total DESC LIMIT 10;"
+    },
+    {
+      "id": 96,
+      "title": "Kasus 096: Segmentasi RFM",
+      "scenario": "Tim Toko Pintar membutuhkan analisis segmentasi rfm untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pelanggan_id, nama, kota, level FROM pelanggan ORDER BY kota, nama LIMIT 10;"
+    },
+    {
+      "id": 97,
+      "title": "Kasus 097: Retensi cohort",
+      "scenario": "Tim Toko Pintar membutuhkan analisis retensi cohort untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT kategori_id, COUNT(*) AS jumlah_produk FROM produk GROUP BY kategori_id ORDER BY jumlah_produk DESC;"
+    },
+    {
+      "id": 98,
+      "title": "Kasus 098: Margin kategori",
+      "scenario": "Tim Toko Pintar membutuhkan analisis margin kategori untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT p.nama_produk, k.nama_kategori, p.harga, p.stok FROM produk p JOIN kategori k ON k.kategori_id = p.kategori_id ORDER BY p.stok ASC LIMIT 10;"
+    },
+    {
+      "id": 99,
+      "title": "Kasus 099: Audit duplikasi",
+      "scenario": "Tim Toko Pintar membutuhkan analisis audit duplikasi untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_transaksi FROM pesanan ps GROUP BY ps.status ORDER BY total_transaksi DESC;"
+    },
+    {
+      "id": 100,
+      "title": "Kasus 100: Stok kritis",
+      "scenario": "Tim Toko Pintar membutuhkan analisis stok kritis untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pel.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet FROM pelanggan pel JOIN pesanan ps ON ps.pelanggan_id = pel.pelanggan_id GROUP BY pel.kota ORDER BY omzet DESC;"
+    },
+    {
+      "id": 101,
+      "title": "Kasus 101: Omzet kota",
+      "scenario": "Tim Toko Pintar membutuhkan analisis omzet kota untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pr.nama_produk, AVG(u.rating) AS rata_rating, COUNT(u.ulasan_id) AS jumlah_ulasan FROM produk pr LEFT JOIN ulasan u ON u.produk_id = pr.produk_id GROUP BY pr.nama_produk ORDER BY rata_rating DESC;"
+    },
+    {
+      "id": 102,
+      "title": "Kasus 102: Pelanggan prioritas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pelanggan prioritas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT g.nama_gudang, p.nama_produk, sm.jenis_mutasi, sm.jumlah FROM stok_mutasi sm JOIN gudang g ON g.gudang_id = sm.gudang_id JOIN produk p ON p.produk_id = sm.produk_id ORDER BY sm.tanggal_mutasi DESC LIMIT 10;"
+    },
+    {
+      "id": 103,
+      "title": "Kasus 103: Pembayaran belum lunas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pembayaran belum lunas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.pesanan_id, pel.nama, ps.total, pb.status_bayar FROM pesanan ps JOIN pelanggan pel ON pel.pelanggan_id = ps.pelanggan_id JOIN pembayaran pb ON pb.pesanan_id = ps.pesanan_id ORDER BY ps.total DESC LIMIT 10;"
+    },
+    {
+      "id": 104,
+      "title": "Kasus 104: SLA pengiriman",
+      "scenario": "Tim Toko Pintar membutuhkan analisis sla pengiriman untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pelanggan_id, nama, kota, level FROM pelanggan ORDER BY kota, nama LIMIT 10;"
+    },
+    {
+      "id": 105,
+      "title": "Kasus 105: Produk rating rendah",
+      "scenario": "Tim Toko Pintar membutuhkan analisis produk rating rendah untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT kategori_id, COUNT(*) AS jumlah_produk FROM produk GROUP BY kategori_id ORDER BY jumlah_produk DESC;"
+    },
+    {
+      "id": 106,
+      "title": "Kasus 106: Segmentasi RFM",
+      "scenario": "Tim Toko Pintar membutuhkan analisis segmentasi rfm untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT p.nama_produk, k.nama_kategori, p.harga, p.stok FROM produk p JOIN kategori k ON k.kategori_id = p.kategori_id ORDER BY p.stok ASC LIMIT 10;"
+    },
+    {
+      "id": 107,
+      "title": "Kasus 107: Retensi cohort",
+      "scenario": "Tim Toko Pintar membutuhkan analisis retensi cohort untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_transaksi FROM pesanan ps GROUP BY ps.status ORDER BY total_transaksi DESC;"
+    },
+    {
+      "id": 108,
+      "title": "Kasus 108: Margin kategori",
+      "scenario": "Tim Toko Pintar membutuhkan analisis margin kategori untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pel.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet FROM pelanggan pel JOIN pesanan ps ON ps.pelanggan_id = pel.pelanggan_id GROUP BY pel.kota ORDER BY omzet DESC;"
+    },
+    {
+      "id": 109,
+      "title": "Kasus 109: Audit duplikasi",
+      "scenario": "Tim Toko Pintar membutuhkan analisis audit duplikasi untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pr.nama_produk, AVG(u.rating) AS rata_rating, COUNT(u.ulasan_id) AS jumlah_ulasan FROM produk pr LEFT JOIN ulasan u ON u.produk_id = pr.produk_id GROUP BY pr.nama_produk ORDER BY rata_rating DESC;"
+    },
+    {
+      "id": 110,
+      "title": "Kasus 110: Stok kritis",
+      "scenario": "Tim Toko Pintar membutuhkan analisis stok kritis untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT g.nama_gudang, p.nama_produk, sm.jenis_mutasi, sm.jumlah FROM stok_mutasi sm JOIN gudang g ON g.gudang_id = sm.gudang_id JOIN produk p ON p.produk_id = sm.produk_id ORDER BY sm.tanggal_mutasi DESC LIMIT 10;"
+    },
+    {
+      "id": 111,
+      "title": "Kasus 111: Omzet kota",
+      "scenario": "Tim Toko Pintar membutuhkan analisis omzet kota untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.pesanan_id, pel.nama, ps.total, pb.status_bayar FROM pesanan ps JOIN pelanggan pel ON pel.pelanggan_id = ps.pelanggan_id JOIN pembayaran pb ON pb.pesanan_id = ps.pesanan_id ORDER BY ps.total DESC LIMIT 10;"
+    },
+    {
+      "id": 112,
+      "title": "Kasus 112: Pelanggan prioritas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pelanggan prioritas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pelanggan_id, nama, kota, level FROM pelanggan ORDER BY kota, nama LIMIT 10;"
+    },
+    {
+      "id": 113,
+      "title": "Kasus 113: Pembayaran belum lunas",
+      "scenario": "Tim Toko Pintar membutuhkan analisis pembayaran belum lunas untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT kategori_id, COUNT(*) AS jumlah_produk FROM produk GROUP BY kategori_id ORDER BY jumlah_produk DESC;"
+    },
+    {
+      "id": 114,
+      "title": "Kasus 114: SLA pengiriman",
+      "scenario": "Tim Toko Pintar membutuhkan analisis sla pengiriman untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT p.nama_produk, k.nama_kategori, p.harga, p.stok FROM produk p JOIN kategori k ON k.kategori_id = p.kategori_id ORDER BY p.stok ASC LIMIT 10;"
+    },
+    {
+      "id": 115,
+      "title": "Kasus 115: Produk rating rendah",
+      "scenario": "Tim Toko Pintar membutuhkan analisis produk rating rendah untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.status, COUNT(*) AS jumlah, SUM(ps.total) AS total_transaksi FROM pesanan ps GROUP BY ps.status ORDER BY total_transaksi DESC;"
+    },
+    {
+      "id": 116,
+      "title": "Kasus 116: Segmentasi RFM",
+      "scenario": "Tim Toko Pintar membutuhkan analisis segmentasi rfm untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pel.kota, COUNT(ps.pesanan_id) AS jumlah_order, SUM(ps.total) AS omzet FROM pelanggan pel JOIN pesanan ps ON ps.pelanggan_id = pel.pelanggan_id GROUP BY pel.kota ORDER BY omzet DESC;"
+    },
+    {
+      "id": 117,
+      "title": "Kasus 117: Retensi cohort",
+      "scenario": "Tim Toko Pintar membutuhkan analisis retensi cohort untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pr.nama_produk, AVG(u.rating) AS rata_rating, COUNT(u.ulasan_id) AS jumlah_ulasan FROM produk pr LEFT JOIN ulasan u ON u.produk_id = pr.produk_id GROUP BY pr.nama_produk ORDER BY rata_rating DESC;"
+    },
+    {
+      "id": 118,
+      "title": "Kasus 118: Margin kategori",
+      "scenario": "Tim Toko Pintar membutuhkan analisis margin kategori untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT g.nama_gudang, p.nama_produk, sm.jenis_mutasi, sm.jumlah FROM stok_mutasi sm JOIN gudang g ON g.gudang_id = sm.gudang_id JOIN produk p ON p.produk_id = sm.produk_id ORDER BY sm.tanggal_mutasi DESC LIMIT 10;"
+    },
+    {
+      "id": 119,
+      "title": "Kasus 119: Audit duplikasi",
+      "scenario": "Tim Toko Pintar membutuhkan analisis audit duplikasi untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT ps.pesanan_id, pel.nama, ps.total, pb.status_bayar FROM pesanan ps JOIN pelanggan pel ON pel.pelanggan_id = ps.pelanggan_id JOIN pembayaran pb ON pb.pesanan_id = ps.pesanan_id ORDER BY ps.total DESC LIMIT 10;"
+    },
+    {
+      "id": 120,
+      "title": "Kasus 120: Stok kritis",
+      "scenario": "Tim Toko Pintar membutuhkan analisis stok kritis untuk periode simulasi. Tentukan tabel, query, output, dan rekomendasi.",
+      "deliverables": [
+        "pertanyaan bisnis",
+        "query SQL",
+        "validasi output",
+        "interpretasi",
+        "rekomendasi"
+      ],
+      "suggestedQuery": "SELECT pelanggan_id, nama, kota, level FROM pelanggan ORDER BY kota, nama LIMIT 10;"
+    }
+  ]
+}
