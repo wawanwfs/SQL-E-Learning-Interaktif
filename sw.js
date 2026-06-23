@@ -3,7 +3,7 @@
  * Strategy: Cache-first for core assets, network-first for data,
  *           stale-while-revalidate for everything else.
  */
-const CACHE_VERSION = 'sql-elearning-v4.1';
+const CACHE_VERSION = 'sql-elearning-v4.2';
 const CORE_CACHE = CACHE_VERSION + '-core';
 const DATA_CACHE = CACHE_VERSION + '-data';
 const RUNTIME_CACHE = CACHE_VERSION + '-runtime';

@@ -1337,7 +1337,8 @@ html[data-theme="light"] .line-numbers {
 #sqlEditor {
   width: 100%;
   min-height: 200px;
-  color: #d4edff;
+  color: transparent !important;
+  caret-color: #d4edff;
   background: transparent !important;
   border: none !important;
   margin: 0 !important;
@@ -1351,9 +1352,101 @@ html[data-theme="light"] .line-numbers {
   white-space: pre;
   word-wrap: normal;
   overflow-x: auto;
+  position: relative;
+  z-index: 2;
 }
 html[data-theme="light"] #sqlEditor {
+  color: transparent !important;
+  caret-color: #1a2a42;
+}
+#sqlEditor::selection {
+  background: rgba(54, 211, 255, 0.25);
+  color: rgba(255, 255, 255, 0.9);
+}
+html[data-theme="light"] #sqlEditor::selection {
+  background: rgba(5, 120, 184, 0.18);
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.editor-sub-container {
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+}
+
+.highlight-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 !important;
+  padding: 14px 14px 14px 8px !important;
+  font-family: var(--mono);
+  font-size: 13px;
+  line-height: 1.65;
+  white-space: pre;
+  word-wrap: normal;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1;
+  background: transparent !important;
+  border: none !important;
+  box-sizing: border-box;
+}
+.highlight-layer code {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  background: transparent !important;
+  padding: 0 !important;
+  border: none !important;
+  white-space: pre !important;
+  color: #d4edff;
+}
+html[data-theme="light"] .highlight-layer code {
   color: #1a2a42;
+}
+
+/* SQL Token Highlighting Colors */
+.sql-token-keyword {
+  color: #36d3ff;
+  font-weight: 700;
+}
+html[data-theme="light"] .sql-token-keyword {
+  color: #0578b8;
+}
+.sql-token-function {
+  color: #66f0c8;
+  font-weight: 700;
+}
+html[data-theme="light"] .sql-token-function {
+  color: #0b8f72;
+}
+.sql-token-string {
+  color: #ffd166;
+}
+html[data-theme="light"] .sql-token-string {
+  color: #b7791f;
+}
+.sql-token-comment {
+  color: rgba(142, 164, 190, 0.65);
+  font-style: italic;
+}
+html[data-theme="light"] .sql-token-comment {
+  color: rgba(90, 114, 144, 0.65);
+}
+.sql-token-number {
+  color: #ff9e64;
+}
+html[data-theme="light"] .sql-token-number {
+  color: #c2410c;
+}
+.sql-token-operator {
+  color: #a9b2c3;
+}
+html[data-theme="light"] .sql-token-operator {
+  color: #4b5563;
 }
 
 /* Autocomplete Suggestion Bar */
@@ -3061,6 +3154,21 @@ html[data-theme="light"] .verify-success {
 html[data-theme="light"] .verify-error {
   background: rgba(200, 61, 61, 0.06);
   border-color: rgba(200, 61, 61, 0.18);
+}
+
+/* Static Lesson SQL Code Block Highlights */
+.sql-block pre code {
+  color: #d4edff;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  background: transparent !important;
+  padding: 0 !important;
+  border: none !important;
+  white-space: pre !important;
+}
+html[data-theme="light"] .sql-block pre code {
+  color: #1a2a42;
 }
 
 @media print {

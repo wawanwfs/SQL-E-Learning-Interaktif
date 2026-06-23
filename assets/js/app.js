@@ -100,7 +100,7 @@
     }
   }
   function renderSqlBlock(title, query, canLoad = true) {
-    return `<div class="sql-block"><div class="sql-block-head"><strong>${escapeHtml(title)}</strong>${canLoad ? `<button class="load-query" data-query="${escapeHtml(query)}">Muat ke Playground</button>` : ''}</div><pre>${escapeHtml(query)}</pre></div>`;
+    return `<div class="sql-block"><div class="sql-block-head"><strong>${escapeHtml(title)}</strong>${canLoad ? `<button class="load-query" data-query="${escapeHtml(query)}">Muat ke Playground</button>` : ''}</div><pre><code>${highlightSql(query)}</code></pre></div>`;
   }
 
   function levels() { return ['Semua', ...new Set(data.lessons.map((l) => l.level))]; }
@@ -315,28 +315,80 @@
     toast('Query disalin.');
   }
 
+  function highlightSql(sql) {
+    const regex = /(--[^\n]*|\/\*[^]*?\*\/)|('(?:''|[^'])*'|"(?:""|[^"])*"|`[^`]*`)|(\b(?:SELECT|FROM|WHERE|JOIN|LEFT|RIGHT|INNER|ON|GROUP BY|ORDER BY|HAVING|LIMIT|AND|OR|IN|NOT|LIKE|IS|NULL|INSERT|INTO|VALUES|UPDATE|SET|DELETE|CREATE|TABLE|DROP|ALTER|ADD|AS|DESC|ASC|WITH|UNION|ALL|CASE|WHEN|THEN|ELSE|END|OVER|PARTITION BY|ROW_NUMBER|RANK|DENSE_RANK)\b)|(\b\d+(?:\.\d+)?\b)|(\b(?:SUM|AVG|COUNT|MIN|MAX|COALESCE|CONCAT|IFNULL|ROUND)\b(?=\s*\()))|((?:[<>=!]+|\+|-|\*|\/))/gi;
+
+    let result = '';
+    let lastIndex = 0;
+    let match;
+
+    const escHtml = (str) => str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+    while ((match = regex.exec(sql)) !== null) {
+      result += escHtml(sql.substring(lastIndex, match.index));
+
+      const [full, comment, string, keyword, number, func, operator] = match;
+      const escapedMatch = escHtml(full);
+
+      if (comment) {
+        result += `<span class="sql-token-comment">${escapedMatch}</span>`;
+      } else if (string) {
+        result += `<span class="sql-token-string">${escapedMatch}</span>`;
+      } else if (keyword) {
+        result += `<span class="sql-token-keyword">${escapedMatch}</span>`;
+      } else if (number) {
+        result += `<span class="sql-token-number">${escapedMatch}</span>`;
+      } else if (func) {
+        result += `<span class="sql-token-function">${escapedMatch}</span>`;
+      } else if (operator) {
+        result += `<span class="sql-token-operator">${escapedMatch}</span>`;
+      } else {
+        result += escapedMatch;
+      }
+
+      lastIndex = regex.lastIndex;
+    }
+
+    result += escHtml(sql.substring(lastIndex));
+    return result;
+  }
+
   function setupEditorUpgrades() {
     const editor = $('sqlEditor');
     const numbers = $('lineNumbers');
+    const highlightLayer = $('highlightLayer');
+    const highlightCode = $('highlightCode');
     if (!editor || !numbers) return;
 
     // Sync scroll
     editor.addEventListener('scroll', () => {
       numbers.scrollTop = editor.scrollTop;
+      if (highlightLayer) {
+        highlightLayer.scrollTop = editor.scrollTop;
+        highlightLayer.scrollLeft = editor.scrollLeft;
+      }
     });
 
-    // Update numbers
-    const updateNumbers = () => {
+    // Update numbers and highlight
+    const updateEditor = () => {
+      // Update line numbers
       const linesCount = editor.value.split('\n').length;
       let html = '';
       for (let i = 1; i <= linesCount; i++) {
         html += `<div>${i}</div>`;
       }
       numbers.innerHTML = html;
+
+      // Update highlight layer
+      if (highlightCode) {
+        let val = editor.value;
+        if (val.endsWith('\n')) val += ' ';
+        highlightCode.innerHTML = highlightSql(val);
+      }
     };
 
-    editor.addEventListener('input', updateNumbers);
-    updateNumbers(); // Initial call
+    editor.addEventListener('input', updateEditor);
+    updateEditor(); // Initial call
 
     // Autocomplete Setup
     setupAutocomplete(editor);
