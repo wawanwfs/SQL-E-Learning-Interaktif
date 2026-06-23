@@ -1784,8 +1784,11 @@ html[data-theme="light"] .toast {
     flex: 1;
     min-width: 0;
   }
-  .top-actions {
+  .top-actions > *:not(#themeBtn) {
     display: none !important;
+  }
+  .top-actions {
+    display: flex !important;
   }
 
   /* --- Hero: tighter spacing --- */

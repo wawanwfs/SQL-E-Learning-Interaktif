@@ -6,6 +6,8 @@
 
 **Platform belajar SQL interaktif berbasis browser — tanpa backend, siap deploy ke GitHub Pages.**
 
+**🌐 Live Demo:** [wawanwfs.github.io/SQL-E-Learning-Interaktif](https://wawanwfs.github.io/SQL-E-Learning-Interaktif)
+
 ![Static Badge](https://img.shields.io/badge/Modul-140-36d3ff?style=for-the-badge)
 ![Static Badge](https://img.shields.io/badge/Latihan-1120-66f0c8?style=for-the-badge)
 ![Static Badge](https://img.shields.io/badge/Quiz-560-ffd166?style=for-the-badge)
