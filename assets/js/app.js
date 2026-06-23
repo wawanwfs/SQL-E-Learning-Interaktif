@@ -197,10 +197,10 @@
   }
   function renderLatihan(l) {
     const doneExercises = getDoneExercises();
-    return `<h3>Latihan Bertingkat</h3><p>Kerjakan latihan tanpa melihat solusi terlebih dahulu. Setelah selesai, tandai latihan agar progress kelulusan tersimpan.</p><div class="callout"><button class="success-btn" id="markAllExercisesBtn">Tandai Semua Latihan Modul Ini Selesai</button></div>${l.exercises.map((e, i) => {
+    return `<h3>Latihan Bertingkat</h3><p>Kerjakan latihan tanpa melihat solusi terlebih dahulu. Uji hasil query Anda menggunakan tombol Uji Query.</p><div class="callout"><button class="success-btn" id="markAllExercisesBtn">Tandai Semua Latihan Modul Ini Selesai</button></div>${l.exercises.map((e, i) => {
       const key = exerciseKey(l.id, i);
       const done = doneExercises.includes(key);
-      return `<div class="exercise-card"><h4>${i + 1}. ${escapeHtml(e.title)}</h4><p>${escapeHtml(e.prompt)}</p><div class="exercise-actions"><button class="reveal-btn" data-reveal="ex-${i}">Tampilkan Solusi</button><button class="exercise-done-btn ${done ? 'done' : ''}" data-exercise="${key}">${done ? 'Latihan Selesai ✓' : 'Tandai Latihan Selesai'}</button></div><div id="ex-${i}" class="hide">${renderSqlBlock('Solusi latihan', e.solution)}</div></div>`;
+      return `<div class="exercise-card"><h4>${i + 1}. ${escapeHtml(e.title)}</h4><p>${escapeHtml(e.prompt)}</p><div class="exercise-actions"><button class="reveal-btn" data-reveal="ex-${i}">Tampilkan Solusi</button><button class="test-query-btn" data-exercise-index="${i}">🧪 Uji Query Saya</button><button class="exercise-done-btn ${done ? 'done' : ''}" data-exercise="${key}">${done ? 'Latihan Selesai ✓' : 'Tandai Latihan Selesai'}</button></div><div id="ex-${i}" class="hide">${renderSqlBlock('Solusi latihan', e.solution)}</div></div>`;
     }).join('')}
       <h3>Output Latihan Utama</h3>${runPreview(l.exerciseQuery)}
       <h3>Catatan Profesional</h3><ul>${l.professionalNotes.map((n) => `<li>${escapeHtml(n)}</li>`).join('')}</ul>`;
@@ -225,6 +225,7 @@
       btn.onclick = () => {
         $('sqlEditor').value = btn.dataset.query;
         store.set('sqlDraft', $('sqlEditor').value);
+        $('sqlEditor').dispatchEvent(new Event('input'));
         if (window.innerWidth <= 1180) {
           setPlaygroundVisible(true);
           setTimeout(() => {
@@ -240,6 +241,12 @@
     });
     document.querySelectorAll('.reveal-btn').forEach((btn) => {
       btn.onclick = () => { const el = $(btn.dataset.reveal); if (el) el.classList.toggle('hide'); };
+    });
+    document.querySelectorAll('.test-query-btn').forEach((btn) => {
+      btn.onclick = () => {
+        const idx = Number(btn.dataset.exerciseIndex);
+        testUserQuery(idx);
+      };
     });
     document.querySelectorAll('.exercise-done-btn').forEach((btn) => {
       btn.onclick = () => {
@@ -308,6 +315,174 @@
     toast('Query disalin.');
   }
 
+  function setupEditorUpgrades() {
+    const editor = $('sqlEditor');
+    const numbers = $('lineNumbers');
+    if (!editor || !numbers) return;
+
+    // Sync scroll
+    editor.addEventListener('scroll', () => {
+      numbers.scrollTop = editor.scrollTop;
+    });
+
+    // Update numbers
+    const updateNumbers = () => {
+      const linesCount = editor.value.split('\n').length;
+      let html = '';
+      for (let i = 1; i <= linesCount; i++) {
+        html += `<div>${i}</div>`;
+      }
+      numbers.innerHTML = html;
+    };
+
+    editor.addEventListener('input', updateNumbers);
+    updateNumbers(); // Initial call
+
+    // Autocomplete Setup
+    setupAutocomplete(editor);
+  }
+
+  const SQL_SUGGESTIONS = [
+    'SELECT', 'FROM', 'WHERE', 'JOIN', 'LEFT JOIN', 'INNER JOIN', 'ON', 'GROUP BY', 'ORDER BY', 
+    'LIMIT', 'AND', 'OR', 'AS', 'SUM', 'COUNT', 'AVG', 'MIN', 'MAX', 'HAVING', 'INSERT', 'UPDATE', 'DELETE',
+    // Tables
+    'pelanggan', 'produk', 'pesanan', 'detail_pesanan', 'kategori', 'pembayaran', 'pengiriman',
+    // Columns
+    'pelanggan_id', 'nama', 'email', 'telepon', 'kota',
+    'produk_id', 'nama_produk', 'harga', 'stok', 'kategori_id',
+    'pesanan_id', 'tanggal_pesan', 'total', 'status',
+    'jumlah', 'subtotal',
+    'nama_kategori',
+    'pembayaran_id', 'metode_bayar', 'status_bayar', 'tanggal_bayar',
+    'pengiriman_id', 'kurir', 'no_resi', 'status_kirim', 'tanggal_kirim'
+  ];
+
+  function setupAutocomplete(editor) {
+    const bar = $('suggestionBar');
+    if (!bar) return;
+
+    const handleSuggest = () => {
+      const pos = editor.selectionStart;
+      const val = editor.value.substring(0, pos);
+      const match = val.match(/[\w_]+$/i);
+      
+      if (!match) {
+        bar.style.display = 'none';
+        return;
+      }
+
+      const word = match[0].toLowerCase();
+      const filtered = SQL_SUGGESTIONS.filter(s => s.toLowerCase().startsWith(word) && s.toLowerCase() !== word).slice(0, 7);
+
+      if (filtered.length === 0) {
+        bar.style.display = 'none';
+        return;
+      }
+
+      bar.innerHTML = filtered.map(s => `<button class="suggest-chip" data-insert="${s}">${escapeHtml(s)}</button>`).join('');
+      bar.style.display = 'flex';
+
+      bar.querySelectorAll('.suggest-chip').forEach(btn => {
+        btn.onclick = (e) => {
+          e.preventDefault();
+          const insertText = btn.dataset.insert;
+          const currentVal = editor.value;
+          const start = pos - word.length;
+          
+          editor.value = currentVal.substring(0, start) + insertText + ' ' + currentVal.substring(pos);
+          editor.focus();
+          const newCursorPos = start + insertText.length + 1;
+          editor.setSelectionRange(newCursorPos, newCursorPos);
+          
+          store.set('sqlDraft', editor.value);
+          bar.style.display = 'none';
+          
+          const event = new Event('input');
+          editor.dispatchEvent(event);
+        };
+      });
+    };
+
+    editor.addEventListener('input', handleSuggest);
+    editor.addEventListener('keyup', (e) => {
+      if (['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'Escape'].includes(e.key)) {
+        bar.style.display = 'none';
+      } else {
+        handleSuggest();
+      }
+    });
+    editor.addEventListener('click', () => {
+      bar.style.display = 'none';
+    });
+  }
+
+  function testUserQuery(idx) {
+    const l = currentLesson;
+    const exercise = l.exercises[idx];
+    if (!exercise) return;
+
+    const userQuery = $('sqlEditor').value.trim();
+    if (!userQuery) {
+      toast('Tulis query Anda terlebih dahulu di Playground SQL.');
+      return;
+    }
+
+    try {
+      const userRes = engine.execute(userQuery);
+      const solRes = engine.execute(exercise.solution);
+
+      const userCols = userRes.columns || [];
+      const solCols = solRes.columns || [];
+
+      if (userCols.length !== solCols.length) {
+        toast('❌ Jumlah kolom hasil query Anda tidak sesuai dengan solusi.');
+        return;
+      }
+
+      for (let i = 0; i < solCols.length; i++) {
+        if (userCols[i].toLowerCase() !== solCols[i].toLowerCase()) {
+          toast(`❌ Nama kolom tidak sesuai. Diharapkan "${solCols[i]}" tapi mendapatkan "${userCols[i]}".`);
+          return;
+        }
+      }
+
+      const userRows = userRes.rows || [];
+      const solRows = solRes.rows || [];
+
+      if (userRows.length !== solRows.length) {
+        toast(`❌ Jumlah baris tidak sesuai. Diharapkan ${solRows.length} baris, tapi mendapatkan ${userRows.length} baris.`);
+        return;
+      }
+
+      for (let r = 0; r < solRows.length; r++) {
+        const userRow = userRows[r];
+        const solRow = solRows[r];
+        for (let c = 0; c < solCols.length; c++) {
+          const colName = solCols[c];
+          const userVal = userRow[colName];
+          const solVal = solRow[colName];
+          
+          if (String(userVal).trim().toLowerCase() !== String(solVal).trim().toLowerCase()) {
+            toast(`❌ Data baris ke-${r+1} pada kolom "${colName}" tidak sesuai.`);
+            return;
+          }
+        }
+      }
+
+      const key = exerciseKey(l.id, idx);
+      const done = getDoneExercises();
+      if (!done.includes(key)) {
+        setDoneExercises([...done, key]);
+        renderLesson();
+        renderNav($('lessonSearch').value || '');
+      }
+
+      toast('🎉 Sukses! Output query cocok 100% dengan solusi. Latihan ditandai selesai!');
+    } catch (err) {
+      toast(`❌ Query error: ${err.message}`);
+    }
+  }
+
   function renderDictionary() {
     $('dictionaryContent').innerHTML = `<div class="dictionary-grid">${Object.entries(data.database).map(([table, rows]) => {
       const cols = Object.keys(rows[0] || {});
@@ -328,7 +503,7 @@
     ];
     $('shortcutList').innerHTML = qs.map((x) => `<button data-query="${escapeHtml(x[1])}">${escapeHtml(x[0])}</button>`).join('');
     $('shortcutList').querySelectorAll('button').forEach((b) => {
-      b.onclick = () => { $('sqlEditor').value = b.dataset.query; store.set('sqlDraft', $('sqlEditor').value); if (!playgroundVisible) setPlaygroundVisible(true); runSql(); };
+      b.onclick = () => { $('sqlEditor').value = b.dataset.query; store.set('sqlDraft', $('sqlEditor').value); $('sqlEditor').dispatchEvent(new Event('input')); if (!playgroundVisible) setPlaygroundVisible(true); runSql(); };
     });
   }
   function renderCheats() {
@@ -441,7 +616,7 @@
   });
 
   $('runSqlBtn').onclick = runSql;
-  $('formatSqlBtn').onclick = () => { $('sqlEditor').value = simpleFormat($('sqlEditor').value); store.set('sqlDraft', $('sqlEditor').value); };
+  $('formatSqlBtn').onclick = () => { $('sqlEditor').value = simpleFormat($('sqlEditor').value); store.set('sqlDraft', $('sqlEditor').value); $('sqlEditor').dispatchEvent(new Event('input')); };
   $('copySqlBtn').onclick = copySql;
   $('resetDbBtn').onclick = () => { engine.reset(); runSql(); toast('Database browser direset.'); };
   $('sqlEditor').addEventListener('input', () => store.set('sqlDraft', $('sqlEditor').value));
@@ -512,6 +687,7 @@
     renderCheats();
     const draft = store.get('sqlDraft');
     if (draft) $('sqlEditor').value = draft;
+    setupEditorUpgrades();
     runSql();
     if (!getParticipantName() && !store.get('namePromptSkipped', false)) {
       setTimeout(() => openNameModal(true), 450);

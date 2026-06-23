@@ -118,7 +118,13 @@ ORDER BY omzet DESC;</pre></div>
                 <div><h3>Playground SQL</h3><p>Database aktif: <strong>toko_pintar</strong></p></div>
                 <div class="playground-tools"><div class="status-pill" id="engineStatus">Browser Engine</div><button class="icon-btn small" id="collapsePlaygroundBtn" aria-label="Sembunyikan playground">–</button></div>
               </div>
-              <textarea id="sqlEditor" spellcheck="false">SELECT * FROM produk ORDER BY harga DESC LIMIT 5;</textarea>
+              <div class="editor-wrapper">
+                <div class="suggestion-bar" id="suggestionBar"></div>
+                <div class="editor-container">
+                  <div class="line-numbers" id="lineNumbers">1</div>
+                  <textarea id="sqlEditor" spellcheck="false">SELECT * FROM produk ORDER BY harga DESC LIMIT 5;</textarea>
+                </div>
+              </div>
               <div class="editor-actions"><button class="primary-btn" id="runSqlBtn">▶ Jalankan</button><button class="ghost-btn" id="formatSqlBtn">Rapikan</button><button class="ghost-btn" id="copySqlBtn">Copy</button><button class="danger-btn" id="resetDbBtn">Reset DB</button></div>
               <div class="result-panel"><div class="result-head"><strong>Output Query</strong><span id="resultMeta">Belum dijalankan</span></div><div id="sqlResult" class="sql-result empty">Klik Jalankan untuk melihat hasil.</div></div>
             </section>
