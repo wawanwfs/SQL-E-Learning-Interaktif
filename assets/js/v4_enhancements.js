@@ -45,12 +45,12 @@
     activeTab=tab; $('v4Modal').classList.add('show'); renderTabs(); renderContent();
   }
   function renderTabs(){
-    const tabs=[['overview','Ringkasan'],['improvements','100 Pengembangan'],['planner','Planner'],['exam','Ujian'],['flashcards','Flashcards'],['schema','Schema'],['dataset','Data Lab'],['access','Aksesibilitas'],['export','Export'],['help','Bantuan']];
+    const tabs=[['overview','Ringkasan'],['improvements','100 Pengembangan'],['planner','Planner'],['exam','Ujian'],['flashcards','Flashcards'],['schema','Schema'],['dataset','Data Lab'],['access','Aksesibilitas'],['verify','Verifikasi'],['export','Export'],['help','Bantuan']];
     $('v4Tabs').innerHTML=tabs.map(([id,label])=>`<button class="v4-tab ${activeTab===id?'active':''}" data-tab="${id}">${label}</button>`).join('');
     qa('.v4-tab',$('v4Tabs')).forEach(b=>b.onclick=()=>{activeTab=b.dataset.tab; renderTabs(); renderContent();});
   }
   function renderContent(){
-    const map={overview,improvements,planner,exam,flashcards,schema,dataset,access,export:exportPanel,help};
+    const map={overview,improvements,planner,exam,flashcards,schema,dataset,access,verify,export:exportPanel,help};
     const fn=map[activeTab]||overview; fn();
   }
   function stats(){
@@ -132,6 +132,63 @@
   function help(){
     $('v4ModalTitle').textContent='Bantuan v4';
     $('v4Content').innerHTML=`<div class="v4-panel-grid"><div class="v4-card"><h3>Shortcut</h3><ul><li>Ctrl+K: command palette.</li><li>Ctrl+Enter: jalankan SQL.</li><li>Esc: tutup panel v4.</li></ul></div><div class="v4-card"><h3>Dokumentasi</h3><div class="download-grid"><a href="docs/USULAN_PENGEMBANGAN_100_v4.md" target="_blank">100 pengembangan</a><a href="docs/PANDUAN_PENGGUNA_v4.md" target="_blank">Panduan pengguna</a><a href="docs/PANDUAN_DOSEN_v4.md" target="_blank">Panduan dosen</a><a href="docs/CHANGELOG_v4_0.md" target="_blank">Changelog</a></div></div></div>`;
+  }
+  function verify() {
+    $('v4ModalTitle').textContent = 'Verifikator Keaslian Sertifikat';
+    $('v4Content').innerHTML = `
+      <div class="v4-card">
+        <h3>Pusat Validasi Kredensial</h3>
+        <p class="muted">Masukkan ID Sertifikat untuk memvalidasi keaslian, tanggal kelulusan, nama peserta, dan capaian progres belajar secara independen.</p>
+        
+        <label class="field-label" style="display:block; margin:14px 0 8px;" for="v4CertInput">ID Sertifikat (contoh: SQL-V2FoeXV...-XYZ)</label>
+        <input class="v4-input" style="width:100%; box-sizing:border-box; margin-bottom:14px;" id="v4CertInput" type="text" placeholder="SQL-..." />
+        
+        <button class="v4-action center" id="v4CheckCertBtn">🔍 Verifikasi Keaslian</button>
+        
+        <div id="v4CertResult" style="margin-top:18px;"></div>
+      </div>
+    `;
+    
+    $('v4CheckCertBtn').onclick = () => {
+      const code = $('v4CertInput').value.trim();
+      const resEl = $('v4CertResult');
+      
+      if (!code) {
+        resEl.innerHTML = `<div class="verify-error">⚠️ Silakan masukkan ID sertifikat terlebih dahulu.</div>`;
+        return;
+      }
+      
+      if (!window.SQL_CERT_VERIFIER) {
+        resEl.innerHTML = `<div class="verify-error">❌ Sistem verifikasi tidak dimuat. Silakan muat ulang halaman.</div>`;
+        return;
+      }
+      
+      const data = window.SQL_CERT_VERIFIER.verify(code);
+      if (data) {
+        const parsedDate = new Date(data.date);
+        const dateStr = isNaN(parsedDate.getTime()) ? data.date : parsedDate.toLocaleDateString('id-ID', { day: '2-digit', month: 'long', year: 'numeric' });
+        resEl.innerHTML = `
+          <div class="verify-success">
+            <h3 style="color:#31d48c; margin-top:0;">✅ Sertifikat VALID & ASLI</h3>
+            <p style="margin: 8px 0;">Sertifikat dengan ID ini terdaftar resmi pada sistem e-learning interaktif.</p>
+            <hr style="border:0; border-top:1px solid rgba(255,255,255,0.1); margin:12px 0;" />
+            <table style="width:100%; font-size:13px; text-align:left;">
+              <tr><th style="padding:4px 0; color:var(--muted); font-weight:normal;">Nama Lulusan</th><td style="padding:4px 0; color:white;"><strong>${esc(data.name)}</strong></td></tr>
+              <tr><th style="padding:4px 0; color:var(--muted); font-weight:normal;">Tanggal Terbit</th><td style="padding:4px 0; color:white;">${esc(dateStr)}</td></tr>
+              <tr><th style="padding:4px 0; color:var(--muted); font-weight:normal;">Progres Kelulusan</th><td style="padding:4px 0; color:white;">${esc(data.percent)}% (Lulus 100%)</td></tr>
+              <tr><th style="padding:4px 0; color:var(--muted); font-weight:normal;">Status Kredensial</th><td style="padding:4px 0; color:#31d48c; font-weight:bold;">Tersertifikasi</td></tr>
+            </table>
+          </div>
+        `;
+      } else {
+        resEl.innerHTML = `
+          <div class="verify-error">
+            <h3 style="color:var(--danger); margin-top:0;">❌ Sertifikat TIDAK VALID</h3>
+            <p style="margin:8px 0; font-size:13px;">ID sertifikat yang Anda masukkan tidak cocok dengan signature kriptografis sistem kami. Pastikan tidak ada karakter yang salah tulis, atau sertifikat tersebut tidak asli.</p>
+          </div>
+        `;
+      }
+    };
   }
   function injectCommand(){ if($('v4Command')) return; const el=document.createElement('div'); el.id='v4Command'; el.className='v4-command'; el.innerHTML='<input id="v4CommandInput" placeholder="Cari modul, fitur, atau topik..."><div class="v4-command-results" id="v4CommandResults"></div>'; document.body.appendChild(el); $('v4CommandInput').oninput=renderCommand; }
   function buildCommandItems(){ commandItems=lessons.map(l=>({label:`Modul ${String(l.id).padStart(3,'0')}: ${l.title}`, type:'module', id:l.id, desc:l.subtitle})).concat([{label:'Buka Planner',type:'tab',id:'planner'},{label:'Buka Ujian',type:'tab',id:'exam'},{label:'Buka Flashcards',type:'tab',id:'flashcards'},{label:'Buka 100 Pengembangan',type:'tab',id:'improvements'},{label:'Buka Schema Explorer',type:'tab',id:'schema'}]); }

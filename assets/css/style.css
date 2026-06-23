@@ -3035,6 +3035,34 @@ body.v4-readable .lesson-body {
   }
 }
 
+/* v4 Cert Verifier Results */
+.verify-success {
+  padding: 16px;
+  background: rgba(49, 212, 140, 0.08);
+  border: 1px solid rgba(49, 212, 140, 0.25);
+  border-radius: 14px;
+  color: var(--text);
+  margin-top: 14px;
+  animation: fadeInUp var(--transition);
+}
+html[data-theme="light"] .verify-success {
+  background: rgba(8, 127, 91, 0.06);
+  border-color: rgba(8, 127, 91, 0.18);
+}
+.verify-error {
+  padding: 16px;
+  background: rgba(255, 107, 107, 0.08);
+  border: 1px solid rgba(255, 107, 107, 0.25);
+  border-radius: 14px;
+  color: var(--text);
+  margin-top: 14px;
+  animation: fadeInUp var(--transition);
+}
+html[data-theme="light"] .verify-error {
+  background: rgba(200, 61, 61, 0.06);
+  border-color: rgba(200, 61, 61, 0.18);
+}
+
 @media print {
   .v4-toolbar,
   .v4-statusbar,

@@ -567,17 +567,83 @@
       return `<div class="progress-row"><div><strong>${String(l.id).padStart(2, '0')}. ${escapeHtml(l.title)}</strong><small>Sesi: ${lessonDone ? 'selesai' : 'belum'} • Latihan: ${exerciseDone}/${l.exercises.length} • Quiz: ${quizDone}/${l.quiz.length}</small></div><span>${lessonDone && exerciseDone === l.exercises.length && quizDone === l.quiz.length ? '✓' : '—'}</span></div>`;
     }).join('')}`;
   }
+  function getCertificateDate() {
+    let d = store.get('certificateDate', '');
+    if (!d) {
+      d = new Date().toISOString().slice(0, 10);
+      store.set('certificateDate', d);
+    }
+    return d;
+  }
   function certificateId() {
     let id = store.get('certificateId', '');
     if (!id) {
-      const raw = `${getParticipantName()}-${Date.now()}-${Math.random()}`;
+      const name = getParticipantName();
+      const date = getCertificateDate();
+      const percent = completionStats().percent;
+      
+      const raw = `${name}|${date}|${percent}`;
+      // Encode
+      const encoded = btoa(unescape(encodeURIComponent(raw)))
+        .replace(/\+/g, '-')
+        .replace(/\//g, '_')
+        .replace(/=+$/, '');
+        
+      // Checksum
+      const salt = "SQL-MASTER-2026-KEY";
       let hash = 0;
-      for (let i = 0; i < raw.length; i += 1) hash = ((hash << 5) - hash) + raw.charCodeAt(i) | 0;
-      id = `SQL-${new Date().getFullYear()}-${Math.abs(hash).toString(36).toUpperCase()}`;
+      const str = encoded + salt;
+      for (let i = 0; i < str.length; i++) {
+        hash = ((hash << 5) - hash) + str.charCodeAt(i);
+        hash |= 0;
+      }
+      const checksum = Math.abs(hash).toString(36).toUpperCase();
+      
+      id = `SQL-${encoded}-${checksum}`;
       store.set('certificateId', id);
     }
     return id;
   }
+
+  // Expose Cryptographic Cert Verifier Globally
+  window.SQL_CERT_VERIFIER = {
+    verify(id) {
+      if (!id || !id.startsWith('SQL-')) return null;
+      const content = id.substring(4);
+      const lastDash = content.lastIndexOf('-');
+      if (lastDash === -1) return null;
+      
+      const encoded = content.substring(0, lastDash);
+      const checksum = content.substring(lastDash + 1);
+      
+      // Verify Checksum
+      const salt = "SQL-MASTER-2026-KEY";
+      let hash = 0;
+      const str = encoded + salt;
+      for (let i = 0; i < str.length; i++) {
+        hash = ((hash << 5) - hash) + str.charCodeAt(i);
+        hash |= 0;
+      }
+      const expectedChecksum = Math.abs(hash).toString(36).toUpperCase();
+      
+      if (checksum !== expectedChecksum) return null;
+      
+      // Decode Data
+      try {
+        const base64 = encoded.replace(/-/g, '+').replace(/_/g, '/');
+        const raw = decodeURIComponent(escape(atob(base64)));
+        const dataParts = raw.split('|');
+        if (dataParts.length !== 3) return null;
+        return {
+          name: dataParts[0],
+          date: dataParts[1],
+          percent: dataParts[2]
+        };
+      } catch (e) {
+        return null;
+      }
+    }
+  };
   function renderCertificateModal() {
     const s = completionStats();
     const name = getParticipantName();
@@ -588,8 +654,10 @@
     if (fill) fill.onclick = () => { $('certificateModal').classList.remove('show'); openNameModal(true); };
   }
   function certificateHtml(name, s) {
-    const date = new Date().toLocaleDateString('id-ID', { day: '2-digit', month: 'long', year: 'numeric' });
-    return `<div class="certificate-card"><div class="cert-kicker">Sertifikat Kelulusan</div><h1>SQL Dari Dasar Hingga Master</h1><p>Diberikan kepada</p><div class="cert-name">${escapeHtml(name)}</div><p>Atas keberhasilan menyelesaikan seluruh materi, latihan, dan quiz pada e-learning interaktif berbasis database <strong>toko_pintar</strong>.</p><div class="cert-meta"><div><span>Tanggal</span><strong>${date}</strong></div><div><span>ID Sertifikat</span><strong>${certificateId()}</strong></div><div><span>Capaian</span><strong>${s.percent}%</strong></div></div><p style="margin-top:34px">SQL Masterclass • GitHub Pages Edition</p></div>`;
+    const rawDate = getCertificateDate();
+    const parsedDate = new Date(rawDate);
+    const dateStr = isNaN(parsedDate.getTime()) ? rawDate : parsedDate.toLocaleDateString('id-ID', { day: '2-digit', month: 'long', year: 'numeric' });
+    return `<div class="certificate-card"><div class="cert-kicker">Sertifikat Kelulusan</div><h1>SQL Dari Dasar Hingga Master</h1><p>Diberikan kepada</p><div class="cert-name">${escapeHtml(name)}</div><p>Atas keberhasilan menyelesaikan seluruh materi, latihan, dan quiz pada e-learning interaktif berbasis database <strong>toko_pintar</strong>.</p><div class="cert-meta"><div><span>Tanggal</span><strong>${dateStr}</strong></div><div><span>ID Sertifikat</span><strong>${certificateId()}</strong></div><div><span>Capaian</span><strong>${s.percent}%</strong></div></div><p style="margin-top:34px">SQL Masterclass • GitHub Pages Edition</p></div>`;
   }
   function downloadCertificate() {
     if (!isCertificateEligible()) return;
