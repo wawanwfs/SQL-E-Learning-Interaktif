@@ -316,41 +316,48 @@
   }
 
   function highlightSql(sql) {
-    const regex = /(--[^\n]*|\/\*[^]*?\*\/)|('(?:''|[^'])*'|"(?:""|[^"])*"|`[^`]*`)|(\b(?:SELECT|FROM|WHERE|JOIN|LEFT|RIGHT|INNER|ON|GROUP BY|ORDER BY|HAVING|LIMIT|AND|OR|IN|NOT|LIKE|IS|NULL|INSERT|INTO|VALUES|UPDATE|SET|DELETE|CREATE|TABLE|DROP|ALTER|ADD|AS|DESC|ASC|WITH|UNION|ALL|CASE|WHEN|THEN|ELSE|END|OVER|PARTITION BY|ROW_NUMBER|RANK|DENSE_RANK)\b)|(\b\d+(?:\.\d+)?\b)|(\b(?:SUM|AVG|COUNT|MIN|MAX|COALESCE|CONCAT|IFNULL|ROUND)\b(?=\s*\()))|((?:[<>=!]+|\+|-|\*|\/))/gi;
+    if (!sql) return '';
+    try {
+      const regex = /(--[^\n]*|\/\*[\s\S]*?\*\/)|('(?:''|[^'])*'|"(?:""|[^"])*")|(\b(?:GROUP\s+BY|ORDER\s+BY|PARTITION\s+BY|SELECT|FROM|WHERE|JOIN|LEFT|RIGHT|INNER|ON|HAVING|LIMIT|AND|OR|IN|NOT|LIKE|IS|NULL|INSERT|INTO|VALUES|UPDATE|SET|DELETE|CREATE|TABLE|DROP|ALTER|ADD|AS|DESC|ASC|WITH|UNION|ALL|CASE|WHEN|THEN|ELSE|END|ROW_NUMBER|RANK|DENSE_RANK|OVER)\b)|(\b\d+(?:\.\d+)?\b)|(\b(?:SUM|AVG|COUNT|MIN|MAX|COALESCE|CONCAT|IFNULL|ROUND)\b(?=\s*[(]))|([<>=!]+|[+\-*\/])/gi;
 
-    let result = '';
-    let lastIndex = 0;
-    let match;
+      let result = '';
+      let lastIndex = 0;
+      let match;
 
-    const escHtml = (str) => str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      const escHtml = (str) => str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-    while ((match = regex.exec(sql)) !== null) {
-      result += escHtml(sql.substring(lastIndex, match.index));
+      while ((match = regex.exec(sql)) !== null) {
+        result += escHtml(sql.substring(lastIndex, match.index));
 
-      const [full, comment, string, keyword, number, func, operator] = match;
-      const escapedMatch = escHtml(full);
+        const [full, comment, string, keyword, number, func, operator] = match;
+        const escapedMatch = escHtml(full);
 
-      if (comment) {
-        result += `<span class="sql-token-comment">${escapedMatch}</span>`;
-      } else if (string) {
-        result += `<span class="sql-token-string">${escapedMatch}</span>`;
-      } else if (keyword) {
-        result += `<span class="sql-token-keyword">${escapedMatch}</span>`;
-      } else if (number) {
-        result += `<span class="sql-token-number">${escapedMatch}</span>`;
-      } else if (func) {
-        result += `<span class="sql-token-function">${escapedMatch}</span>`;
-      } else if (operator) {
-        result += `<span class="sql-token-operator">${escapedMatch}</span>`;
-      } else {
-        result += escapedMatch;
+        if (comment) {
+          result += `<span class="sql-token-comment">${escapedMatch}</span>`;
+        } else if (string) {
+          result += `<span class="sql-token-string">${escapedMatch}</span>`;
+        } else if (keyword) {
+          result += `<span class="sql-token-keyword">${escapedMatch}</span>`;
+        } else if (number) {
+          result += `<span class="sql-token-number">${escapedMatch}</span>`;
+        } else if (func) {
+          result += `<span class="sql-token-function">${escapedMatch}</span>`;
+        } else if (operator) {
+          result += `<span class="sql-token-operator">${escapedMatch}</span>`;
+        } else {
+          result += escapedMatch;
+        }
+
+        lastIndex = regex.lastIndex;
+        if (lastIndex === match.index) { lastIndex++; } // Safeguard against infinite loop
       }
 
-      lastIndex = regex.lastIndex;
+      result += escHtml(sql.substring(lastIndex));
+      return result;
+    } catch (e) {
+      // Fallback: plain escaped text
+      return String(sql).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     }
-
-    result += escHtml(sql.substring(lastIndex));
-    return result;
   }
 
   function setupEditorUpgrades() {

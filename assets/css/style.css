@@ -1408,7 +1408,8 @@ html[data-theme="light"] .highlight-layer code {
   color: #1a2a42;
 }
 
-/* SQL Token Highlighting Colors */
+
+/* SQL Token Highlighting Colors (used in lesson blocks) */
 .sql-token-keyword {
   color: #36d3ff;
   font-weight: 700;
@@ -2164,8 +2165,7 @@ html[data-theme="light"] .toast {
   #sqlEditor {
     min-height: 150px;
     font-size: 12px;
-    margin: 10px 0;
-    padding: 12px;
+    padding: 12px 12px 12px 8px !important;
   }
   .editor-actions {
     display: grid;

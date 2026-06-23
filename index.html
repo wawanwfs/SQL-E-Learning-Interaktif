@@ -15,7 +15,6 @@
   <meta name="apple-mobile-web-app-title" content="SQL Master" />
   <meta property="og:title" content="SQL E-Learning Interaktif v4 FULL" />
   <meta property="og:description" content="Materi SQL lengkap, latihan, quiz, playground, dataset pendukung, dan sertifikat untuk GitHub Pages." />
-  <link rel="manifest" href="assets/manifest.json" />
   <link rel="apple-touch-icon" href="assets/img/icon-192.svg" />
   <link rel="icon" type="image/svg+xml" href="assets/img/icon-192.svg" />
   <script>
@@ -24,6 +23,12 @@
       const theme = readTheme('sql-master-v30:theme') || readTheme('sql-master-v21:theme') || readTheme('sql-master-v2:theme') || 'light';
       document.documentElement.dataset.theme = theme;
     } catch (e) {}
+    if (window.location.protocol.startsWith('http')) {
+      const link = document.createElement('link');
+      link.rel = 'manifest';
+      link.href = 'assets/manifest.json';
+      document.head.appendChild(link);
+    }
   </script>
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
@@ -178,7 +183,7 @@ ORDER BY omzet DESC;</pre></div>
   <script src="assets/js/addons.js"></script>
   <script src="assets/js/v4_enhancements.js"></script>
   <script>
-    if ('serviceWorker' in navigator) {
+    if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('./sw.js').catch(() => {});
       });
